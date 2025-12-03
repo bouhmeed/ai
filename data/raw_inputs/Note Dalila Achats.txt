@@ -1,0 +1,89 @@
+
+________________________________________
+De : Lara Müller <lara.muller@almakom.ch>
+Envoyé : mercredi 10 septembre 2025 18:04
+À : Darine SAMMOUD <darine.sammoud@almakom.ch>; Marco Pereira <marco.pereira@almakom.ch>; Youssef HAFSI <youssef.hafsi@almakom.ch>
+Objet : Almatech - Notes Atelier Achat 
+ 
+Julie : Responsable Achats et Logistique
+Atelier à prévoir
+•	Atelier sur la stratégie de migration à organiser pour discuter de l’historique.
+Processus d'achat – du besoin à la facturation
+Types de besoins :
+•	Besoins projet : composants ou multitude de composants, licences.
+•	Besoins hors projet : équipement de bureau.
+Achat possible : pièces standards ou sur mesure.
+Devis et commande
+•	Un devis est demandé avant de passer à la commande.
+•	Types de commandes : article ou prestation.
+•	Approbation actuelle : verbale, au feeling → Objectif : mettre en place un flux d'approbation formalisé.
+Fonctionnalités souhaitées dans le système (actuellement inexistantes) :
+•	Suivi de la confirmation de commande fournisseur.
+•	Date de livraison renseignée dans le système.
+•	Intégration des coûts de transport lié à la commande.
+•	Discussion à prévoir avec la comptabilité concernant la gestion des frais de transport.
+Réception
+•	La livraison arrive physiquement au bureau de l’EPFL, puis est envoyée à l’atelier.
+•	Actuellement, pas de visibilité sur le statut de livraison.
+•	Pas d’inspection systématique à la réception.
+•	Chaque colis reçu est pris en photo.
+•	Lorsqu’un colis arrive, il n’est pas toujours clair à qui il est destiné.
+Processus Incoming
+•	Le Chef de Projet (CP) donne l’instruction de faire un contrôle qualité léger ou approfondi.
+•	L’ingénieur ou le CP discute directement avec le fournisseur en cas de non-conformité.
+o	Possibilités : refaire la pièce, émettre un avoir, retour de marchandise, etc., selon l’accord trouvé.
+•	Facture non payée tant que la non-conformité n’est pas résolue.
+•	Certains fournisseurs demandent des acomptes.
+•	À la réception, l’atelier scanne les documents avec la pièce pour assurer la traçabilité.
+•	Toutes les pièces VOL sont livrées avec des certificats.
+Stocks
+•	Lieux de stockage :
+o	EPFL
+o	Payerne
+o	Plusieurs autres sites éventuels
+Référentiel fournisseur
+•	Suivi des lead times fournisseurs.
+•	Prise en compte des différents plannings :
+o	Planning fournisseur
+o	Planning transport
+o	Planning Almatech → pour calculer la prochaine date possible de livraison.
+•	Classification des produits :
+o	Fournisseurs organisés par spécialité.
+o	Volonté de reprendre la classification fournisseurs dans le référentiel.
+Devis (Quote)
+•	Numéro de projet obligatoire sur le devis pour lier la commande au projet.
+•	Documentation à joindre à la demande de devis.
+•	Utilisation des champs :
+o	Due Date
+o	Requested Receipt Date
+Commande (Make Order)
+•	Le devis est lié à la commande.
+•	Gestion des Incoterms :
+o	Utilisation du champ Shipment Method Code.
+o	Lorsqu’un Incoterm est renseigné, la ville doit être précisée.
+•	Partie shipping à détailler ultérieurement.
+•	Numéro de projet et tâches projet à renseigner sur les lignes pour permettre la consommation sur le projet.
+Réception (détaillée)
+•	Fonction simple de réception non utilisée.
+•	Utilisation du Warehouse Receipt avec visibilité sur :
+o	Référence
+o	Quantité
+o	Rattachement à la commande
+Contrôle qualité
+•	Création d’un document de contrôle qualité :
+o	Avec rattachement de photos.
+o	Tracking lot et série.
+o	Lorsque le responsable qualité valide, la réception est validée.
+•	Possibilité de réceptionner sans contrôle qualité immédiat, puis de réaliser le contrôle plus tard au niveau des séries/lots.
+•	Gestion des statuts pour bloquer la facture en comptabilité si la qualité n’est pas validée.
+•	À définir avec le responsable qualité :
+o	Le processus détaillé d’inspection.
+o	Types de documents d’inspection :
+	1 document par série
+	1 document par lot
+	1 document par commande (s’il n’y a pas de série ou lot).
+Projet
+•	Lignes budget : champs pour remonter le coût budgété ou le montant réel dans la commande.
+•	Dates de planification dans les lignes projet :
+o	Si correctes, elles peuvent être utilisées dans le calcul des besoins.
+

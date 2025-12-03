@@ -1,0 +1,873 @@
+Atelier conception CATIA
+Sep 19, 2025
+•
+
+10:01 AM – 11:00 AM
+•
+
+Youssef HAFSI
+•
+
+Transcription 
+Unknown speaker
+00:00
+Merci. Bonjour. Bonjour.
+
+Youssef HAFSI
+00:17
+Aujourd'hui, on va parler de Katia, donc de comment on va interconnecter Katia avec l'ERP. La première question Est-ce qu'aujourd'hui Katia est interfacée avec votre outil de tracking ?
+
+Unknown speaker
+00:48
+Non.
+
+Youssef HAFSI
+00:50
+Est-ce que vous savez si techniquement Katia permet de faire soit des exports de fichiers, soit du web service ou quelconque autre type d'interfacage ?
+
+Joel Junod
+01:06
+Alors on peut faire des exports typiquement pour les BOM. D'accord. Mais en fichier Excel du coup. On exporte un fichier Excel de la liste de pièces. Mais après, à moins de passer par un autre soft, je crois qu'il n'y a pas moyen de...
+
+Youssef HAFSI
+01:22
+Ok.
+
+Joel Junod
+01:23
+D'interfacier directement.
+
+Youssef HAFSI
+01:25
+Comment vous faites aujourd'hui pour recréer les pièces dans le tracking ? Grâce à la BOM.
+
+Joel Junod
+01:31
+En fait, on sort la BOM en fichier HTML. Enfin, on lance une macro sur Katia qui permet de structurer la BOM de la manière dont notre système l'interprète et puis on sort un fichier HTML qui est exactement le même que la BOM en fichier Excel que je vous ai envoyé. D'accord. Et en fait au moment où on l'importe dans notre système, le système en fait il va créer automatiquement dans sa base de données les articles en fonction de chaque pièce, avec son numéro, son nom, sa matière, etc. Avec tous les champs qui sont renseignés dans l'album.
+
+Youssef HAFSI
+02:13
+On peut voir, Katia, ce process-là d'export ?
+
+Joel Junod
+02:17
+Oui, bien sûr.
+
+Unknown speaker
+02:21
+Je vous partage mon écran. Je vais ouvrir en parallèle le tracking tool. Je vais juste attendre que le modèle s'ouvre derrière.
+
+Youssef HAFSI
+02:57
+Il gère aussi les révisions, quand vous ré-exportez un fichier, le tracking tool quand vous l'importez, il recrée automatiquement une révision ?
+
+Joel Junod
+03:07
+Oui, et puis il comprend qu'il y a un changement au niveau de la révision, exactement. Alors voilà, donc ça c'est le modèle de l'album que je vous ai envoyé. Donc en fait, nous typiquement, ce qu'on va faire, c'est qu'on va, je vais juste lancer la petite macro.
+
+Youssef HAFSI
+03:28
+Vous les déposez sur un dossier share, quelque part ?
+
+Joel Junod
+03:32
+Les BOM, vous dites ?
+
+Youssef HAFSI
+03:35
+Les fichiers.
+
+Joel Junod
+03:36
+On met tout sur des dossiers Windows. Ok. En fait, dans mon dossier de modèle Catia du projet, j'ai un dossier qui s'appelle BOM, et dans lequel je vais les mettre à la main. Ok.
+
+Unknown speaker
+03:53
+Je reviens ici.
+
+Joel Junod
+04:04
+Alors, macro liste de pièces globales, je lance la moulinette. Là quand je sors, parce qu'en fait dans Catia quand on sort une bombe, on peut paramétrer tout ce qu'on veut, et puis en fait la macro nous paramètre automatiquement la façon dont la liste de pièces va sortir. Donc en fait il nous met les champs part number, révision, définition, quantité, nomenclature, supplier, et puis il nous les met dans l'ordre pour que notre système puisse le comprendre. Donc on retrouve tous ces champs là, on retrouve l'arborescence avec tous les sous-ensembles et puis tout à la fin il y a un récapitulatif. Ensuite je fais un cvase, je vais le mettre sur le bureau en attendant. Donc j'enregistre mon fichier comme ça. Et puis après là je me retrouve avec un fichier HTML qui est complètement indépendant pour le moment du système et puis de Katia.
+
+Youssef HAFSI
+05:03
+Juste un petit instant, on va juste arrêter là une seconde. Donc bill of material pour l'ensemble ALM, CISH, AB, MDL. J'ai cette liste de composants en dessous.
+
+Joel Junod
+05:19
+Alors ça c'est le top Sembly, dans lequel typiquement j'ai mes... alors là j'ai d'autres sous-ensembles, mais on pourrait très bien avoir des sous-ensembles, des pièces, etc.
+
+Youssef HAFSI
+05:28
+Sauf que je ne vois pas quel est le numéro de la révision du top Sembly.
+
+Joel Junod
+05:35
+C'est. Juste, exactement. Alors je crois qu'il l'a quand même quelque part. C'est une bonne question.
+
+Unknown speaker
+05:51
+Après, on pourrait dire qu'il avance de version à chaque fois.
+
+Joel Junod
+05:57
+Oui, non, effectivement, elle. N'Est pas remplie de top assemblée. Après, nous, à chaque fois qu'on met notre BOM dans le système, il va nous créer ici. On a un BOM history dans lequel on a le log de tous les changements, etc.
+
+Youssef HAFSI
+06:13
+Donc lui, il fait avancer le versionnisme automatiquement. Ok. On peut revenir dans Katia. Au moment où on a fait l'export, je vais voir s'il n'y a pas d'autres formats que le HTML.
+
+Joel Junod
+06:34
+On a texte, html ou excel ? Non, sinon on revient à la macro. Alors. La macro elle ré-ordre. Juste. Après c'est une fois que je suis là, quand je fais le. Save as.
+
+Joel Junod
+06:48
+C'Est là où j'exporte dans le format que. Je veux. Et puis j'ai juste trois choix, j'ai texte, html et puis excel. Je ne sais pas. Si on peut...
+
+Youssef HAFSI
+06:58
+Il n'y a pas de. XML ?
+
+Joel Junod
+07:01
+Alors comme ça je ne crois pas...
+
+Unknown speaker
+07:07
+Est-ce qu'il y aurait quelque chose là-bas dedans ? Non, XML ? Je vais vous dire ça. Je pense. Que normalement. C'Est quasi certain.
+
+Joel Junod
+07:46
+Après je pense que, parce que Katia fonctionne beaucoup avec des macros, donc je pense que ça ne serait pas impossible en codant une petite macro de réussir à sortir un fichier HTML.
+
+Youssef HAFSI
+07:56
+Ça devrait être standard. Vous pouvez m'envoyer le fichier. HTML qui a été fait.
+
+Unknown speaker
+08:06
+? Oui, bien sûr. Je le mets dans la conversation de Tim, si vous voulez un mail. Oui, vous pouvez le mettre dans la conversation de Tim. Vous n'aviez pas exporté 3DXML ? Non, ça je n'ai pas.
+
+Youssef HAFSI
+08:39
+Vous êtes sûr ?
+
+Joel Junod
+08:41
+On n'avait pas lu En fait c'est dans les paramètres de compatibilité. C'est les 3DXML là. Ouais. Mais il ne me dit pas grand chose. Alors après est-ce que... On va peut-être essayer un truc. Si j'enregistre le product...
+
+Unknown speaker
+09:03
+Les 3DXML c'est des fichiers de visualisation. C'est en 3DXML. C'est peut-être dans le pool, mais je vais regarder en même temps. On peut m'envoyer par mail. Parce que j'ai peur que l'HTML ne soit que du texte. Si vous allez dans Katia, dans fichiers enregistrés sous, Oui.
+
+Youssef HAFSI
+10:20
+Il n'y a pas 3DXML dans les formats ?
+
+Unknown speaker
+10:23
+Oui, 3DXML, oui.
+
+Youssef HAFSI
+10:25
+Ok, essayez de l'enregistrer.
+
+Unknown speaker
+10:26
+Je vais faire un zip, mettez-le sur le bureau. Si vous l'enregistrez.
+
+Joel Junod
+10:50
+Nous on utilise ce format pour que typiquement des gens qui n'ont pas accès à Katia puissent l'ouvrir dans des viewers un peu plus light que Katia.
+
+Unknown speaker
+11:34
+Il ne veut pas. L'Enregistrer? Ça mouline un petit peu. C'est un gros modèle quand même. On a peut-être. Dû prendre un plus simple pour l'exemple. Bon, a priori, l'HTML serait exploitable.
+
+Unknown speaker
+12:27
+Ok.
+
+Youssef HAFSI
+12:29
+Mais comme c'est pas... faudrait que j'ai plusieurs fichiers HTML que j'analyse, mais je dis a priori. Normalement, c'est structuré d'une façon assez standardisée.
+
+Unknown speaker
+12:56
+Mais si on peut avoir l'XML, on serait encore plus pertinent. Dans le HTML, quand il y a la colonne nomenclature.
+
+Youssef HAFSI
+13:18
+Ça veut dire quoi ? C'est rattaché à... C'est un part. Number qui a une nomenclature. Temps ?
+
+Joel Junod
+13:26
+Où ça vous dites ?
+
+Youssef HAFSI
+13:27
+Là par exemple. Là vous êtes dessus. La colonne nomenclature.
+
+Joel Junod
+13:32
+Ah non, ça c'est juste... En fait dans Katia, le champ s'appelle nomenclature, mais nous on l'utilise pour. Mettre la matière.
+
+Youssef HAFSI
+13:41
+D'accord. Ça vous en avez besoin. Dans... l'information. Dont on avait besoin. Dans l'ERP, la matière ?
+
+Joel Junod
+13:50
+Je. Pense. Que ça pourrait être. Une bonne information. Je pense que. Ce n'est pas totalement nécessaire.
+
+Youssef HAFSI
+13:58
+Donc. L'Homonclature c'est toujours la matière ? Oui.
+
+Unknown speaker
+14:05
+Alors typiquement pour les assemblages on voit que le champ il est vide. Vous avez des pièces qui n'ont pas de révision, c'est ça ?
+
+Youssef HAFSI
+14:20
+Ou ce sont des pièces déconsommables ? Par exemple, la révision, je ne vois rien. Je vois un tiré là, typiquement là.
+
+Joel Junod
+14:28
+Oui, c'est pour les pièces standards. On n'a pas de révision sur. Les pièces standards. On n'a que des révisions sur les pièces à plan, parce que la révision permet de tracer le plan qui va être utilisé pour la fabrication.
+
+Youssef HAFSI
+14:45
+Et si jamais il y a une nouvelle pièce ici qui n'existe pas, faut que je la crée ? Ouais. Comment je sais si c'est une pièce standard ou une pièce à plan ?
+
+Joel Junod
+14:55
+Grâce à la codification. Chez nous, les pièces à plan seront toujours des DES, ALM DES. Et puis par exemple, pour des standards, ça sera des STB, STC, STA ou COT. Mais à chaque fois qu'on a un DES, en théorie, ça fait appel à un. Plan. D'accord.
+
+Unknown speaker
+15:12
+Ok. J'ai. Une question Joël.
+
+Sandro Liberatoscioli
+15:30
+Les STB, si on utilise dans un projet, par exemple l'année passée on a utilisé une STB, et puis qu'elle évolue pour différentes raisons. On change de numéro, c'est pour ça.
+
+Unknown speaker
+15:42
+Qu'On ne met pas d'indice, c'est ça ?
+
+Joel Junod
+15:48
+Alors là, en théorie, il devrait y avoir une analyse de est-ce que le standard est toujours compatible avec les anciennes versions, mais c'est un cas de figure qu'on n'a jamais eu. Et les standards, c'est plutôt lié à les pièces du commerce ? Oui, c'est les standards avec qualité, typiquement des Vissuan Meier fabriqués sous la norme.
+
+Sandro Liberatoscioli
+16:12
+On n'a pas des standards. On n'a pas de standard à nous des rondelles faites maison et qu'on appelle STB ?
+
+Joel Junod
+16:19
+Non, du coup ça serait des STA et puis les STA ils ont des révisions. Parfait, ok, merci. Ça c'est une gamme de standards un peu particuliers qui sont fabriqués sur plan ou alors un standard qui est modifié à l'atelier mais on a très peu de cas de figure. Typiquement le cas de figure c'est les Wanted Watchers, typiquement pour CRS.
+
+Unknown speaker
+16:51
+Ah voilà, il a fini. Et il s'est mis là.
+
+Joel Junod
+17:01
+Vous voulez que je vous envoie le 3DXML. Aussi ? Vous arrivez à l'ouvrir. ? C'est.
+
+Unknown speaker
+17:09
+Une bonne question. Avec le blocknote. Je vois aussi qu'on aurait pu faire une petite macro pour sortir directement de l'XML. Ça n'a pas l'air trop complexe. Non. Je pense que le HTML on peut travailler avec. C'est juste que là, le HTML, on est en train de sortir une bombe.
+
+Unknown speaker
+18:39
+Je pense qu'on va rester. Sur le HTML.
+
+Youssef HAFSI
+18:42
+Je vous partage juste mon écran un. Instant. Parce que je veux comprendre quelque. Chose. Donc, on. Reçoit ce fichier. D'Accord ?
+
+Youssef HAFSI
+18:49
+Bon, je pense que la seule chose qui va vous changer, c'est peut-être de déposer un. Dossier. Je vais reprendre qu'il. Soit accessible, mais ça, c'est rien. Ici, je vois que. Le chapeau, les. Pièces.
+
+Youssef HAFSI
+19:02
+Le chapeau. Les pièces. Donc, je ne. Vois rien d'autre. Dans le sens, si à l'intérieur c'est un assemblage. Et qu'il y a des. Pièces qui changent, certainement je les trouverai en bas.
+
+Unknown speaker
+19:19
+Des pièces qui changent, c'est-à-dire ?
+
+Youssef HAFSI
+19:23
+D'accord, donc j'ai ce dessin-là, d'accord ? Imaginons que cette référence-là n'existe pas, donc je dois la créer. Et à l'intérieur, elle a ces pièces-là, avec la révision A, d'accord ? Imaginons que cette pièce-là, elle n'est pas sur la révision A, mais la dernière révision, c'est la B. Je dois sélectionner la A ou je dois prendre la dernière révision qui est active ? Ou ça n'arrive pas parce que, de toute façon, Don Katia, il prendra directement la dernière révision ?
+
+Unknown speaker
+19:53
+Ça.
+
+Joel Junod
+20:03
+En fait, ce serait tout manuel Don Katia. C'est à dire que ça c'est vraiment une photo de mon assemblage. Donc moi je pourrais mettre la révision B, C, D, E, F. Ça c'est une information que moi j'écris dans les propriétés de la pièce. Donc typiquement je pourrais prendre une pièce, faire le plan à la révision B, oublier de changer la révision dans les paramètres de la pièce, et dans l'album ça sera toujours la A, malgré le fait qu'il y a un plan à la révision B.
+
+Youssef HAFSI
+20:36
+Et du coup, quand on l'intègre dans l'URP, il faudra qu'on choisisse la dernière révision ou on prend la A, celle qui est indiquée ?
+
+Joel Junod
+20:45
+Si c'est écrit A dans le système, il va prendre la A. En fait, au moment où moi j'importe la BOM, je ne peux pas choisir la révision que j'utilise. Le tracking tool va copier les informations de la BOM. Donc en fait, typiquement, si là tout d'un coup j'ai une modif, je dois changer la révision manuellement dans la pièce, re-régénérer la bombe, ré-importer la bombe, et puis là il va voir qu'il y a une pièce qui est passée de A à B.
+
+Youssef HAFSI
+21:13
+D'accord. Mais est-ce qu'on souhaite aussi rester comme ça ?
+
+Joel Junod
+21:19
+Alors ça c'est une bonne question.
+
+Youssef HAFSI
+21:21
+Parce qu'on pourrait aussi dire j'importe, j'alerte, attention, ça c'est la révision dans le fichier et à côté c'est la révision active donc B, C et D et après c'est de décider quelle révision on prend. On est un peu flexible dans l'import, c'est de décider juste quelles sont les règles qu'on doit mettre en place. Est-ce qu'on doit appliquer une règle ? Est-ce qu'on doit donner le choix ? Est-ce qu'on doit contrôler ? Ou on fait comme aujourd'hui ? C'est à vous de me dire.
+
+Youssef HAFSI
+21:49
+Parce que moi, je reçois cet article-là. Bon, s'il n'existe pas, je vais le créer. À l'intérieur, je vais voir si les pièces ici existent. Sinon, je les crée. Mais potentiellement, si elles existent, je vais les insérer. Par contre, elles ont forcément une révision. C'est les pièces qui ont des assemblages.
+
+Youssef HAFSI
+22:06
+Et donc, dans la révision que je vais sélectionner, il va falloir que je mette... Par défaut, le système va vous donner la dernière révision active.
+
+Joel Junod
+22:17
+Je pense que c'est le cas de figure le plus courant qu'on a actuellement.
+
+Youssef HAFSI
+22:24
+C'est juste de rester cohérent entre ce que vous envoyez de Catia et ce que le système génère, parce que si bêtement on mangeait A alors que la dernière c'est B, quelque part j'ai envie de mettre A aussi, parce que la source c'est Catia, ce n'est pas le ERP.
+
+Unknown speaker
+22:45
+Même si l'URP va déclencher les achats. Etc. Je.
+
+Joel Junod
+22:54
+Pense que de base, il devrait pouvoir mettre la dernière révision, mais qu'il faudrait quand même avoir le moyen de pouvoir lui dire de prendre une autre révision. Typiquement, on a eu un cas de figure où on a eu un modèle qui a eu une spécialité, on va dire, et on a pris une pièce de révision A à révision B juste pour ce modèle et puis par contre le modèle d'après on va réutiliser la révision A. Et en fait, nous dans Catia, ce qui se passe, c'est qu'on importe une BOM à la révision B, une BOM à la révision A, et puis on crée nos deux instances, on va dire, nos deux listes de pièces avec les bonnes révisions. Effectivement, si on a un système où on a des articles qui sont liés, là effectivement, si sur le dernier modèle, il va nous chercher la dernière révision, ça ne sera pas la bonne. Donc je pense qu'il faut nous permettre de pouvoir choisir la révision quand même.
+
+Youssef HAFSI
+23:52
+Je pense qu'il faut alerter et puis après de valider.
+
+Joel Junod
+23:55
+Voilà, je pense que c'est juste.
+
+Youssef HAFSI
+23:57
+Pourquoi là, il y a un lien et s'il n'y a pas de lien, c'est quoi le...
+
+Joel Junod
+24:01
+Quand il y a un lien, ça veut dire que c'est un assemblage. Et en fait, si on clique dessus, ça nous envoie à la liste de pièces de cet assemblage, dans le détail de l'arborescence. Mais on a besoin de... Ah, c'est en bas. D'accord. Je pense que c'est juste le HTML qui a des petits liens, mais après ça, ça dans le tracking tool c'est pas forcément lu je pense.
+
+Youssef HAFSI
+24:34
+Donc ici j'ai une pièce, je dois la créer et ensuite je vais la retrouver celle-là en bas et je vais trouver sa nomenclature donc je dois aller alimenter sa nomenclature. Mais l'ordre des pièces, ce n'est pas l'ordre de l'assemblage. Pas forcément, effectivement. Il y a quelque chose que je trouve peut-être pas nécessaire, je ne sais pas à quel projet c'est rattaché.
+
+Joel Junod
+25:08
+Alors oui, parce que le code ALM DES il a toujours le numéro du projet après. 562 c'est notre numéro de projet. Ok, c'est comme ça qu'on fait. Après nous quand on les importe dans le système, on attribue, enfin au moment de télécharger le HTML dans le Tracking Tool, on doit le lier à un projet. Donc en fait nous ce qu'on fait quand on veut aller voir une BOM c'est qu'on va sur le projet en question et puis c'est là où on va voir toute la liste des BOM qui ont été téléchargées sur ce projet.
+
+Youssef HAFSI
+25:46
+Donc typiquement dans le projet, là il. N'Y a pas 562 ?
+
+Joel Junod
+25:49
+Oui, alors ça c'est un peu particulier, c'est parce qu'on a dû envoyer le modèle au client et du coup ils ont demandé un nom spécifique pour le top Sembly. Mais en fait là normalement le numéro du top Sembly ça aurait dû être ALM DES 5620001. C'est comme ça qu'on fait en général. Là c'est un peu particulier parce qu'on a dû envoyer le modèle au client.
+
+Youssef HAFSI
+26:12
+Normalement, vous vous souvenez quand on avait parlé de l'article sur la fiche projet, le grand chapeau ? Oui. Ça devrait être ça. ? Dans l'intérieur, il va y avoir tous les sous-ensembles.
+
+Joel Junod
+26:37
+Après, imaginons par exemple que pour ce projet, on a des pièces à fabriquer pour faire du montage, qui ne sont pas délivrables aux clients. Ils ne seraient pas dans cet assemblage-là. Le ALM, SISA, BAMDL. Ils seraient ailleurs. Du coup, je me demande, est-ce qu'on n'aurait pas le chapeau, ensuite le ALM C-SAB MDL, et puis à côté, par exemple, ALM DS petit petata, JIG de montage, par exemple.
+
+Unknown speaker
+27:11
+Mais comment je pourrais récupérer le chapeau ? À la. Limite, à l'import, on peut identifier. Le chapeau.
+
+Joel Junod
+27:30
+C'est pour ça que j'avais demandé lors de la réunion précédente, est-ce que c'est possible d'avoir plusieurs top chapeaux.
+
+Youssef HAFSI
+27:35
+? Là, vous les avez. Il faudrait juste au moment de l'import de sélectionner le grand, grand chapeau qui. Est lié au projet. pour. Pouvoir mettre tout ça dedans. Après, là-dedans, il y en a qui.
+
+Youssef HAFSI
+27:46
+Sont liés, il y en a qui ne sont pas liés. Mais on est d'accord, quand vous mettez dans ALM CISH AB le 562 FWD, vous mettez. Ça, mais vous montrez le.
+
+Unknown speaker
+28:00
+Détail du 562 FWD. Dans. Notre système actuellement. On va attendre un petit instant parce que ça c'est hyper important et c'est intéressant en même temps de faire ça. Alors, je mets ça de côté. On va reprendre le projet de l'autre jour.
+
+Youssef HAFSI
+29:08
+Vous vous souvenez de l'article ici, on avait créé un article PRJ0040 qui est l'article du projet, le grand grand chapeau.
+
+Unknown speaker
+29:24
+On avait fait ça et puis on lui a donné une... J'avais créé une nomenclature. Donc, de ce que je comprends, je vais la remettre en précédent. Je mets ça à côté. On va avoir ici ça. Ensuite, on va avoir Est-ce qu'on va voir les différents sous-ensembles comme ça ?
+
+Youssef HAFSI
+30:39
+Sachant que chaque référence ici a une nomenclature qui la propose. Ça correspond à ça, le chapeau. J'ai mes pièces et à l'intérieur il y a des sous-ensembles. Ou il faut vraiment tout quitter. C'est-à-dire que le 5.6.2 contient une nomenclature de pièces, il va falloir que je l'indique. Mais comme elle aussi, elle contient une nomenclature de pièces, il va falloir que je l'indique aussi. Et ainsi de suite, jusqu'à ce que j'ai que les pièces qui n'ont pas de sous-ensemble et tout est éclaté.
+
+Unknown speaker
+31:43
+Je ne sais pas si c'est clair ce que je dis.
+
+Joel Junod
+31:49
+Ce que je comprends, en fait, on devrait avoir le ALM CSAB MDL en top, qui contient la nomenclature avec les cinq sous-ensembles FWD, B01, B02, etc. Dans le FWD, il y aurait le FWD01, 02, etc. Et dans ceux-là, il y aurait, par exemple, des pièces.
+
+Youssef HAFSI
+32:16
+Mais est-ce que tout doit s'afficher ? Vous pouvez me montrer dans le tracking tool comment c'est ? Celui-là, est-ce que vous. L'Avez dans le tracking tool ?
+
+Joel Junod
+32:24
+Oui. Il a fini d'ouvrir le 3D HTML dans le blocknote. Non, non, ça ne sert à rien. Je pense que ça ne va pas le faire. Non, non, ça ne sert à rien. Alors dans le tracking tool, donc nous on se retrouve avec. Ça.
+
+Joel Junod
+32:45
+Donc en fait à gauche ici on a vraiment toute l'arborescence, bon là typiquement ça a été l'ancienne, avec l'ancien numéro, donc là c'est le 6abmdl, normalement c'est le 0001. D'accord. Et puis nous on se retrouve avec. Dedans, hop. Les 6. Ensemble là. Ok.
+
+Joel Junod
+33:03
+Et après bah si je continue d'éclater, ça correspond vraiment à l'arborescence. Qu'À tiens. Et puis à la fin.
+
+Unknown speaker
+33:12
+De l'arborescence, je me retrouve avec mes. Pièces.
+
+Youssef HAFSI
+33:16
+Et. En dessous de la liste, c'est. Quoi la liste ? C'est toutes les pièces ?
+
+Joel Junod
+33:21
+C'est toutes les pièces. Et tous les sous-ensembles. C'est vraiment un tableau récapitulatif qui reprend les sous-ensembles. Et les pièces.
+
+Unknown speaker
+33:33
+Les sous-ensembles et les pièces.
+
+Youssef HAFSI
+33:38
+Attendez, juste. Que je comprenne. C'est-à-dire que là-dedans. On va avoir... Si on peut remonter un petit peu l'arborescence. Je voudrais juste voir qu'est-ce qu'on... Donc.
+
+Youssef HAFSI
+33:49
+Dans le 001, qui est le top Sembly, il y a le 562 AFT. Donc, on. Va retrouver ici. AFT.
+
+Unknown speaker
+33:57
+C'est ça. Et. On va voir ensuite. C'est le. Tableau du dessous. Que j'ai pas trop compris.
+
+Joel Junod
+34:08
+Ce tableau-là ? Oui. Alors celui-là en fait c'est un récapitulatif, c'est principalement pour voir qu'est-ce qui a été commandé. Ça, ça permet de gérer les commandes. Donc en fait le tracking tool va nous lister toutes les pièces et tous les sous-ensembles qui ont été créés provenant de cette arborescence-là. Donc typiquement on retrouve le... le ALMDES 562 AFT, on le retrouve ici.
+
+Youssef HAFSI
+34:39
+Mais on ne commande pas. On commande ses pièces.
+
+Joel Junod
+34:42
+Ouais c'est juste, mais après ça c'est nous qui le remplissons manuellement. En fait moi quand je viens valider la commande, je dis que ça a été, en gros je dis. Donc là quand je rentre dans le l'affiche de cet article là on va dire en fait moi je lui dis qu'on le commande chez nous que c'est du fait. Maison c'est pour ça qu'on. Va pas très loin dans la gestion. On va. Dire d'accord.
+
+Joel Junod
+35:10
+D'Accord par contre. Bah typiquement ça permet de sur un assemblage on pourrait avoir des actions comme de l'assemblage ou de l'envoi. Ok Donc. Effectivement ça c'est un top Sembly qui contient des ensembles donc c'est pas très pertinent et puis ça le tracking tool il fait pas trop la différence. Par contre après si je vais dans un AFT01.
+
+Youssef HAFSI
+35:32
+On peut trouver des pièces et là il faut les commander.
+
+Joel Junod
+35:37
+Alors. Après de nouveau si on rentre dedans nous on aura pas le détail de sa nomenclature.
+
+Youssef HAFSI
+35:43
+Une question sur l'arborescence, si jamais j'ai des pièces qui ne sont pas rattachées, donc ce qu'on avait dit tout à l'heure, est-ce que vous avez un cas comme ça, où il y a des pièces qui sont à consommer mais qui ne sont pas rattachées au sous-ensemble ? J'aimerais bien voir comment ça se présente.
+
+Joel Junod
+36:04
+Comme par exemple. Quoi ?
+
+Youssef HAFSI
+36:07
+Tout est rattaché au chapeau à l'exception de certains sous-ensembles qui sont utiles pour le projet consommé mais que le client ne voit pas.
+
+Joel Junod
+36:17
+Le tracking tool ne va pas tellement faire la différence. Quand on va créer par exemple. Par exemple pour le projet Study qu'on voit ici, le 4.4.2, en fait moi ce que j'ai fait c'est que j'ai importé 4 BOM différentes, c'est ce que nous on appelle des instances. Donc on a le Study Device qui est le modèle qu'on va délivrer au client, et puis on avait un Testbed, donc c'est un banc de test, qui était le 0.0.0.4, on avait des 1.5 et puis on avait un prototype pour un actuateur dedans. Et en fait tout ça c'est des BOM séparés. Et donc le 0001 est indélivrable et par contre les trois autres sont des choses qu'on n'a pas fournies au client mais qu'on a utilisées chez nous soit pour faire des tests soit pour faire du montage. Mais après c'est vrai que notre système ne rentre pas trop dans le détail.
+
+Joel Junod
+37:22
+Et puis alors là dans le HTML en fait si vous voulez j'ai 4 HTML différents. Ah bon ? C'est pas un seul ? Oui. Non. En fait j'ai un html pour le study device, j'ai un html pour le study testbed et puis j'ai un html pour study demi etc. D'accord.
+
+Joel Junod
+37:39
+Sauf que le top chapeau c'est pas le même. Alors le top chapeau ça serait le projet là en l'occurrence.
+
+Unknown speaker
+37:50
+Ok, assez clair.
+
+Joel Junod
+37:55
+C'est pour ça que notre système n'est pas tellement dans les normes. Des ERP. Traditionnels, on va dire.
+
+Youssef HAFSI
+38:05
+Alors, oublions maintenant le tracking tool, parce que de toute façon, on va repartir des. Fichiers. Potentiellement, s'il y a un point d'amélioration, ce serait peut-être de regarder s'il n'y a pas plus d'informations qu'on pourrait récupérer. De Katia et les alimenter. Parce que là, je vois par exemple une colonne supplier. Etc. Est-ce qu'à votre connaissance.
+
+Youssef HAFSI
+38:30
+S'Il y a des éléments, des informations qui sont présentes, parce qu'après, moi, je peux vous aider à générer la. Macro, ça, ce n'est. Pas un souci. Mais est-ce que vous voyez. Des informations. Qui peuvent être pertinentes. Soit pour l'achat, que ce soit pour identifier la pièce.
+
+Youssef HAFSI
+38:45
+Etc. Et qui ne sont pas exportés dans le fichier.
+
+Unknown speaker
+38:56
+Là, les informations que je vois sont...
+
+Youssef HAFSI
+38:59
+La source, c'est quoi la source ? Vous avez une liste déroulant dessous ?
+
+Joel Junod
+39:02
+Ce n'est pas quelque chose qui est lu. Mais en théorie, on pourrait dire si c'est fabriqué ou acheté.
+
+Youssef HAFSI
+39:08
+Ça pourrait être bien, ça. Oui.
+
+Joel Junod
+39:11
+Ça pourrait.
+
+Youssef HAFSI
+39:14
+Après, on le devine. Avec le sous-ensemble, quelque part ?
+
+Joel Junod
+39:19
+Oui, tout à fait. Et puis avec le code... Si c'est un standard, il sera acheté et puis un sous-ensemble qu'on achète...
+
+Youssef HAFSI
+39:28
+Je ne crois pas. Mais de toute façon, il aura le code STD.
+
+Joel Junod
+39:37
+Si c'est quelque chose qui est achetable. À l'aide d'un code client, ça serait. Forcément acheté et pas produit. On va dire. Que ce soit un sous-ensemble. Mais après, si c'est un sous-ensemble qui est acheté avec un seul. Code, Nous on va en faire qu'un seul article.
+
+Joel Junod
+40:00
+Typiquement. Un capteur avec deux écrous pour venir le fixer. On ne va pas le considérer comme un sous-ensemble, on va le considérer comme. Une parte. Vu qu'on le commande avec un code, le truc arrive avec le capteur, les deux écrous. Et puis c'est une pièce.
+
+Youssef HAFSI
+40:14
+On le rend comme une référence. Les. Informations que je vois, c'est ceux qui sont déjà dans le fichier. Est-ce qu'il y a d'autres éléments ? Alors moi je vois pas tellement d'autres choses.
+
+Joel Junod
+40:29
+En tout cas, ce qui est pour les achats, je pense que ce n'est pas des informations qui seraient utiles à mettre dans Catia. Je ne sais pas Sandro, toi, si tu avais des choses, par exemple lors de la commande, des trucs que tu aurais voulu qu'on mette dans Catia qui auraient pu être exportés ?
+
+Sandro Liberatoscioli
+40:50
+Par rapport aux dessins, les références de dessin, Est-ce que les notes qu'on met dans les dessins, qui sont typiquement des références à des traitements de surface. Normes d'autres ce qu'on peut faire ça dépend si on a des on n'a pas trop de soudage encore c'est vrai mais si on a je pense que dans la description ça peut être utile pour l'achat parce qu'en fait ça éviterait quand même d'aller ouvrir un dessin pdf d'aller chercher l'info parce qu'en fait pour les achats c'est super important de savoir le processus de fab Parce qu'on n'a pas trop parlé de ce que tu as dit avant, si on a ces PCP, alors moi je ne suis pas le spécialiste, mais si on a ces PCP, ce que la pièce doit faire en fait. Est-ce que la pièce doit finir dans sa vie ? C'est-à-dire que nous, on n'a pas que des pièces qui sont fabriquées d'un seul coup, on en voit le dessin. C'est que des fois, la pièce doit d'abord être rigidée, ensuite être traitée ou retouchée, etc. Donc des fois, le dessin n'indique pas forcément que la pièce est faite en une fois. C'est-à-dire que si les achats reçoivent le numéro de dessin, ce n'est pas simplement prendre le dessin et l'envoyer à un sous-traitant.
+
+Sandro Liberatoscioli
+42:09
+C'est peut-être un, voire deux, voire trois sous-traitants différents.
+
+Joel Junod
+42:14
+Juste ? Oui. Il y a aussi l'inspection US, par exemple. Des GFRP, par exemple. Ça pour moi, typiquement, je trouve bien que l'acheteur doit aller ouvrir le plan pour voir comment c'est fait. Je.
+
+Sandro Liberatoscioli
+42:33
+Ne dis pas qu'il ne doit pas ouvrir le plan, je dis que si l'information est directement transposée, au lieu de la copier-coller, il faudra nouer une opération manuelle, ça pourrait être pas mal. C'est.
+
+Youssef HAFSI
+42:50
+Un petit peu le sujet. Il y a des éléments, par exemple la description, des choses comme ça, qui doivent être remontées comme un commentaire et s'afficher par la suite sur les pièces qu'on achète, etc. C'est le moment de définir et de voir comment les rapporter. Ça, c'est la première chose. La deuxième chose, c'est qu'est-ce qu'il y a un lien vers le dessin qu'on peut aussi remonter sur les. Pièces ? Est-ce que les dessins sont dans une jette avec un lien qu'on peut récupérer ?
+
+Unknown speaker
+43:27
+C'est quoi une GED ?
+
+Youssef HAFSI
+43:29
+Gestion de documentaire. C'est vos fichiers. De partage.
+
+Joel Junod
+43:34
+Alors actuellement on fait tout à la main, c'est-à-dire qu'on crée les dossiers et puis on n'a pas de lien entre le plan PDF et la pièce. Ça. C'Est.
+
+Youssef HAFSI
+43:47
+Quelque chose qu'on souhaiterait faire. Ça permettrait d'envoyer, quand il passe la commande, d'envoyer le plan PDF avec. Tout à fait. Maintenant, est-ce que c'est quelque chose qu'on fait dans Catia, on met le lien et on le récupère, ou est-ce que c'est un lien qu'on met ensuite dans l'ERP directement au niveau de la pièce ?
+
+Joel Junod
+44:10
+Là où je passais avant, on téléchargeait le plan PDF dans l'article de la pièce concernée.
+
+Unknown speaker
+44:21
+Dans l'ERP ou dans l'outil de conception ? Dans l'ERP. On peut toujours faire ça, télécharger le PDF.
+
+Youssef HAFSI
+44:32
+Il ne faut pas se planter de l'article et de la version. Mais bien sûr, on peut toujours faire ça. Parce que là, vous n'avez pas un PDF qui est généré encore avec le dessin ?
+
+Joel Junod
+44:45
+Non. Alors un exemple...
+
+Sandro Liberatoscioli
+44:52
+Alors est-ce que tu peux aller sur le... parce que là t'es dans le produit, la part, par contre tu génères un autre fichier pour le dessin.
+
+Joel Junod
+45:00
+Oui, en fait moi à partir d'un fichier 3D comme ça, disons qu'à partir d'une pièce comme ça, moi après je vais créer un nouveau fichier Katia qui s'appelle pas un 4 parts mais un 4 drawings. Donc ça c'est un autre fichier sur les folders Windows. Et puis ensuite, de ce fichier là, je sors un PDF, donc je dessine le plan sur ce fichier, et j'exporte le. PDF. Et l'idée en fait c'est qu'à terme, quand on a l'article dans le ERP, c'est que moi je. Puisse. Lier le.
+
+Joel Junod
+45:38
+PDF. Enfin je puisse télécharger le PDF dans le ERP. Ça vous pourrez, oui. Ok.
+
+Youssef HAFSI
+45:45
+Ok, ok. Très clair. J'aurais besoin d'un maximum de fichiers HTML. Différents cas. De figure. Pour qu'on puisse faire une petite analyse et s'assurer qu'ils sont tous cohérents, qu'il n'y a pas de pit exception. Et après, je vais analyser comment on fait l'import.
+
+Youssef HAFSI
+46:15
+Mais c'est assez clair. Si entre-temps, vous décidez qu'il y a des informations qu'il faudrait rajouter, des descriptions, des choses comme ça, et donc il y aurait potentiellement la macro à ajuster, Vous me dites, parce qu'on fait ça avant qu'on commence à créer l'interface.
+
+Joel Junod
+46:36
+Je pense qu'il faudrait qu'on en rediscute un peu en interne pour identifier les besoins et voir ce qui est pertinent d'indiquer dans le 3D.
+
+Youssef HAFSI
+46:45
+Tout à fait. Donc voilà, faites un point ensemble avec tout le monde, Daniel et tout, et vous regardez et faites un petit retour. Moi, de toute façon, on ne commence pas le développement tout de suite. Là, on ne fait que de l'analyse. On regarde, on voit qu'est-ce qu'on peut améliorer, qu'est-ce qu'on refait, qu'est-ce qu'on reprend, qu'est-ce qu'on estime. Et ensuite, on validera ce qui doit être refait. Mais très probablement ce qui va se passer c'est que vous prenez le fichier HTML, vous dites à quel projet ça appartient, vous l'importez dans l'URP et ça va vous créer les pièces, les éléments et les sous-ensembles.
+
+Youssef HAFSI
+47:28
+Et après il faudra dans les pièces rajouter les dessins soit au projet, soit à l'ensemble, soit à la pièce.
+
+Unknown speaker
+47:36
+Petite question. et.
+
+Youssef HAFSI
+47:43
+Les pièces STD, donc standards, est-ce que vous suivez leur révision aussi, même si ce n'est pas vous qui faites la révision, mais potentiellement le fournisseur peut avoir une révision ? Et du coup, vous dites, j'achète cette pièce-là standard, révision A, révision B, révision C, ou ce sera des... Je crois que la question a été posée tout à l'heure. Elle a été posée tout à l'heure sur une pièce standard et la révision du fournisseur change. Est-ce que vous changez la référence ou vous suivez la révision?
+
+Joel Junod
+48:19
+Actuellement, on ne change rien. Nous on trouve un composant on décide de l'acheter et puis on n'a pas de suivi derrière sur la révision des composants standards ou même leur obsolescence d'ailleurs.
+
+Youssef HAFSI
+48:36
+Ce n'est pas quelque chose qu'on gère.
+
+Joel Junod
+48:38
+Actuellement.
+
+Youssef HAFSI
+48:40
+Ce n'est pas quelque chose qu'on gère, mais c'est problématique ou pas ? Parce que si demain vous achetez une pièce mais que la vision change pour X raisons, c'est de la matière qui change, c'est de la composition et que ça a un impact, si vous ne le suivez pas, alors que ce soit une autre référence ou pas, si vous ne le suivez pas, c'est... Je ne sais pas après, c'est à vous de me dire.
+
+Joel Junod
+48:57
+Je ne sais pas à quel point c'est... Je pense que ça pourrait potentiellement être un problème. Après, je crois qu'on n'a jamais eu de cas de figure où ça a été le cas. Je ne sais pas à quel point ça serait un énorme travail de gérer les révisions de notre base de données de standard.
+
+Youssef HAFSI
+49:19
+Le travail n'est pas côté ERP, il sera de votre côté, Katia. C'est-à-dire que si il y a un changement de révision au niveau de la pièce qui est standard, il faudra soit créer une autre référence, soit que je mette l'information de la révision. C'est-à-dire qu'il faut que le fournisseur vous informe aussi quand une révision change.
+
+Joel Junod
+49:41
+Oui, je. Pense que c'est problématique. Je pense que les. Fournisseurs de standards communiquent. Pas, enfin en tout cas nous on n'a pas forcément de. Suivi avec. Eux pour ce genre de choses de révision de pièces.
+
+Joel Junod
+49:56
+Standards. D'accord. Puis des fois il y a des trucs qu'on commande sur. Des sites de. Revente où la révision serait même pas. Tracée dedans j'imagine. Je sais pas trop.
+
+Youssef HAFSI
+50:13
+C'est à vous de dire est-ce que c'est un point où aujourd'hui on continue comme ça ou est-ce qu'il faut le gérer et dans ce cas-là il faut juste qu'on clarifie le processus. On dit les pièces standards, on ne suit pas leur révision et que ça ne pose pas de problème. On continue. On avance.
+
+Joel Junod
+50:33
+Dans notre façon de faire actuellement, on considère que les pièces standards n'ont pas de révision. Par contre après moi je pense que ça serait bien quand même de pouvoir gérer leur obsolescence au niveau de la commande. Typiquement tout d'un coup si une pièce n'est plus fabriquée, actuellement dans notre système on se rend compte quand on veut la commander.
+
+Youssef HAFSI
+50:56
+Non, ça on va le gérer parce qu'on peut bloquer à l'achat d'une part. Et la deuxième chose. Vous allez pouvoir définir aussi des dates de péremption si c'est nécessaire par rapport aux produits. Donc ça, c'est des éléments qu'on va pouvoir gérer.
+
+Joel Junod
+51:22
+C'est ce qu'on a vu l'autre jour.
+
+Unknown speaker
+51:24
+C'est ce qu'on a vu l'autre jour, exactement. Est-ce. Que vous avez des questions ?
+
+Joel Junod
+51:41
+Oui, j'ai un petit truc. Est-ce que ça sera possible par exemple quand on veut télécharger un ***** de plans sur une liste de pièces, est-ce qu'on sera obligé de faire pièce par pièce ou est-ce qu'on pourra automatiser un petit peu ça ? Imaginons je crée une liste de pièces de plus de 1000 pièces de zéro et puis moi j'ai mes 1000 plans dans un dossier, est-ce que ça va être automatisable en lui disant bah moi je balance mon ***** de plans et puis lui il arrive à retrouver lequel... Est-ce qu'il faudra vraiment aller dans chaque article manuellement télécharger le plan ?
+
+Youssef HAFSI
+52:21
+Bah, pour le...
+
+Joel Junod
+52:24
+Parce qu'on parlait tout à l'heure de...
+
+Youssef HAFSI
+52:27
+Non mais on se comprend. Quand on charge un HTML, il appartient à un seul projet, on est d'accord ? Oui. Mais là-dedans, il peut y avoir plusieurs ensembles, sous-ensembles, des plans, plusieurs plans, etc. Un peu comme là.
+
+Joel Junod
+52:41
+En théorie, on aurait un plan par ligne. Imaginons. Donc on aurait pour le forwardcon fwd on aurait un plan d'assemblage, b01 on aurait un plan d'assemblage etc. Oui. Ensuite.
+
+Youssef HAFSI
+52:57
+Mais le plan il est à l'intérieur. Aussi ? Le forwardcon il est là le plan ?
+
+Joel Junod
+53:02
+Alors ça c'est le numéro mais on a pas le pdf associé. Vu qu'on disait tout à l'heure qu'on voulait pouvoir télécharger le plan en pdf dans l'article.
+
+Youssef HAFSI
+53:12
+D'accord. Mais comment. C'Est. Codifié le. Nom du PDF ?
+
+Joel Junod
+53:18
+Ça a le nom du part number. Actuellement c'est comme ça mais on a le part number underscore la révision. Et. Ça c'est le nom du fichier PDF.
+
+Unknown speaker
+53:32
+Une seconde.
+
+Youssef HAFSI
+53:36
+Ça c'est un. Plan, d'accord ? Là-dedans, je vais rajouter. Le fichier PDF. Le fichier se. Nommera alm-des-562-fwd-a.
+
+Joel Junod
+53:50
+C'est ça, exactement. Alors actuellement, c'est comme ça qu'on fait. Mais c'est pas quelque. Chose qui peut potentiellement. Changer.
+
+Youssef HAFSI
+53:57
+Non, il s'emportera. En *****
+
+Joel Junod
+53:59
+D'accord, parfait.
+
+Youssef HAFSI
+54:00
+C'est.
+
+Joel Junod
+54:02
+Juste ça que je voulais savoir, si tout d'un coup je dois aller sur chaque pièce, commencer à télécharger un plan... Non.
+
+Youssef HAFSI
+54:08
+Non, non. Ok. Super. Mais de toute façon, il y a une question dont on vous a donné. Parce que soit on met juste le. Lien vers le dessin, soit on le. Télécharge.
+
+Youssef HAFSI
+54:26
+Mais en fait il est stocké. Sur SharePoint, C'est. Déjà prévu, mais disons que vous allez mettre un ***** de. PDF dans un dossier et puis ils. Seront lus et rattachés. Au banc à la bonne pièce. Et ça remet aussi la question de la révision qui doit être juste, parce que si je le crée moi en B et qu'ici c'est marqué A et que le fichier il a A, il ne pourra pas être attaché.
+
+Youssef HAFSI
+54:48
+Tout à fait, c'est un double check nécessaire.
+
+Joel Junod
+54:52
+C'est parfait, c'est exactement ça qu'il.
+
+Youssef HAFSI
+54:54
+Nous faut. Est-ce.
+
+Unknown speaker
+54:57
+Qu'Il y a d'autres points ? Je pense que c'est important qu'on se voie un peu Joël et Daniel pour ces histoires-là.
+
+Youssef HAFSI
+55:19
+Comme. Je. L'Ai dit, vous allez devoir. Faire quelques points en. Interne et valider des process. Après, il faudra juste nous tenir informés. Nous dire tel point on a validé, on va faire plutôt comme ça, comme ça.
+
+Youssef HAFSI
+55:31
+Donc, n'hésitez pas. Après, si vous. Décidez quelque chose de différent ou que vous allez sur quelque chose d'un peu particulier, vous nous dites. Et comme ça. On met à jour les documents de. Process. Joël, la partie qualité ici, elle n'intervient pas.
+
+Sandro Liberatoscioli
+55:54
+Non, je ne pense pas. Quand vous dites ça, ça me fait penser peut-être à une partie, c'est comment est-ce qu'on valide le PDF auprès des achats ? Il y aura une étape, typiquement que nous aujourd'hui on signe des dessins, mais chacun va les prendre quand il veut. Est-ce que dans l'ERP, il sera possible d'avoir un feu vert quand le dessin est validé par tout le monde ?
+
+Unknown speaker
+56:26
+On. Pourrait faire ça, mais pourquoi on.
+
+Youssef HAFSI
+56:29
+Ne met pas le dessin qu'une fois qu'il est validé ? Je pose la question parce qu'est-ce qu'on règle ça par un process ou est-ce qu'on règle ça dans. L'Erp par une. Fonctionnalité qui dit dessin validé. Pas validé ? Bonne question.
+
+Sandro Liberatoscioli
+56:48
+Aujourd'hui, on a un process qui n'est pas du tout... Les dessins PDF sont mis à un endroit. dans un dossier qui est dit validé, mais qui n'est pas forcément validé. C'est-à-dire que normalement, on devrait aller cocher les petites cases vertes dans le tracking tool, ce qui n'est jamais fait. Et les dessins doivent être signés, ce qui n'est pas non plus le cas. Vous m'arrêtez Daniel ou Joël, mais je pense qu'on est plutôt dans ce mode. Oui, c'est juste.
+
+Sandro Liberatoscioli
+57:15
+Et donc, pour que les achats ou n'importe qui puissent dire OK, maintenant le dessin est bon, je peux acheter avec. Peut-être qu'il faut qu'on réfléchisse. Est-ce que c'est le dessin, une fois qu'il est mis dans le système, qu'il est bon ? Tant qu'il n'est pas dans le système, ça veut dire qu'il n'est pas bon, ou bien c'est à travers l'ERP ?
+
+Joel Junod
+57:35
+À l'époque, on téléchargeait le plan dans l'ERP et l'ERP envoyait des notifs pour que les gens fassent les vérifs et le signe. Et le plan, la pièce n'est pas achetable tant que tous les gens qui ont une boucle de validation à faire l'effet. D'expérience, ça prend plus de temps.
+
+Youssef HAFSI
+58:00
+Encore un point en interne à valider. Est-ce qu'on le fait dans l'ERP ou est-ce que c'est un process en amont ? Les deux sont possibles. Mais si on le fait dans l'ERP et que personne ne signe, après on bloquera de toute façon l'achat, mais si à un certain moment ce n'est pas coché et personne ne valide, il faut que le process soit aussi adaptées à la réalité. Ça va prendre plus de temps, effectivement. Ce sont des points à voir en interne et à valider. J'attends juste les fichiers HTML, nous on est bon là-dessus, on va faire un compte rendu de façon en document, que l'on va vous partager, vous allez relire, on complétera au fur et à mesure de vos retours, de vos feedbacks, et puis on avance comme ça.
+
+Youssef HAFSI
+59:02
+Bonne journée. Bon appétit. Bonne journée. Au revoir.
+
+
+00:00

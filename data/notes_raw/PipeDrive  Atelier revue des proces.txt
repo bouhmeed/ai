@@ -1,0 +1,661 @@
+PipeDrive : Atelier revue des processus
+Sep 19, 2025
+•
+
+9:01 AM – 9:54 AM
+•
+
+Youssef HAFSI
+•
+
+Transcription 
+Youssef HAFSI
+00:00
+Voilà, c'est le poil à l'heure. Alors, on va démarrer. Michel, si ça vous va, je vais démarrer l'enregistrement de la réunion.
+
+Unknown speaker
+00:12
+Oui. L'objet.
+
+Youssef HAFSI
+00:32
+Aujourd'Hui c'était de regarder un petit peu au niveau de PipeDrive. Et. De faire un petit peu le tour de ce que vous avez mis en place. et ce qu'il faudra faire pour connecter Pipedrive avec Business Central. Donc, ce que je vous propose, c'est de nous partager.
+
+Michel Garcia
+01:00
+Voilà, nous partager le Pipedrive qu'on utilise aujourd'hui. Comme je vous avais dit la dernière. Fois qu'on s'était rencontrés, on utilise Pipedrive depuis 2018, je pense. 2019, donc il y a bien six ans. Donc il y a un certain nombre. De données déjà dedans. Comme toute base de données, si ce qu'on met dedans ou ce qu'on ne met pas dedans est mal fait, on ne peut pas retirer ensuite des informations.
+
+Michel Garcia
+01:27
+Donc là, il y a un petit peu d'apprentissage l'habitude que les gens doivent prendre. Il y a 4 personnes dans la. Société qui utilisent Pipedrive aujourd'hui. Je vais partager mon écran comme ça, vous verrez tout de suite. Comment on l'utilise ? Donc comme je vous avais dit aussi, c'est mon collègue Fabrice Rotemanière qui a surtout configuré. Ce qui existe aujourd'hui.
+
+Michel Garcia
+01:56
+On sait depuis quelques temps qu'il y a quand même des améliorations à faire en termes de champ et en termes de flux. Alors, on ne peut pas dire qu'on est des spécialistes de PiDrive, moi on. L'Utilise tant. Bien que mal. Alors par quoi je commence ? Alors ici tout. D'Abord vous allez voir tout de suite les.
+
+Michel Garcia
+02:16
+Différents. C'est les flux qu'on a définis, qui sont aujourd'hui, pour moi, plus applicables parce qu'en fait, on a ici du business development qui serait de la prospection. Ensuite, mission. On avait mis ça à mission parce qu'à l'ESA, les missions, c'est les noms des satellites. Et puis, nous, on ne fait jamais un satellite en entier. On fait des sous-systèmes de satellite. Donc, c'était l'idée d'identifier des potentiels futurs produits pour des missions.
+
+Michel Garcia
+02:50
+Ensuite c'était un type d'appel d'offres, donc des RFI, c'est des appels d'offres budgétaires généralement, ça n'amène jamais à un contrat. Ensuite c'était ESA sales, c'était tous les contrats potentiels avec l'ESA, les contrats change notice, toutes les activités hors ESA, si on avait des appels d'offres identifiés dans des marchés horlogers, automobiles ou autres, on en a très peu mais on en a quand même quelques-unes. les potentiels produits qu'on viendrait mettre sur le marché. Et puis ça, c'est le nom d'un produit. Vous voyez déjà là, il y a un mix entre secteur de marché, type d'appel d'offre, type de produit. Déjà, à mon avis, il y a un mix qui n'est pas facile à gérer. Et puis ensuite, ici, il y a les...
+
+Michel Garcia
+03:38
+Si on est dans mission, par exemple. Je prends mission, attendez, je prends mission. Donc ici, on a les missions. C'est toujours les missions ESA, généralement. Donc on a les noms des missions, les premiers contacts, les contacts ensuite avec les futurs potentiels clients. Donc l'ESA MN, elle souhaite développer un nouveau satellite, l'ESA, l'agence spatiale. des primes, ce sont des donneurs d'ordre comme Thales, OHP ou Airbus qui sont intéressés à offrir pour ces futurs appels d'offres.
+
+Michel Garcia
+04:10
+Et puis ensuite, c'est le suivi des contacts avec les primes et puis les opportunités identifiées. Ce sont les sous-systèmes sur lesquels Almatech peut se placer. Une fois qu'on arrive ici, normalement, on devrait pouvoir, typiquement celui-là, c'est un bon exemple, celui-là, il doit passer.
+
+Unknown speaker
+04:35
+Il doit passer dans les ACLs.
+
+Michel Garcia
+04:37
+Mais à nouveau, la bonne récente ici, elle est tout à fait bonne, parce que, en fait... Donc là, on a identifié cette activité, elle va être prochainement préparée par un client, on va la recevoir en termes de RFQ, de Request for Quotation. Et là, elle devrait passer normalement dans... Où est-ce que j'ai mon... Ouais, les ACLs, c'est Opportunity Identify, c'est même plus en avance, c'est maintenant dans... opportunité en évaluation. On en est là.
+
+Michel Garcia
+05:11
+Voilà. Donc ça, c'est ce qu'on devrait faire à chaque fois pour typiquement une activité ESA. Et si on a des appels d'offres, des identifications de potentiels leads dans des. Autres. Secteurs, eh bien, on devrait. Chaque. Fois changer.
+
+Michel Garcia
+05:29
+Si c'est non ESA, par exemple des programmes européens, on estime que c'est non ESA, indépendamment que ce soit spatial. Ou pas. On le tracerait ici. Donc là, vous voyez, c'est un programme européen. C'est un programme européen. Il y a un mix entre type de marché, type d'application, type de produit. Moi, je ne pense pas qu'on fasse juste.
+
+Michel Garcia
+05:52
+Ça ne me plaît pas beaucoup, cette manière de travailler, parce qu'il y a du mix entre différents critères, en fait.
+
+Youssef HAFSI
+06:02
+En fait, vous avez un mix entre les étapes le process de vente, donc les différentes étapes, et la typologie de l'opportunité en elle-même. Alors de ce que je vois, il faudrait définir. Les 2-3. Process de vente avec leurs étapes. En fait, ils sont déjà définis pour. Juste peut-être. Homogénéiser.
+
+Youssef HAFSI
+06:29
+Un petit peu. Il y a peut-être Mission et ESA. Mais il ne faudrait pas que ça s'appelle ESA. Il faudrait peut-être... Parce que dans les. Appels, ça peut perdre. Aussi un petit peu les gens.
+
+Youssef HAFSI
+06:40
+Je pense que Mission. C'Est juste en termes. D'Étapes. Je parle en termes d'étapes, pas de qualifications. Une fois arrivé à. La fin, donc. Discussion avec le Prime.
+
+Youssef HAFSI
+06:51
+Etc., Ça passe. Dans un. Deuxième tunnel de. Gestion d'opportunités. Donc peut-être qui va s'appeler Sales, peu importe. Et à l'intérieur, on va avoir des. Filtres qui.
+
+Youssef HAFSI
+07:03
+Vont nous montrer les projets ESA, les projets. Non. ESA, le type. De produit, la. Qualification de. L'Opportunité. Donc, il faudrait qu'on définisse.
+
+Youssef HAFSI
+07:13
+Comment on. Qualifie une opportunité à l'intérieur. Quelles sont les informations. Pour. Qualifier une opportunité ? Est-ce que c'est une opportunité type, type. D'Opportunité ESA.
+
+Youssef HAFSI
+07:22
+Non ESA, CCN, type de produit, type source, origine, par exemple, ça vient d'un. Hérifi, ça vient. D'Une mission, etc. Ces. Opportunités-Là vont rentrer. Dans un **** dans un process. Donc les différentes étapes.
+
+Youssef HAFSI
+07:40
+Par contre. Vous n'aurez pas qu'un seul process, vous aurez peut-être. Deux ou trois process là-dedans. Je suis sûr que là-dedans, dans ce qu'on voit dans cette liste-là, Il faudrait. Sortir la. Qualification de l'opportunité. Des étapes de l'opportunité.
+
+Youssef HAFSI
+07:55
+La mission, je pense que c'est juste, si on repasse sur mission, indépendamment de l'opportunité en elle-même, mais si on regarde que les étapes. Donc, si on va sur mission, ça me semble juste en termes d'état, c'est-à-dire qu'il y a un premier contact, il y a un deuxième contact avec le Prime, il y a un following up, et puis l'opportunité est identifiée. Maintenant, que ce soit une typologie de. Produit, que. Ce soit une mission de ce type-là, peu importe, on s'en fiche. Les étapes vont être les mêmes. Il y aura toujours un Prime, etc.
+
+Youssef HAFSI
+08:28
+D'accord. Si ça ne vient pas d'une mission, c'est quoi l'autre alternatif ? Ça passe directement dans une opportunité ?
+
+Michel Garcia
+08:36
+Alors, si ça ne vient pas d'une mission, oui, ça peut venir d'une opportunité. Mais typiquement, dans notre business actuel, on a soit des opportunités qui viennent à travers des missions de futurs satellites ESA, soit il y a des opportunités à travers des activités de développement technologique qui peuvent être aussi ESA, qui peuvent être des financements européens, qui peuvent être des financements même nationaux suisses. Donc c'est les niveaux d'applications finaux qui vont décrire. Parce qu'une mission, c'est vraiment une activité qui va nous mener à développer un potentiel produit qui va être intégré sur un satellite. D'accord. Ça, c'est sûr et certain. Alors que les autres activités qui différencient ces missions, c'est des activités de développement technologique, de maturation, d'innovation technologique.
+
+Michel Garcia
+09:29
+Donc business development ici, par exemple. Ça serait. Ça. Serait business development. Exactement.
+
+Youssef HAFSI
+09:37
+On peut voir ce qu'il y a dans business development. Oui, oui. Alors, first contact, identification de produits, Almatex, stratégie. C'est parfait, ça. Après, il y a peut-être les étapes à affiner, mais...
+
+Michel Garcia
+09:50
+Tout ce qui est là, c'est exactement... C'est des activités de potentiel développement de produits bas niveau TRL. Oui. Exactement.
+
+Youssef HAFSI
+10:03
+Parce que moi je regarde pas l'intérieur, je regarde les colonnes, je dis est-ce que les étapes sont correctes ? Parce que quand j'arrive à la dernière étape, c'est quoi ? J'ai gagné un contrat ou je dois passer quand même par un autre processus après ? Alors normalement, alors attendez, ça c'est. Bien. Et puis ici. Normalement, ici il manque.
+
+Michel Garcia
+10:29
+Quelque chose en fait. Je me rends compte qu'on ne peut pas négocier sans faire. D'Offres. Donc il y a la phase préparation d'offres.
+
+Youssef HAFSI
+10:40
+Il n'y a pas de phase de préparation d'offres. Est-ce qu'on peut voir l'autre business, l'autre type, l'ESA ? Oui, alors l'ESA Sales.
+
+Michel Garcia
+10:51
+Il me semblait bien celui-là, non ? Alors celui-là, c'est celui qu'on remplit le plus parce que Pour moi, il y a un doublon entre ESA sales et mission en quelque part, et même business development. Il y a des choses qui se répètent, mais on utilise le plus souvent ESA sales parce que c'est d'où proviennent les appels d'offres ou d'où proviennent les potentiels leads qu'on identifie. Ça vient de l'ESA. Donc ici, on les a classifiés par opportunité identifiée, opportunité en évaluation. Proposition, préparation de la proposition. On voit qu'on en a une.
+
+Michel Garcia
+11:27
+Et ça, c'est toutes les propositions qui. Sont en évaluation chez le client. Ça, c'est quand elles partent de chez nous et qu'elles arrivent chez le client. Et ça, c'est quand on a été sélectionné et quand on est en train de négocier. Donc là, on voit qu'il y a. Un doublon avec certaines choses qu'on a vues avant.
+
+Youssef HAFSI
+11:40
+Il y a un doublon, mais j'aime bien les sales. Alors, ils devraient peut-être s'appeler autre chose que les sales. Ça pourrait s'appeler sales process, ça pourrait s'appeler... Peu importe, c'est juste qu'il ne faut pas que les A vous trempent. C'est les opportunités intérieures qui sont de type ESA, non-ESA, etc. J'aime bien l'ESASales parce qu'il est assez complet, mais je pense qu'il faudra rajouter des éléments qu'il y a dans Business Development. Quand je regarde Business Development, il y a le First Contact Identification Opportunity, donc ces deux colonnes-là.
+
+Unknown speaker
+12:11
+Donc il y a peut-être le First Contact qui est à rajouter. Dans ESASales ? Oui.
+
+Michel Garcia
+12:19
+En fait, je crois que l'idée au départ, c'était qu'on. Commence par ça. Force contact, identification opportunity, définition de la stratégie. Et pour moi, les deux derniers, ils n'ont pas vraiment de lieu d'être parce qu'en principe, une fois qu'on parle de là, qu'on a identifié l'opportunité, qu'on a. Confirmé. Que c'était dans notre stratégie, on devrait passer. À la suite.
+
+Youssef HAFSI
+12:45
+Pourquoi vous changez ? Pourquoi vous n'êtes pas directement dans le même tableau ?
+
+Michel Garcia
+12:49
+Je sais pas pourquoi ça avait été fait comme ça à l'époque. Est-ce qu'on peut faire plus de colonnes ici ? On peut rajouter des colonnes ?
+
+Youssef HAFSI
+12:57
+Oui, on va pouvoir rajouter des colonnes. Pour moi, c'est de sortir d'un tableau le plus commun possible. Après, c'est des filtres de vue dans la typologie. Je comprends que Mission devrait être séparée. C'est très high level.
+
+Michel Garcia
+13:12
+C'est des choses qu'on identifie 3-4 ans avant qu'on ait les appels d'offres.
+
+Youssef HAFSI
+13:17
+Donc ça, ça va rester. Ça, ça doit rester, oui. Ça, ça doit rester. Par contre, c'est le ESA sales en rajoutant peut-être le premier contact, rajouter quelques colonnes qui permettent de suivre et on peut définir des informations. À l'intérieur des. Leads pour qualifier le lead. Et ces informations peuvent être obligatoires à un certain niveau du ****
+
+Youssef HAFSI
+13:40
+Après, c'est juste des filtres de dire, le même. Staging, c'est les mêmes étapes. C'est juste après de dire, je filtre, je veux voir que les. ESA, que. Les non-ESA, que les opportunités de business. Développement, etc. Parce qu'ensuite.
+
+Youssef HAFSI
+13:56
+Si on regarde.
+
+Michel Garcia
+13:57
+En dessous de ESA, il y avait quoi d'autre ? Ensuite, voilà, là, c'est les typologies d'appel d'offres, en fait. C'est-à-dire qu'une fois qu'on est là et qu'on a fait tout le process, on a envoyé l'offre, si on est sélectionné, on a signé le contrat, on a gagné. Et ensuite, en fait, on a deux types de typologie d'appel d'offres. Un RFI, qui est un appel d'offres budgétaire, où l'offre qu'on va faire ne sont pas engageantes, mais c'est des budgets pour que le client puisse lui faire son coût final. Puis ensuite, c'est des CCN. En fait, les CCN, ça suit, quand on a gagné un contrat, Quand on enclenche le contrat et que le contrat court sur deux ou trois années, s'il y a des évolutions de spécifications, des changements de planning, des changements de quoi que ce soit contractuel, on doit émettre, on appelle ça en français.
+
+Michel Garcia
+14:49
+C'est un avenant. C'est un avenant. Et c'est un Contract Change Notice, qui est un document... Cette témoignologie, elle n'est que pour les contrats avec l'Agence spatiale. Donc si on a un autre contrat avec un client commercial, normalement, la CCN, ça ne va pas tellement s'appliquer, ça va être avenant au contrat. Mais là, ce terme-là, c'est une typologie de document qu'on émet dans le cadre des programmes ESA. Si je clique dessus, c'est souvent demandé par le client.
+
+Michel Garcia
+15:24
+C'est comme une offre ensuite. En fait, on fait l'élaboration de l'offre, c'est la CCN, la chain notice. On revoit la CCN, elle est évaluée chez le client et puis elle est négociée. Donc on retrouve les mêmes étapes que dans le cadre d'une préparation d'offre.
+
+Youssef HAFSI
+15:43
+Et ensuite, si on prend RFI ?
+
+Michel Garcia
+15:46
+Alors RFI, c'est les appels d'offres qui sont sans engagement. Donc là aussi, c'est le même processus qu'une offre, simplement qu'on les identifie comme RFI parce que souvent les RFI, ils se transforment. Donc on reçoit les RFI, on les value. Des fois, on n'est peut-être pas en mesure de répondre parce que ce n'est pas dans notre soit dans nos compétences, soit dans nos disponibilités des gens qui pourraient répondre. On envoie l'offre, donc on la prépare, ça c'est ROM, c'est Rough Order of Magnitude Price, donc c'est prix-budget. On l'envoie au client, elle est en évaluation et puis après il y a le retour. normalement d'avoir un retour du client, savoir si le client a gagné son offre, s'il arrête la mission, s'il va nous proposer un RFQ dans 3 mois, 6 mois.
+
+Michel Garcia
+16:35
+C'est très similaire, c'est la même chose que les assets. C'est les mêmes étapes, simplement qu'on ne négocie pas à la fin. Parce que la phase suivante, c'est réception d'un request for quotation ou d'un appel d'offre officiel.
+
+Youssef HAFSI
+16:55
+Est-ce que là, il y a une volonté de merger avec l'autre process ou pas?
+
+Michel Garcia
+17:00
+Ce process là, il devrait soit s'arrêter parce qu'il n'y a pas de suite, soit s'il y a une suite, il devrait passer ici. Et ça, c'est... Qu'On peut renommer différemment. Mais en fait, c'est une typologie d'appel d'offres différente.
+
+Youssef HAFSI
+17:18
+En fait. Mission et RFI, s'ils sont gagnés. Ils vont se déverser. Dans ESA Sales. Je parle en termes d'étapes.
+
+Michel Garcia
+17:29
+Exactement. CCN, c'est à part ? C'est directement lié au projet. On sait que quand il y a une CCN, c'est qu'il y a un contrat en cours. Ça peut être une CCN positive ou négative. Ça peut être aussi un client qui demande moins de pièces. Oui, c'est possible.
+
+Michel Garcia
+17:45
+Ça peut être négatif, mais c'est un traitement directement lié à un projet. Le non-ESA ? Alors non-ESA, normalement ici on met tout ce qui est contrat hors ESA, tout, indépendamment que ce soit spatial, horloger, on n'a pas fait de différence ici à la base, mais en général si j'ouvre, ce qu'on voit ici c'est. Des activités. Dans le cadre des programmes Horizon Europe.
+
+Youssef HAFSI
+18:09
+Je pense que ça doit rentrer dans l'ESA et après on. Différencie ce qui. Est ESA, non-ESA et la typologie. Parce que vous pourrez toujours filtrer et voir par typologie.
+
+Michel Garcia
+18:21
+Oui, mais il faudra qu'on renomme différemment. Il faudra renommer. Ça, il faudra mettre Sales ou autre chose. Puis après, en dessous, M13A, Horizon Europe, IC Accélérateur. On a plusieurs des potentiels programmes.
+
+Youssef HAFSI
+18:35
+Vous savez pourquoi il y a eu le souci ? C'est que le fait de le séparer, je ne peux pas avoir un **** consolidé. Je ne peux avoir un **** consolidé que par les étapes. Et donc, si je veux voir tout ce qui est les propositions qui sont en préparation, que ce soit de l'ESA, pas d'ESA, etc., je ne le verrai pas. Parce que les états ne sont pas les mêmes. À chaque fois cumuler, alors que si je mets tout dans un sales **** je vois le **** en cumuler et après je peux filtrer entre ESA et non-ESA. Parce que pour moi, en termes de, sauf si vous me dites que vous raisonnez complètement séparé les business, Mais si vous regardez, qu'est-ce que j'ai comme **** qui est assez avancé en termes de préparation, donc avec une probabilité qui est assez élevée, j'ai envie de regarder de façon transverse tout.
+
+Michel Garcia
+19:25
+Exactement. Moi, ce que j'ai besoin quand je fais mes rapports de vente pour la licence de direction, j'ai besoin d'avoir un état des missions identifiées pour 3-4 ans. J'ai besoin d'avoir un état des RFI qu'on a identifié sur lesquels on a travaillé ce qui pourrait se transformer en appel d'offres concrets mais dans un short terme, c'est une année ou deux, en état de toutes les offres sur lesquelles on est en train de travailler ou toutes les offres qu'on est en train de négocier, gagnées ou perdues. Qu'On aurait. Dû. Enfin des vraies offres. Et.
+
+Michel Garcia
+19:58
+Puis le. Dernier. C'Est la CCN. Ouais, CCN, ça peut être... Combien même les CCN, c'est lié...
+
+Youssef HAFSI
+20:08
+C'est pas grave. La CCN, c'est à part parce qu'il y a quand même un projet derrière. Donc, ça vient en deuxième temps. Donc, mission vérifiée se déverse dans Sales et ensuite, il peut y avoir la CCN. Non ESA, ça doit être dans ESA Sales. Après, product.
+
+Michel Garcia
+20:25
+Alors pourquoi on avait mis ça ? C'est parce qu'il y a 4-5 ans, 90% de nos activités c'est des projets, c'est des développements qui durent très longtemps et puis c'est 2-3 pièces maximum pour des missions très particulières. Et depuis 4-5 ans on a essayé de développer des produits. Donc, on a trois, quatre produits sur lesquels on travaille, mais qui ne sont pas commercialisables aujourd'hui. Il y en a un qui est commercialisable, c'est celui-là, le S2M2, qui a un petit moteur. Donc, on avait fait produit pour essayer de suivre un petit peu la stratégie des futurs produits. On n'a pas tellement utilisé parce que je trouve quand même des choses sur lesquelles on travaille.
+
+Michel Garcia
+21:11
+Les batteries, par exemple, on travaille dessus. SM Actuator, on ne travaille plus. Mais l'idée c'était de suivre un petit peu ces stratégies produits dans cette rubrique produits. Donc, identification de futurs produits, des retours de l'agence spatiale et des primes pour voir s'il y avait un besoin du marché réel. Et puis ensuite, développement de l'opportunité. Mais ici, moi, j'ai toujours eu la peine d'utiliser ce funnel parce qu'après, je ne sais pas. La suite, souvent la suite, ça passait là-dedans.
+
+Michel Garcia
+21:53
+Parce que le moment où on arrivait ici, il y a encore une grande étape à passer. C'est toute la validation, qualification du produit, avec des contrats de développement. Il y a plein d'étapes. Ça s'arrête là, mais on n'a pas de lien avec le reste. Puis le S2M2, c'est un produit qui est commercialisé. On avait reçu une appelle d'offre. Je crois que ça n'a pas été suivi, mais on a gagné le contrat pour 10 petits moteurs.
+
+Michel Garcia
+22:29
+Et je pense que c'est un petit peu trop tôt pour ce genre de funnel, parce qu'on n'a pas vraiment de produits aujourd'hui. On n'a pas des commandes récurrentes qui nous arrivent de manière soutenue.
+
+Youssef HAFSI
+22:43
+On est plutôt encore projet. On peut les laisser parce que ce n'est pas quelque chose qui rentre dans l'opportunité.
+
+Michel Garcia
+22:51
+On peut les laisser. Après, celui-là, je pense qu'on peut le laisser, mais celui-là, franchement, je ne sais pas. Enfin, ça peut être utile si on liste les... Là, je vois qu'il n'est pas du tout à jour, là, parce qu'on a... Ça, ça a dû être ouvert il y a très longtemps. Superkappa, on travaille depuis très longtemps dessus. Il y a cinq ans, vous voyez.
+
+Michel Garcia
+23:14
+Donc ça, c'est pas du tout à jour. Voilà le mix dans lequel on est et on a de l'amélioration à faire.
+
+Youssef HAFSI
+23:24
+Vous êtes lié à quelqu'un sur **** Drive ou pas du tout ? Vous avez quelqu'un qui gère le CRM ?
+
+Michel Garcia
+23:35
+Oui, c'est Fabrice Rotmeier. C'est en interne ? C'est lui qui a créé tout ce que je vous montre. Il m'a montré il y a quelques temps comment on pouvait changer. J'ai jamais fait de modification depuis qu'il m'a montré. Mais j'ai vu que c'était très flexible comme support. Mais c'est Fabrice qui maîtrise le mieux.
+
+Unknown speaker
+24:02
+OK, alors on va faire quelque chose. Je vais...
+
+Michel Garcia
+24:15
+Peut-être je voulais vous montrer autre chose, peut-être comme ça vous pouvez, on a cette fonction leads aussi, qu'on utilise de temps en temps, mais vous voyez pas beaucoup. Mais pas beaucoup, ça j'avais vu. Pas beaucoup, et moi des fois j'ai, enfin des leads et, entre leads et ce qu'on peut mettre ici, pour moi c'est pratiquement la même chose.
+
+Youssef HAFSI
+24:39
+Un lead c'est, vous avez pas forcément identifié une opportunité encore.
+
+Michel Garcia
+24:43
+C'est ça pour moi, c'est les forces contact. C'est comme une mission. On a le nom de la mission, on ne sait pas comment elle sera faite, mais on a le nom. On sait qu'il y aura Harmonie, qu'il y aura Earth Explorer. Je ne sais pas si lead et mission, par exemple, ce n'est pas redondant.
+
+Youssef HAFSI
+25:11
+Je vais vous. Donner un exemple et vous me dites si c'est pareil ou pas. Dans le. Monde du oil and gas. Vous savez qu'il y a des gros. Projets. Par exemple, le construction d'une plateforme offshore.
+
+Youssef HAFSI
+25:29
+Etc. Par. Exemple. Avant, je travaillais pour une entreprise qui fait de la. Logistique maritime. On lit dans le journal, je ne sais pas moi, Total a signé un contrat de 20 milliards d'euros. Pour une nouvelle plateforme.
+
+Youssef HAFSI
+25:48
+Un nouveau projet. Dans tel pays. C'est un gros projet, c'est. Un master-projet. Donc c'est une opportunité pour nous d'aller essayer de chercher. Du. Contrat là-dedans pour toute la partie logistique, transport de pièces, de personnes, de marchandises.
+
+Youssef HAFSI
+26:09
+Etc. Du coup. On le met. Comme. Un lead. Parce. Que c'est une information.
+
+Youssef HAFSI
+26:17
+Qu'On a, on n'a pas encore plus de détails. C'est un projet, il est officiel, il. Est annoncé et. Ça permet potentiellement si. Quelqu'Un a. De l'info de venir. La rajouter.
+
+Youssef HAFSI
+26:28
+Une fois qu'on a commencé à avoir. Un contact et. À rentrer en discussion. Ça devient une opportunité. En fait, ça évite de polluer les opportunités par des éléments qui sont encore. Trop tôt dans. Trop tôt, on ne va rien faire de toute façon.
+
+Michel Garcia
+26:49
+C'est encore trop tôt. Oui, c'est ce niveau-là. Si je reviens dans Deals, Mission, c'est ce niveau-là pour nous. Exactement. C'est exactement cette première colonne.
+
+Youssef HAFSI
+27:03
+Exactement. Mais vous, vous l'avez mis dans les opportunités dans une mission, c'est bien.
+
+Michel Garcia
+27:10
+C'est très bien. Alors c'est pas mal, c'est juste comme on fait, simplement que je vois qu'on ne remplit pas assez souvent. La grosse différence, c'est qu'ici ce lit, c'est vraiment ce que vous dites, on est identifié dans un journal, dans une revue spécialisée, lors d'une conférence, on a un échange, on dit il y aura cette future mission pour 250 millions. Sur deux lignes, on arrive à avoir une première traçabilité en fait, ça c'est l'avantage de ce lit, c'est très vite rempli. C'est ça. Et après ensuite on devrait, quand on clique dessus, alors j'ai jamais essayé de faire ça mais normalement, est-ce qu'on peut le passer en...
+
+Youssef HAFSI
+27:46
+Oui, oui, oui, regardez, vous voyez convert to deal.
+
+Michel Garcia
+27:49
+Parfait, ok.
+
+Youssef HAFSI
+27:51
+Donc c'est.
+
+Michel Garcia
+27:56
+Juste comme on fait, il faut juste qu'on le remplisse. Exactement. Parfait.
+
+Youssef HAFSI
+28:02
+Donc ça on va laisser. Je vous enverrai plus tard un lien qui me permettra de me connecter à votre environnement, peut-être de faire une copie aussi, qu'on puisse faire des tests. Je vous enverrai le lien par la suite pour que vous puissiez intervenir exactement.
+
+Michel Garcia
+28:43
+on utilise des fois avec notre service IT, je ne sais plus le nom du...
+
+Youssef HAFSI
+28:50
+Non, pas besoin, je pourrais prendre la main en tant que partenaire directement dessus, je vous enleverai le lien. Là, je vais vous montrer un espace de démo. Par exemple, nous, on utilise les leads, d'accord ? où on a toutes les informations. On n'a pas plus d'informations, mais c'est des contacts, des numéros, etc. qui vont nous permettre derrière de travailler dessus. D'accord ?
+
+Youssef HAFSI
+29:17
+Et on arrive à la fin au deal. Alors, c'est ce que vous avez, au deal qui permet d'avoir une vue globale. Le seul truc, c'est que nous, on a un seul **** parce que cela nous permet de filtrer. de créer des filtres et là je pourrais dire je filtre sur une... OK. Ici, un des travails qu'on va faire, c'est quoi ? C'est d'identifier les informations obligatoires et non obligatoires.
+
+Youssef HAFSI
+29:47
+Par exemple, le type de relation. Alors, ça, c'est propre à nous. Mais voilà, le type de relation, la personne, etc., l'organisation. D'accord ? Et de pouvoir ensuite filtrer dessus ce qu'on cherche. Ça, c'est le premier élément. Quand je vais dans mes paramétrages, je vais venir ici au niveau des.
+
+Youssef HAFSI
+30:13
+Par exemple, je peux venir, prenons Relationship, je peux venir ici dire que Relationship, il est obligatoire. Mais je peux aller plus loin, dire qu'il est obligatoire à une étape bien particulière de mon **** Donc, si par exemple je mets type de projet ESA, non ESA, etc., je peux dire que quand j'arrive dans mon **** au niveau de la qualification, je rends ce type de projet obligatoire et je ne peux pas avancer sans. Il va me permettre de dire à l'utilisateur, tu dois me dire maintenant si c'est un projet ESA, pas ESA, etc. Et donc, ça permet d'avoir une vue globale, mais de forcer aussi la qualification des projets. Sinon, vous ne pourrez pas filtrer, vous ne pourrez pas voir. D'accord.
+
+Youssef HAFSI
+31:08
+Donc ça, c'est un élément qui est important. Vous avez la connexion avec tout ce qui est e-mail, etc. Donc, on vous envoie des e-mails, ça arrive chez vous. OK. Oui.
+
+Michel Garcia
+31:17
+Alors. Les e-mails, c'est pas automatique. Moi, j'utilise surtout l'e-mail quand j'envoie une réponse à un client par e-mail. Je mets le lien en copie cachée. Du. Lien qu'on me donne dans le lead.
+
+Youssef HAFSI
+31:33
+Alors, vous devez synchroniser votre e-mail. Et comme ça, tout ce qui arrive, alors après j'ai ma boîte mail que je vois.
+
+Michel Garcia
+31:45
+Tout ce qui est lié à la personne et le projet ?
+
+Youssef HAFSI
+31:47
+Alors si c'est déjà lié à la projet, vous voyez, il va sortir directement. Par exemple, là, Thomas, il m'a envoyé un mail. Ça, c'est le condom de commercial, mais il lui a envoyé. Directement, il est lié au deal. Maintenant, si moi j'envoie un mail, Il va directement le lier parce que j'ai mis l'adresse mail. Par contre, si je reçois un mail qui n'est pas lié, par exemple là, il n'y a rien, je clique sur « Lier l'item » et je vais chercher le deal, le lead, etc. Et ça y est, je crée la liaison.
+
+Youssef HAFSI
+32:17
+Ce qui va me permettre qu'à chaque fois qu'il y a un échange, il va automatiquement remonter dans le flux d'activité du deal. Donc vous n'êtes pas obligé de mettre le lien, le copier-coller. Donc ça on pourra connecter la boîte mail là-dedans. Alors il n'y a que vous qui voyez votre boîte mail. Par contre, les mails partagés dans les leads, comme ça, prenons les mails partagés.
+
+Michel Garcia
+32:51
+Il y a une terminologie qu'il faut mettre dans un titre où il reconnaît comment, comment est-ce qu'il sait que le sujet, le mail qu'on reçoit, il le met avec le bon deal. Si on regarde l'adresse mail. Ah, c'est que l'adresse mail, ok. Après vous pouvez le changer. On peut le changer parce que souvent, on a souvent les mêmes contacts sur les clients, mais qui peuvent suivre deux ou trois deals différents au niveau du client.
+
+Unknown speaker
+33:16
+Alors, si c'est ça, Par exemple, je vais prendre un qui a un mail.
+
+Michel Garcia
+33:25
+On a souvent, en tout cas dans l'étape d'offre, on a toujours un commerce, enfin on a toujours un contract officer de l'autre côté client et un technical officer souvent. On a en tout cas deux personnes.
+
+Unknown speaker
+33:43
+Alors si je prends, Pourquoi je ne vois pas les images? Ce n'est pas grave. En fait, je ne sais pas si quelqu'un a autre chose. Il.
+
+Youssef HAFSI
+34:32
+Y a deux avantages dans les emails. Un. Je vais voir s'il a été ouvert. Ou pas. Et si je mets un lien dedans, je vais voir s'il a cliqué sur. Le lien ou pas. Donc vous voyez ici, je vois qu'il.
+
+Youssef HAFSI
+34:45
+A cliqué. D'accord ? Donc si vous mettez des emails avec des clics. Deuxièmement, je vais pouvoir. Déconnecter. Ce mail et le reconnecter.
+
+Unknown speaker
+35:00
+À notre lead.
+
+Youssef HAFSI
+35:07
+Après, il faut savoir que s'il répond. Si c'est une réponse. Il reste attaché au. Bon lead. Imaginons que j'ai un même contact, mais j'ai deux leads avec. Lui. D'accord ?
+
+Youssef HAFSI
+35:16
+Si je déconnecte celui-là, je le reconnecte sur le bon lead. Comme il y a une conversation. S'Il répond, ça suivra. Si par contre, il ne répond. Pas. Là, il va l'attacher par défaut au premier. Donc.
+
+Youssef HAFSI
+35:28
+Le sujet, la réponse, permet aussi de lier au banc LEED, s'il y en a plusieurs.
+
+Michel Garcia
+35:37
+Donc là on peut détacher le link mais recréer le bon ailleurs.
+
+Youssef HAFSI
+35:43
+Exactement, je détache et je le rattache à la bonne, au bon lien. Par exemple, qu'est-ce qui a cliqué, etc. Donc pour envoyer des informations. Là typiquement, le fait d'avoir des leads, je ne parle pas des leads, des informations, d'avoir un email, de faire une petite campagne de mailing. faire une petite campagne de mailing et de mettre des liens et de voir qui a ouvert le mail, qui n'a pas ouvert, qui a cliqué sur le lien. Vous avez déjà une information qui permet d'enrichir à ce qu'ils sont intéressés ou pas et puis de relancer derrière.
+
+Unknown speaker
+36:20
+Il faut savoir que dans la campagne de mailing, je vais pouvoir créer ce qu'on appelle.
+
+Michel Garcia
+36:37
+Je vais vous montrer ici. D'études. De marché, c'est sympa. Si on envoie une quinzaine, on n'a pas d'études de marché sur des centaines de clients, mais si on envoie une étude de marché à 20 clients par email, on peut typiquement suivre ce qui se passe de l'autre côté.
+
+Youssef HAFSI
+36:53
+Exactement. Donc, on peut suivre ce qu'il y a comme tracking, mais surtout, on va pouvoir créer des automatismes, c'est-à-dire que s'il a ouvert le lien, je lui renvoie un deuxième mail. S'il n'a pas ouvert au **** de trois jours, je lui renvoie une relance. S'il a lu le mail, mais il n'a pas ouvert le lien, je lui donne un troisième mail. Donc, je crée un scénario de suivi assez poussé qui permet de filtrer vraiment ceux qui sont intéressés. Vous envoyez un mail, il y a... Parce que c'est intéressant de savoir qui a ouvert, qui n'a pas ouvert.
+
+Youssef HAFSI
+37:35
+D'accord ? Ça ne s'arrête pas là. S'il ouvre, c'est bien. Mais peut-être que par exemple, s'il ouvre, je lui renvoie un mail pour lui dire, souhaitez-vous qu'on prenne rendez-vous. Et après, je l'appelle. Ça, c'est hyper important. C'est ce qu'on appelle des automatismes.
+
+Youssef HAFSI
+37:50
+Donc, on va créer des templates d'email dans des campagnes et faire des automatismes. Un autre type d'automatisme que vous pouvez faire, on est arrivé à une étape où on a signé. Il y a un mail qui part automatiquement. Bienvenue chez Almatec, merci de votre confiance. Vous voyez un petit mail d'échange où on va dire par exemple, une fois que vous avez échangé avec quelqu'un, qu'il y a eu un premier échange, etc. Vous avez déjà un template, **** il s'envoie directement. Donc ça c'est des choses qui peuvent se faire.
+
+Youssef HAFSI
+38:33
+Je ne vais pas parler des projets, parce que les projets, on va les suivre dans l'ERP. Ce n'est pas le but. Par contre, les campagnes, ça va être intéressant quand on les met en place. Il faut savoir que vous avez de plus en plus d'éléments, par exemple, pour faire du scoring, pour avoir des séquences, par exemple, un mail, un téléphone, un envoi par LinkedIn, etc. Donc, ça, c'est des choses qui arrivent et qui permettent d'enrichir les données que vous avez sur vos leads. Donc, vraiment, là, je parle de leads, des gens pour lesquels vous n'avez pas de connaissances. Je ne sais pas si votre site, vous avez des pages de contact.
+
+Michel Garcia
+39:16
+Je n'ai pas fait attention. Sur le site internet AlmaTech, je ne crois pas. On a info à AlmaTech, il me semble. On est en train de leur mettre à jour le site web AlmaTech.
+
+Youssef HAFSI
+39:27
+Alors, regardez, c'est vrai que votre panel de potentiels clients n'est pas très large, mais quand même, le fait de dire, de mettre sur la première page un petit formulaire Contactez-nous, et ça arrive directement dans le CRM, même si ça arrive une fois par mois, une fois par année, c'est déjà ça. D'accord. Vous suivez un petit peu qui arrive sur le site, le nombre d'entrées, de visiteurs, de...
+
+Michel Garcia
+40:03
+On ne suit pas tellement, non. On a des fois des informations directes qui viennent de la plateforme qui nous héberge, mais on ne va pas spontanément regarder. OK.
+
+Youssef HAFSI
+40:14
+Alors, derrière, il y a toute la partie activité. forcément quand je planifie des appels, des réunions, etc. avec des relances, j'ai toute l'activité, ma tout doux en fait. Alors, ma tout doux, la tout doux de l'équipe, vous êtes trois, mais j'ai ma tout doux, j'ai ce qu'il y a à faire cette semaine, etc. Mais ce qui est important, c'est que pour vous, vous voyez qu'est-ce qu'il y a à faire par. Je vais pouvoir le rajouter ici, par commercial. Vous pouvez voir qu'est-ce qu'ils ont comme activité, qu'est-ce qu'ils doivent faire, etc.
+
+Youssef HAFSI
+41:03
+Donc ça, c'est des choses que vous allez pouvoir suivre et c'est connecté à Outlook, au calendrier Outlook. Alors je vous montre la liste, mais bien sûr vous avez compris que vous pouvez le voir comme ça aussi, en forme de tableau.
+
+Michel Garcia
+41:22
+Ça je vois qu'on l'a, mais je vois que c'était rempli la dernière fois en 2022. Donc. On a tout un. Tas d'actions. Mais chacun prend ses actions et on se fait une fois par mois une revue de. Vente. Je vais vous montrer quelque.
+
+Youssef HAFSI
+41:39
+Chose qui est intéressant. Bon, gestion des contacts classiques. Alors. Gestion des contacts, gestion des organisations. C'est vrai que si on fait la. Connexion avec Business. Central, on va connecter potentiellement les organisations.
+
+Youssef HAFSI
+41:53
+D'accord. On va les faire comme ça. Alors c'est. Quelque chose qui ressemble à. Ça parce. Que là vous avez des. Informations génériques.
+
+Youssef HAFSI
+42:02
+Nous on va faire quelque chose d'un. Peu plus spécialisé où vous allez voir par contre les projets et leurs avancements. Par. Rapport aux. Clients. Donc on va pouvoir créer directement le client dans Business Central sans avoir à le retaper. Où on crée ici une fois que.
+
+Youssef HAFSI
+42:21
+C'Est signé, après on. Définit un flux. Et on. Va pouvoir directement. Retourner des informations de. Business Central vers **** Drive.
+
+Michel Garcia
+42:31
+Je reconnais. Le petit. Résumé que vous. Avez. Montré la dernière fois. C'Est bien ça.
+
+Youssef HAFSI
+42:40
+Les insights, je pense que vous connaissez. Un petit peu les différents graphiques, qu'est-ce qu'il y a comme activité, les deals, le **** Qu'est-ce qui est gagné ? Qu'est-ce qui est perdu ? En fait, vous voyez quand je vous dis le **** je vous montre ça parce que c'est assez intéressant. Quand je dis le **** le fait d'avoir quelque chose qui est assez standardisé en termes d'étapes, ça me permet de cumuler le pourcentage de gains ou le montant ou peu importe. Ça c'est important et on pourrait en avoir plusieurs, je pourrais en faire une copie, une pour l'émission, une pour le CCN, une pour la vente, une pour ESA, pas ESA, mais ça me permet au moins de cumuler et ça c'est super important.
+
+Youssef HAFSI
+43:31
+Après il.
+
+Michel Garcia
+43:31
+Y a tout ce qui est parti. On peut. Les séparer par phase alors. Si je comprends bien. Si. J'Aimerais connaître le nombre d'offres qu'on a fait dans le cadre de RFI par exemple, ça c'est possible. Quand je vais créer.
+
+Youssef HAFSI
+43:46
+Imaginons. Que là c'est cumulé. Alors on va faire comme ça. Imaginons que là c'est cumulé. Je peux en créer un nouveau et je vais venir ici, je vais filtrer. Je vais prendre le champ qui m'intéresse, le type qu'on va créer. Et puis je vais filtrer dessus, je vais mettre RFI, je le valide et j'aurai comme ça un **** qui est juste pour le RFI et je le mets dans mon dashboard.
+
+Youssef HAFSI
+44:12
+Qu'est-ce que je voulais vous montrer ? Les séquences, on en a parlé. Ça, on y reviendra après le lien. Je voulais vous montrer ça, les automatismes. Parce que ça, c'est quelque chose qui est quand même assez intéressant. Sur quel lien vous avez cliqué ?
+
+Michel Garcia
+44:34
+Automation. Automation, ça se trouve tout en bas ? Vous le trouvez dans les trois petits points. Je découvre cette fonctionnalité.
+
+Youssef HAFSI
+44:47
+Pourquoi c'est intéressant ? Parce que ça me permet par exemple de dire si dans ton **** tu arrives à telle étape, je te planifie automatiquement une revue, un appel, une relance du client ou un envoi de documentation, etc. Par exemple, je suis dans l'étape contact fait, dès que j'ai le prospect qualifié, donc dès que je passe le deal en prospect qualifié, j'ai une activité qui se crée, revue email, une notification pour vous. Quelque chose qui se crée dans vos activités, une visite, peu importe, soit pour le commercial d'honneur, soit pour vous, pour que vous sachiez qu'il y a quelque chose qui doit être fait. Et comme ça, ça peut même être un petit message Teams que vous recevez, et ça permet de vous tenir au courant et d'avoir vos activités qui sont mises à jour. Notifications, création d'événements, création d'un événement dans Calendrier, appel, message, en interne, en externe, peu importe.
+
+Michel Garcia
+46:07
+Les notifications quand on perd, ça c'est bien ça. Ou quand on gagne, c'est encore mieux.
+
+Youssef HAFSI
+46:11
+Ou quand vous gagnez, ou quand j'arrive au stade du deal, ou quand je l'ai identifié mais que ça dépasse un certain montant, là vous allez dire, ah c'est intéressant, il faut que j'aille voir, etc. Oui, je sais, vous êtes 3, mais si on met bien les process, demain si vous êtes 10, c'est plus simple à suivre. Et honnêtement, ce n'est pas parce que vous êtes 3, vous voyez, même nous, en interne, on n'est pas nombreux, Mais ça nous permet d'éviter les conversations à droite à gauche et tout est centralisé. Je rentre dans mon opportunité, je vois tout, je sais ce qui se passe. Je n'ai pas besoin d'aller relancer un tel et un tel et à perdre du temps. Je sais tout de suite ce qui se passe.
+
+Michel Garcia
+46:50
+C'est important. Je vois tout à fait. Les choses qui sont écrites là, c'est des choses qu'on communique quand on boit un café ou quand tout à coup on se rappelle. Ou un petit e-mail pour plus d'informations. On a gagné ce truc. Je l'ai archivé, vous le trouvez dans ce fichier. Il faut.
+
+Youssef HAFSI
+47:08
+Continuer à discuter autour du café, parce qu'il y a des choses qui se disent qu'on ne va pas forcément écrire, mais aussi centraliser, parce que si demain un tel ou un tel n'est pas là et absent pour X raisons, ça ne s'arrête pas. Donc, parce que je regarde le temps passé, on a juste après nous la séance de Katia. Moi, ce que je vais faire, de toute façon, après, on va noter. Il y a une partie, donc l'interfaçage avec Business Central. Donc, ça, c'est une partie. On va faire une évaluation. Il y a, je pense, un petit peu de temps à passer ensemble à restructurer le CRM, à mettre quelques automatismes, à créer des emails.
+
+Youssef HAFSI
+47:46
+Donc, c'est un petit peu de reparamétrage, formation quelque part. Donc là ça ne demande pas du développement, ça demande juste du temps qu'on soit ensemble et qu'on refasse ça, qu'est-ce qu'on veut comme mail, qu'est-ce qu'on veut comme automatisme, etc. Et puis je pense que c'est tout, parce que vous avez déjà l'utilisé, c'est juste après de le restructurer et de mettre les bonnes choses.
+
+Michel Garcia
+48:12
+Il faut bien restructurer et puis peut-être mettre des bons champs dans l'édit. Il y a des champs qu'il faut améliorer parce que c'est des champs qu'ensuite je n'aurai besoin pour faire des résumés de présentation pour mes séances de direction, parce qu'aujourd'hui il y a des champs qui n'existent pas et qu'il faudra absolument ajouter. Donc ce genre de choses, je suis preneur, il faut qu'on trouve un moment. C'est priorité, on peut faire ça en parallèle. Oui, c'est dans le cadre du projet.
+
+Youssef HAFSI
+48:37
+Je vais vous envoyer cette URL, je l'envoie dans Teams. Si vous arrivez à cliquer dessus et me dire si ça fonctionne. Vous pouvez même partager l'écran comme ça je vois avec vous. Sinon, c'est peut-être un autre lien qui me permet de... Parce que j'aimerais bien faire une copie de votre CRM qu'on puisse travailler dessus, pas toucher l'actuel et si c'est bon, on repasse les.
+
+Michel Garcia
+49:02
+Éléments. Et puis, je vois aussi là, je. Me demande si je dois pas. Changer... Tiens, qu'est-ce qui se passe ? Il me dit que je n'ai pas le droit...
+
+Unknown speaker
+49:10
+Ah non, c'est bon, ça va rentrer. Là. Accepté. Commencer à vendre plus.
+
+Michel Garcia
+49:18
+S'inscrire en deux minutes.
+
+Youssef HAFSI
+49:20
+Je peux voir votre écran, si vous pouvez me partager. Normalement, vous n'avez pas besoin de vous inscrire.
+
+Unknown speaker
+49:26
+Oui, bien sûr. Juste vous connecter. Voilà. Ça c'est l'écran. Vous voyez l'écran ?
+
+Youssef HAFSI
+49:35
+Non, regardez, vous voyez, vous avez déjà un compte connexion.
+
+Unknown speaker
+49:40
+Ici ? Oui. Je pense pas que j'ai changé de mot de passe. Voilà.
+
+Michel Garcia
+50:03
+Vous voyez mon écran? Je vois votre écran.
+
+Youssef HAFSI
+50:10
+Je ne sais pas si c'est le bon lien que je suis envoyé. Ce n'est pas grave, je vais vérifier avec PipeDrive et avec leur support et je vous le dirai.
+
+Unknown speaker
+50:23
+Et je vous le dirai, parce qu'en principe, eux, vous devez apparaître, mais je vais voir avec eux. Donc j'aimerais bien pouvoir faire une copie de l'environnement et puis faire les tests dessus.
+
+Michel Garcia
+50:41
+Vous me dites si vous avez besoin.
+
+Youssef HAFSI
+50:42
+Même des accès, moi je. N'Ai pas de problème. Non mais je préfère, je ne veux pas travailler sur l'environnement actuel. Une copie c'est toujours plus simple.
+
+Michel Garcia
+50:50
+Je. Regardais tout à l'heure sur les 3 petits points, juste une petite question. Automation, c'était là. Oui, Automation, c'est là. Est-ce qu'il faut que j'ai. Un abonnement ? Est-ce que mon abonnement, il est...
+
+Michel Garcia
+51:02
+Est-ce qu'il me donne ça parce que je. N'Ai jamais rentré dans ce menu ? C'est pour ça que j'ai besoin de vous connecter pour voir ce que vous avez.
+
+Youssef HAFSI
+51:09
+C'est ça que je ne sais pas. Nous, comme on est partenaire PipeDrive, quand je me connecte, moi, j'ai tout. J'ai accès à tout, mais si je ne me connecte pas à votre tenant, je ne vois pas ce qu'il y a. Donc je regarde ça et je vous dis si c'est une question d'abonnement ou pas.
+
+Michel Garcia
+51:26
+Ok, d'accord. Vous me dites ce que vous avez. Besoin, moi je vous envoie les infos nécessaires. D'accord, ça marche. Hop, parfait. On se reprend à un rendez-vous dans quelques jours. Qu'est-ce que vous proposez ?
+
+Michel Garcia
+51:40
+Vous me proposez quelques dates. Moi, la semaine prochaine, je suis totalement. Booké parce qu'on a. Une grosse conférence ici.
+
+Youssef HAFSI
+51:45
+Non, ce ne sera pas la semaine prochaine. De toute façon, on a un point avec Emmanuel cet après-midi. Là, nous, maintenant, la prochaine phase, c'est qu'on va rentrer vraiment dans le paramétrage, etc. Donc, sur la phase d'analyse, je vais faire juste un petit compte rendu. Je vous enverrai pour valider. Et derrière, une fois qu'on aura fini toutes les analyses, on passe à la phase de conception. Et là, on fera ensemble les ateliers.
+
+Youssef HAFSI
+52:06
+Donc, ce sera peut-être à partir du début octobre. On commence à faire le paramétrage. Entre temps, le temps que je me connecte à votre environnement, on aura comme ça toutes les infos. La situation actuelle.
+
+Michel Garcia
+52:19
+Parfait. Merci beaucoup Youssef pour tous ces échanges. Je me réjouis de devenir un peu meilleur sur Piledrive. Merci à tous.
+
+
+00:00

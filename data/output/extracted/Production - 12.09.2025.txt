@@ -1,0 +1,102 @@
+Atelier Production 
+Présentation du process de production actuel et du tracking tool 
+(équivalent du PLM actuel). 
+Commandes 
+Dans le process actuel, 
+il n‘y a pas de lien entre la création des parts et les 
+demandes d'achat. 
+Commandes dans le tracking tool: le chef de projet regarde les parts qui sont 
+“needed”, bascule sur le bouton “ACH”, réserve un numéro de commande (1 par 
+supplier), et copie-colle manuellement les numéros de articles nécessaires dans 
+sa commande (word / pdf). “Validated” = “Achetées”. Ce processus manuel est 
+chronophage. 
+Le prix figure dans la commande. 
+La commande se fait normalement au niveau de chaque pièce, mais parfois au 
+niveau “instance” (pas détaillé dans la commande), ce qui pose problème au 
+moment de la réception (on ne sait plus ce qu'il 
+y a dans la commande) 
+La documentation associées aux articles (dessins...) n'est pas attachée à un article 
+pour le moment dans le tracking tool. Le chef de projet constitue un data-pack de 
+commande à la main (fichier step + pdf) qu'il envoie par e-mail au fournisseur. 
+Cela pourrait changer avec Sharepoint pour éviter une duplication des documents 
+(envoi du lien plutôt que l'envoi du fichier). 
+Cas particulier des projets-offre: 
+Pour les offres, en général la conception n'est pas détaillée, sauf exception 
+(exemple Calibration unit). On fournit alors un fichier step pour que le fournisseur 
+puisse établir un devis. 
+Réceptions: 
+Réalisées par l'AIT. Le chef de projet et le qualiticien stipulent l'attendu 
+(notamment les certificats) > Incoming inspection simplifiée ou poussée. 
+Actuellement il n’y a pas de statut “reçu mais non réceptionné”. Cela pourrait être 
+nécessaire pour valider le paiement du transporteur typiquement (même si le 
+paiement du transporteur se fait en général par le fournisseur), ou pour mieux 
+traçer la progression de lincoming (déclencheur de l'incoming). Ce statut serait 
+associé à la commande.
+Pour la réception, le réceptionniste remplit une check-list sur la complétude de la 
+réception. les pièces sont désormais étiquetées (au niveau d’'un sachet, surtout 
+quand elles sont immédiatement stockées en salle blanche), avec numéro du 
+projet et numéro de série généré automatiquement dans le système. 
+Placement dans le stock: 
+Pour le moment on affecte les articles réceptionnés au projet, et le reste va au 
+“stock projet” ou au “stock général”. Si pièces dédiées, va au stock projet. Si 
+pièces standard (COTS, “STC”), va au stock général (bac différent). En général le 
+stock est associé au projet. 
+En conception, on doit vérifier dans les bases de données si la pièce existe déjà 
+afin de promouvoir l'usage de standards. Le tracking tool facilite cette démarche 
+(outil de recherche). 
+Etapes suivantes avant assemblage: 
+Nettoyage, mise en sachet... tracées dans le tracking tool. Toujours au niveau de 
+chaque article. On peut aussi gérer ces opérations au niveau d'un groupe de 
+pièces dans une instance (lot ou série). 
+Assemblage: 
+Présentation d’un exemple de procédure d'assemblage: document Word qui 
+appelle des articles et spécifie les assemblages de sous-ensembles et du produit 
+fini. N.B: les ASSY sont en fait gérés comme des articles car pré-intégrés par le 
+fournisseur. 
+@ Attention: larborescence CATIA n'est pas strictement la même que 
+l'arborescence d'assemblage 
+! 
+> méthodologie à définir. 
+N.B: la notion d'outillage appelé dans les assemblages n'est pas présente dans 
+CATIA. 
+Nomenclatures: 
+N.B: Pour les outils partagés mis dans linventaire, il faudrait les considérer comme 
+des ressources pas comme des “parts” parfois dupliquées sur chaque projet 
+utilisateur. 
+Vocabulaire:
+« 
+Notion de série: chaque pièce est identifiée de manière unique, chaque 
+étiquette est unique. 
+« 
+Notion de lot: un numéro unique, mais chaque pièce n'est pas identifiée 
+unitairement. Elle fait juste partie d’un lot. 
+Présentation Almakom de BC: 
+Initialisation: 
+On démarre au niveau du projet et du client, du chef de projet (validateur). 
+Normalement au niveau d’un projet on indique un numéro d'article (numéro 
+chapeau, cela peut être la même référence que le projet), qui correspond 
+typiquement à l'assemblage que l'on va vendre. 
+N.B: 
+« 
+Sion vend du papier, on peut générer un article “service” (plutôt que “stock”) ou 
+même laisser vide. 
+« 
+Sion vend deux assemblages (par exemple matériel de vol et jig): on crée deux 
+assemblages rattachés au même article. 
+BOM et nomenclature d'assemblage: 
+Le n° peut être le même que dans CATIA. On peut générer des versions 
+d'assemblage (typiquement quand qq pièces de l’'assemblage évoluent). 
+BC: notion de “position”: correspond au niveau dans la BOM CATIA par défaut, 
+mais devrait en fait respecter la procédure d'assemblage. 
+La fiche article doit inclure le prix, le fournisseur.... 
+On peut associer des ressources (outillages) dans les fiches assemblage. 
+Les informations ajoutées manuellement seront conservées lors d’une mise à jour 
+automatique en provenance de CATIA 
+N.B: sur processus actuel - Gestion de configuration de l'assemblage / la 
+définition: 
+Tant qu'un plan n'est pas sorti à l'extérieur (fournisseur) et signé par les validateurs 
+(PE, CP), on reste en draft issue A. Le passage en version B ne se fait qu'à partir 
+de ce moment là. Donc durant la phase de montée en maturité de la définition 
+(avant PDR, après PDR...) on reste en draft A avec des sauvegardes intermédiaires. 
+La BOM ASSY peut appeler des sous-assembly.
+L'arborescence est plutôt construite “Top-Down” en appelant les sous-ensembles.

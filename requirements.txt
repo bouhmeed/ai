@@ -1,0 +1,19 @@
+
+langchain
+langchain-groq
+langchain-community
+docx2txt
+python-docx
+faiss-cpu
+sentence-transformers
+tiktoken
+unstructured  # pour extraire texte de .docx, PDF, etc.
+langchain-huggingface
+python-docx
+spacy
+pymupdf
+PyYAML
+faiss-cpu
+sentence-transformers
+numpy
+tqdm

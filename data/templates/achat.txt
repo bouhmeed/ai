@@ -1,0 +1,162 @@
+3. Planification
+3.1. Contexte et Hypothèses
+
+Décrire le contexte général du processus d’achat du client afin de comprendre son fonctionnement actuel, d’identifier les difficultés rencontrées et de clarifier les attentes vis-à-vis du projet.
+Cette étape doit également préciser les hypothèses retenues, c’est-à-dire les éléments incertains ou dépendants d’autres facteurs (données, outils, organisation, etc.) susceptibles d’influencer la suite du projet.
+
+3.3. Principales règles de gestion
+Décrire les règles de gestion métier appliquées par le client dans le processus d’achat, ainsi que la manière dont l’ERP ou le futur système peut les prendre en charge ou les automatiser.
+Ces règles définissent le fonctionnement opérationnel concret : validations, imputations, gestion des articles, contrôle qualité, etc.
+
+3.4. Documents et statistiques
+À compléter par Almatech
+
+3.5. Volume des données
+À compléter par Almatech
+
+3.6. Écarts critiques et interfaces
+Identifier les écarts majeurs entre le processus actuel du client et les bonnes pratiques ou les exigences cibles du projet.
+Repérer également les interfaces nécessaires entre le système cible et les autres applications, services ou départements impactés.
+Ces éléments constituent la base de la liste des écarts à suivre et à clôturer d’ici la fin de la phase d’Analyse.
+4. Traitement d’une livraison directe
+
+4.1. Contexte et Hypothèses
+Décrire la situation actuelle du client concernant le traitement des livraisons directes, les éventuelles difficultés rencontrées et les attentes exprimées.
+Préciser également les hypothèses retenues pour ce processus, notamment les éléments organisationnels ou techniques pouvant influencer son fonctionnement dans l’ERP.
+
+4.3. Principales règles de gestion
+Décrire les règles de gestion appliquées par le client dans le cadre des livraisons directes, ainsi que la manière dont l’ERP doit les prendre en charge.
+Ces règles peuvent inclure : les validations, les spécificités de traitement, la gestion des documents logistiques, ou tout point métier particulier.
+
+4.4. Documents et statistiques
+Lister les documents ERP à générer dans le cadre d’une livraison directe (documents logistiques, confirmations, etc.) ainsi que les états ou statistiques nécessaires au suivi du processus.
+
+4.5. Volume des données
+Indiquer les volumes de données concernés : données référentielles, nombre de documents ou transactions générés par période (jour, semaine, mois, année).
+
+4.6. Écarts critiques et interfaces
+Identifier les écarts majeurs entre le processus actuel et le modèle cible, ainsi que les interfaces nécessaires avec d’autres applications ou services.
+Ces éléments doivent être intégrés dans la liste des écarts à traiter avant la fin de la phase d’Analyse.
+
+5.	Saisie d’une demande de prix
+5.1.	Contexte et Hypothèses
+Décrire le fonctionnement actuel du processus de saisie des demandes de prix, identifier les difficultés rencontrées par les utilisateurs, préciser les attentes du client, et énoncer les hypothèses qui peuvent avoir un impact sur le projet.
+
+5.3.	Principales règles de gestion
+
+Identifier et documenter les règles de gestion spécifiques appliquées par le client pour le processus étudié (ici, achat, demande de prix, commande, etc.) et expliquer comment l’ERP peut les supporter.
+L’idée est de rendre clair ce qui est obligatoire, conditionnel ou optionnel, et comment le système va répondre à chaque règle.
+
+5.4.	Documents et statistiques
+Identifier et décrire tous les documents générés et les statistiques/rapports attendus dans le processus de demande de prix.
+L’objectif est de préciser ce qui doit être imprimé, visualisé ou exporté pour le suivi, le contrôle et l’analyse des demandes de prix.
+
+5.5.	Volume des données
+Indiquer les volumes des données référentielles ainsi que le nombre de documents par période (jour, semaine, mois ou années).
+
+5.6.	Écarts critiques et interfaces 
+Indiquer les écarts critiques et interfaces identifiés durant ces ateliers d’analyse.
+Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.
+
+
+6.	Saisie d’une commande cadre
+6.1.	Contexte et Hypothèses
+Décrire la situation actuelle, les points critiques et les attentes client sur ce processus.
+Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées.
+
+6.4.	Principales règles de gestion
+Décrire les principales règles du client et comment l’ERP peut y répondre.
+
+6.5.	Documents et statistiques
+Décrire les documents de l’ERP qui doivent être imprimés durant ce processus ainsi que les états et statistiques métiers attendus.
+
+6.6.	Volume des données
+Indiquer les volumes des données référentielles ainsi que le nombre de documents par période (jour, semaine, mois ou années).
+
+6.7.	Écarts critiques et interfaces 
+Indiquer les écarts critiques et interfaces identifiés durant ces ateliers d’analyse.
+Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse (après la phase d'Analyse fonctionnel).
+
+
+7.	Saisie d’une commande d‘achat
+7.1.	Contexte et Hypothèses
+Décrire le contexte du processus de saisie des commandes d’achat, identifier les points critiques et formuler les attentes du client. Mentionner les hypothèses pouvant influencer le projet ou l’analyse.
+
+7.3.	Principales règles de gestion
+Décrire les règles métier principales du client concernant la création et le traitement des commandes d’achat, ainsi que la manière dont l’ERP peut les appliquer ou les automatiser.
+Cette étape permet de vérifier la conformité des processus existants avec le système et de préparer l’adaptation ou la configuration dans l’ERP.
+
+7.4.	Documents et statistiques
+Identifier les documents et états statistiques générés ou attendus dans le processus de commande d’achat.
+Cette étape permet de savoir quoi produire, quoi suivre et comment contrôler le processus dans l’ERP ou tout autre système utilisé par le client.
+
+7.5.	Volume des données
+Indiquer les volumes des données référentielles ainsi que le nombre de documents par période (jour, semaine, mois ou années).
+
+7.6.	Écarts critiques et interfaces 
+Indiquer les écarts critiques et interfaces identifiés durant ces ateliers d’analyse.
+Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse (après la phase d'Analyse fonctionnel).
+
+
+8.	Saisie d’un retour d’une commande achat
+8.1.	Contexte et Hypothèses
+Décrire le fonctionnement actuel de la gestion des retours fournisseurs, identifier les difficultés rencontrées, et préciser les attentes et hypothèses qui peuvent impacter le projet.
+
+8.3.	Principales règles de gestion
+Décrire les règles métiers appliquées par le client lors du traitement d’un retour d’achat et expliquer comment l’ERP peut supporter ou automatiser ces règles.
+Cette section doit identifier les contraintes, les validations et les étapes critiques liées au processus de retour.
+
+8.4.	Documents et statistiques
+Décrire les documents de l’ERP qui doivent être imprimés durant ce processus ainsi que les états et statistiques métiers attendus.
+
+8.5.	Volume des données
+Indiquer les volumes des données référentielles ainsi que le nombre de documents par période (jour, semaine, mois ou années).
+
+8.6.	Écarts critiques et interfaces 
+Indiquer les écarts critiques et interfaces identifiés durant ces ateliers d’analyse.
+Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.
+
+
+9.	Rapports achat
+9.1.	Contexte et Hypothèses
+Décrire le contexte du processus de reporting achat du client, identifier les points critiques et clarifier les attentes pour la création des rapports ou tableaux de bord.
+Il faut également lister les hypothèses susceptibles d’influencer le projet (qualité des données, disponibilité des systèmes, granularité des informations, etc.).
+
+9.3.	Principales règles de gestion
+Identifier et décrire les règles métier essentielles que le client applique dans le processus achat et expliquer comment l’ERP peut les supporter ou automatiser.
+L’objectif est de fournir une base claire pour configurer les rapports et tableaux de bord en accord avec les pratiques réelles du client.
+9.4.	Documents et statistiques
+Décrire les documents de l’ERP qui doivent être imprimés durant ce processus ainsi que les états et statistiques métiers attendus.
+
+9.5.	Volume des données
+Indiquer les volumes des données référentielles ainsi que le nombre de documents par période (jour, semaine, mois ou années).
+
+9.6.	Ecarts critiques et interfaces 
+Indiquer les écarts critiques et interfaces identifiés durant ces ateliers d’analyse.
+Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.
+
+
+10.	Historique achat
+10.1.	Contexte et Hypothèses
+Décrire la situation actuelle, les points critiques et les attentes client sur ce processus.
+Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées.
+10.3.	Principales règles de gestion
+Décrire les règles clés appliquées par le client dans le processus d’achat, et expliquer comment l’ERP (ou tout autre système) peut supporter ces règles.
+L’objectif est de comprendre les pratiques métier, la conformité et la traçabilité des opérations.
+
+10.4.	Documents et statistiques
+Décrire les documents et états métiers à exploiter dans le cadre de l’historique des achats, ainsi que les statistiques attendues.
+Cette étape doit permettre de comprendre quels documents doivent être accessibles, quelles informations doivent être consultables, et quels rapports ou indicateurs sont nécessaires pour le suivi et l’analyse du processus d’achat.
+
+10.5.	Volume des données
+Indiquer les volumes des données référentielles ainsi que le nombre de documents par période (jour, semaine, mois ou années).
+
+10.6.	Écarts critiques et interfaces 
+Indiquer les écarts critiques et interfaces identifiés durant ces ateliers d’analyse.
+Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.
+
+
+11.	Annexe 1 : Liste d‘écarts
+11.1.	Liste d’écarts
+La liste d’écart doit être initialisée et finalisée à la fin de la phase d’analyse.
+Indiquer l’URL où la liste des écarts sera stockée (SharePoint / Teams / DevOps / Autre).

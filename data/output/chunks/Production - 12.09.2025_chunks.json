@@ -1,0 +1,897 @@
+{
+  "source_file": "Production - 12.09.2025.txt",
+  "processing_info": {
+    "total_chunks": 34,
+    "sections_processed": 2,
+    "domains_detected": [
+      "production"
+    ],
+    "processing_date": "2025-12-02T12:00:24.726819"
+  },
+  "chunks": [
+    {
+      "text": "Voici les blocs sémantiquement autonomes découpés à partir du texte :",
+      "chunk_id": "e3cb870ebb3bbb07",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 0,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 11,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": []
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Cela pourrait changer avec Sharepoint pour éviter une duplication des documents (envoi du lien plutôt que l'envoi du fichier).",
+      "chunk_id": "20ec9dad4cc6154c",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 1,
+        "section_fad": "documents",
+        "chunk_type": "document_reference",
+        "total_chunks_section": 25,
+        "word_count": 19,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": []
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Cas particulier des projets-offre : Pour les offres, en général la conception n'est pas détaillée, sauf exception (exemple Calibration unit). On fournit alors un fichier step pour que le fournisseur puisse établir un devis.",
+      "chunk_id": "3a98c4897a288ff7",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 2,
+        "section_fad": "documents",
+        "chunk_type": "document_reference",
+        "total_chunks_section": 25,
+        "word_count": 34,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [
+            "devis"
+          ],
+          "systemes": [],
+          "modules_bc": [
+            "projet"
+          ]
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Réceptions : Réalisées par l'AIT. Le chef de projet et le qualiticien stipulent l'attendu (notamment les certificats) > Incoming inspection simplifiée ou poussée.",
+      "chunk_id": "82f43d14da561d44",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 3,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 23,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [
+            "Réception"
+          ],
+          "roles": [
+            "chef de projet"
+          ],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": [
+            "projet"
+          ]
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Actuellement il n’y a pas de statut “reçu mais non réceptionné”. Cela pourrait être nécessaire pour valider le paiement du transporteur typiquement (même si le paiement du transporteur se fait en général par le fournisseur), ou pour mieux traçer la progression de l'incoming (déclencheur de l'incoming). Ce statut serait associé à la commande.",
+      "chunk_id": "f49dccdd59a135c4",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 4,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 53,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [
+            "réception"
+          ],
+          "roles": [],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": []
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Pour la réception, le réceptionniste remplit une check-list sur la complétude de la réception. Les pièces sont désormais étiquetées (au niveau d’un sachet, surtout quand elles sont immédiatement stockées en salle blanche), avec numéro du projet et numéro de série généré automatiquement dans le système.",
+      "chunk_id": "1d68344cd7c15cd5",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 5,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 45,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [
+            "réception"
+          ],
+          "roles": [],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": [
+            "stock",
+            "projet"
+          ]
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Placement dans le stock : Pour le moment on affecte les articles réceptionnés au projet, et le reste va au “stock projet” ou au “stock général”. Si pièces dédiées, va au stock projet. Si pièces standard (COTS, “STC”), va au stock général (bac différent). En général le stock est associé au projet.",
+      "chunk_id": "f0b41b62accad935",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 6,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 52,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [
+            "réception"
+          ],
+          "roles": [],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": [
+            "stock",
+            "projet"
+          ]
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "En conception, on doit vérifier dans les bases de données si la pièce existe déjà afin de promouvoir l'usage de standards. Le tracking tool facilite cette démarche (outil de recherche).",
+      "chunk_id": "f2b32016f1537d74",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 7,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 30,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [],
+          "systemes": [
+            "tracking tool"
+          ],
+          "modules_bc": []
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Etapes suivantes avant assemblage : Nettoyage, mise en sachet... tracées dans le tracking tool. Toujours au niveau de chaque article. On peut aussi gérer ces opérations au niveau d'un groupe de pièces dans une instance (lot ou série).",
+      "chunk_id": "609f2ae994a469c8",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 8,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 38,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [],
+          "systemes": [
+            "tracking tool"
+          ],
+          "modules_bc": []
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Assemblage : Présentation d’un exemple de procédure d'assemblage : document Word qui appelle des articles et spécifie les assemblages de sous-ensembles et du produit fini. N.B: les ASSY sont en fait gérés comme des articles car pré-intégrés par le fournisseur.",
+      "chunk_id": "547b59ab3ee714e4",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 9,
+        "section_fad": "documents",
+        "chunk_type": "document_reference",
+        "total_chunks_section": 25,
+        "word_count": 40,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [
+            "procédure"
+          ],
+          "systemes": [],
+          "modules_bc": []
+        },
+        "process_keywords": [
+          "procédure"
+        ],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "@ Attention : l'arborescence CATIA n'est pas strictement la même que l'arborescence d'assemblage > méthodologie à définir.",
+      "chunk_id": "696f0b087386c184",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 10,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 17,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [],
+          "systemes": [
+            "CATIA"
+          ],
+          "modules_bc": []
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "N.B: la notion d'outillage appelé dans les assemblages n'est pas présente dans Nomenclatures.",
+      "chunk_id": "fb9bc4bc7992b3fd",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 11,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 13,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [
+            "Nomenclature"
+          ],
+          "systemes": [],
+          "modules_bc": []
+        },
+        "process_keywords": [],
+        "business_central_terms": [
+          "nomenclature"
+        ]
+      }
+    },
+    {
+      "text": "N.B: Pour les outils partagés mis dans l'inventaire, il faudrait les considérer comme des ressources pas comme des “parts” parfois dupliquées sur chaque projet utilisateur.",
+      "chunk_id": "46dd6ebdd979b721",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 12,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 25,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [
+            "utilisateur"
+          ],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": [
+            "projet"
+          ]
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Vocabulaire : Notion de série : chaque pièce est identifiée de manière unique, chaque étiquette est unique. Notion de lot : un numéro unique, mais chaque pièce n'est pas identifiée unitairement. Elle fait juste partie d’un lot.",
+      "chunk_id": "25d0743e4b436647",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 13,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 37,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": []
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Présentation Almakom de BC : Initialisation : On démarre au niveau du projet et du client, du chef de projet (validateur).",
+      "chunk_id": "2f4b5aa0d55d8890",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 14,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 21,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [
+            "chef de projet"
+          ],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": [
+            "projet"
+          ]
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Normalement au niveau d’un projet on indique un numéro d'article (numéro chapeau, cela peut être la même référence que le projet), qui correspond typiquement à l'assemblage que l'on va vendre.",
+      "chunk_id": "40b5423566d9ff73",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 15,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 30,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": [
+            "projet"
+          ]
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Sion vend du papier, on peut générer un article “service” (plutôt que “stock”) ou même laisser vide.",
+      "chunk_id": "57f352c0afd77e50",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 16,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 17,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": [
+            "stock",
+            "service"
+          ]
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Sion vend deux assemblages (par exemple matériel de vol et jig) : on crée deux assemblages rattachés au même article.",
+      "chunk_id": "aa499d319768c225",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 17,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 20,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": []
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "BOM et nomenclature d'assemblage : Le n° peut être le même que dans CATIA. On peut générer des versions d'assemblage (typiquement quand qq pièces de l’'assemblage évoluent).",
+      "chunk_id": "1fd83b117a8ef231",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 18,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 27,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [
+            "nomenclature",
+            "BOM"
+          ],
+          "systemes": [
+            "CATIA"
+          ],
+          "modules_bc": []
+        },
+        "process_keywords": [],
+        "business_central_terms": [
+          "nomenclature"
+        ]
+      }
+    },
+    {
+      "text": "BC : notion de “position” : correspond au niveau dans la BOM CATIA par défaut, mais devrait en fait respecter la procédure d'assemblage.",
+      "chunk_id": "dd4a996af0033e8a",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 19,
+        "section_fad": "documents",
+        "chunk_type": "processus_metier",
+        "total_chunks_section": 25,
+        "word_count": 23,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [
+            "procédure",
+            "BOM"
+          ],
+          "systemes": [
+            "CATIA"
+          ],
+          "modules_bc": []
+        },
+        "process_keywords": [
+          "procédure"
+        ],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "La fiche article doit inclure le prix, le fournisseur.... On peut associer des ressources (outillages) dans les fiches assemblage.",
+      "chunk_id": "b460325d319392b0",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 20,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 19,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": []
+        },
+        "process_keywords": [],
+        "business_central_terms": [
+          "fiche article"
+        ]
+      }
+    },
+    {
+      "text": "Les informations ajoutées manuellement seront conservées lors d’une mise à jour automatique en provenance de CATIA",
+      "chunk_id": "19ce786cd2dd52f7",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 21,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 16,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [],
+          "systemes": [
+            "CATIA"
+          ],
+          "modules_bc": []
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "N.B: sur processus actuel - Gestion de configuration de l'assemblage / la définition : Tant qu'un plan n'est pas sorti à l'extérieur (fournisseur) et signé par les validateurs (PE, CP), on reste en draft issue A. Le passage en version B ne se fait qu'à partir de ce moment là.",
+      "chunk_id": "8b1ff187b43513e0",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 22,
+        "section_fad": "documents",
+        "chunk_type": "ecart_interface",
+        "total_chunks_section": 25,
+        "word_count": 50,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": []
+        },
+        "process_keywords": [
+          "processus"
+        ],
+        "business_central_terms": [
+          "configuration"
+        ]
+      }
+    },
+    {
+      "text": "Donc durant la phase de montée en maturité de la définition (avant PDR, après PDR...) on reste en draft A avec des sauvegardes intermédiaires.",
+      "chunk_id": "8a8d152e2704c570",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 23,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 24,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": []
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "La BOM ASSY peut appeler des sous-assembly. L'arborescence est plutôt construite “Top-Down” en appelant les sous-ensembles.",
+      "chunk_id": "5b45d30715874133",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 24,
+        "section_fad": "documents",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 25,
+        "word_count": 16,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [
+            "BOM"
+          ],
+          "systemes": [],
+          "modules_bc": []
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Voici les blocs sémantiquement autonomes découverts dans le texte :",
+      "chunk_id": "686cd7941526b3df",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 0,
+        "section_fad": "general",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 9,
+        "word_count": 10,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": []
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Atelier Production\nPrésentation du process de production actuel et du tracking tool\n(équivalent du PLM actuel).",
+      "chunk_id": "3b14b7faae12c33b",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 1,
+        "section_fad": "general",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 9,
+        "word_count": 16,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [
+            "Production",
+            "production"
+          ],
+          "roles": [],
+          "documents": [],
+          "systemes": [
+            "tracking tool",
+            "PLM"
+          ],
+          "modules_bc": [
+            "Production",
+            "production"
+          ]
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Dans le process actuel,\nil n‘y a pas de lien entre la création des parts et les\ndemandes d'achat.",
+      "chunk_id": "61897f749890b429",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 2,
+        "section_fad": "general",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 9,
+        "word_count": 19,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [
+            "achat"
+          ],
+          "roles": [],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": [
+            "achat"
+          ]
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Commandes dans le tracking tool: le chef de projet regarde les parts qui sont\n“needed”, bascule sur le bouton “ACH”, réserve un numéro de commande (1 par\nsupplier), et copie-colle manuellement les numéros de articles nécessaires dans\nsa commande (word / pdf). “Validated” = “Achetées”.",
+      "chunk_id": "bac9d62cd5bc31b6",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 3,
+        "section_fad": "general",
+        "chunk_type": "document_reference",
+        "total_chunks_section": 9,
+        "word_count": 45,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [
+            "chef de projet"
+          ],
+          "documents": [],
+          "systemes": [
+            "tracking tool"
+          ],
+          "modules_bc": [
+            "projet"
+          ]
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Ce processus manuel est chronophage.",
+      "chunk_id": "bfc20342cadcf834",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 4,
+        "section_fad": "general",
+        "chunk_type": "processus_metier",
+        "total_chunks_section": 9,
+        "word_count": 5,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": []
+        },
+        "process_keywords": [
+          "processus"
+        ],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Le prix figure dans la commande.",
+      "chunk_id": "9f6a42e3bfc8a42b",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 5,
+        "section_fad": "general",
+        "chunk_type": "contexte_general",
+        "total_chunks_section": 9,
+        "word_count": 6,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": []
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "La commande se fait normalement au niveau de chaque pièce, mais parfois au\nniveau “instance” (pas détaillé dans la commande), ce qui pose problème au\nmoment de la réception (on ne sait plus ce qu'il\ny a dans la commande).",
+      "chunk_id": "ab10d69af35b691e",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 6,
+        "section_fad": "general",
+        "chunk_type": "point_critique",
+        "total_chunks_section": 9,
+        "word_count": 40,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [
+            "réception"
+          ],
+          "roles": [],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": []
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "La documentation associées aux articles (dessins...) n'est pas attachée à un article\npour le moment dans le tracking tool.",
+      "chunk_id": "5661316b72161cb1",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 7,
+        "section_fad": "general",
+        "chunk_type": "document_reference",
+        "total_chunks_section": 9,
+        "word_count": 19,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [],
+          "documents": [],
+          "systemes": [
+            "tracking tool"
+          ],
+          "modules_bc": []
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    },
+    {
+      "text": "Le chef de projet constitue un data-pack de commande à la main (fichier step + pdf)\nqu'il envoie par e-mail au fournisseur.",
+      "chunk_id": "e7b65dc2b98fc47a",
+      "metadata": {
+        "source_file": "Production - 12.09.2025.txt",
+        "chunk_index": 8,
+        "section_fad": "general",
+        "chunk_type": "document_reference",
+        "total_chunks_section": 9,
+        "word_count": 22,
+        "domain": "production",
+        "hierarchy": "",
+        "entities": {
+          "processus": [],
+          "roles": [
+            "chef de projet"
+          ],
+          "documents": [],
+          "systemes": [],
+          "modules_bc": [
+            "projet"
+          ]
+        },
+        "process_keywords": [],
+        "business_central_terms": []
+      }
+    }
+  ]
+}

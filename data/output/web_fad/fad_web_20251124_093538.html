@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAD — Planification</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    :root {
+      --bg: #f9fafb;
+      --card: white;
+      --primary: #0ea5e9;
+    }
+    body {
+      background: linear-gradient(135deg, var(--bg) 0%, #ffffff 100%);
+      padding: 2rem;
+      color: #1e293b;
+      font-family: 'Inter', sans-serif;
+    }
+    .fad-card {
+      background: white;
+      border-radius: 16px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+      border-left: 4px solid #cbd5e1;
+    }
+    .context { border-left-color: #3b82f6; background-color: #eff6ff; }
+    .rules { border-left-color: #10b981; background-color: #f0fdf4; }
+    .docs { border-left-color: #8b5cf6; background-color: #f5f3ff; }
+    .volume { border-left-color: #f59e0b; background-color: #fffbeb; }
+    .gaps { border-left-color: #ef4444; background-color: #fef2f2; }
+    h1 { text-align: center; font-size: 1.875rem; font-weight: 700; margin-bottom: 2rem; color: #0ea5e9; }
+    h2 { font-size: 1.25rem; font-weight: 600; margin-bottom: 0.75rem; }
+    [contenteditable] { outline: none; padding: 0.25rem 0; }
+    [contenteditable]:focus { background: #f0f9ff; border-radius: 6px; }
+    .toolbar {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      display: flex;
+      gap: 0.75rem;
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.625rem 1.25rem;
+      border-radius: 12px;
+      font-weight: 600;
+      color: white;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+      cursor: pointer;
+    }
+    .btn-primary { background: linear-gradient(135deg, #0ea5e9, #38bdf8); }
+  </style>
+</head>
+<body>
+  <header><h1 contenteditable="true">Planification</h1></header>
+  <main class="max-w-3xl mx-auto">
+    
+    <section class="fad-card default" id="sec-0">
+      <h2 contenteditable="true">3.1. Contexte et Hypothèses</h2>
+      <div contenteditable="true">**Contexte et Hypothèses**<br><br>Le client est une entreprise de l'industrie aérospatiale qui fabrique des composants sous-traités. Ils ont besoin d'un ERP pour gérer les stocks, les approvisionnements, les ventes, la facturation et les projets. Le client a déjà une base de données créée dans Microsoft Dynamics 365 Business Central.<br><br>**Hypothèses**<br><br>* Le client a besoin d'une traçabilité end-to-end des nomenclatures d'articles, depuis l'achat jusqu'à leur intégration sur le produit.<br>* Le client a besoin de gérer les nomenclatures d'assemblage pour avoir un niveau de licence moindre que la production.<br>* Le client a besoin de connecter les nomenclatures d'assemblage à des outils de PLM comme SOLIDWORK.<br>* Le client a besoin de gérer les projets, les plannings, les ressources et les prévisions d'achat.<br>* Le client a besoin de structurer les tâches et les jalons de paiement de leur client vers eux.<br>* Le client a besoin de créer des factures et de les valider pour qu'elles partent par mail.<br><br>**Objets BC**<br><br>* Fiche article<br>* Journal des achats<br>* Workflow validation<br>* Projet<br>* Tâche<br>* Ressource<br>* Prévision d'achat<br>* Jalon de paiement<br>* Facture<br><br>**Informations manquantes**<br><br>* Les détails de la configuration actuelle de l'ERP du client.<br>* Les spécifications techniques des outils de PLM utilisés par le client.<br>* Les exigences spécifiques de la clientèle du client en matière de traçabilité et de gestion des nomenclatures d'articles.</div>
+    </section>
+    
+  </main>
+  <footer class="text-center mt-10 text-gray-600 text-sm">
+    Généré le 24/11/2025 — © Almatech
+  </footer>
+
+  <div class="toolbar">
+    <button id="saveBtn" class="btn btn-primary"><i class="fas fa-file-export"></i> Exporter</button>
+  </div>
+
+  <script>
+    document.getElementById("saveBtn").addEventListener("click", () => {
+      const main = document.querySelector('main').innerHTML;
+      const h1 = document.querySelector('h1').innerText;
+      const style = `*{font-family:'Inter',sans-serif} body{background:#f9fafb;padding:2rem} .fad-card{background:white;border-radius:16px;padding:2rem;margin-bottom:1.5rem} .context{border-left:4px solid #3b82f6;background:#eff6ff} .rules{border-left:4px solid #10b981;background:#f0fdf4} .docs{border-left:4px solid #8b5cf6;background:#f5f3ff} .volume{border-left:4px solid #f59e0b;background:#fffbeb} .gaps{border-left:4px solid #ef4444;background:#fef2f2} h1{text-align:center;font-size:1.875rem;color:#0ea5e9;margin-bottom:2rem} h2{font-size:1.25rem;margin-bottom:0.75rem}`;
+      const blob = new Blob([`<!DOCTYPE html><html><head><meta charset="utf-8"><title>FAD — ${h1}</title><style>${style}</style></head><body><h1>${h1}</h1>${main}</body></html>`], {type: 'text/html'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'FAD_Almatech.html';
+      a.click();
+      URL.revokeObjectURL(url);
+    });
+  </script>
+</body>
+</html>

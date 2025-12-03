@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>FAD — Planification</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --context: #3b82f6; --rules: #10b981; --docs: #8b5cf6;
+            --volume: #f59e0b; --gaps: #ef4444;
+        }
+        * { font-family: 'Inter', sans-serif; box-sizing: border-box; }
+        body {
+            background: linear-gradient(135deg, #f0f9ff 0%, #f9fafb 100%);
+            color: #1e293b;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        .app-header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            padding: 1.25rem 2rem;
+            text-align: center;
+        }
+        .tabs {
+            display: flex;
+            background: white;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .tab-btn {
+            padding: 1rem 1.5rem;
+            background: none;
+            border: none;
+            font-weight: 600;
+            color: #64748b;
+            cursor: pointer;
+            position: relative;
+        }
+        .tab-btn.active {
+            color: #3b82f6;
+        }
+        .tab-btn.active::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 25%;
+            right: 25%;
+            height: 3px;
+            background: #3b82f6;
+            border-radius: 3px;
+        }
+        .tab-content {
+            display: none;
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        .content-section {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid #cbd5e1;
+        }
+        .context { border-left-color: var(--context); background-color: #eff6ff; }
+        .rules { border-left-color: var(--rules); background-color: #f0fdf4; }
+        .docs { border-left-color: var(--docs); background-color: #f5f3ff; }
+        .volume { border-left-color: var(--volume); background-color: #fffbeb; }
+        .gaps { border-left-color: var(--gaps); background-color: #fef2f2; }
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: #1e293b;
+        }
+        .section-content {
+            line-height: 1.7;
+            color: #334155;
+            outline: none;
+        }
+        .missing {
+            color: #dc2626;
+            font-style: italic;
+        }
+        .section-textarea {
+            width: 100%;
+            min-height: 120px;
+            padding: 0.75rem;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            font-family: 'Inter', monospace;
+            font-size: 0.95rem;
+            margin-top: 0.5rem;
+        }
+        .btn {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        .btn:hover {
+            opacity: 0.9;
+        }
+        .toolbar {
+            position: fixed;
+            bottom: 1.5rem;
+            right: 1.5rem;
+            display: flex;
+            gap: 0.75rem;
+            z-index: 1000;
+        }
+        .action-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.25rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            font-weight: 600;
+            cursor: pointer;
+            border: 1px solid #e2e8f0;
+        }
+        .action-btn.export {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+        }
+        .notification {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            padding: 0.75rem 1.25rem;
+            background: #10b981;
+            color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            z-index: 2000;
+            display: none;
+        }
+        @media (max-width: 768px) {
+            .tab-btn { padding: 0.75rem 1rem; font-size: 0.9rem; }
+            .app-header { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-header">
+        <h1 contenteditable="true" id="doc-title">Planification</h1>
+        <p class="text-sm text-gray-600">Fiche d'Aide à la Décision — Édition en temps réel</p>
+    </div>
+
+    <div class="tabs">
+        <button class="tab-btn active" onclick="switchTab('document')">📄 Document</button>
+        <button class="tab-btn" onclick="switchTab('sections')">🧩 Sections</button>
+        <button class="tab-btn" onclick="switchTab('export')">📥 Export</button>
+    </div>
+
+    <div id="document" class="tab-content active">
+        
+        <section class="content-section default">
+            <h3 class="section-title" contenteditable="true">3.1. Contexte et Hypothèses</h3>
+            <div class="section-content" contenteditable="true">Décrire le contexte général du processus d'achat du client afin de comprendre son fonctionnement actuel, d'identifier les difficultés rencontrées et de clarifier les attentes vis-à-vis du projet.<br><br>Le processus d'achat du client est composé de trois types d'achats : les offres, les projets et les achats génériques de la société. Les achats mutualisés multi-projet sont également pris en compte.<br><br>Les deux options pour les achats sont "industrielle" et "spécifique". L'option "industrielle" nécessite un stock minimum, une proposition de commande, une livraison et une ponction projet. L'option "spécifique" consiste à acheter les besoins des projets, anticipés ou constatés, au niveau de chaque projet.<br><br>La réception des pièces est un processus à revoir, car il est difficile de savoir où se trouve le colis. Le processus de "incoming" consiste en un contrôle et une réception de la livraison, avec photos du colis non ouvert et puis ouvert avec les pièces. Les instructions d'"incoming" sont données par le chef de projet.<br><br>Les petites commandes nécessitent une chaîne d'approbation, qui dépend du seuil, de l'approbation par un groupe d'approbateurs ou du critère de l'achat dans le budget.<br><br>Le client utilise actuellement Microsoft Dynamics 365 Business Central (BC) pour gérer ses achats. Le tableau de bord est adapté au profil de l'utilisateur et permet d'exporter facilement les données dans Excel. Les trois types d'articles sont en stock, non-inventoriel (sans gestion de stock) et service.<br><br>La gestion du multi-sourcing, y compris la référence fournisseur, est également prise en compte. Les informations de planning, telles que le lead-time, le stock de sécurité et le Minimum Order Quantity, sont également importantes.<br><br>La catégorisation des fournisseurs est possible, mais il faudra voir si elle peut être effectuée via Catya. La "Purchase quote" (demande d'offre) permet de rentrer les offres fournisseurs et de les lier aux projets. La gestion de l'incoterm et des informations du projet, y compris les Work-Packages, sont également importantes.<br><br>La réception des pièces est possible en 1 clic, avec la création d'un Warehouse receipt pour transmettre les informations au magasin. Le magasinier rentrera les informations, y compris les livraisons partielles. La possibilité de créer un contrôle qualité est également importante.<br><br>Actuellement, il n'y a pas de document d'entrée en stock, ce qui pose des difficultés pour le chef de projet de se rendre compte si les pièces sont reçues ou si elles ne le sont pas encore.</div>
+        </section>
+        
+    </div>
+
+    <div id="sections" class="tab-content">
+        <p class="mb-4 text-gray-600">Modifiez chaque section individuellement puis cliquez sur "Appliquer".</p>
+        
+        <div class="content-section">
+            <h3 class="section-title" contenteditable="true">3.1. Contexte et Hypothèses</h3>
+            <textarea class="section-textarea" data-id="3.1">Décrire le contexte général du processus d'achat du client afin de comprendre son fonctionnement actuel, d'identifier les difficultés rencontrées et de clarifier les attentes vis-à-vis du projet.
+
+Le processus d'achat du client est composé de trois types d'achats : les offres, les projets et les achats génériques de la société. Les achats mutualisés multi-projet sont également pris en compte.
+
+Les deux options pour les achats sont "industrielle" et "spécifique". L'option "industrielle" nécessite un stock minimum, une proposition de commande, une livraison et une ponction projet. L'option "spécifique" consiste à acheter les besoins des projets, anticipés ou constatés, au niveau de chaque projet.
+
+La réception des pièces est un processus à revoir, car il est difficile de savoir où se trouve le colis. Le processus de "incoming" consiste en un contrôle et une réception de la livraison, avec photos du colis non ouvert et puis ouvert avec les pièces. Les instructions d'"incoming" sont données par le chef de projet.
+
+Les petites commandes nécessitent une chaîne d'approbation, qui dépend du seuil, de l'approbation par un groupe d'approbateurs ou du critère de l'achat dans le budget.
+
+Le client utilise actuellement Microsoft Dynamics 365 Business Central (BC) pour gérer ses achats. Le tableau de bord est adapté au profil de l'utilisateur et permet d'exporter facilement les données dans Excel. Les trois types d'articles sont en stock, non-inventoriel (sans gestion de stock) et service.
+
+La gestion du multi-sourcing, y compris la référence fournisseur, est également prise en compte. Les informations de planning, telles que le lead-time, le stock de sécurité et le Minimum Order Quantity, sont également importantes.
+
+La catégorisation des fournisseurs est possible, mais il faudra voir si elle peut être effectuée via Catya. La "Purchase quote" (demande d'offre) permet de rentrer les offres fournisseurs et de les lier aux projets. La gestion de l'incoterm et des informations du projet, y compris les Work-Packages, sont également importantes.
+
+La réception des pièces est possible en 1 clic, avec la création d'un Warehouse receipt pour transmettre les informations au magasin. Le magasinier rentrera les informations, y compris les livraisons partielles. La possibilité de créer un contrôle qualité est également importante.
+
+Actuellement, il n'y a pas de document d'entrée en stock, ce qui pose des difficultés pour le chef de projet de se rendre compte si les pièces sont reçues ou si elles ne le sont pas encore.</textarea>
+            <button class="btn btn-small mt-2" onclick="applySectionEdit('3.1')">Appliquer</button>
+        </div>
+        
+    </div>
+
+    <div id="export" class="tab-content">
+        <h3 class="text-xl font-semibold mb-4">Exporter le document</h3>
+        <button class="action-btn export w-full mb-3" onclick="exportAsHTML()">
+            <i class="fas fa-code"></i> Exporter en HTML (auto-contenu)
+        </button>
+        <p class="text-sm text-gray-500 mt-4">
+            L'export HTML contient tout le CSS et JavaScript nécessaire — aucun fichier externe requis.
+        </p>
+    </div>
+
+    <div class="toolbar">
+        <button class="action-btn" onclick="saveLocally()"><i class="fas fa-save"></i> Sauvegarder</button>
+        <button class="action-btn export" onclick="exportAsHTML()"><i class="fas fa-download"></i> Exporter</button>
+    </div>
+
+    <div id="notification" class="notification">✅ Sauvegardé !</div>
+
+    <script>
+        // Données initiales
+        const initialData = [["3.1", "Contexte et Hypothèses", "Décrire le contexte général du processus d'achat du client afin de comprendre son fonctionnement actuel, d'identifier les difficultés rencontrées et de clarifier les attentes vis-à-vis du projet.\n\nLe processus d'achat du client est composé de trois types d'achats : les offres, les projets et les achats génériques de la société. Les achats mutualisés multi-projet sont également pris en compte.\n\nLes deux options pour les achats sont \"industrielle\" et \"spécifique\". L'option \"industrielle\" nécessite un stock minimum, une proposition de commande, une livraison et une ponction projet. L'option \"spécifique\" consiste à acheter les besoins des projets, anticipés ou constatés, au niveau de chaque projet.\n\nLa réception des pièces est un processus à revoir, car il est difficile de savoir où se trouve le colis. Le processus de \"incoming\" consiste en un contrôle et une réception de la livraison, avec photos du colis non ouvert et puis ouvert avec les pièces. Les instructions d'\"incoming\" sont données par le chef de projet.\n\nLes petites commandes nécessitent une chaîne d'approbation, qui dépend du seuil, de l'approbation par un groupe d'approbateurs ou du critère de l'achat dans le budget.\n\nLe client utilise actuellement Microsoft Dynamics 365 Business Central (BC) pour gérer ses achats. Le tableau de bord est adapté au profil de l'utilisateur et permet d'exporter facilement les données dans Excel. Les trois types d'articles sont en stock, non-inventoriel (sans gestion de stock) et service.\n\nLa gestion du multi-sourcing, y compris la référence fournisseur, est également prise en compte. Les informations de planning, telles que le lead-time, le stock de sécurité et le Minimum Order Quantity, sont également importantes.\n\nLa catégorisation des fournisseurs est possible, mais il faudra voir si elle peut être effectuée via Catya. La \"Purchase quote\" (demande d'offre) permet de rentrer les offres fournisseurs et de les lier aux projets. La gestion de l'incoterm et des informations du projet, y compris les Work-Packages, sont également importantes.\n\nLa réception des pièces est possible en 1 clic, avec la création d'un Warehouse receipt pour transmettre les informations au magasin. Le magasinier rentrera les informations, y compris les livraisons partielles. La possibilité de créer un contrôle qualité est également importante.\n\nActuellement, il n'y a pas de document d'entrée en stock, ce qui pose des difficultés pour le chef de projet de se rendre compte si les pièces sont reçues ou si elles ne le sont pas encore."]];
+        let currentData = JSON.parse(JSON.stringify(initialData));
+
+        // Onglets
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            document.querySelector(`.tab-btn[onclick="switchTab('${tabId}')"]`).classList.add('active');
+        }
+
+        // Sauvegarde locale
+        function saveLocally() {
+            const title = document.getElementById('doc-title').innerText;
+            const sections = [];
+            document.querySelectorAll('.content-section').forEach((sec, i) => {
+                const h3 = sec.querySelector('.section-title');
+                const div = sec.querySelector('.section-content');
+                if (h3 && div) {
+                    const text = div.innerText || div.innerHTML.replace(/<br\s*\/?>/gi, '\n');
+                    sections.push([currentData[i][0], currentData[i][1], text]);
+                }
+            });
+            const state = { title, sections };
+            localStorage.setItem('fad_state', JSON.stringify(state));
+            showNotification('✅ Sauvegardé localement');
+        }
+
+        // Export HTML auto-contenu
+        function exportAsHTML() {
+            const title = document.getElementById('doc-title').innerText;
+            const htmlContent = document.querySelector('.tab-content.active').outerHTML;
+            const style = document.querySelector('style').outerHTML;
+            const finalHTML = `<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"/><title>FAD — ${title}</title>${style}</head><body>${htmlContent}</body></html>`;
+            const blob = new Blob([finalHTML], { type: 'text/html' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'FAD_Almatech.html';
+            a.click();
+            URL.revokeObjectURL(url);
+            showNotification('✅ Export HTML généré');
+        }
+
+        // Édition par section
+        function applySectionEdit(sectionId) {
+            const textarea = document.querySelector(`.section-textarea[data-id="${sectionId}"]`);
+            const newText = textarea.value;
+            const docSection = document.querySelector(`.content-section:has(.section-title:contains("${sectionId}."))`);
+            if (docSection) {
+                const contentDiv = docSection.querySelector('.section-content');
+                contentDiv.innerHTML = newText.replace(/\n/g, '<br>');
+            }
+            showNotification('✅ Modification appliquée');
+        }
+
+        // Polyfill : :has() non supporté → onglet Sections
+        document.querySelectorAll('.section-textarea').forEach((ta, i) => {
+            ta.value = currentData[i][2];
+        });
+
+        // Notification
+        function showNotification(msg) {
+            const n = document.getElementById('notification');
+            n.textContent = msg;
+            n.style.display = 'block';
+            setTimeout(() => { n.style.display = 'none'; }, 3000);
+        }
+
+        // Sauvegarde auto
+        setInterval(saveLocally, 30000);
+
+        // Chargement sauvegarde
+        window.onload = () => {
+            const saved = localStorage.getItem('fad_state');
+            if (saved) {
+                const state = JSON.parse(saved);
+                document.getElementById('doc-title').innerText = state.title;
+                showNotification('🔄 Restauration automatique');
+            }
+        };
+
+        // Ajout utilitaire
+        HTMLElement.prototype.containsText = function(txt) {
+            return this.innerText.startsWith(txt);
+        };
+    </script>
+</body>
+</html>

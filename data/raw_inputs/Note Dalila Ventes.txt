@@ -1,0 +1,65 @@
+Prospection :
+•	Salons
+•	Clients
+•	Conférences
+•	Workshops techniques
+Portail Agence Spatiale Européenne
+•	Publication de toutes les annonces d'appels d'offres.
+Clients :
+•	1 ou 2 nouveaux clients par an.
+•	15 clients principaux, et en incluant les filiales, environ 40 entités avec des départements spécifiques.
+Gestion des offres :
+•	Documents utilisés : PV de réunion, Loops.
+•	En fonction de certaines conditions, ils établissent un sign-off evaluation form pour s'assurer qu'il est pertinent de répondre à l'offre.
+o	Contient : un résumé, le budget, les conditions, les risques (techniques, commerciaux, financiers), les ressources et les efforts nécessaires pour préparer l'offre.
+•	Décision de Go/No-Go : prise par le CTO, CPO et CEO.
+o	Si Go : création d’un numéro d’offre, par exemple S580.
+o	Si l’offre est gagnée, elle garde le même numéro avec un suffixe P : S580P.
+Équipe en charge des offres : 2 à 5 personnes.
+Suivi dans Pipedrive :
+•	Lorsqu'une offre est envoyée, elle est saisie dans Pipedrive.
+•	Informations nécessaires à renseigner dans Pipedrive :
+o	Prix.
+o	Personnes ayant travaillé sur l’offre.
+o	Temps passé par l’équipe sur l’offre.
+Problème actuel :
+Le KU n’a pas les éléments pour connaître le temps passé sur les offres gagnées ou perdues.
+Données et outils :
+•	Power BI : utilisé pour exploiter les données de Pipedrive et Business Central (BC).
+•	4 personnes créent des leads et travaillent avec Pipedrive.
+Opportunités :
+•	100 leads par an.
+•	Entre 30 et 40 RFI ou RFP par an.
+•	Le temps nécessaire pour préparer une offre varie entre 50 h et 400 h.
+Clarification client :
+•	Réponses fournies par écrit ou via conférence téléphonique, puis signature du contrat.
+•	L’offre est revue par le CTO et le CEO lors d’un meeting de revue.
+•	Négociation des clauses : durée entre 3 semaines et 1 an.
+Actuellement, il n’y a pas de suivi de statut d’avancement des offres dans Pipedrive.
+Après signature du contrat :
+•	Déclenchement du projet en interne.
+•	Le commercial en charge de l’offre organise un kick-off interne avec l’équipe projet.
+•	Transmission des informations au Chef de Projet (PM).
+•	Rôle du commercial :
+o	Suivre le projet.
+o	Intervenir avec le PM si des conditions changent (planning, prix, équipe).
+o	Reprendre la négociation et mettre à jour la ligne budgétaire.
+Préparation et gestion des offres :
+•	Les templates d’offres sont préparés par le PM.
+•	Le commercial et le PM doivent obtenir les devis des partenaires, car certaines parties ne sont pas réalisées en interne.
+•	La partie achats est gérée par le commercial et le PM.
+Synchronisation Pipedrive et Business Central :
+•	Définir les informations à synchroniser.
+•	Création des opportunités dans BC à partir de Pipedrive pour lier l’opportunité au projet/offre.
+•	Définir une source de données unique (MAP).
+•	Sur la fiche projet/offre, possibilité d’ajouter un lien vers Pipedrive pour récupérer le numéro d’offre.
+•	Réflexion à mener :
+o	Créer une arborescence OneDrive pour stocker les documents liés sur la fiche projet.
+Séance de travail Pipedrive :
+•	Durée : 1 heure
+•	Objectif : comprendre ce qui a déjà été fait et définir la cartographie.
+•	Date : vendredi 19 septembre à 10h.
+Points complémentaires :
+•	Faire les présentations avec les écrans BC en anglais.
+•	Axes analytiques : catégories de produits, etc.
+•	Définir les informations obligatoires dans les leads et deals pour la synchronisation avec BC.

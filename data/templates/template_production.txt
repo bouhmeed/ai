@@ -1,0 +1,11 @@
+1. Processus Production
+1.1. Contexte et hypothèses
+Décrire la situation actuelle, les points critiques et les attentes client sur ce processus.
+1.2. Principales règles de gestion
+Décrire les principales règles du client et comment l’ERP peut y répondre.
+1.3. Documents et statistiques
+Décrire les documents de l’ERP qui doivent être imprimés durant ce processus ainsi que les états et statistiques métiers attendus.
+1.4. Volume des données
+Indiquer les volumes des données référentielles ainsi que le nombre de documents par période (jour, semaine, mois ou années).
+1.5. Écarts critiques et interfaces
+Indiquer les écarts critiques et interfaces identifiés durant ces ateliers d’analyse.

@@ -1,0 +1,2394 @@
+Atelier ERP - Production
+Sep 12, 2025
+•
+
+8:00 AM – 10:36 AM
+•
+
+Youssef HAFSI
+•
+
+Transcription 
+Youssef HAFSI
+00:00
+Excel, etc. On arrive sur un tableau de bord qui peut être adapté en fonction de l'utilisateur. C'est-à-dire, j'ai un rôle, je suis gestionnaire d'activité, je suis chef de projet, je m'occupe de la production. J'ai un tableau de bord qui peut être différent, c'est-à-dire des raccourcis ici qui peuvent être plus ou moins différents avec des informations à l'intérieur. Ensuite, j'ai des raccourcis que je vais pouvoir aussi paramétrer. Par exemple, là, je ne vois pas de devis, mais si j'utilise la petite loupe... Bonjour Daniel.
+
+Unknown speaker
+00:44
+Bonjour Daniel. Bonjour.
+
+Youssef HAFSI
+00:46
+Alors on vient à peine de commencer, j'étais en train de présenter l'interface. Bonjour. Je peux utiliser la petite loupe ici pour rechercher par exemple des menus, par exemple un devis. D'accord, donc j'ai la liste, j'ai les rapports qui utilisent les devis et puis ici j'ai un petit bookmark de favoris. Si j'appuie dessus, le devis Il est maintenant en raccourci ici. Alors, c'est en raccourci que pour moi. Donc, vous pouvez être amené à avoir des écrans différents entre chaque utilisateur, mais ça permet de personnaliser un petit peu son tableau de bord.
+
+Youssef HAFSI
+01:24
+Après, on a bien sûr les menus classiques. Mais c'est vrai que cette petite loupe, elle est beaucoup plus pratique pour rechercher, par exemple, la liste des articles ou même pour rechercher de la donnée. On peut aussi taper de la donnée. On va rechercher de la donnée à l'intérieur. Alors, au fur et à mesure, vous allez voir les petites fonctionnalités qu'il y a. Moi, aujourd'hui, l'atelier production, c'est de se concentrer sur votre process actuel. Vous allez décrire votre process.
+
+Youssef HAFSI
+01:56
+On va prendre note. Et puis après, je vais dérouler votre process dans le système et on va voir un petit peu où remontent les écarts, les petites différences.
+
+Unknown speaker
+02:07
+D'accord ? D'accord.
+
+Youssef HAFSI
+02:13
+Vous démarrez par quoi aujourd'hui ?
+
+Joel Junod
+02:19
+En général, ce qu'on fait, c'est qu'on part depuis notre software 3D, Catia, dans lequel on arrive à extraire les listes de pièces comme je vous ai envoyé. En règle générale, avec l'arborescence et un récapitulatif de toutes les pièces. Voilà exactement.
+
+Youssef HAFSI
+02:44
+Vous utilisez Solidworks ou pas pour la conception ?
+
+Joel Junod
+02:48
+Non. En tout cas on a Solidworks mais on ne l'utilise pas comme software principal pour générer des bombs en général. Donc c'est 4K c'est ça ? Ouais exactement.
+
+Julie Ehrhart
+03:02
+A savoir que c'est le standard dans l'automotive et dans l'aérospatiale.
+
+Youssef HAFSI
+03:06
+D'accord. Katia, vous génèrez des fichiers de nomenclature ou des... En sortie, vous avez quoi du software ?
+
+Joel Junod
+03:16
+En sortie, on a des fichiers HTML. Mais on peut aussi sortir de l'Excel.
+
+Youssef HAFSI
+03:25
+D'accord. Je laisserai m'envoyer deux exemples, comme ça on regarde. OK. Donc vous faites la conception de la pièce, vous avez votre nomenclature. Si jamais vous avez besoin d'une pièce qui n'existe pas dans le référentiel.
+
+Joel Junod
+03:47
+Est-ce que vous appelez référentiel ?
+
+Youssef HAFSI
+03:49
+Si vous avez besoin d'un nouveau composant que vous n'avez jamais utilisé, tout nouveau.
+
+Joel Junod
+03:55
+En fonction de son type, on le normalise, si c'est un standard par exemple, ou alors si c'est une pièce du projet, on la crée de zéro. Notre software actuel nous permet de gérer des nomenclatures pour pouvoir extraire des numéros du projet ou des numéros de standards pour éviter d'avoir deux fois le même numéro. En fait on a plusieurs catégories de pièces actuellement qui sont codifiées. On a quatre catégories pour les standards en fonction si c'est des standards avec de la qualité ou des standards qui nécessitent par exemple une modification avec un plan et puis après on a toutes les pièces du projet qui sont codifiées avec la même logique c'est à dire ALM, DES pour dessin et puis le numéro du projet et puis après. Sur la majorité des projets c'est 0 0 0 1 2 3 4 5 etc et puis par contre sur le cas de figure que je vous ai envoyé qu'on a actuellement à l'écran on garde les trois premiers trois digits comme sur tous les autres projets mais par contre après on a fait une codification un petit peu différente pour être plus précis sur ce projet là. C'est pour ça qu'il y a B01, B02, B03, ce qu'on voit à l'écran.
+
+Youssef HAFSI
+05:27
+Donc vous faites la conception, vous avez la nomenclature, vous avez les pièces. Alors en fonction si c'est des pièces standards ou si c'est des pièces qu'il faut créer avec des dessins.
+
+Joel Junod
+05:42
+Typiquement les pièces standards, c'est moi qui suis un peu responsable de les gérer actuellement. Nous on a des listes, donc moi je fais dans notre système nouvelles pièces, si j'ai besoin de quelque chose de nouveau, après avoir cherché s'il n'existait pas déjà dans la base de données, et puis on crée le fichier 3D puis on le met à disposition de toute la société dans des dossiers partagés. Par contre pour un projet, en règle générale il y a un designer qui va intervenir principalement sur un projet, et puis c'est lui qui va gérer sa numérotation de zéro.
+
+Unknown speaker
+06:19
+On pourrait mettre n'importe quel numéro sur la pièce du projet.
+
+Joel Junod
+06:30
+Ensuite, on met cette liste de pièces dans notre système et notre système nous génère Vous avez déjà vu où je vous avais envoyé les photos ? Sinon je peux vous montrer en partageant éventuellement notre système actuel. Actuellement. C'Est ça notre système. Là, on est sur la page principale. Ensuite, on. A tout.
+
+Joel Junod
+07:25
+Qui. Est ordré par projet. On peut. Pour IAB, reprendre la même liste de pièces que je vous avais envoyé. Là, on est dans une instance. C'est dans une liste de pièces pour le projet IAB. Et donc on va.
+
+Joel Junod
+07:46
+Retrouver à gauche une arborescence. Qui nous permet de vérifier. Assez rapidement le. Statut des pièces, si. Elles sont commandées ou réceptionnées. Donc quand il n'y a rien qui est fait, elles sont grises. Quand elles sont commandées, elles sont jaunes.
+
+Joel Junod
+08:00
+Et puis quand elles sont reçues, elles sont vertes, avec toutes les actions validées. Dedans. Et puis après, on a deux tableaux. Donc un tableau. Qui permet de voir toutes les pièces qui ne sont pas commandées. Les Unvalidated Purchase Order. Et puis tout en bas.
+
+Joel Junod
+08:21
+On a les Validated Order. Donc ce tableau au fur et à mesure qu'on va remplir les pièces avec. Les commandes, il va les déplacer dans le tableau du bas. Une question.
+
+Julie Ehrhart
+08:34
+Joël, dans le système est-ce qu'on a mis des lead time, des délais d'approvisionnement ou c'est juste la liste de pièces et puis déjà le niveau et son contenu dans la liste de pièces ?
+
+Joel Junod
+08:48
+Alors je crois pas qu'on a de... pour les commandes je crois pas qu'on peut mettre une date par contre après si on rentre dans un article Si on rentre dans un article, donc là on voit le General Data, c'est les informations générales de la pièce ou de l'assemblage. Et puis à droite, ce qu'on voit ici, c'est qu'on peut y attribuer des actions. Et dans ces actions, on peut mettre des dates de besoin et puis des commandes spécifiques. Donc par exemple, on commande la pièce dans le General Data chez l'usineur. Du coup, on retrouve le numéro de commande ici. Et puis par contre après si on doit l'envoyer au traitement avec un autre ordre d'achat et bien on peut le remplir dans les actions.
+
+Joel Junod
+09:40
+Et puis après ce qu'on peut faire c'est valider les actions quand elles sont faites par les gens et du coup on trace la date et la signature de la personne qui a validé l'action. Voilà donc en théorie si je demande à Daniel de réceptionner des pièces, de les préparer pour l'assemblage, de les envoyer au traitement, etc. Lui, il va venir ici valider toutes les actions et comme ça on garde un suivi de traçabilité. Et évidemment, quand on a de la documentation, on remplit à la main les numéros de rapport, etc. Un des problèmes que nous on a, c'est que typiquement dans ces pages-là, on ne peut pas y inclure de documents PDF. Par exemple on ne peut pas mettre le plan de la pièce, on ne peut pas mettre les rapports ou les certificats dans les actions. Tout ça c'est indépendant du système.
+
+Joel Junod
+10:37
+On doit tout remplir à la main et après gérer la documentation PDF à côté dans les dossiers Windows.
+
+Youssef HAFSI
+10:47
+Une question, ce que je vois sur. Le panneau de. Gauche. L'Incrémentation, ça veut dire que c'est des. Suites ensemble ?
+
+Joel Junod
+10:54
+Oui. Alors en fait, notre système actuel, c'est un petit peu bizarre, mais il va reprendre exactement la même arborescence que la façon dans laquelle je l'ai conçue sur Catia. Alors, comme on ne fabrique pas ou on n'assemble pas forcément de la même façon qu'on conçoit en 3D, des fois ça peut poser des petits problèmes. Donc en règle générale, on s'assure de concevoir nos modèles numériques de manière à ce que ce soit relativement cohérent avec l'assemblage final. C'est-à-dire que s'il y a un moteur, il y aura un rotor, un stator, on va peut-être faire deux sous-ensembles différents, un le rotor et un le stator de manière à pouvoir monter indépendamment les deux et on essaie de garder cette logique mais c'est pas toujours évident. Ok. Et ça c'est principalement dû au fait donc évidemment s'il y a les mêmes pièces dans plusieurs sous-ensembles, elles vont apparaître distinctement dans cette arborescence, mais elles seront driveées, on va dire, par un même groupe.
+
+Joel Junod
+12:06
+C'est-à-dire que même si j'ai plusieurs pièces dans plusieurs sous-ensembles identiques, je vais pouvoir faire toutes les validations de commandes et d'actions groupées. Ce qui permet évidemment de gagner un peu de temps. C'est beaucoup de boulot à remplir tout ça. Et ça c'est principalement dû au fait que si tout d'un coup il y a un problème sur une pièce spécifique, nous on doit pouvoir retrouver en fait sa traçabilité et savoir exactement quelle pièce a été montée où.
+
+Youssef HAFSI
+12:43
+Oui, ça on est d'accord.
+
+Joel Junod
+12:50
+Après, on est vraiment dans un niveau top qualité d'un projet Space, ce qui n'est pas tous nos cas de figure évidemment. On a aussi des petits projets de développement où on a moins besoin de qualité. On va voir si c'est vraiment nécessaire. Mais je pense que oui. C'est dommage que Judith soit en vacances. T'inquiète pas, quand elle reviendra, je suis sûre qu'elle sera ravie de reprendre le sujet. Ouais, mais typiquement ça serait quelque chose qu'elle aurait pu nous dire si c'est vraiment un besoin ou...
+
+Youssef HAFSI
+13:25
+On rebalayera de toute façon pas mal. De process, parce. Que là on parle de démonclature, mais ça va être lié. À la partie achat. D'ailleurs c'est bien que Julie soit là. Parce qu'à un certain moment, si c'est. Une nouvelle pièce.
+
+Youssef HAFSI
+13:37
+Qu'Est-Ce qui se passe ? C'est quoi le process. Derrière. Côté achat ? Mais on refera. Une petite. Revue complète du processus de A.
+
+Youssef HAFSI
+13:49
+À Z. Là, ce qui est super. Important, c'est de. S'Assurer qu'on n'a. Pas de gros gaps. D'accord ? C'est pour ça qu'on voit votre process.
+
+Youssef HAFSI
+14:00
+Après, je vais le redérouler. Chez nous. Alors, il y a peut-être des choses à venir. Oui, ce serait bien qu'on fasse ça. Mais il y a des choses déjà qui sont mieux. Par exemple, rattacher. Les documents.
+
+Youssef HAFSI
+14:09
+Déjà, c'est le cas aujourd'hui. Vous allez pouvoir le faire. Mais on. Va. Y venir. Donc. Vous faites la conception, vous créez la nomenclature.
+
+Youssef HAFSI
+14:22
+Forcément, elle est liée à un projet. Oui, tout à fait. Ensuite, soit vous utilisez les pièces qui sont déjà existantes dans le système, soit vous allez en créer des nouvelles. C'est vous qui créez les nouvelles pièces ? Oui. D'accord, donc vous créez les nouvelles pièces dans le système. Est-ce qu'il y a d'autres personnes qui interviennent quand vous créez les nouvelles pièces ?
+
+Unknown speaker
+14:47
+Non.
+
+Youssef HAFSI
+14:49
+D'accord.
+
+Joel Junod
+14:51
+Alors typiquement, par exemple, pour des standards, effectivement, n'importe qui peut aller dans notre système ici, hop, paf, sur cette page-là, et puis en fait, en fonction du type de standard, par exemple, plop, plop, plop, plop, décret, paf, donc ça c'est les commerciales off the shelf, c'est tous les standards qui peuvent être commandés à l'aide d'un, juste d'un numéro qu'ils ont, et bien en fait, n'importe qui peut venir ici, faire new document et puis sortir un numéro qui sera le 4855, le suivant, 45 et créer son standard, mettre un sous-traitant et en fait ça ne passe pas par une partie achat ou identification des prix ou délai, ce genre de choses, c'est vraiment n'importe qui peut aller.
+
+Unknown speaker
+15:35
+Pour l'instant j'étais pas encore arrivé non plus.
+
+Joel Junod
+15:38
+Ouais, ouais, tout à fait. C'est pour ça qu'on se retrouve avec une quantité astronomique de standards parce que n'importe qui peut venir Prendre ce qu'il veut, créer ce qu'il veut dans cette liste. D'accord.
+
+Julie Ehrhart
+15:50
+C'est parce qu'il trouvait pas bien, ou il cherchait pas, ou...
+
+Joel Junod
+15:56
+Alors des fois, on a des doublons, c'est assez rare quand même. Mais non, c'est juste que c'est des besoins spécifiques. Tu vois, par exemple, il y a un palon à chaîne, un tapis de fitness. Ça, c'était pour des tests. Tout d'un coup, une vis M2 x 5.
+
+Julie Ehrhart
+16:12
+Et du coup, ça, c'était dans l'album ?
+
+Joel Junod
+16:14
+Une fois que je prends un nouveau numéro, le système me donne un numéro et après moi, dans KTA, je crée la pièce. Dans ces dossiers, on a toutes les listes, tous les fichiers 3D qui correspondent au standard de cette base de données. Donc une fois que j'ai mon numéro, je crée ma pièce en 3D avec le même numéro, et puis après je mets ce numéro dans mon assemblage, et puis quand je tire la bombe, ce numéro apparaît dans la liste de pièces.
+
+Julie Ehrhart
+16:52
+On est d'accord que c'est que des composants, ça ne va pas être des outils qui vont être requis pour l'assemblage ou quoi que ce soit ?
+
+Youssef HAFSI
+17:00
+Non, les outils ne sont pas des articles, ça peut être des machines, Alors ça dépend.
+
+Joel Junod
+17:13
+On a aussi, parce qu'en fait on a ces sections là qui correspondent à des... donc on a les catégories de standard et puis typiquement on a les numéros d'inventaire. Donc en fait typiquement un palan HN, est-ce que c'est un standard ou est-ce que c'est un numéro d'inventaire ? Vu que nous en gros les numéros d'inventaire ils sont à disposition de tout le monde, quand on a vraiment besoin de projets, on aime bien créer un standard juste pour ça.
+
+Youssef HAFSI
+17:43
+D'accord. Donc ici, ça veut dire que...
+
+Emmanuel Coletti
+17:50
+Ça c'est dévoyer. Un process... Demander. En fait à utiliser un moyen mutualisé, c'est ça ? En créant un standard ? Ça me paraît un peu hors process standard, justement. Non ?
+
+Emmanuel Coletti
+18:04
+Je. Pense qu'il y a une meilleure, plus élégante façon de représenter ça.
+
+Joel Junod
+18:08
+Tout à fait, alors le problème en fait c'est qu'à l'époque on était une petite équipe où tout le monde faisait un peu... Oui bien sûr.
+
+Emmanuel Coletti
+18:15
+C'Est juste pour savoir si on veut reproduire ça ou si on veut faire différemment. Il me semble que là il faudrait qu'on fasse différemment, sans chercher l'historique. Tu vois.
+
+Joel Junod
+18:25
+Oui tout à fait, c'est pour ça qu'on avait créé cette nouvelle catégorie de standards là, les STC, où on a vraiment une liste de standards réduite qui est vraiment visserie, rondelle, goupille, hélicoïl, où là vraiment on a une base réduite utilisable dans 80-90% des cas. Et puis par contre pour tous les cas de figure où tout d'un coup tu as besoin d'une rondelle en bronze, et bien là éventuellement on pourrait aller créer un code.
+
+Emmanuel Coletti
+18:57
+J'ai mal compris, je pensais que tu parlais des moyens, par exemple Pallon HL, ça c'est pas une pièce voile, donc c'est un moyen qui est mutualisé et j'ai cru que tu fais créer une part quand on avait besoin sur un projet en particulier, j'ai peut-être mal compris.
+
+Joel Junod
+19:12
+Dans ce cas de figure là, c'est ce qui s'est passé, ouais.
+
+Emmanuel Coletti
+19:15
+Ok, mais ça on est d'accord, c'est pas un procès standard.
+
+Julie Ehrhart
+19:20
+C'est pas le process voulu dans le futur, on va dire.
+
+Emmanuel Coletti
+19:22
+Exactement, c'est pas le process voulu dans le futur, exactement. Ah oui, oui, tout, effectivement, tout à fait. Ce qu'on voudrait, c'est une base donnée de moyens outillage, on en a parlé d'ailleurs un petit peu avec Daniel, et avoir un plan d'usage. Alors, est-ce que le RPI-PLM permet ça ? Ce serait top.
+
+Youssef HAFSI
+19:38
+C'est-à-dire d'allouer.
+
+Emmanuel Coletti
+19:39
+Dans le temps ?
+
+Youssef HAFSI
+19:40
+Voilà, une ressource, exactement. C'est pas une ressource personne, c'est une ressource machine. C'est ça. Et puis qui a un coût et qu'on peut utiliser sur un projet, dans une nomenclature ou même d'assemblage. On va regarder ça après. Sans changer les numéros. Sans changer les numéros.
+
+Youssef HAFSI
+19:58
+Mais du coup, là, ce qu'on est en train de dire, ou simplement, c'est qu'il y a un process à bien clarifier ici et il y a un nettoyage slash reprendre que les données propres de la base. Donc ça, c'est quelque chose qui est à faire.
+
+Unknown speaker
+20:19
+Ensuite.
+
+Joel Junod
+20:24
+Une fois que la bombe est importée dans le système, le chef de projet crée ses ordres d'achat, passe ses appels d'offres en fonction des plans, des numéros qu'il retrouve dans les dossiers et il peut valider la commande dans le système pour les pièces qu'il commande.
+
+Unknown speaker
+20:49
+C'est ce qu'on voit là.
+
+Youssef HAFSI
+20:51
+On vous dit qu'il valide les commandes dans le système. C'est cette.
+
+Julie Ehrhart
+20:56
+Partie-Là qui n'est pas claire pour moi. Comment ça se ressort ? Parce que le document de commande, on le fait à la main ? Ou j'ai loupé un épisode ?
+
+Joel Junod
+21:04
+Non, c'est juste. Alors en gros, le chef de projet, il va venir... Alors là, ils sont validés. Je vais peut-être prendre un qui n'est pas validé. Est-ce qu'on a une bombe ? On va prendre éventuellement celle-là. Donc en fait dans les tableaux des commandes, le chef de projet va retrouver plusieurs informations.
+
+Joel Junod
+21:29
+Donc le besoin, c'est le needed. Après il y a d'autres tableaux avec des numéros qui permettent de savoir si ça a été délivré, s'il y a des spares et combien a été commandé. En fonction du besoin qu'il va retrouver dans la liste de pièces, et bien lui il va aller passer lui-même sa commande donc il va pouvoir regarder le sous-traitant, par exemple pour un standard il y aura déjà le sous-traitant avec l'article number et puis le chef de projet va commander la pièce et alors après ce qu'il fait c'est qu'il retourne dans ce... il retourne ici et en fait pareil on a une base de données pour les numéros d'achat Lui, ce qu'il va faire, c'est qu'il va juste réserver un numéro. Ensuite, il peut ou pas créer le fichier papier pour la commande. Par exemple, si c'est des pièces usinées et qu'il doit envoyer une commande signée au sous-traitant, il va remplir le papier, faire la commande manuelle, en copiant, collant manuellement les numéros qu'il trouve dans le système.
+
+Julie Ehrhart
+22:40
+On est d'accord que dans le système, il n'y a pas de prix. C'est dans la commande qu'on va renseigner le prix.
+
+Joel Junod
+22:46
+Tout à fait. En fait, dans notre système actuel, ce que le chef de projet peut faire, c'est attribuer un numéro de commande à un article et renseigner combien de pièces il a commandé. C'est tout. On n'a aucun suivi dans notre système actuel ici, on n'a aucun suivi des prix ou autre.
+
+Emmanuel Coletti
+23:14
+Tout ce qu'on va pouvoir savoir c'est... Juste pour être sûr que j'ai bien compris, quand il a plusieurs parts, plusieurs articles, on peut parler d'articles ? On peut parler d'articles je pense. Quand il y a plusieurs articles, il ne fait pas plusieurs articles dans une commande ? Si c'est le même sous-traitant, oui. Donc c'est une commande par sous-traitant, d'accord. Tout est manuel, c'est facile de faire.
+
+Emmanuel Coletti
+23:39
+Donc en gros, il regarde qu'est-ce qu'il doit acheter chez Tartempion, il regarde toutes les pièces needed dont il a besoin chez Tartempion, et il recopie à la. Main toutes les références d'articles.
+
+Joel Junod
+23:51
+Et puis alors maintenant je sais que ça, il est obligé de le faire pour remplir son Word pour faire le papier de commande. Par contre après pour faire la validation dans le système, là nous on a des petits boutons de ***** donc en fait il a juste à sélectionner, tu vois il peut faire une recherche par sous-traitant, ça permet d'enlever tout ce qui n'est pas dans la commande, il ***** les petites cases ici, après il fait ***** validation et puis il peut renseigner les quantités qu'il a commandé pour chaque pièce. Ça sert à quoi ***** validation ? Ça permet de valider plusieurs pièces d'un coup.
+
+Julie Ehrhart
+24:31
+Et valider quoi ?
+
+Joel Junod
+24:32
+Valider la commande. Ça permet de dire ça y est je l'ai commandé. Ça permet d'attribuer une commande à un article. Et c'est ce qui va faire que les pièces vont passer du tableau du haut au tableau du bas.
+
+Emmanuel Coletti
+24:44
+Valider c'est bon pour être acheté en fait ?
+
+Joel Junod
+24:51
+Valider c'est acheté en théorie. Le numéro de commande a été renseigné. Pour moi quand c'est validé la pièce va gentiment arriver. Ça c'est la théorie. Il y a plein de cas de figure où il y a des délais dans les commandes.
+
+Julie Ehrhart
+25:11
+Disons qu'il y a des délais d'approvisionnement qui sont particulièrement longs. Donc ça c'est vrai que la planification est clé. On parle de 48 semaines par exemple pour certains. Articles.
+
+Joel Junod
+25:23
+Nous on avait même eu le cas de figure où DJ avait commandé les pièces pour deux modèles directement. Donc en fait là il y a même eu un délai de deux ans sur la pro de la commande en gros. Pour Flexio il avait commandé deux modèles d'un coup. Le temps qu'on monte le premier, le deuxième était déjà payé.
+
+Youssef HAFSI
+25:48
+Ok, d'accord.
+
+Joel Junod
+25:52
+Il y a juste un petit truc, c'est qu'on a quand même moyen de savoir le prix final d'une commande, d'un numéro d'achat, dans ce récapitulatif-là. Et en fait, nous, après, avec ce numéro, on peut aller chercher dans nos dossiers ici. Ordre d'achat, on retrouve par projet toutes les commandes. Donc normalement le chef de projet, lui, son board et son pdf de sa commande où il y a tout le détail de ce qu'il a commandé, il est censé après venir les classer par projet et on retrouve normalement le détail avec le template Almatech qui ressemble à ça.
+
+Julie Ehrhart
+26:35
+Mais du coup c'est la commande et pas nécessairement la confirmation. Je ne sais pas si ça vous arrive souvent d'avoir une date de livraison demandée et puis finalement la confirmation est bien plus éloignée que ce qui était prévu. Que ça soit en prix ou en date de livraison d'ailleurs.
+
+Joel Junod
+26:53
+Ouais alors ça je t'avoue que c'est... C'est un peu le trou noir, c'est pour ça que je suis là, il n'y a pas de souci. Non c'est que ça dépasse un peu mon champ de vision on va dire. ça c'est un peu le chef de projet qui fait ses... Ces discussions avec le sous-traitant en amont de la commande et puis bon nous on n'est pas forcément informé même des dates de livraison, tout d'un coup la pièce elle arrive puis moi j'interviens au moment où elle arrive, pas avant.
+
+Julie Ehrhart
+27:22
+La visibilité est compliquée, enfin il y a beaucoup de choses pour les chefs de projet donc je peux comprendre, j'ai complexité de vous informer aussi en avance et de tout suivre à la main.
+
+Emmanuel Coletti
+27:33
+Oui tout à fait. ça c'est une commande d'un JIG, mais est-ce que tu aurais une commande d'un article individuel, un petit article, juste pour comprendre qu'est-ce qu'il figure dans la commande, le niveau de détail ?
+
+Joel Junod
+27:50
+Alors ça aussi c'est tout un peu manuel. Voilà, ça ouais. Donc là typiquement c'est Genroji Kapo qui a fait cette commande. Donc en fait lui, qu'est-ce qu'il a fait, il a mis une ordre de projet, tout ça. On retrouve toutes les infos du client et de nous. Et après, dans les désignations des positions, il copie-colle le nom de la pièce, le numéro de dessin avec sa révision, la matière. Et puis des fois il y a des petites notes, typiquement pour le traitement, ce genre de choses.
+
+Emmanuel Coletti
+28:20
+Ça c'est le niveau de granulométrie le plus bas, c'est-à-dire que ALM DS442-0032 c'est une part, quatre parts, c'est une référence dans ta BOM, c'est une référence dans Katia, c'est ça ? C'est ça. Ou c'est un groupe de références ? Non, ça c'est vraiment...
+
+Joel Junod
+28:34
+C'est vraiment le truc le plus bas ? Ouais. Alors après, ça, de nouveau les chefs de projet ils font des fois des... des fois ils rentrent pas dans le détail. Typiquement pour NeoCore, Sandro avait commandé l'intégralité de la production du modèle sur un ordre d'achat sans détailler les pièces. Donc après on leur a envoyé un datapack avec les pièces à fabriquer, mais on n'a jamais eu le détail dans cette commande.
+
+Emmanuel Coletti
+29:01
+Donc. Normalement ça se fait au niveau de chaque article, mais parfois tu le fais au niveau de ce que tu appelles une instance, c'est-à-dire l'arborescence, tu l'achètes tout d'un coup, si tu as plusieurs pièces.
+
+Joel Junod
+29:10
+Ouais, mais ça c'est pas très...
+
+Emmanuel Coletti
+29:12
+Pas très recommandé. ?
+
+Joel Junod
+29:14
+Non, parce que les gars à l'atelier, quand ils reçoivent les paquets, ils sont censés avoir la commande pour vérifier que tout est bon, et qu'il y a les bonnes quantités dans le paquet. Sauf que si ce n'est pas détaillé dans la commande, ce qu'il est censé y avoir dans le paquet, ils ne peuvent pas vérifier.
+
+Julie Ehrhart
+29:31
+Est-ce que ça arrive qu'on commande des sous-assemblages ?
+
+Joel Junod
+29:36
+Rarement, voire jamais. Je crois.
+
+Julie Ehrhart
+29:44
+Ça peut arriver aussi, Youssef, qu'on fasse référence à une SPEC, parce que là on commande, ça peut être des pièces, mais ça peut être aussi des prestations telles que des tests de vibrations ou quoi que ce soit, et on se réfère à une SPEC, qui peut être aussi le cas pour des pièces.
+
+Youssef HAFSI
+30:03
+On peut joindre la SPEC ?
+
+Julie Ehrhart
+30:07
+Dans le PDF, oui, on peut. Ça n'a pas forcément été fait au début, mais là j'ai commencé à le faire pour une commande hier.
+
+Youssef HAFSI
+30:14
+Si j'envoie un mail, je peux avoir la commande, enfin ce modèle-là, et j'ai d'autres PDF ou d'autres types de documents qui correspondent à l'aspect, qui correspondent au dessin, qui correspondent à tout élément nécessaire pour le prestataire.
+
+Joel Junod
+30:32
+Ça c'est un peu ce qu'on fait c'est que le chef de projet il crée son word pour sa commande un peu comme il veut et après derrière c'est quand même de sa responsabilité d'envoyer la documentation. Que. Le sous-traitant a besoin. Pour pouvoir pour livrer de la qualité voilà. Tout à fait.
+
+Youssef HAFSI
+30:49
+Ok mais tout.
+
+Joel Junod
+30:53
+Ça c'est fait à la main évidemment.
+
+Youssef HAFSI
+30:55
+Ça c'est fait à la main mais au **** la partie j'ai envie de dire Parce qu'on a commencé par, je fais la conception de la pièce. D'accord ? Donc, en fait, j'ai un projet. Je fais là où j'ai un projet offre, une préparation pour une offre. Je fais la conception de la pièce. J'ai ma nomenclature de pièce. Et ensuite, en fonction si la pièce est standardisée, existe déjà ou c'est du spécifique, je vais la créer ou pas dans le référentiel.
+
+Youssef HAFSI
+31:31
+et ensuite passer commande pour les pièces, soit spécifiques, soit pour les pièces qui sont à concevoir auprès du fournisseur.
+
+Emmanuel Coletti
+31:42
+Peut-être Youssef, pour un projet offre, on demanderait deux vies, au mieux. Mais on n'achète rien du tout, sinon, parce que si on perd l'offre...
+
+Youssef HAFSI
+31:52
+On est d'accord.
+
+Emmanuel Coletti
+31:56
+Mais est-ce que vous faites une conception quand vous êtes en offre ? Il n'y a pas de détaillé. C'est pas détaillé, ça coûte trop **** Je pense que le cas projet offre est un petit peu spécifique. Tu m'arrêtes Joël. Quand on crée une offre, il peut arriver qu'on ***** la case DES, et puis ça veut dire probablement qu'on veut générer une nomenclature, on veut générer des parts. Mais est-ce que ça arrive qu'on reste jusqu'à faire ce qu'on vient de voir là ?
+
+Emmanuel Coletti
+32:23
+C'est-à-dire dialoguer jusqu'à ce niveau de détail avec un fonctionnaire quand on est en stade de l'offre ?
+
+Joel Junod
+32:26
+Ce qu'on va faire en règle générale dans un design d'offre, on va quand même utiliser une numérotation pour l'offre. Pour avoir des numéros de pièces un peu propres si tout d'un coup on doit prendre des photos ou autre. Mais par contre on va jamais intégrer une liste de pièces dans notre système au niveau de l'offre. Là on va plutôt passer par des fichiers Excel juste parce que le chef de projet il a besoin de faire ces petits appels d'offres pour avoir une idée du prix global. Donc là, en règle générale, on travaille par des fichiers Excel.
+
+Emmanuel Coletti
+33:03
+Ou au mieux, on envoie au supplier, j'imagine qu'on peut lui envoyer un step file d'une pièce relativement finie, sans avoir tout le niveau de détail, mais plutôt le produit fini qu'on veut, et puis ça l'aide à faire son costing. Peut-Être ?
+
+Joel Junod
+33:16
+Oui, tout à fait. On.
+
+Emmanuel Coletti
+33:19
+Va lui envoyer un step file, on ne va rien commander, mais ce sera un devis, on va lui envoyer ça de façon un peu informelle.
+
+Joel Junod
+33:24
+Les step files sont utilisés dans 100% des cas, que ce soit pour un devis ou pour une commande. 100% des cas. On crée les steps toujours et on envoie toujours les steps au sous-traitant.
+
+Emmanuel Coletti
+33:35
+Et les steps t'es d'accord que c'est pas de la conception détaillée, c'est pas au niveau de ce qu'on a vu tout à l'heure pour les offres ? Ah ça dépend, pour.
+
+Joel Junod
+33:41
+Les offres le step sera dans l'état de la pièce à laquelle on est au niveau de l'offre.
+
+Emmanuel Coletti
+33:46
+C'est ça.
+
+Joel Junod
+33:46
+En fonction de l'offre ça peut être conceptuel ou alors très détaillé, ça dépend des offres.
+
+Emmanuel Coletti
+33:52
+Ah ouais t'as déjà fait du très détaillé pour les offres ?
+
+Joel Junod
+33:56
+Pour Kybashen Unit, le modèle était quasiment déjà fonctionnel et fini au niveau de l'offre. On avait beaucoup investi sur ce projet au niveau de l'offre. C'était une volonté de la société. C'est un cas rare, c'est vrai qu'on reste à un niveau de design plus.
+
+Julie Ehrhart
+34:14
+Élémentaire.
+
+Joel Junod
+34:15
+Plus basique.
+
+Julie Ehrhart
+34:17
+Ce qu'il faut savoir aussi qui peut arriver, c'est que dans un des projets de Sandro, on a fourni un fichier STEP et le fournisseur va faire les PDF en fonction de ses besoins au niveau de la production. Et c'est ce PDF venant du fournisseur qui fera foi aussi pour le contrôle qualité etc qui devra nous être fourni. ça peut arriver parce qu'il n'y a que le fournisseur qui saura pour sa production quelle tolérance il peut faire etc et rendre possible notre descent step sur sa machine. Par contre, je ne sais pas si ça arrive très souvent, ça, Joël. Toi, tu sais plus que moi.
+
+Joel Junod
+34:58
+Non, ça arrive très rarement. En règle générale, on garde la fabrication des plans chez nous, mais c'est vrai que ça, c'est un cas spécifique. Après, tu vois, dans le cas où on peut attribuer de la documentation à un article, on n'aura qu'à prendre leur dessin et puis à le mettre dans notre système. Je pense que ça ne devrait pas poser de problème si c'est un numéro de chez Tezi ou de chez nous. Ce serait bien qu'ils réutilisent notre numérotation pour qu'on sache quelle pièce c'est laquelle, mais ça on verra en temps et en heure avec eux.
+
+Julie Ehrhart
+35:27
+Au pire, je veux imaginer que dans le système il y aurait une table de conversion, ça je l'ai déjà vu dans certains URP, c'est-à-dire chez un fournisseur telle référence égale telle autre et on pourrait utiliser le même principe pour les dessins ou les références comme ça.
+
+Joel Junod
+35:45
+Il faut qu'on ait un moyen. De corréler.
+
+Julie Ehrhart
+35:47
+Tout.
+
+Joel Junod
+35:48
+À fait.
+
+Julie Ehrhart
+35:48
+Ça existe Youssef ?
+
+Youssef HAFSI
+35:50
+Oui, on a vu les références externes d'autre jour d'indiquer la référence de la pièce chez le fournisseur.
+
+Unknown speaker
+35:56
+Ah oui, c'est juste là.
+
+Youssef HAFSI
+35:58
+Ensuite Joël, si on...
+
+Emmanuel Coletti
+36:04
+Peut-être juste pour la documentation, tout le monde a compris, et la commande qui est passée, celle que tu as montrée tout à l'heure, on y associe le PDF des dessins. Mais c'est une version manuelle, c'est ça ? C'est ça.
+
+Joel Junod
+36:18
+Ouais. Et puis elle n'est pas forcément, comment dire, le PDF de la commande ne contient pas. Les dessins. Le chef de projet va les envoyer dans un gros datapack. À côté. Ouais, c'est ce qu'on dit en général, il constitue son datapack. À la main.
+
+Joel Junod
+36:33
+Exactement.
+
+Julie Ehrhart
+36:34
+On envoie tout par email ou on utilise d'autres moyens ? C'est-à-dire un. FTP ou un WeTransfer ou quelque chose comme ça. Parce que les fichiers STEP ça peut être super lourd. Je pense qu'on envoie le fichier STEP plus le PDF.
+
+Joel Junod
+36:54
+Faudrait. Demander au chef de projet, je crois qu'on fait surtout par e-mail, si tu zippes les datapacks ça passe normalement. Après peut-être qu'ils ont des petits trucs...
+
+Julie Ehrhart
+37:08
+Ouais en fonction des. Fournisseurs et du type de pièces ça marche.
+
+Youssef HAFSI
+37:13
+De toute façon, on regardera cette partie gestion documentaire parce que si on travaille avec SharePoint et qu'on intègre SharePoint sur un projet ou un dossier SharePoint, on peut l'ouvrir à une personne externe spécifiquement. en lecture, en modification, etc. Et ça permet de ne pas avoir une duplication des documents avec des versions qui peuvent se perdre et tout reste à un même endroit. Après, qu'on joigne le fichier ou qu'on joigne le lien et on ouvre l'accès à la personne sur SharePoint, c'est beaucoup plus simple que faire des copies de fichiers. Ça, c'est un point important, mais ça va concerner pas mal de processus, je pense, chez vous, que ce soit surtout la qualité, que ce soit les commandes, que ce soit les dessins, la production. On va en parler de façon plus générale, c'est la gestion de compteur.
+
+Emmanuel Coletti
+38:10
+C'est très structurant ce que tu viens de dire en termes de gestion de la Datafilm.
+
+Youssef HAFSI
+38:17
+Ok. Ensuite, Joël, donc conception, liste des pièces, création des référentiels s'ils n'existent pas, envoie de la commande.
+
+Joel Junod
+38:29
+Oui, alors mise dans le système et puis envoie de la commande pour le chef de projet. Et ensuite, on fait les réceptions des pièces quand elles arrivent. Donc ça, on les fait aussi dans ces tableaux-là. Qui fait les réceptions ? Alors ça dépend, c'est soit les gars de l'atelier quand ils reçoivent les paquets ou alors moi parce qu'ils n'ont pas le temps et que je le gère pour eux, ça dépend. Mais en général c'est plutôt les gars de l'atelier.
+
+Julie Ehrhart
+39:01
+Et comment tu communiques en fait ce qui est attendu de l'atelier comme contrôle et comme. Comme check ?
+
+Joel Junod
+39:09
+Alors pour les projets qui me concernent en règle générale moi je m'informe auprès du chef de projet et puis je leur communique s'il y a des points particuliers.
+
+Julie Ehrhart
+39:18
+Mais c'est pas dans le système où c'est paramétré, il y a certificat, il y a ci, il y a ça, c'est tout ?
+
+Joel Junod
+39:23
+Alors normalement on peut le spécifier dans les actions des pièces et puis normalement par exemple si on attend des certificats ça doit être inclus dans la commande. C'est-à-dire que le chef de projet, quand il fait son award, il est censé mettre certificat 3.1 demandé. Aussi parce que ça a un prix, ces certificats. C'est juste. Souvent une petite limite supplémentaire sur les commentaires.
+
+Youssef HAFSI
+39:48
+Ce qu'on a discuté vendredi, on a dit qu'il y a la réception physique de la marchandise et après il y a le incoming donc qui est la validation que la pièce reçue correspond à ce qui a été demandé, etc. Quelque part c'est le contrôle qualité.
+
+Joel Junod
+40:14
+C'est ça exactement, c'est le contrôle d'entrée.
+
+Youssef HAFSI
+40:15
+Voilà et on a dit il y a deux niveaux de contrôle qualité soit un poussé soit un simplifié. Oui. On va dire ça comme ça et pour vous Quand je réceptionne, je dois informer le chef de projet à qui cette pièce est destinée qu'il y a eu la réception et ensuite, il va y avoir le contrôle qualité pour pouvoir dire que cette pièce correspond aux attentes. Là, vous disiez dans le projet, je vais dire que je l'ai reçue, mais en fait, ce n'est pas que je l'ai reçue, c'est qu'elle a passé le contrôle qualité pour que je puisse l'utiliser ou c'est vraiment que je l'ai reçue physiquement, mais elle n'a pas encore peut-être passé le contrôle qualité.
+
+Joel Junod
+40:56
+Je vois ce que vous voulez dire. Je vais juste aller dans un autre projet. Je peux découvrir un problème après. La réception.
+
+Youssef HAFSI
+41:06
+Oui, parce que si je l'ai et que finalement il y a une NC là-dessus, c'est comme si je ne l'ai pas parce que je ne peux pas avancer. Les délais sont importés aussi.
+
+Joel Junod
+41:18
+Nous, on a une procédure d'incoming où dès que le paquet arrive, que ce soit sur mon bureau ou sur celui du chef de projet, La personne qui a le paquet est censée amener ça à un opérateur d'atelier qui va pouvoir procéder à l'incoming. Donc là, en règle générale, il n'y a rien qui est renseigné dans le système. Nous on va communiquer à l'opérateur qu'est-ce que c'est et où c'est dans le système. Pour lui faciliter un peu le boulot. Et. L'Opérateur il va procéder à l'incoming donc il va faire des photos, il va vérifier que ce soit ok avec la commande et pour ça lui il va déjà aller par exemple s'il devait réceptionner cette pièce il. Va venir dans ce tableau là et.
+
+Joel Junod
+42:00
+En faisant l'incoming. Il. Va pouvoir vérifier si les. Documents. Que je surligne ici. Par exemple c'est dans le paquet et il va devoir. Remplir une checklist.
+
+Joel Junod
+42:13
+Pour. Savoir si tout. Est OK. Et une fois qu'il a fait ça, si tout est OK, il procède à la réception de la pièce et aux validations des. Actions et. Au stockage pour futur traitement. De la pièce.
+
+Unknown speaker
+42:30
+OK. Vous étiquetez les pièces une fois qu'elles sont reçues ou pas ? Alors normalement maintenant.
+
+Joel Junod
+42:40
+Oui.
+
+Youssef HAFSI
+42:41
+D'accord et l'étiquette porte le numéro du projet ?
+
+Joel Junod
+42:44
+Alors l'étiquette ressemble. À ça. Donc on a le. Numéro du. Projet, l'instance. Dans le système. On a le numéro de la pièce ainsi qu'un numéro de série généré.
+
+Joel Junod
+42:58
+Automatiquement dans notre système. On a éventuellement un un serial number provenant du supplier donc par exemple si nous la pièce c'est la 2 comme c'est écrit ici mais qu'on a envoyé la fabrication à un autre sous-traitant et puis que lui ses rapports de mesure c'est le numéro de série 1 et bah typiquement ici on peut mettre pour corréler tu vois. Julie c'est ce qu'on. Disait et ensuite le numéro de la pièce le parent le matériau et puis la révision.
+
+Julie Ehrhart
+43:32
+Et ça c'est fait pour toutes les pièces y compris les standards ? C'est-à-dire les codes par exemple ? Ou l'emballage du fournisseur.
+
+Joel Junod
+43:44
+L'emballage du fournisseur n'a jamais les numéros Almatech. Donc en règle générale, même les standards. Qu'On sait sur projet, on devrait tout étiqueter. Mais après ça c'est quelque chose qu'on a mis en place récemment. Avec Daniel et Igor. Après à voir si les opérateurs de l'atelier arrivent à le faire dans le temps qu'ils ont à disposition.
+
+Emmanuel Coletti
+44:04
+Tu étiquettes la pièce ou l'emballage ? Tu étiquettes quoi ?
+
+Joel Junod
+44:09
+Alors actuellement, on met les pièces dans. Des sachets puis on écrit au stylo sur les sachets. Mais ça Daniel, je ne sais pas à quel point le process de détectage a été peaufiné. C'est assez récent.
+
+Daniel Boving
+44:20
+C'est assez récent, du coup on n'a pas encore eu l'occasion vraiment de l'appliquer. Mais il faut aussi savoir que certaines pièces, quand on réceptionne, elles vont directement en salle blanche. Donc c'est pas des pièces qui vont aller au stock, donc on va souvent aussi les nettoyer selon une procédure existante et après on les rentre en salle blanche. Et puis là on a des sachets aussi propres qu'on utilise ou des petits bacs où on met les pièces dedans où on note après manuellement au feutre la référence, le numéro de série, etc.
+
+Joel Junod
+44:52
+Ça on avait regardé pour étiqueter les petits bacs en salle blanche, c'était faisable non ? On les recouvrait avec du Kapton et puis tout aurait été joué.
+
+Daniel Boving
+45:00
+Ça. Dépend de la taille des pièces.
+
+Julie Ehrhart
+45:06
+Le capteur c'est juste pour s'assurer que ça ne va pas polluer la salle blanche, c'est ça ?
+
+Daniel Boving
+45:10
+Oui, c'est ça. Et ça permet aussi de passer un chiffon avec de l'IPA dessus pour nettoyer sans qu'on efface quoi que ce soit.
+
+Emmanuel Coletti
+45:18
+Ça marche, merci. Je reviens juste, excuse-moi Joël et Daniel, sur le processus incoming parce qu'il y a quand même plusieurs étapes qui peuvent, j'imagine, durer un peu de temps. D'abord, on reçoit du transporteur la pièce et à ce stade, quand on a juste reçu, le transporteur il s'en va, Est-ce qu'il y a déjà un truc qui est coché dans le système ou on n'a rien coché tant qu'on n'a pas fait l'inspection. ?
+
+Joel Junod
+45:41
+En général, c'est la personne qui fait l'inspection qui remplit le. Système.
+
+Emmanuel Coletti
+45:46
+Mais au départ, quand elle n'a pas fait l'inspection, qu'elle a juste reçu le paquet. ?
+
+Joel Junod
+45:50
+Tant que tu ne sais pas ce qu'il y a dans le paquet, tu. Valides rien du tout.
+
+Emmanuel Coletti
+45:53
+Le statut reçu, il n'existe pas en fait. Reçu, non réceptionné, ça n'existe pas aujourd'hui dans. Notre système. Je vais essayer de comprendre à peu près combien d'étapes On.
+
+Joel Junod
+46:02
+A le Re7, mais ça en règle générale c'est fait au moment de l'incoming.
+
+Emmanuel Coletti
+46:08
+Il peut arriver qu'il y a des trucs qui sont posés dans un coin, qui sont effectivement reçus, physiquement le matériel est présent dans nos locaux, mais par contre dans le tracking tool, c'est comme s'il n'existait pas, comme s'il n'était pas.
+
+Julie Ehrhart
+46:22
+Par exemple, tu vois, tu as des colis qui arrivent au bureau, et tant que le chef de projet ne l'a pas donné à l'atelier, il est perdu dans l'espace.
+
+Joel Junod
+46:32
+Dans la procédure, c'est les opérateurs qui font les réceptions parce que les chefs de projet ont autre chose à faire. Nous, on a mis en place un process qui permet de d'avoir toutes les infos complétées à partir du moment où le paquet passe par un opérateur atelier.
+
+Emmanuel Coletti
+46:53
+Je pense qu'il faudrait à partir du moment où on va, je ne sais pas comment vous voyez les choses, mais à mon avis il faudrait un statut reçu non réceptionné, ensuite il faudrait un statut en réception, ça peut prendre un peu de temps, puis après un statut réceptionné.
+
+Joel Junod
+47:07
+Il y a un truc aussi, c'est que. Tu peux recevoir par exemple un paquet, tu peux recevoir une commande en deux paquets, parce qu'actuellement vu que la commande c'est du home made par les CP, donc des fois tu reçois une commande en deux paquets, des fois tu reçois tout dans un paquet et puis du coup qu'est-ce que tu valides ? Parce que là on est sur la réception d'une pièce spécifique dans une liste de pièces. Tant que tu n'as pas ouvert ton paquet, tu ne sais pas ce qu'il y a dedans, donc si tu viens valider le re-save-on de la pièce 2250010 et que tout d'un coup elle n'est pas dans le paquet, actuellement dans notre système, tu ne peux pas revenir en arrière. C'est aussi parce qu'on a des limitations système.
+
+Emmanuel Coletti
+47:54
+Vous souhaitez qu'on garde ce process, c'est-à-dire en gros tant que le colis n'a pas été ouvert, qu'on a vérifié la complétude au moins, ça n'existe pas dans le système, c'est comme si on n'avait rien reçu. Je caricature, mais c'est ça pour l'instant.
+
+Joel Junod
+48:08
+Je pense que ça dépend beaucoup de comment on fait les commandes. Si. Le. Paquet arrive et que le CP doit valider que sa commande est arrivée, s'il n'y a pas la commande complète sur un paquet, ça va poser des petits problèmes.
+
+Emmanuel Coletti
+48:29
+Bien sûr, il y a des actes. Quelque chose est arrivé. Il y a de notre salle.
+
+Youssef HAFSI
+48:36
+C'est vrai que vendredi, quand on a discuté, il y avait quand même l'événement « j'ai reçu le paquet » et l'événement « l'incoming », deux événements distincts. Pourquoi ? Parce que j'ai reçu le paquet, il a été livré, donc physiquement je l'ai. Même le fournisseur peut être demandé à être payé puisque ça a été livré. Par contre, après qu'il ne passe pas le contrôle qualité, qu'il y a une NC, qu'il faut faire un retour, qu'il faut faire une réclamation, c'est un deuxième process. Le système nous permet de faire les deux cas de figure, c'est-à-dire soit je réceptionne physiquement, je le vois dans les stocks, mais il y a un contrôle qualité qui doit être validé. Et tant que ce n'est pas validé, je ne peux pas utiliser la pièce.
+
+Youssef HAFSI
+49:17
+Elle est quelque part bloquée. Ou alors, lorsque je valide le contrôle qualité de l'incoming, c'est là où la pièce rentre en stock. C'est deux choses différentes. Enfin, c'est deux approches différentes. Ce qu'il faut savoir, c'est que si vous faites rapidement l'incoming dans le même jour ou les jours qui suivent, généralement, ça ne pose pas trop de soucis. Par contre, si vous mettez un mois pour faire un incoming, ça va vous poser souci parce que le fournisseur va vous dire oui, mais moi, je vais vous délivrer.
+
+Emmanuel Coletti
+49:47
+Qu'est-ce que tu en penses, Daniel ?
+
+Daniel Boving
+49:50
+Le chef de projet vient souvent nous demander, est-ce que vous avez fait l'incoming ? Est-ce que je peux libérer la facture ? On a validé la pièce du.
+
+Julie Ehrhart
+50:02
+Fournisseur.
+
+Emmanuel Coletti
+50:03
+Comme dit Youssef, il y a déjà validé que le transporteur a bien fait son boulot et que le truc n'arrive pas complètement broyé.
+
+Julie Ehrhart
+50:12
+Il y a des photos qui sont prises du colis pour s'assurer.
+
+Daniel Boving
+50:15
+Que... Ça, ça fait partie de l'incoming, mais comme Joël a dit, le fournisseur, si on commande 50 pièces, il peut faire une livraison partielle. On ne sait pas ce qu'il y a dans le colis, donc on n'a pas ouvert. On ne peut pas dire, OK, on a reçu quelque chose. On a reçu la livraison mais on ne l'a pas encore contrôlée, on ne sait pas. Donc on n'a pas physiquement ouvert le carton et commencé l'incoming, on ne peut pas savoir ce qu'il y a.
+
+Emmanuel Coletti
+50:38
+Donc toi. Tu souhaiterais Daniel. Tu ne. Vois pas l'intérêt de mettre un statut reçu mais non. Réceptionné. Tu vois ce que je veux dire ? J'ai un problème qui.
+
+Emmanuel Coletti
+50:46
+Est arrivé. Je préfère pas. En plus, ce n'est pas la place bien sûr de réceptionner.
+
+Julie Ehrhart
+50:52
+Je t'avouerais, je verrais déjà de suivre en amont de mon côté la commande, de suivre si l'expédition a déjà été faite. Donc à partir de ce moment-là, je sais ce qui est attendu et communiquerai à l'atelier. Comme ça, ils peuvent s'organiser et s'assurer que le transporteur ne s'est pas loupé. on sait ce qui va arriver et puis suivre si les livraisons arrivent bien comme prévu. Après c'est vrai que je ne me rends pas compte du temps qu'on peut mettre entre la réception physique et le contrôle de qualité. Généralement dans les boîtes où j'ai travaillé on avait un maximum de cinq jours pour justement s'assurer qu'on avait contrôlé la pièce et que c'était bien conforme à nos attentes et pour notifier le fournisseur s'il y avait un problème.
+
+Emmanuel Coletti
+51:37
+Comme disait Youssef, on n'a pas besoin de payer le transporteur, par exemple SEV, lui il s'en fout si c'est correct à l'intérieur ce qu'il y a, par contre il a fait sa prestation de transport.
+
+Julie Ehrhart
+51:48
+Le transporteur généralement c'est arrangé par le fournisseur, j'ai l'impression, donc rajouté sur la facture. Mais vu qu'on ne gère pas vraiment les incoterms, c'est encore une petite partie mystérieuse.
+
+Joel Junod
+52:01
+Il y a quelques cas de figure où c'est arrivé, mais c'était pour des standards. Après, dans tous les cas, pour pouvoir valider un paiement. Il faut faire l'incoming.
+
+Youssef HAFSI
+52:14
+Oui, avant d'arriver au paiement, je peux dire, j'ai reçu le colis, mais je n'ai pas encore fait l'incoming. Donc le colis, je l'ai, je n'ai pas fait l'incoming. Et à la limite, sur le bon de livraison du transporteur, je peux mettre réceptionné sous réserve. Ça, c'est des pratiques qui se font parce que j'ai quelque chose de physique chez moi, un colis, mais je ne l'ai pas encore vérifié. Donc oui, j'ai bien reçu, mais sous réserve.
+
+Joel Junod
+52:42
+Est-ce que ça s'indique sur la commande ou sur les pièces que l'on va recevoir de la commande ?
+
+Youssef HAFSI
+52:51
+Imaginons que je commande 50 pièces, je peux dire que je n'ai reçu que 10 pièces. c'est-à-dire que j'ai un document de réception avec un statut, mais après, je valide combien de pièces j'ai reçues. Deuxième approche, c'est ce que vous dites vous, c'est j'ai ma commande, j'ai un document de réception de repos qui est là, et je fais l'incoming, je valide le contrôle qualité, et là, il y a les pièces qui rentrent en stock et qui sont bons à consommer. Ces deux approches sont possibles. c'est à vous de décider ce que vous souhaitez faire. Maintenant, rien n'empêche de dire j'ai un statut colis reçu, par exemple, mais juste une information, même s'il n'y a pas le stock dans le système, mais j'ai une information qui dit sur cette commande-là, sur ce pont de réception, j'ai un statut colis reçu.
+
+Emmanuel Coletti
+53:45
+Moi. Je trouverais ça. Plus sain d'avoir quand même ce statut en plus, bien sûr pas à la place, mais en plus. Pour qu'on sache que le chef. De projet, il sait où il en est. Il sait que le colis est reçu. Mais pas ouvert.
+
+Emmanuel Coletti
+53:59
+Par exemple. On a juste extrait le papier qui dit ce qu'il y a dedans. Mais c'est tout. On ne sait pas si c'est utilisable, on ne sait pas dans le stock. Ça permet de tracer vraiment chaque étape. Oui. Parce que quand on va recevoir.
+
+Emmanuel Coletti
+54:12
+Beaucoup de pièces, c'est quand même important je pense sur Aya par exemple, de bien suivre au fur et à mesure ce qui se passe. Exactement. Là.
+
+Youssef HAFSI
+54:22
+Ce qu'on peut faire, on avait discuté un petit peu, je dis rapidement, c'est que sur un document en propos de réception d'une commande, si la personne qui reçoit, parce que j'ai compris que ça vaut différentes personnes qui reçoivent, ils peuvent aller sur le document et dire colis reçu, et tout de suite on inscrit le nom d'utilisateur et la date, on sait quand ça a été reçu, et ensuite le chef de projet voit qu'il a un colis qui est reçu, qu'il y a son projet, et là il peut faire son incoming.
+
+Unknown speaker
+54:54
+C'est ça, ça déclenche une commission.
+
+Youssef HAFSI
+54:56
+Rien à décider maintenant, c'est un processus, c'est ce que vous faites aujourd'hui, mais de façon un peu plus, on va dire, structurée dans le système pour avoir les infos, parce que si aujourd'hui vous recevez 10 pièces par jour, si demain vous en recevez 100, ça va commencer à être un peu plus compliqué. Après, pour la partie éthique, C'est vrai que c'est intéressant d'étiqueter. Alors, nous, on sort les étiquettes automatiquement et les met sur le sachet, etc. On y reviendra sur cette partie-là. Je vais vous montrer ce qu'on a dans le système, mais ça permet à minima, sur l'étiquette que vous avez montrée, de dire voilà le projet auquel c'est rattaché. Voilà la pièce. Voilà le numéro de série.
+
+Youssef HAFSI
+55:42
+Alors, nous, on fait quelque chose d'un peu plus. On peut même dire à quel sous-ensemble c'est rattaché. Parce qu'on peut avoir plusieurs sous-ensembles. Et du coup ça permet... Ça permet de ne pas se perdre et de suivre vraiment, de le mettre dans le bon bac, entre guillemets, que ce soit bien identifié. Pas besoin d'écrire au stylo spécialement, les étiquettes peuvent sortir en fonction de la quantité de pièces reçues. Mais ça, je vais y venir juste après.
+
+Youssef HAFSI
+56:14
+OK, donc Processing Coming. Ensuite.
+
+Joel Junod
+56:19
+Alors, à l'incoming, la personne qui réceptionne le paquet, il va devoir dire combien il en a reçu de pièces. Et typiquement, s'il y a des spare parts, donc si on a besoin de 2 et qu'il reçoit 5 pièces, lors de l'incoming, il va devoir dire qu'il en a mis 3 au stock du projet. Je ne sais pas si ça va marcher parce que c'est commandé. Si je vais dans l'album ici.
+
+Youssef HAFSI
+56:53
+Vous pouvez avoir de la surréception.
+
+Joel Junod
+56:56
+Tout à fait. Et c'est comme ça qu'on gère le stock. En fait, on est obligé d'approvisionner. Un besoin pour. Ensuite mettre le. Reste au stock. Pour moi, on devrait d'abord mettre les.
+
+Joel Junod
+57:07
+Pièces, réceptionner les pièces dans le stock. Et ensuite les. Approvisionner à un besoin. Mais ça, c'est historique.
+
+Youssef HAFSI
+57:14
+Non, pas forcément. Ce que vous faites n'est pas faux non plus parce que vous raisonnez par projet. Donc, quand je réceptionne, j'affecte directement au projet et le surplus va au stock. C'est juste aussi de le faire comme ça. Par contre. C'Est le terme stock-projet qui me gêne un peu parce que vous raisonnez un stock par projet alors que normalement, j'affecte les pièces qui sont nécessaires au projet et puis le reste va dans un stock, mais un stock tout court, pas stock-projet. Si jamais cette pièce là c'est un standard et que potentiellement demain on en a besoin sur un autre projet, je peux voir qu'elle est là.
+
+Youssef HAFSI
+57:53
+J'en ai.
+
+Joel Junod
+57:53
+Tout à fait. Alors on a deux stocks. On a un stock général et un stock projet. Pour des pièces ALM DES-519 par exemple, ça c'est des pièces 519 qui sont dédiées au projet 519. Donc en fait les pièces DES vont aller dans le stock projet. pour des standards des commerciales off the shelf, on a un stock général pour tous les projets.
+
+Youssef HAFSI
+58:20
+Est-ce que physiquement c'est deux endroits différents ? D'accord. Est-ce que vous avez des... Je vais dire bac, mais le terme, vous allez comprendre ce que je veux dire. Est-ce que vous avez des bacs par projet ? Je commence un projet, P01, j'ai un espace, un bac, un endroit dédié à ce projet-là où il y a toutes les pièces dont j'ai besoin.
+
+Joel Junod
+58:40
+Oui. Quand on a des projets, on essaie de regrouper. Alors, c'est un peu compliqué des fois, mais tout le matériel pour un projet est regroupé au même endroit. Et tous les standards qu'on. Achète sont. Réservés aussi. Dans ces endroits-là.
+
+Youssef HAFSI
+58:57
+D'accord. C'est ça que vous appelez le stock-projet. C'est ces endroits qui sont dédiés. Ok.
+
+Joel Junod
+59:01
+C'est ça. D'accord. Et puis en fait, il y a aussi un truc où le... Vous avez vu qu'on a plus de 4000 références pour des commerciales. Off-The-Shelf. Donc c'est impossible. De maintenir un stock.
+
+Joel Junod
+59:13
+Physique pour. 4000 pièces. Dans nos locaux. Donc en fait on a un petit armoire dans lequel il y a des râpes de visserie. Mais ça c'est pas. Quelque chose qui est vraiment à jour. Donc en fait ce qu'on fait c'est que quand on commande des pièces on.
+
+Joel Junod
+59:27
+Les laisse quasiment. Systématiquement. Dans les caisses. Dédiées au projet. En cas de besoin aussi. Si tout d'un coup les gars qui sont en salle blanche ils ont besoin de ressortir une vis ils peuvent aller regarder dans les stocks. Projets.
+
+Joel Junod
+59:42
+Il y a de fortes chances que la vis qu'ils aient perdue sous la. Table en superpart dans le stock-projet.
+
+Julie Ehrhart
+59:49
+Ça permet aussi de garantir la traçabilité.
+
+Joel Junod
+59:53
+Oui, entre autres.
+
+Emmanuel Coletti
+59:54
+Et ça rejoint ce qu'on disait, pour l'instant on travaille beaucoup par projet, il y a peu d'efforts liés à la mutualisation des stocks inter-projets.
+
+Joel Junod
+1:00:01
+Alors, on a cette nouvelle classe de standard, mais Emmanuel... C'est de ma faute. Est-ce que c'est ce que je sous-entends ? Non, pas du tout. En gros, on a mis en place une nouvelle gamme de standards réduits, c'est les STC que j'ai montré tout à l'heure. L'idée de ces STC, c'est que c'est vraiment des standards communs, réutilisables sur la majorité des projets. Et l'idée de ces STC, c'est d'avoir un stock physique à l'atelier.
+
+Joel Junod
+1:00:35
+Et pour toutes les autres pièces standards, un petit peu hors standards, ça resterait sur projet. à terme. J'ai l'exemple d'une. Rondelle en cuivre, t'en commandes 10, tu les laisses dans la caisse du projet parce que la probabilité de réutiliser 5 de ces rondelles en cuivre, ça coûtera plus **** que de les recommander chez Bossard.
+
+Emmanuel Coletti
+1:00:58
+Aujourd'hui, Joël, est-ce que c'est le fait qu'on n'arrive pas assez à standardiser, est-ce que c'est un problème en amont sur le niveau de la conception ou est-ce que c'est un problème aussi dans le processus et dans les. Outils et. Dans la traçabilité ? Est-ce que si on fait un process, un outil hyper. Clean. Ça libérera ces choses-là ou est-ce que de toute façon on a un problème en amont qui n'a rien à voir avec le RP du coup, qui est sur la conception ?
+
+Joel Junod
+1:01:28
+La. Conception je pense. C'Est aussi les besoins. Sur des projets si tout d'un coup tu as besoin d'un truc très spécifique, tu as quand même envie de pouvoir le tracer et donc de lui mettre un numéro. Et puis ce que les gens faisaient c'est qu'ils créaient des standards pour numéroter n'importe quoi qui serait physique à l'atelier. Un étage Mizumi.
+
+Emmanuel Coletti
+1:01:49
+Un palo HF... Aujourd'hui c'est STC les codes c'est ça ? Les trucs qui sont vraiment standards ? Et. Il n'y a pas beaucoup de STC aujourd'hui ? Parce qu'il n'y a pas beaucoup de STC qui sont appelés dans la conception ? Ou est-ce que c'est parce qu'on ne gère pas vraiment bien le stock STC parce que l'outil aujourd'hui qu'on a, le tracking tool, je ne sais pas, il n'est pas...
+
+Emmanuel Coletti
+1:02:10
+Parce que voilà, par conservatisme aussi, les chefs de projet préfèrent garder le stock au niveau projet. C'est juste comprendre si c'est un problème de choix sociétal.
+
+Joel Junod
+1:02:18
+Les STC, ils n'ont pas encore été déployés dans la société parce qu'on attendait la validation des chefs.
+
+Emmanuel Coletti
+1:02:24
+Ouais mais c'est là où on revient à ce que je dois faire parce que j'ai pas bien compris ce que je peux faire.
+
+Joel Junod
+1:02:28
+Mais après on attendait aussi le ERP pour savoir comment, parce que moi je sais pas comment le stock dans le tracking tool il va gérer cette nouvelle gamme de standards. Est-ce que ça va se mélanger aux codes ? Donc en vrai on attendait de voir le ERP pour pouvoir mettre un stock un peu plus... Là le stock actuellement il est à zéro.
+
+Emmanuel Coletti
+1:02:46
+C'est un peu ça, voilà c'est exactement ça que je voulais savoir. Est-ce que c'est lié à l'outil ? Ah oui c'est lié à l'outil oui.
+
+Julie Ehrhart
+1:02:51
+J'ai.
+
+Youssef HAFSI
+1:02:54
+Une question qui rejoint ça. Je suis en train de faire de la conception d'un point de vue simplicité, je crée une nouvelle pièce, ça me permet de la tracer, c'est beaucoup plus simple dans mon travail. Je vais d'abord chercher, voir s'il n'y a pas un standard que je peux utiliser. Est-ce que je cherche si c'est un standard que je peux utiliser ou pas ? Ou je vais par facilité directement créer une nouvelle référence ?
+
+Joel Junod
+1:03:26
+Non, n'importe quelle personne qui fait de la conception doit, s'il a un besoin, aller vérifier dans les bases de données avant. Si la pièce qu'il a besoin n'existe pas, évidemment.
+
+Emmanuel Coletti
+1:03:38
+Et ça c'est facile ? C'est facilité par les outils ? C'est faisable. C'est lourd et du coup ils le font pas ?
+
+Joel Junod
+1:03:44
+Non c'est faisable. Nous on a cet outil de recherche ici, donc ça c'est la base de données des commerciales off the shelf. Donc je sais pas, par exemple si je mets screw M5 x je sais pas combien, bah là en fait il va me sortir toutes les screws qui sont des codes actuellement.
+
+Emmanuel Coletti
+1:04:04
+Donc ça pour toi c'est pas un. Frein aujourd'hui le tracking tool. C'Est pas ça qui freine l'envie des gens d'utiliser des pièces standards ?
+
+Joel Junod
+1:04:11
+Non non pas du tout, il y a eu quelques fois des doublons parce que tout d'un coup la personne elle a mal vu etc mais comme moi en général je fais des checks de temps en temps on a évité ça mais par contre le gros problème c'est que pour des commerciales off the shelf on avait les mêmes vis en A2 50 en A4 50 on avait la même chose pour les rondelles donc en fait on a des doublons où il y a juste un petit truc qui change. Et c'est pour ça qu'on a créé cette gamme de standards limités. Et puis, dans le temps, il y a de moins en moins de choses qui sont normalisées parce que les gens retrouvent de plus en plus ce qui a déjà été créé dans le temps. Quand tu as 5000 standards normalisés, en règle générale, tu trouves quand même ton bonheur dedans. Et puis, les gens font l'effort d'aller chercher dedans.
+
+Unknown speaker
+1:05:00
+D'accord. OK. OK. Très clair.
+
+Youssef HAFSI
+1:05:08
+On est arrivé à la fin du process ou il y a encore La dernière chose...
+
+Joel Junod
+1:05:16
+Non, c'est pas une bonne idée d'aller là. Non plus.
+
+Unknown speaker
+1:05:20
+Si je reviens en arrière...
+
+Joel Junod
+1:05:31
+Donc nous, une des choses qu'on a encore besoin de gérer une fois que la réception est faite, c'est ces actions là. Ça c'est quelque chose qui est important pour nous, c'est ce qu'on appelle les PCP, c'est les Product Control Plan, je crois. Donc en fait nous on doit pouvoir mettre des actions sur des pièces et suivre leur cycle de vie. C'est à dire qu'on prend n'importe quelle pièce, on doit savoir ce qu'elle a vécu comme cycle de vie, de la réception à la libération pour l'assemblage.
+
+Youssef HAFSI
+1:06:24
+C'est la trace habitée, par où elle est passée, sur quel projet, où elle a été utilisée et chez quel client elle est partie.
+
+Joel Junod
+1:06:33
+Oui, exactement. Et à chaque fois qu'elle est revenue, typiquement c'est une pièce par à l'extérieur, mais ça aussi c'est quelque chose qui est tout fait manuellement. Par exemple, pour cette pièce-là, on a fait l'incoming, on a le machining, certificat matière, contrôle dimensionnel et on valide l'incoming. C'est-à-dire qu'à l'incoming, il devait y avoir ces deux documents-là. Ensuite, après l'incoming, on a fait un shipment pour l'envoyer au traitement. On a refait une incoming quand elle est revenue. Ensuite, on a nettoyé la pièce, on l'a double baguée et on l'a release for Sembly.
+
+Joel Junod
+1:07:11
+et puis on a des validations, les Keep Inspection Points. Donc en fait le Release for Sembly, il n'y a que le Principal Engineer du projet en théorie qui devrait pouvoir la valider. Bon là évidemment je mets ma casquette qualité, normalement ça serait à Judith de dire tout ça, mais comme elle n'est pas là. Mais en gros on a vraiment besoin de pouvoir tracer tout ce que la pièce voit.
+
+Julie Ehrhart
+1:07:33
+Il n'y a pas d'ordre de fabrication qui donne après tout l'assemblage, les dates de fabrication et s'il y a ce genre de choses aussi encore en plus à faire au niveau du top Sembly.
+
+Joel Junod
+1:07:47
+Alors après le top Sembly, tu retrouves des actions dans le top Sembly. Ok. Mais c'est pas très bien fait là. Après toutes ces actions c'est quelque chose qui est fait à la main aussi. Donc c'est nous qui éditons les séquences, c'est nous qui mettons les actions. Donc ça aussi on n'est pas à l'abri d'une petite...
+
+Julie Ehrhart
+1:08:08
+Tout ça c'est manuel.
+
+Youssef HAFSI
+1:08:10
+Mais ça. C'Est un séquençage. le même toujours pour cette pièce ou un séquençage. Unique pour. Cette pièce, pour ce projet.
+
+Joel Junod
+1:08:26
+On est dans des cas de figure où on a très peu de pièces, où toutes les pièces sont uniques et où on n'a pas forcément des grandes quantités. Donc typiquement ça c'est une pièce complètement unique dans l'assemblage, donc là en l'occurrence c'est vraiment dédié à la pièce. Les processus des actions c'est souvent machining, material certificate, contrôle dimensionnel et incoming. Et après, en fonction de la matière de la pièce par exemple, si c'est de l'aluminium qu'on va devoir traiter, il y aura souvent des traitements. Par contre si c'est de l'inox, il y aura peut-être juste un décapage passivation. Ça, ça dépend un peu de la matière, ça dépend de la pièce.
+
+Emmanuel Coletti
+1:09:13
+Par exemple, Joël, pour Agab, on va devoir faire un peu du nettoyage en série, si j'ai bien compris. Comment on veut le traiter en fait ?
+
+Joel Junod
+1:09:22
+On veut le traiter par basses...
+
+Emmanuel Coletti
+1:09:24
+Ouais. De plein de pièces qu'on reçoit, tous les encore notes ou je ne sais quoi là.
+
+Joel Junod
+1:09:29
+Alors, ça en théorie...
+
+Emmanuel Coletti
+1:09:33
+On veut tracer quoi ? On ne veut pas tracer chaque anchor note, s'il a suivi son nettoyage, on veut tracer ça par ***** peut-être ?
+
+Joel Junod
+1:09:45
+Alors là on est dans le cas d'une pièce unitaire, mais dans le cas d'une pièce qui se répète dans l'intégralité de l'instance, elle sera groupée. Donc en fait on peut gérer toutes ces actions au niveau du groupe. D'accord. Donc imaginons j'ai un top Sembly qui contient deux sous-ensembles dans lequel dans chacun des deux il y a les mêmes vis et les mêmes écrous. Je vais pouvoir traiter l'intégralité de la réception, enfin de la commande, de la réception et de la validation des actions pour toutes les pièces uniques dans cette instance grâce au groupe.
+
+Youssef HAFSI
+1:10:26
+Comme on a dit qu'on n'allait pas sur la production. Et du coup les gammes, parce que là ce que je vois c'est plus des gammes d'opérations, mais. On a dit qu'on n'allait. Pas sur cette partie-là. Ok, on regarde.
+
+Emmanuel Coletti
+1:10:44
+On est borderline. ISF entre. La production et l'assemblage. Ce n'est pas de la production, C'est la préparation à l'assemblage.
+
+Youssef HAFSI
+1:10:52
+La préparation. On va regarder cette partie-là. On va éviter de payer une licence pour ça. Oui, mais on s'en trouve un moyen de le faire même sur un petit. Custom qui permet de suivre ça. C'est suffisant.
+
+Joel Junod
+1:11:07
+Je ne sais pas à quel point c'est vraiment demandé par nos clients, Emmanuel. Ça, il faudrait voir avec Judith. Je sais que c'est une vitrine qualité qu'on vend, notre système de traçabilité. Après moi, je ne sais pas à quel point c'est qu'une vitrine ou à quel point c'est vraiment quelque chose qui est demandé. Le fait de tracer, c'est nettoyé. Ou pas ? En fait, nous, quand on vend des offres, en règle générale, on montre notre système et on leur dit, regardez, on peut savoir exactement qu'est-ce qu'on fait sur les pièces, c'est de l'interne, c'est du home-made, c'est privé, tu vois, c'est quelque chose qu'on vend au client.
+
+Joel Junod
+1:11:46
+Mais est-ce que c'est quelque chose qui est vraiment demandé ? Ça, il faudrait voir avec Judith.
+
+Youssef HAFSI
+1:11:53
+On peut suivre ça, c'est pas... C'est pas problématique, il faut juste savoir comment le suivre et à quelle maille on va le suivre. Parce que si j'ai des pièces qui sont tous gérées au niveau lot ou série, c'est le lot ou la série que je vais gérer et je vais dire j'ai fait tel nettoyage, telle opération, telle opération, donc ça c'est quelque chose qui Mais il faut juste qu'on réfléchisse à où est-ce qu'on met ce suivi-là. Je vais vous présenter l'outil, on va en discuter, et comme ça on regardera après à quel niveau on gère ça pour ne pas se tromper.
+
+Joel Junod
+1:12:36
+Et peut-être une petite chose, nous dans notre système on va toujours gérer par groupe ou série, sauf dans le cas de pièces unitaires mais par exemple on a la possibilité quand on fait les réceptions ou quand on valide les actions si on fait des batchs partiels on peut sélectionner les numéros de série. Sur lesquels on travaille et en fait ça va dégrouper les autres du *****
+
+Joel Junod
+1:13:04
+En fait, on. Peut gérer... C'est peut-être. Un peu compliqué... Non, non, non.
+
+Youssef HAFSI
+1:13:11
+Par contre, je vais redire ce que vous me dites pour qu'on soit. Aligné. J'ai une notion de série. Une série, c'est que chaque pièce est identifiée avec un numéro unique. Ça, c'est une série. D'accord ? Donc, si j'ai 10 pièces, j'ai 10.
+
+Youssef HAFSI
+1:13:24
+Numéros de série. Et du coup, je peux sélectionner numéro de série par numéro de série la pièce que je sélectionne. Du coup, quand je. Reçois. J'Ai dix étiquettes avec dix. Numéros de série différents. Chaque pièce a une étiquette et un numéro de série spécifique.
+
+Youssef HAFSI
+1:13:27
+Donc on.
+
+Youssef HAFSI
+1:13:42
+Qui me permettent de suivre. Versus. J'Ai un. Lot. Un ensemble de pièces qui ont un numéro unique, mais dont le lot, je n'identifie pas l'un ou l'autre. Quand j'utilise, j'indique le lot. Au lieu que chaque pièce ait une étiquette, j'ai une étiquette qui dit J'ai 10 pièces dedans, il y en a 10.
+
+Youssef HAFSI
+1:14:03
+Quand je prends, je dis quel lot, mais je n'identifie pas chaque pièce unitairement. J'identifie une pièce du lot.
+
+Unknown speaker
+1:14:09
+Du groupe. Oui, c'est ça. Effectivement. Donc le lot, c'est un...
+
+Joel Junod
+1:14:19
+Globalement, c'est ce qu'on fait. Nous, notre système nous donne, même pour des lots, notre système nous donne automatiquement un numéro de série. Par contre, c'est pas... En pratique, on utilise le numéro du lot et pas son numéro de série que le système nous génère. Typiquement pour des lots de vis. C'est juste, Daniel.
+
+Daniel Boving
+1:14:43
+On a des vis qui sont en théorie numérotées avec un SN1 à 100, mais c'est le lot qu'on utilise.
+
+Joel Junod
+1:14:54
+C'est juste que notre système nous donne ce numéro de série automatiquement, mais pour des lots on s'en sert pas. Effectivement donc c'est correct, on est aligné. J'avais.
+
+Unknown speaker
+1:15:05
+Encore une petite question. Pour Joël. Sur les codes, si tu vas sur la pièce, t'arrives à savoir à toutes les BOM qu'elle est associée, ou comment on fonctionne par projet et si chacun connaît son projet.
+
+Julie Ehrhart
+1:15:20
+?
+
+Joel Junod
+1:15:28
+Alors, on fonctionne par projet, mais tu pourrais le savoir en faisant une recherche. Par exemple, là si je tape ALM... C'était lequel? 4500... Voilà, donc en fait, si tu fais une recherche avec ce numéro, tu vois qu'il est utilisé juste dans...
+
+Julie Ehrhart
+1:15:47
+Si tu veux partager ton écran du coup...
+
+Joel Junod
+1:15:49
+Ah, je ne scrime pas, pardon.
+
+Julie Ehrhart
+1:15:50
+Non, Youssef avait repris la main, désolé.
+
+Joel Junod
+1:15:53
+Non, non, pas de soucis.
+
+Unknown speaker
+1:15:56
+Hop.
+
+Joel Junod
+1:15:58
+Donc là on voyait qu'il y avait le code 4500, donc en fait si on fait une recherche ici, ce que j'ai fait là, en fait il te met toutes les instances dans lesquelles tu peux retrouver cette pièce. Donc ça il va juste te dire j'ai trouvé ce ALM code 4500 ici, mais il ne va pas te dire combien ni quoi que ce soit d'autre.
+
+Julie Ehrhart
+1:16:29
+Ouais, ça te. Prend du temps de. Rechercher tout ça.
+
+Joel Junod
+1:16:32
+Après, t'as rarement besoin de cette information.
+
+Julie Ehrhart
+1:16:37
+Je vois c'est pour faire. Mes plannings, forecasting, optimisation des lots, enfin toutes ces belles fonctionnalités que Youssef m'a montrées. Mercredi. Mais. Oui on n'a pas l'outil qui. Permet de faire ça actuellement donc voilà, il n'y a pas de problème.
+
+Joel Junod
+1:16:55
+De nouveau, normalement toutes les pièces codes qui ne sont pas utilisées sur projet sont mises au stock, c'est juste que c'est quelque chose qu'on a beaucoup de peine à maintenir à jour et puis même en termes de. De places à disposition pour faire du stockage d'autant de composants.
+
+Julie Ehrhart
+1:17:16
+On est d'accord qu'on n'a pas ce problème qu'il y en a qui viennent se servir dans le stock. Oh tiens j'ai besoin d'une vis pour finir mon assemblage et puis qu'ils ne te la sortent pas et puis que du coup ton stock n'est jamais à jour physiquement.
+
+Joel Junod
+1:17:29
+C'est exactement ce qui se passe. On. Est exactement dans ce cas de figure là.
+
+Julie Ehrhart
+1:17:37
+Nous, on avait résolu le problème en fermant le stock à clés.
+
+Joel Junod
+1:17:41
+On a essayé, avec Thomas à l'époque, et puis ça avait bien gueulé à l'atelier, hein Daniel ?
+
+Daniel Boving
+1:17:49
+Dis-moi ! Non mais c'est clair qu'on a besoin, pas pour les montages de pièces de vol, là on n'utilise pas des côtes comme ça qui sont sans lots, sans traçabilité dans le stock, mais pour des posages, des setups de tests, Il se peut qu'on aille piocher trois vis à gauche ou à droite dans le stock, on regarde qu'est-ce qu'il y a, puis ah ben la M4 par 20 elle pourrait bien aller, puis on la prend.
+
+Joel Junod
+1:18:14
+Ça vous pourrait même le faire dans des bacs destinés aux modèles de vol. Typiquement pour les tests où on doit avoir des pièces représentatives. Ouais. Et là effectivement les stocks sont rarement mis à jour et puis on se retrouve régulièrement à devoir rentrer en salle blanche pour recompter les pièces une à une.
+
+Julie Ehrhart
+1:18:35
+Nous, ce qu'on avait mis en place, c'est qu'on avait mis une petite feuille quand l'atelier n'était pas là, enfin le magasinier n'était pas là, qui marquait ce qu'il prenait. Et puis après, le magasinier faisait les sorties de stock quand c'était approprié. Comme ça, on gardait le stock à jour. Alors ça a pris un petit peu de coup de bâton et d'engueulade pour reprendre les bonnes habitudes, mais une fois qu'ils ont compris qu'on avait tous intérêt à avoir un stock juste et pouvoir s'organiser, ça a marché. Juste, il faut un petit temps d'adaptation et d'engueulade pour que ça fonctionne. Et avoir des bacs et des étagères à disposition pour bien stocker tout ça. Je vais maintenant vous montrer les merveilleuses fonctionnalités.
+
+Youssef HAFSI
+1:19:30
+Ce qu'on va faire, on va dérouler... Je ne vais pas vous présenter les éléments, on va dérouler un flux. Ce sera plus simple. D'accord ? Alors, l'inconvénient, c'est que je ne peux pas... Vous allez avoir beaucoup de questions, mais il faudra les poser et on peut avoir des blocages. Mais c'est plus facile si on démarre sur un flux.
+
+Youssef HAFSI
+1:19:51
+Pour moi, le flux démarre au niveau du projet. D'accord ? La première chose, c'est le projet. création d'un nouveau projet. Je vais créer un nouveau. Au niveau du projet, quand je le crée, soit j'ai une séquence automatique, soit je peux modifier, mettre mon numéro directement. Généralement, votre projet, ça va être peut-être PRJ, DPP, puis 001.
+
+Youssef HAFSI
+1:20:30
+Au revoir.
+
+Unknown speaker
+1:20:35
+Ce qui va être. Deuxièmement aussi important, c'est de sélectionner un client.
+
+Youssef HAFSI
+1:20:40
+Jusqu'à là, c'est classique. Vous m'arrêtez s'il y a des questions. J'ai les clients, j'ai ces informations. Et. Puis je peux avoir une référence. Externe. Un numéro de commande d'achat du client.
+
+Youssef HAFSI
+1:20:55
+Une référence du client, peu importe. Ensuite, j'ai le responsable du projet. Et. J'Ai le chef. De projet. Le chef de projet, il a la fonction aussi de valider les. Timesheets.
+
+Youssef HAFSI
+1:21:09
+C'est pour ça qu'il faut le renseigner. Le responsable de projet, il a accès au projet, il a une. Vision sur. Le projet qui est un. Petit peu particulière. Si on regarde bien ici, ça c'est un axe analytique. On peut l'appeler comme.
+
+Youssef HAFSI
+1:21:23
+On veut. Il s'est créé. Automatiquement comme. Le projet. Pourquoi ? Parce que ça va permettre de rattacher énormément. D'Informations financières, etc.
+
+Youssef HAFSI
+1:21:33
+à. Ce projet-là. Tout ce qui n'est pas des frais. Directs. Mais ça, on en parlera plus tard. Sur la partie finances. Donc, c'est le suivi.
+
+Julie Ehrhart
+1:21:41
+Des coûts globaux.
+
+Youssef HAFSI
+1:21:42
+Du projet. Exactement. Et puis, j'ai un deuxième axe, bon, là, type client, mais on peut créer les axes. Qu'On veut. Ensuite. Une information qui est la date de livraison initiale et puis la date de livraison. Prévue.
+
+Youssef HAFSI
+1:21:53
+Ça, c'est des informations. Globales. Et là, j'ai un numéro d'article. Pourquoi ? Parce que normalement. Quand vous créez un. Projet, en fait, vous avez une nouvelle référence.
+
+Youssef HAFSI
+1:22:07
+Cet article-là, ça va être un petit peu le chapeau qui. Va regrouper tout. Le reste. Alors, ça peut être la même chose que le projet. Tu peux voir. Ça. Peut être la même référence que.
+
+Youssef HAFSI
+1:22:24
+Le projet, ça peut être une référence à vous, peu.
+
+Unknown speaker
+1:22:32
+Importe, on va dire comme. Ça. J'ai déjà plein de questions là-dessus Youssef.
+
+Youssef HAFSI
+1:22:53
+Alors je vais juste passer sur la ficherie rapidement et après je m'arrête. Là on peut mettre une description dans mon projet PPP. Tout ce qui est numérotation ça peut être automatique suivant un certain référentiel. le problème, mais le plus important, c'est que j'ai une référence parce qu'à la fin, vous allez faire un assemblage, ça va vous donner une référence finale que vous allez vendre, en fait. Et donc, c'est cette référence-là qu'on va vendre. Donc, on va assembler dessus des éléments et on va vendre. Je vais m'arrêter ici en termes de l'article lié au projet et comme ça, je réponds à vos questions.
+
+Unknown speaker
+1:23:43
+Manuel ? Oui ?
+
+Youssef HAFSI
+1:23:45
+Tu avais des questions ?
+
+Emmanuel Coletti
+1:23:47
+Oui, j'avais des questions. Alors, je comprends. Admettons que je veux vendre une structure à un dispenseur de satellites. Mon produit fini, celui sur lequel je vais être payé, c'est un assemblage avec une structure primaire, des braquettes, du câblage, etc. Donc là, je comprends bien la notion d'article que je vends. et de projet, et de chef de projet, tout ça c'est clair. Maintenant, Quid, des projets, je fais les cas extrêmes et exprès, des projets où on ne vend pas de matériel.
+
+Emmanuel Coletti
+1:24:17
+Là on est dans un atelier production, mais est-ce que si je n'ai pas de matériel, je vends du papier, est-ce que je dois avoir un numéro de référence qui va venir, entre guillemets, polluer le PLM, ou est-ce que je peux laisser le champ vide ?
+
+Youssef HAFSI
+1:24:30
+Est-ce qu'il y a quelque chose dont je suis allé pas assez vite ? L'article est de type stock, ça peut être une référence service.
+
+Julie Ehrhart
+1:24:37
+Ça te permettra de générer ta facture aussi derrière.
+
+Youssef HAFSI
+1:24:41
+Oui, mais ce n'est pas obligatoire, c'est vrai. Je peux ici le laisser vide et c'est le projet dedans, j'ai du service. Que je vends. J'Ai du temps que je vends, de la. Maintenance, peu importe, ce n'est pas obligatoire.
+
+Emmanuel Coletti
+1:24:56
+Deuxième question, si je vends deux. Choses. Par exemple, ça parlera Joël, si je vends un matériel, qui a vocation à voler, et puis un. Jig d'assemblage, donc. De l'outillage, mais je le vends aussi. Ce sont des choses qui sont disjointes, la seule chose qui les. Rassemble, c'est d'être dans le même projet.
+
+Emmanuel Coletti
+1:25:21
+Donc. En fait, je vends deux assemblages, quelque part.
+
+Youssef HAFSI
+1:25:24
+Les lignes. Attendez, je reprends juste le projet.
+
+Unknown speaker
+1:25:29
+Est-ce que vous allez vendre primatiquement ?
+
+Youssef HAFSI
+1:25:39
+Ce que vous allez vendre, il va se trouver dans les lignes. Le fait d'avoir créé l'article ici, je vais le retrouver dans les lignes pour le vendre et ça, c'est juste, ça me permet de savoir à quel gros ensemble je fais référence. C'est une information.
+
+Emmanuel Coletti
+1:25:54
+C'est-à-dire que j'ai un seul article qui va se diviser en deux tout de suite au premier niveau ou est-ce que c'est deux articles que je vais vendre ?
+
+Youssef HAFSI
+1:25:59
+Non, je vais, ici quand je vais mettre, alors je vais créer une ligne qui va s'appeler. Vente, à l'intérieur j'ai deux articles. J'ai potentiellement l'article que je viens de créer, c'était projet, et je peux avoir un deuxième article, je reviens dessus, et je peux avoir un deuxième article indépendamment que je vends aussi, et les deux sont rattachés au même projet.
+
+Emmanuel Coletti
+1:26:28
+D'accord, mais là on est déjà dans le cadre de la création... Ouais voilà, numéro article. Ce que je crois pas c'est Project Wise numéro article, ça c'est marqué RFPPP001. Et ce que tu viens de renseigner dans un tableau c'est le niveau en dessous du...
+
+Youssef HAFSI
+1:26:43
+J'ai renseigné l'article et un deuxième article que je vais vendre. Ça c'est juste pour lier la référence globale. Parce que j'ai besoin d'un chapeau dans lequel je vais mettre tous les assemblages en fait.
+
+Emmanuel Coletti
+1:26:56
+Donc tu as un numéro d'article unique. Même si tu vends. Deux assemblages ? Oui. D'accord, c'est ça ma question, dame d'architecture. Donc ça. Se subdivise.
+
+Emmanuel Coletti
+1:27:07
+En dessous tout de suite ?
+
+Youssef HAFSI
+1:27:08
+Ça se subdivise en dessous. Je vais revenir ici.
+
+Joel Junod
+1:27:17
+Juste. Emmanuel, je pense qu'il faudra bien briefer les CP pour bien dissocier les modèles parce que typiquement nous en aérospatial souvent on doit livrer plusieurs modèles et c'est déjà arrivé aux CP de mettre tout ça sur un ordre d'achat global et là j'ai vraiment l'impression qu'on a un article qui est le projet dans lequel on devrait avoir vraiment des articles des sous-articles indépendants pour chaque modèle ? Tu vois ce que je veux dire ? Il faudra vraiment dissocier...
+
+Emmanuel Coletti
+1:27:55
+C'est quand. On fait des commandes. Multi-Projets ou multi-articles. Dans un projet, comment on. Veut gérer ça ? C'est tellement complexe comme question que...
+
+Youssef HAFSI
+1:28:05
+Je vais vous dire, vous allez comprendre à quoi ça sert ça, vous allez voir qu'après c'est assez simple. J'utilise une référence ici unique sur le projet. C'est un chapeau, mais vous allez voir à quoi ça sert. Donc. Je ne vais pas parler des tâches, des activités. Ça, c'est la partie vraiment projet. Là, ce qui m'intéresse, c'est que j'ai une référence.
+
+Youssef HAFSI
+1:28:31
+Vous faites votre conception. Et puis, dans la conception, vous sortez une nomenclature d'assemblage. Cette nomenclature va potentiellement utiliser des pièces qui sont existantes ou des nouvelles pièces. Jusqu'à là, ça ne change rien. Si vous avez besoin d'une nouvelle pièce, vous allez la créer et vous allez donner les caractéristiques, les informations qui sont nécessaires. Si c'est une pièce qui est déjà existante, vous allez la sélectionner dans le référentiel. On est bon ?
+
+Joel Junod
+1:29:08
+Ouais, donc ça veut dire que pour avoir un nouveau numéro de pièce, on doit passer par le système pour la créer, pour la générer.
+
+Youssef HAFSI
+1:29:17
+Oui, là si je fais nouveau, alors je peux avoir des modèles d'articles, mais là si je fais ça, j'ai un numéro qui se génère, alors je peux avoir différents numéros, je peux avoir différentes catégories, mais je peux appliquer aussi des modèles, donc je peux avoir des modèles qui pièces standards, pièces spécifiques, etc. qui vont déjà pré-remplir un type de souche, un type d'article, etc.
+
+Emmanuel Coletti
+1:29:40
+Mettre des préfixes, ce genre de trucs.
+
+Youssef HAFSI
+1:29:42
+Mettre des préfixes, des choses comme ça. D'accord. Et ça vous donne la référence.
+
+Unknown speaker
+1:29:48
+Je reviens là-dessus. Pourquoi j'ai besoin que les références existent ?
+
+Youssef HAFSI
+1:29:54
+Parce que derrière, je vais avoir les nomenclatures d'assemblage. Donc, une nomenclature d'assemblage, elle a un code, soit c'est la même, vous l'avez forcément dans Katia, cette référence-là, nomenclature d'assemblage, donc on va reprendre la même, quand on importe de Katia. Vous avez une description, une unité de mesure, généralement c'est la pièce. Vous avez un statut. Donc, tant que c'est nouveau ou modification, je peux modifier, une fois que c'est validé, je ne peux plus y toucher. Et là, je vais gérer, il y a deux manières. soit je suis en train de gérer une nomenclature d'assemblage unique, soit je vais pouvoir la gérer aussi par version et générer des versions de la nomenclature d'assemblage.
+
+Youssef HAFSI
+1:30:45
+Je ne sais pas après comment vous travaillez. Une version, c'est que si je change une pièce dans ma nomenclature, au lieu que je recrée une nouvelle, je garde la même référence de base, mais j'ai une version numéro 2, 3, etc.
+
+Julie Ehrhart
+1:30:57
+Ça. C'Est des alternatives en fait, c'est ça ?
+
+Youssef HAFSI
+1:31:00
+Alors, ça peut être des alternatives, parce que je peux avoir 2-3 versions qui sont actives, soit ça peut être parce que je n'ai pas envie d'écraser mon référentiel pour garder une traçabilité, donc je crée une nouvelle version. Mais sans créer vraiment toute l'arborescence, c'est peut-être une pièce, deux pièces qui changent.
+
+Joel Junod
+1:31:19
+Alors nous, on travaille pour tout ce qui est assemblage, et pièce à plan on va dire. Nous on travaille avec des révisions A, B, C, D qui correspondent, donc en fait on a la révision qui apparaît dans les paramètres de la pièce 3D qui doit correspondre au plan 2D qui sert à fabriquer la pièce ou qui sert à l'assemblage. Donc typiquement si on a un article assemblage, il y aura un plan d'assemblage qui doit avoir la révision qui est la même que celle de l'assemblage. Donc ça serait A par exemple pour une première version. Ça c'est ce qu'on peut mettre sur les plans.
+
+Emmanuel Coletti
+1:32:07
+Est-ce qu'on n'est pas en train de distinguer ? Je m'assure juste qu'il n'y a pas un malentendu. Ce que tu évoques Joël, c'est en fait pendant la phase de maturation du développement, on fait évoluer un petit peu la définition et tu as des révisions qui s'incrémentent. Versus, on a développé le produit, on l'a même assemblé une fois, on l'a livré, et puis le client en commande un deuxième mais on voudrait changer une lame LGFRP, donc on change juste, on reprend exactement le même assemblage, on change juste un article dans sa définition et on reproduit une version, ce que je comprends, et plutôt le sens de ce qu'évoque Youssef, là on parlera d'une version B du coup, qui serait une sorte d'amélioration de la version A qu'on a déjà livrée.
+
+Joel Junod
+1:32:50
+Physiquement, ça se concrétisera par une révision B sur le plan. C'est-à-dire que pour le premier rassemblage qui a été livré, c'est la révision A de la pièce qui est censée être active et puis lorsqu'on décide de faire un deuxième modèle et puis de faire une modification, on passera la pièce en révision B et elle sera valable pour le deuxième assemblage.
+
+Emmanuel Coletti
+1:33:13
+C'est ça. Mais est-ce qu'aujourd'hui, toi Joël, quand tu fais une conception, avant d'avoir livré le premier exemplaire, dans le cadre du développement, par exemple de la PDA à la CDA, tu as déjà des incréments de versions qui existent déjà dans ton système, ou pas ? Ou tu écrases toujours ce que tu fais au fur et à mesure que tu améliores le design ?
+
+Joel Junod
+1:33:32
+Alors, comme on est très souvent dans des phases de proto avec beaucoup d'évolution, En règle générale, on garde toujours une trace des anciennes révisions, mais on incrémente. On incrémente à chaque fois pour avoir les bonnes révisions. Nous on n'a pas de... Comment expliquer ça ? On livre un assemblage une fois et puis deux ans après on en livre un deuxième donc on n'a pas trop de problèmes de date de validation des révisions etc. Comme.
+
+Emmanuel Coletti
+1:34:09
+On pourra avoir dans son industrie. T'as pas des besoins par exemple pour une PDR ? T'as une version du Katia que tu sors officiellement qui est la version que tu valides, enfin que tu évalues avec le client, et tu as une référence de design. Puis ensuite pour la CDR, entre temps tu as fait du travail de conception plus détaillé, tu as fait des choix, tu as pris en compte les commentaires du client, tu as changé la définition en fait, et tu as une autre. Donc tu as une autre version de Catia qui est configurée, tu vois ce que je veux dire, qui est tracée, qui est la version CDR. Est-ce qu'il ne faut pas qu'on trace. Tout ça ?
+
+Emmanuel Coletti
+1:34:41
+Parce qu'on va le tracer dans Catia je pense. Est-ce qu'il y a besoin de le tracer dans l'URP. ?
+
+Joel Junod
+1:34:47
+Ou.
+
+Emmanuel Coletti
+1:34:48
+Est-Ce qu'on trace rien, on attend juste le moment, on doit commencer à acheter du matériel.
+
+Joel Junod
+1:34:52
+Ce qui fait. Froid pour la prise de révision, c'est les plans. C'est-à-dire que tant que nous, on n'a pas sorti un plan de fabrication, en règle générale on n'incrémente pas les révisions. Quand on fait. Du design on fait des backup donc moi en fait je fais des, je sauvegarde les pièces en l'état avec une date mais en fait tant qu'un plan n'est pas sorti une pièce restera à la révision A tiré draft. Et sortir ça veut dire quoi ? Ca veut dire qu'une fois qu'on décide de faire un appel d'off par exemple qu'on décide de générer un plan de fabrication sur lequel il y aura la révision A À ce moment-là, quand le plan est envoyé à l'extérieur, que le plan est signé par les différentes personnes du projet, c'est-à-dire normalement le dessinateur, le principal engineer et le chef de projet, normalement quand il y a ces trois signatures, si moi je dois faire une modification sur cette pièce, je dois prendre une révision sur la pièce et sur le plan.
+
+Emmanuel Coletti
+1:35:54
+D'accord, donc en fait, tu commences à gérer en configuration, c'est-à-dire que tu commences à faire vraiment des incréments formels que quand tu as sorti pour la première fois à l'extérieur un plan. Avant ça, c'est quand tu es en conception préliminaire, etc. Tu gardes, tu fais des backups, mais c'est plutôt une gestion de configuration douce, enfin interne.
+
+Joel Junod
+1:36:14
+Et officiellement, la pièce est toujours la. Version 1. C'est ça. Le problème, c'est que si on incrémenterait la révision dans la pièce du 3D, sans faire le plan, tu commencerais ton plan à la révision D par exemple, ce qui n'est pas très logique. Moi. Dans l'absolu, ça ne me poserait pas de problème de commencer un plan à la révision D, ça peut générer des questions chez le sous-traitant. Par rapport aux anciennes et puis on lui dit non mais on a commencé à la D c'est un peu bizarre mais après moi c'est aussi un notre macro si tu veux qui fait les cartouches pour la conception des plans elle commence à la révision A donc si tout d'un coup on doit commencer à la révision D bah moi je dois aller changer manuellement mais ça c'est un problème d'outils informatiques.
+
+Joel Junod
+1:37:01
+À l'instant T. C'est quelque chose qui serait réglable, mais après effectivement c'est plus logique d'avoir un plan à la révision A.
+
+Emmanuel Coletti
+1:37:08
+Et toi par exemple, prenons Aya, là tu viens de passer la PDR, t'as pas de plan, c'est tout A parce que t'as pas encore de plan validé ? C'est ça. Aujourd'hui si j'ouvre dans Kata c'est tout A ? C'est tout A, exactement.
+
+Joel Junod
+1:37:19
+D'ailleurs ça serait beaucoup de boulot je pense en phase de développement. de tracer les révisions de chaque pièce. Donc on veut rester comme ça. Ça serait le mieux.
+
+Youssef HAFSI
+1:37:30
+Il y a une question, il faudra définir quand on intègre la nomenclature de Katia. J'ai compris qu'il fallait qu'il y ait les trois signatures pour qu'il y ait le plan qui est sorti. Mais est-ce qu'on n'en aurait pas besoin avant pour des questions de commandes ou d'achats ? Je l'ai noté, c'est un sujet dont on parlera.
+
+Joel Junod
+1:37:52
+Ça c'est une petite bouillie interne mais en gros des fois les CP ils veulent pas qu'on prenne des révisions pour perdre du temps donc en fait on met un gros stumple draft sans les signatures sur le plan et puis ça par contre si on envoie les plans en draft moi j'ai pas spécialement besoin de prendre une révision parce que si le plan est envoyé avec un stumple draft le sous-traitant qui répond à l'appel d'offres il se doute bien que potentiellement la pièce peut être modifiée sans prise de révision Mais là, c'est spécifique. Après, si on veut un cadre, si on veut avoir un bon cadre, je pense que les signatures, à partir du moment où on sort une pièce, il y a prise de révision. Ça ne me semble pas déconnant.
+
+Youssef HAFSI
+1:38:35
+OK. Alors, ma nomenclature d'assemblage. Comme on a dit, on peut gérer en version. Qu'est-ce que j'ai à l'intérieur ? Assez simple. Un article. Alors, quand je dis un article, il peut être lui aussi contenu dans une nomenclature d'assemblage, donc un sous-ensemble, ou directement une pièce, que ce soit standard, pas standard.
+
+Youssef HAFSI
+1:38:54
+Et c'est pour ça que tout à l'heure, j'ai dit qu'il faut que les références soient existantes pour pouvoir les sélectionner. Donc, si je prends Cette pièce-là est existante dans mes référentiels. Je vais indiquer la quantité dont j'ai besoin pour mon assemblage. Potentiellement, je peux dire sur quel article elle doit être installée. Sinon, je peux indiquer des positions. Position 1, 2, 3 et éventuellement si j'ai un numéro de machine ou d'outil que je dois utiliser.
+
+Julie Ehrhart
+1:39:26
+Ça correspond à quoi, les positions ? Excuse-moi.
+
+Youssef HAFSI
+1:39:29
+Alors, la position, c'est est-ce qu'elle est en position 1, position 2 dans mon assemblage ? J'utilise en position 3, etc.
+
+Julie Ehrhart
+1:39:35
+Le niveau d'assemblage dans la bombe, en fait.
+
+Youssef HAFSI
+1:39:39
+C'est pour ça que tout à l'heure, quand on a parlé Peu importe comment vous faites la conception, nous, on peut récupérer le numéro de position et qui indique les articles dans un ordre de ces positions-là. On n'est pas obligé de suivre comment vous avez fait la conception. Tout à l'heure, au tout début, quand je voyais l'incrémentation, on disait oui, c'est parce que la conception, comment on s'organise, ce n'est pas forcément la même organisation dans l'assemblage. Là, on peut l'indiquer, l'organisation dans l'assemblage.
+
+Joel Junod
+1:40:13
+Donc en fait. Ce qu'on fait là, c'est qu'on recopie la BOM dans le système ?
+
+Youssef HAFSI
+1:40:17
+C'est ça. Donc.
+
+Joel Junod
+1:40:20
+En fait, ce n'est pas une opération automatique ?
+
+Youssef HAFSI
+1:40:24
+Si, ça peut être automatique en fonction des fichiers que vous allez m'envoyer de Catia.
+
+Joel Junod
+1:40:28
+Là. C'Est comme si je réécrivais mon arborescence dans mon tracking tool. C'est comme si je le réécrivais à la main pour renseigner chaque ligne, chaque pièce, chaque sous-ensemble. Alors qu'actuellement, moi ce que je fais, c'est que j'importe la BOM dans le système. Le système comprend la BOM et crée tous ses articles automatiquement.
+
+Julie Ehrhart
+1:40:48
+Je pense que c'est ça qu'il faudrait.
+
+Youssef HAFSI
+1:40:50
+C'est ça qu'on va faire.
+
+Julie Ehrhart
+1:40:52
+Oui, ça ne sera pas fait d'un yeu.
+
+Youssef HAFSI
+1:40:54
+Il n'y a pas de retour en arrière.
+
+Emmanuel Coletti
+1:40:55
+Je n'ai juste pas compris une certaine position, désolé. Parce que c'est assez subtil. Il y a une arborescence produit dans Katia. Il y a les top assemblées, il y a les assemblées intermédiaires. Et cette arborescence, ça ne répond pas forcément à la notion de comment on assemble le matériel. Ça, c'est la notion de comment on assemble le matériel. Tu es d'accord Joël ?
+
+Emmanuel Coletti
+1:41:23
+Ton arborescence, Katia, ce n'est pas forcément strictement comment tu vas assembler. Ou c'est toujours.
+
+Joel Junod
+1:41:30
+La même chose ? Non, non, c'est juste ce que tu dis. Je pense qu'on n'est pas dans ce cadre-là. Là, je pense que c'est vraiment pour de l'assemblage à mon avis. Parce que là où je bossais avant, nous on générait les listes de pièces. Tu as des gens qui reprenaient les listes de pièces pour créer des configurations d'assemblage. Et à mon avis, je pense que c'est plus de ça qu'on parle maintenant.
+
+Youssef HAFSI
+1:41:47
+Il n'y a pas d'informations sur la configuration de l'assemblage ? Quelle pièce d'abord ?
+
+Emmanuel Coletti
+1:41:56
+Je ne pense pas, vous créez des sous-ensembles et des composants, mais ça ne dit pas dans Catia pas la notion de comment je vais l'intégrer.
+
+Joel Junod
+1:42:07
+Non, mais après ça c'est Daniel qui fait les procédures d'assemblage en reprenant les 3D.
+
+Emmanuel Coletti
+1:42:12
+Voilà, donc en fait c'est ça qu'on parle maintenant. Et bien justement, du coup, position, est-ce qu'il faut avoir déjà déterminé cette procédure d'assemblage de Daniel ? Ou est-ce qu'on craint juste la bombe de Katia et tout seul il va mettre la position en fonction du niveau dans l'arborescence Katia ?
+
+Youssef HAFSI
+1:42:31
+Là, par défaut, il va le mettre en fonction de l'arborescence de Catia, mais on pourrait intégrer des fichiers, notamment le fichier de comment on assemble cet assemblage.
+
+Emmanuel Coletti
+1:42:45
+Donc là, c'est très important, je pense. C'est très important, parce qu'après derrière, tu vas créer des ordres d'assemblage. Qui. Vont bien sûr s'appuyer sur une procédure d'assemblage. Exactement. Donc il faut que cette information, elle soit à un moment donné injectée.
+
+Youssef HAFSI
+1:43:01
+Dans le système. Par contre, depuis Catia, le fichier qu'on va recevoir, on va créer la nomenclature d'assemblage. S'il y a des pièces qui ne sont pas existantes, on va devoir les créer. Mais ces pièces-là, il faudra à un certain moment au niveau des achats revenir là-dessus parce qu'il y a des lead time et des informations financières, il y a pas mal d'éléments là-dessus. Mais le système ce qu'il fait c'est que s'il ne trouve pas dans l'intégration, s'il ne trouve pas la référence, il peut la créer automatiquement et puis ensuite compléter la nomenclature d'assemblage.
+
+Julie Ehrhart
+1:43:36
+J'ai une petite question Youssef. C'est vrai que comme tu disais, il faudra que je remplisse les données HA. Moi à partir du moment où la bombe est uploadée, j'aurais un warning en me disant attention il y a ces articles-là paramétrés. Oui.
+
+Youssef HAFSI
+1:43:50
+Oui oui.
+
+Julie Ehrhart
+1:43:51
+Ça. Existe donc moi c'est comme ça que je vois la chose de demander ensuite les offres, de renseigner les offres dans le système et puis après quand il y a la commande d'achat c'est à moi de voir quel est le lot et chez quel fournisseur commander.
+
+Youssef HAFSI
+1:44:05
+Exactement.
+
+Joel Junod
+1:44:08
+Je ne suis pas sûr de bien comprendre mais j'ai l'impression qu'on a sauté une étape qui est le DL de la BOM non ?
+
+Youssef HAFSI
+1:44:17
+On reprend. Donc, Athia sort. Une nomenclature d'assemblage. Une bombe. Dedans. Il y a des références. Ces références, soit elles existent.
+
+Youssef HAFSI
+1:44:31
+Soit c'est des nouvelles références.
+
+Joel Junod
+1:44:34
+Alors, partons d'un nouveau projet avec. Une. Nouvelle nomenclature ALMDS562. Donc là, moi je sors ma bombe de Gatia, je suis 100% sûr que toutes les pièces ALMDS562 n'existent pas dans le système. Ça c'est sûr, dans le cadre d'un nouveau projet. On est d'accord. On.
+
+Joel Junod
+1:44:52
+Est d'accord avec ça. C'est que des nouvelles pièces dédiées à un projet.
+
+Youssef HAFSI
+1:44:58
+Et quand vous allez. Créer l'album dans. Le tracking tool, les pièces vont être. Créées par la même occasion.
+
+Joel Junod
+1:45:04
+C'est ça, exactement. Et ça, c'est automatique dans le tracking tool.
+
+Youssef HAFSI
+1:45:07
+Ça sera. Automatique. Mais ces pièces qui ont été créées, il faut bien qu'on passe dessus pour alimenter des informations. De lead time, peut-être de coûts. Différentes informations au niveau. De l'affiche article. Parce que moi, quand j'ai une fiche article, je dois quand même indiquer certains éléments, notamment qui est le fournisseur, peut-être la référence chez le fournisseur, ce genre de choses.
+
+Youssef HAFSI
+1:45:35
+Ça, ça va servir plus tard pour les commandes d'achat.
+
+Joel Junod
+1:45:37
+Mais ça, par exemple, votre système n'est pas capable de prendre les informations de la liste de pièces, c'est-à-dire les quantités, le sous-traitant, ce genre de choses.
+
+Youssef HAFSI
+1:45:50
+Ah mais j'ai besoin de voir le fichier, s'il y a le sous-traitant, s'il y a le numéro du fournisseur, etc. Si, on pourra directement les alimenter.
+
+Joel Junod
+1:45:57
+D'accord, ok.
+
+Emmanuel Coletti
+1:45:58
+Je crois qu'il faut qu'on dézoome ou plutôt il faudrait qu'on écrive. Si ce n'est pas déjà écrit, il faut qu'on écrive ce process, il faut qu'on écrive avec des boîtes. Parce que ça devient. Trop compliqué pour juste parler en pensant qu'on s'est compris, je pense.
+
+Youssef HAFSI
+1:46:14
+On va cartographier le processus. Mais pour le moment, je ne peux pas dire qu'est-ce qu'on va faire, qu'est-ce qu'on ne fait pas, parce que j'ai besoin de voir ce qu'il y a de données dans le fichier. Donc ça, on va rentrer dans le détail, cette partie-là.
+
+Emmanuel Coletti
+1:46:26
+Mais aujourd'hui. Si on fait juste l'état de ce qu'il y a aujourd'hui, je ne suis pas sous ton contrôle, Joël, aujourd'hui, tu as une bombe dans Katia, qui ne répond pas forcément, avec une structuration qui. N'Est pas. Forcément le reflet de l'assemblage. Et il n'y a aucun. Lien avec le choix du fournisseur ou le prix. Si tu prends un article dans Gatia, il n'y a pas l'information si c'était le fournisseur ou le prix.
+
+Joel Junod
+1:46:49
+Pour les pièces standards, on met un fournisseur, mais pas pour les pièces à plan.
+
+Emmanuel Coletti
+1:46:56
+Et il n'y a aucun lien aujourd'hui, ce qu'on a vu tout à l'heure, avec les commandes d'achat puisque c'est quelque chose qu'on fait manuellement au niveau du CP. Et là, on est plus en train de constituer un assemblage. J'ai l'impression que Youssef, le résultat que tu veux obtenir, c'est j'ai une liste d'articles. Il y a déjà des informations qui sont associées à cet article, typiquement le fournisseur, le prix, la définition. Et je veux les assembler selon un ordre qui correspond à un ordre d'assemblage. Entre ces deux mondes, on est d'accord qu'il y a des choses que ce n'est pas juste copier-coller. Il y a un process.
+
+Youssef HAFSI
+1:47:32
+Donc déjà, on est tributaire des informations qu'il y a dans le fichier d'Ocatia. C'est ça, donc finalement il faut qu'on les mette. Qu'on les mette, donc si par exemple je reçois des informations avec la référence, la référence n'existe pas, on va la créer. Si la référence qu'on crée, on connaît le fournisseur, on le met. Si on connaît telle information, si on ne connaît pas, on va la créer, on ne mettra pas l'information et derrière je lui repassera dessus pour alimenter les informations nécessaires aux achats. C'est ça. Mais on aura déjà l'information, les composants, les quantités.
+
+Youssef HAFSI
+1:48:01
+Si on a comment elle doit être installée lors d'assemblage, tant mieux. Si on ne l'a pas, on va mettre le document de procédure d'assemblage derrière. On est vraiment tributaire de ce qu'il y a dans Catia puisqu'on reçoit les informations de Catia. Mais déjà, j'ai ma nomenclature qui est créée. Et surtout, au-delà des articles, parce qu'on en parlait tout à l'heure, on peut indiquer des ressources. Alors, les ressources, c'est des personnes, mais ça peut être des machines. Ce qu'on disait tout à l'heure, l'outillage, ça peut être des machines et là on va indiquer plutôt, soit c'est des heures, je ne sais pas comment vous voulez évaluer après les machines, soit parce qu'il y a un coût derrière qui va se calculer.
+
+Youssef HAFSI
+1:48:49
+Donc soit c'est des heures, soit c'est un nombre d'opérations à voir.
+
+Emmanuel Coletti
+1:48:55
+C'est très bien parce que j'imagine que ça peut même permettre Mais là on se projette dans la production, non seulement de définir quand est-ce qu'on a besoin d'un outillage mutualisé avec d'autres projets, d'ailleurs j'en ai besoin pour cet assemblage, et peut-être même si on met des ressources humaines, avec des quantités, peut-être même définir le prix de production à la fin, avec l'état des mecs, etc. Oui.
+
+Julie Ehrhart
+1:49:17
+Et on peut définir aussi un planning ? Là on parle de nombre d'heures, mais dire tiens je vais utiliser cette ressource du 3 septembre au 8 septembre ?
+
+Emmanuel Coletti
+1:49:29
+Ça, c'est dans la prod.
+
+Julie Ehrhart
+1:49:32
+Ça, c'est vraiment pour la couverture des coûts.
+
+Youssef HAFSI
+1:49:36
+Oui, ressources, personnes, machines, temps, etc. Je ne sais pas si ça vient de Katia ou pas, cette information-là. Les ressources.
+
+Emmanuel Coletti
+1:49:52
+Mais par contre la procédure, je pense que Daniel, si tu as une procédure d'assemblage que tu pourrais montrer un peu typique. Ce serait intéressant avec justement comment tu fais référence aux articles et sous quelle forme ça se présente. Juste pour voir si à un moment donné c'est un truc qu'on va pouvoir injecter dans le système ou si ça va rester un. Word un peu à part. Alors, il faut. Juste que je retrouve un. On peut laisser.
+
+Emmanuel Coletti
+1:50:17
+Youssef continuer mais je pense que c'est important d'avoir un peu le... que tu vois Youssef de quoi on parle quand on parle. Parce que là on parle d'assembly block donc c'est effectivement. Le...
+
+Unknown speaker
+1:50:25
+Comment on assemble en fait. Et qu'est-ce qu'on assemble.
+
+Joel Junod
+1:50:45
+Et ce tableau qu'on voit là, il est automatisable, entre guillemets, en partant de la bombe. Parce que moi j'ai ça, parce que dans Hayab, je pense que j'ai plus d'un millier de positions. Donc si Daniel, il doit commencer, Daniel ou moi d'ailleurs, on doit commencer à tout renseigner à la main.
+
+Julie Ehrhart
+1:51:02
+Non mais là tu apporteras ta bombe de Katia, et par contre il y a la partie ressources qui pour l'instant n'est pas gérée, que tu devras rajouter à la main. J'ai juste Youssef ?
+
+Youssef HAFSI
+1:51:14
+Alors si dans Cata il n'y a pas la partie machine ressources, il faudra qu'on la rajoute à la main. Oui. Je vais vous montrer un exemple.
+
+Emmanuel Coletti
+1:51:27
+Tu n'as pas un millier de positions, pour être sûr, tu. As un millier d'articles.
+
+Joel Junod
+1:51:31
+Oui, oui, pardon.
+
+Emmanuel Coletti
+1:51:33
+Tu as peut-être trois positions, trois niveaux ou quatre niveaux, je ne sais pas.
+
+Youssef HAFSI
+1:51:38
+Si on prend ici, il y a quelque chose qu'on avait fait qui est pas mal là-dessus. C'était avec SolidWorks, mais c'était sur le même principe.
+
+Unknown speaker
+1:52:20
+Ah oui, c'est pas non plus le temps d'assemblage.
+
+Unknown speaker
+1:53:12
+So, what we did here was...
+
+Unknown speaker
+1:53:24
+OK.
+
+Youssef HAFSI
+1:53:26
+Là, on a des lignes qui viennent de SOLIDWORKS. Et puis, il peut y avoir des lignes qui ont été rajoutées manuellement. Et en fait, on identifie au niveau des lignes ceux qui ont été créés par SOLIDWORKS. Il y a un flag, c'est une case à cocher. C'est créé depuis interface. Ce qui permet qu'il y ait une nouvelle version de supprimer que les lignes créées par l'interface et de recréer les nouvelles et de ne pas toucher les lignes manuelles, typiquement tout ce qui est ressources, etc. Donc si j'ai une nomenclature et que je dois créer une nouvelle version, ce qui est créé manuellement est repris tel quel.
+
+Youssef HAFSI
+1:54:09
+Par contre, ce qui vient de l'interface, c'est ce qui sera injecté. Je vous ai perdu ?
+
+Unknown speaker
+1:54:18
+Non, c'est OK.
+
+Youssef HAFSI
+1:54:20
+Parce qu'il y a certainement des informations que vous allez rajouter manuellement sur l'assemblage et que vous n'avez pas dans Catia, donc qui ne vient pas de Catia.
+
+Joel Junod
+1:54:29
+Oui, donc ça ne met à jour que ce qui est généré par la BOM.
+
+Youssef HAFSI
+1:54:33
+Exactement. Alors en attendant que Daniel trouve le document, on va avancer un petit peu.
+
+Daniel Boving
+1:54:42
+Je l'ai prêt là si jamais.
+
+Unknown speaker
+1:54:44
+Ah ok, je vous laisse partager alors. D'accord. Vous voyez mon écran ?
+
+Daniel Boving
+1:54:55
+Donc c'est un step-by-step, c'est une procédure de montage classique, je dirais, comme on fait pour tous nos projets de pièces vol. Et il y a des sous-ensembles qui sont, par exemple, liés à un product tree number. Donc ça, c'est plus haut niveau. Mais il y a des sous-ensembles qu'on crée. Et chaque sous-ensemble, il y a une part liste de pièces que j'ai besoin. J'ai un drawing list, une liste de dessins d'assemblage par exemple, et une liste d'équipements, d'outils, de clés dynamométriques. Mais je n'ai pas les ressources, je n'ai pas les gens, physiquement les opérateurs qui vont faire ça.
+
+Daniel Boving
+1:55:38
+J'ai les machines de mesure, les clés dynamométriques, et ce genre de choses. Donc là typiquement, le bras phareau pour faire des mesures, des clés dynamométriques, des outils plus simples comme des scalpels, des bruxelles, etc. Et puis juste avant j'ai là. Donc la liste de pièces avec la référence et ici normalement on marque directement le numéro de load, la pièce ou le serial number qu'on utilise.
+
+Emmanuel Coletti
+1:56:10
+Donc ça, typiquement ton tableau là, c'est les poupées russes, on fait des assemblages bas niveau puis ensuite on fait des macro-assemblages. Et ça.
+
+Daniel Boving
+1:56:21
+C'Est pas forcément en lien avec l'apparaissance ou la structure qu'il y a dans Katia.
+
+Emmanuel Coletti
+1:56:27
+Voilà, c'est ça, c'est ça que je voulais mettre en avant. Mais là, la façon de structurer ton document, c'est que tu as plusieurs paragraphes, par exemple 8.1, 8.1.1, ça correspond dans les poupées russes aux différents sous-assemblages que tu veux faire ?
+
+Daniel Boving
+1:56:41
+8.1, c'est le Sunshield Sembly, après 8.2, ce sera Feet Sembly, 8.3, ce sera Creo.
+
+Emmanuel Coletti
+1:56:53
+Je pense que ça se rapproche de ses paragraphes. Il fait des pré-assemblages, puis après il fait des macro-assemblages. Et au niveau de chaque sous-assemblage, tu as une liste d'articles qui est appelée, c'est ça ? Avec les quantités. C'est le tableau qu'on voit. C'est ça les positions ? C'est juste.
+
+Emmanuel Coletti
+1:57:13
+Je pense que si je comprends bien 811 ça va être position 2 par exemple et puis 811 c'est position 1.
+
+Daniel Boving
+1:57:21
+Non ce serait plutôt à ce niveau là, ça c'est plutôt les positions 811 c'est le Sunshield Sembly, ça c'est la liste de pièces, 811 c'est la liste de pièces, 812 c'est la liste des dessins. Oui.
+
+Emmanuel Coletti
+1:57:32
+Mais la notion de position, moi. J'Ai compris que c'était le niveau dans l'arborescence d'assemblage, c'est-à-dire, c'est quelque chose qu'on va assembler au tout début, qui est vraiment au cœur du matériel, ça va être position 3 par exemple, le macro-assemblage, l'assemblage d'un sous-ensemble, ça va être position 2, et puis l'assemblage complet du système complet, c'est position 1, ou j'ai mal compris ? C'est. Un peu ça, oui.
+
+Youssef HAFSI
+1:57:59
+On est d'accord là quand je vois 8.1.1, les parts listes, ce n'est pas forcément des pièces, ça peut être des sous-assemblages aussi parce que je vois révision CD. Ou c'est non des pièces mais qui sont spécifiques avec un dessin spécifique.
+
+Daniel Boving
+1:58:14
+Exactement, c'est ça. C'est des pièces avec une révision, il y a eu des itérations parce qu'il y a eu, je sais pas, on a dû rajouter un traitement de surface ou rajouter un anglage quelque part.
+
+Joel Junod
+1:58:26
+Ça peut être un sous-ensemble aussi.
+
+Daniel Boving
+1:58:27
+Ça peut être un sous-ensemble.
+
+Joel Junod
+1:58:28
+Typiquement le Sunshield A6 c'est un sous-ensemble de plusieurs pièces. Déjà.
+
+Emmanuel Coletti
+1:58:32
+C'est un sandwich, c'est un sandwich. C'est les sous-ensembles. C'est pour ça que je disais que les numéros des chapitres correspondent aux positions, semble-t-il. Positions. Dans l'assemblage, c'est-à-dire dans l'arborescence d'assemblage. Qu'est-ce. Qu'On assemble ?
+
+Youssef HAFSI
+1:58:48
+Mais à l'intérieur, par exemple si je vois le ALM DES 355 0029, ça peut être aussi une nomenclature d'assemblage avec des pièces à l'intérieur.
+
+Joel Junod
+1:59:04
+Alors nous dans les Part Name Description, quand c'est un sous-ensemble on met toujours après la description on met ASSI, c'est pour indiquer que c'est un assemblage. Donc par exemple on voit que le 0020 c'est un assemblage, le 0029. C'Est une part. Donc typiquement dans le Sunshield Sembly on a 1, 2, 3, on a 3 assemblages, 3 sous-ensembles et après que des pièces.
+
+Emmanuel Coletti
+1:59:32
+Et le 002 qui est un assemblage, il fait lui-même l'objet d'une pression d'assemblage qui est aussi dans ce document ?
+
+Daniel Boving
+1:59:39
+Lui, on le reçoit comme ça du fournisseur. C'est un panneau sandwich qui est assemblé par le fournisseur.
+
+Emmanuel Coletti
+1:59:46
+C'est traité comme un article. C'est important, je pense, pour Youssef.
+
+Youssef HAFSI
+1:59:52
+Pour vous, c'est traité comme un article. Mais par contre, au niveau de l'article, vous suivez les révisions de cet article-là ou pas ? Les différents dessins, finalement ? est-ce qui constitue cet article ? Non, pas forcément. Mais quelle révision ? Parce que quand vous allez commander chez le fournisseur, vous lui dites je veux du 355002, il faut bien lui envoyer quelle version de dessin vous voulez.
+
+Joel Junod
+2:00:17
+Alors oui, c'est la révision D. Effectivement, là il y a un plan de... Alors là c'est un peu particulier parce que c'est un plan d'assemblage qui est au final une parte. Typiquement un mécano soudé à la fin, nous on le considère comme une parte, pas comme un assemblage. Mais c'est des cas... spécifique. Et typiquement pour les panneaux sandwich qui sont des assemblages de panneaux collés, donc tout ce qui est process de collage, de soudure, de riftage, ce qui est en théorie des assemblages indémontables, à terme on les considère comme des parts.
+
+Joel Junod
+2:00:51
+Donc en fait typiquement le 0002, lui il a un plan qui est un plan de détail et d'assemblage. C'est quelque chose de très spécifique. Par contre, normalement, si on a vraiment un sous-ensemble monté avec des vis, on a un plan d'assemblage qui a aussi une révision. Dans tous les cas, on trace les révisions des sous-ensembles, des parts et de ces cas spécifiques.
+
+Youssef HAFSI
+2:01:21
+Et dans le tracking tool 002, vous avez un suivi des différentes révisions derrière ou pas ? Même si c'est qu'une part ? Oui. Donc vous avez les différents dessins ?
+
+Joel Junod
+2:01:33
+Tout à fait. Le tracking tool gère des change logs. quand on met à jour la BOM, mais par exemple il ne va pas garder un historique, il va juste nous dire qu'on est passé de la révision A à la révision B, de la révision B à C et de la C à la D. Par contre après nous c'est manuellement dans nos dossiers Windows du projet où à chaque fois qu'on prend une révision on met l'ancienne dans Hold et puis on laisse la dernière révision dans le top niveau.
+
+Youssef HAFSI
+2:02:06
+Vous n'avez pas le cas où quand vous commandez vous pouvez demander à avoir une ancienne révision ?
+
+Joel Junod
+2:02:13
+C'est très rare, ça peut arriver et puis dans ce cas là on va chercher l'ancienne révision dans les dossiers, on prend la pelle et la pioche là et puis on va creuser. C'est toujours la dernière révision.
+
+Emmanuel Coletti
+2:02:28
+Joël, c'est que ce que tu disais. Tout à l'heure, à partir de quel. Moment tu commences à incrémenter les révisions. Là, révision D, c'est-à-dire que tu as été voir 4 fois le fournisseur. avec un plan qui a été validé par le chef de projet, le PE, etc. Il y a eu 4 plans successifs sortis par le fournisseur et celui que tu veux pour intégrer c'est le dernier qui a été validé.
+
+Joel Junod
+2:02:51
+Après on peut avoir des cas spécifiques où effectivement on revient à une ancienne révision et je pense que c'est typiquement le cas pour ce cas de figure là parce qu'en fait le sous-traitant a fait une connerie à l'assemblage, je crois qu'on a modifié le plan et puis pour les prochains modèles on revient à la version originelle donc en théorie ça sera la révision C. Mais après de nouveau nous on ne gère pas les dates de validation des révisions donc en fait on prend celle qui nous arrange et puis on l'envoie l'envoyer en fonction de ce qui est écrit dans le tracking tool. D'accord. C'est ce qu'il y a dans notre système qui fait fois, donc après si le designer il décide de tricher dans son KTA et de mettre révision C, et bien dans le tracking tool ça sera la révision C, même si la dernière en théorie c'est la D.
+
+Emmanuel Coletti
+2:03:38
+On peut avancer un petit peu dans les pages. 167 pages c'est énorme en fait comme document Daniel, c'est un énorme travail pour toi de faire ça ? Tu le fais à la main ?
+
+Daniel Boving
+2:03:47
+C'est du normal ouais, c'est à la main.
+
+Emmanuel Coletti
+2:03:51
+Donc tu écris à la main tous les articles là.
+
+Daniel Boving
+2:03:54
+Alors les articles, non, là je vais les chercher dans l'album qui est généré par Katian. C'est un copier-coller du fichier Excel.
+
+Emmanuel Coletti
+2:04:00
+Ah, tu copie-colle d'Excel, tu fais les tables Word à partir d'Excel, ok, ok, ça me. Rassure. On peut voir le point. 2. 8.2, alors on va descendre. Ça c'est tout ce qui est montage. Là, 8.2, fit assemblé.
+
+Emmanuel Coletti
+2:04:19
+Donc ça c'est, ok. Et on trouve la liste de pièces. T'appelles. Ça comment ? FitAssembly, t'appelles ça un sous-ensemble, t'appelles ça un pré-assemblage.
+
+Daniel Boving
+2:04:32
+? Ça serait un sous-ensemble de l'instrument global, mais là on appelle ça un Sembly, j'aurais pu l'appeler sub-assembly aussi.
+
+Emmanuel Coletti
+2:04:45
+Donc nous on appelle ça subassemblies et assemblées. Donc là on correspond à la position, ce que je comprends dans Business Central.
+
+Youssef HAFSI
+2:04:52
+Alors je reprends juste le partage. Donc ici quand j'avais créé l'album, en fait c'est pour ça que j'avais créé un article de référence globale, parce qu'à l'intérieur je pourrais mettre deux articles qui seraient des sous-ensembles. Donc le SunShield, par exemple, et puis je fais référence au 8.1 finalement, pour dire par rapport à la procédure, et le FitAssembly. Oui, ne regardez pas les numéros, mais c'est pour faire l'exemple. Et donc là-dedans, j'ai deux sous-ensembles qui donneront lieu à des ordres d'assemblage et qui sont positionnés en 8.1, 8.2 et ainsi de suite.
+
+Emmanuel Coletti
+2:05:34
+D'accord, donc tu construis plutôt top-down ton assemblée BOM, normalement dans BC ?
+
+Youssef HAFSI
+2:05:40
+Je construis top-down, pourquoi ? Parce que là, ce que j'ai créé ici comme assemblée, je vais reprendre ma référence que j'avais créée, la référence unique en fait, le chapeau, pour venir ici et dire, ton assemblée c'est J001, Mais à l'intérieur de celui-là, je vais avoir des sous-ensembles et potentiellement, celui-ci, il a aussi une nomenclature d'assemblage qui lui est associée avec une version, avec des parts ou des parts et des sous-ensembles et ainsi de suite. Donc, on peut avoir une hiérarchie parent-enfant, parent-enfant, parent-enfant.
+
+Emmanuel Coletti
+2:06:24
+Mais tes sous-ensembles, pour les appeler, il faut que tu les aies créés d'abord. En fait, c'est plutôt bottom-up, non ?
+
+Youssef HAFSI
+2:06:31
+Non, parce que quand je reçois de Katia l'album, normalement, comme je n'ai pas vu le fichier, je ne peux pas dire, mais normalement, je commence du projet tout en haut et puis je dis, j'ai un premier sous-ensemble, ok, il existe, non, il n'existe pas, je le crée. J'ai des parties, elles existent, elles n'existent pas, je les crée. Ensuite, j'ai un deuxième sous-ensemble et ainsi de suite. Donc normalement, le fichier de Katia me donne l'arborescence des différents ensembles par sous-ensemble qui doivent être dans l'assemblage global.
+
+Emmanuel Coletti
+2:07:02
+Oui, mais tu vois, c'est là qu'on a un souci entre l'arborescence quatière qui n'est pas forcément exactement l'arborescence du document qu'on vient de voir de Daniel, avec les 8.1, 8.2, etc. Ça ne suit pas forcément les mêmes assises.
+
+Youssef HAFSI
+2:07:15
+Je suis d'accord. Et cette information-là, 8.1, 8.2, alors on va pouvoir lier le document. On ne va pas le télécharger parce qu'il y a 160 pages. On va mettre le lien vers le SharePoint. Ça, ça va être simple. Mais si dans Catia, je n'ai pas ces informations-là dans le fichier, je ne peux pas les récupérer. Bien sûr.
+
+Emmanuel Coletti
+2:07:34
+Là, il faut qu'on réfléchisse comment on va faire, qu'est-ce qui va nous coûter le moins **** Est-ce que c'est réfléchir à l'assemblage avant de constituer l'ARPCATIA, mais j'imagine que c'est difficile, et puis du coup essayer d'avoir un ARPCATIA qui se rapproche le plus de l'assembly BOM, ou est-ce que c'est faire injecter, constituer l'assembly BOM au lieu que ce soit un document Word Comme a montré Daniel, même si c'est très utile pour visualiser les choses, à un moment donné il faudra qu'il existe peut-être en tant que tel. Peut-être que c'est constituer un fichier Excel et puis ensuite le faire manger par BC. Je ne sais pas, il faut qu'on brainstorm, ça va être compliqué.
+
+Youssef HAFSI
+2:08:17
+C'est à vous en interne de voir entre les concepteurs et Daniel et comment ça se fait.
+
+Joel Junod
+2:08:25
+Emmanuel, là où je bossais avant, on avait en gros, quand on créait des assemblages, je passe dans Catia, des fois on a vite envie de créer un petit assemblage, je sais pas, imaginons, c'est un exemple, mais vis rondelle, comme ça en fait je reduplique l'assemblage plutôt que de dupliquer une fois la vis et une fois la rondelle. Et là où je bossais avant, en fait, on avait une dénomination spécifique, c'est-à-dire que tous les top Sembly c'était des AF, pour assemblage fonctionnel, Et puis après, si on créait des petits sous-ensembles, c'était des AR pour assemblage regroupé. Et en fait, quand on intégrait ça dans le système, il regroupait les pièces des AR dans l'AF. Donc c'est ce qu'il fait qu'à la fin. C'est ce qu'il fait qu'à la fin. Ouais c'est ça exactement. Donc ça veut dire que t'avais ton.
+
+Joel Junod
+2:09:16
+Arbre sans se catérer. Ouais bah moi je pouvais faire mes petits raccourcis sur Katia et le système en fait après il regroupait ça en assemblage fonctionnel qui correspondait vraiment à une liste de pièces fonctionnelles. En enlevant tous ces petits sous-ensembles qui seraient pas un sous-ensemble de montage entre guillemets tu vois.
+
+Youssef HAFSI
+2:09:38
+Joël, ce que je te propose, on va planifier une Twitter. Je voudrais bien voir le fichier de Katia et puis comment vous faites et s'il n'y a pas une information qui traîne quelque part qu'on pourrait utiliser.
+
+Joel Junod
+2:09:54
+Ouais, bien sûr, sans problème.
+
+Youssef HAFSI
+2:09:56
+On fera ça, à la fin de la semaine, on planifiera en fonction des dispos.
+
+Joel Junod
+2:10:04
+Ça marche, moi je suis assez disponible donc pas de problème.
+
+Youssef HAFSI
+2:10:09
+Je sais qu'on devait s'arrêter à 11h, je ne sais pas si on peut continuer.
+
+Julie Ehrhart
+2:10:13
+J'y aille, malheureusement, j'ai des choses prévues aujourd'hui. Je ne sais pas s'il y a encore des parties, parce que la partie fabrication, c'est vrai que moi, elle est moins pertinente. Si j'ai bien fait mon job, du coup, l'assemblage devra bien se passer. Ou du moins, il y aura les pièces disponibles pour l'assemblage. Après, est-ce que tout va bien de l'ensemble ? Ça, c'est encore autre chose.
+
+Youssef HAFSI
+2:10:37
+On va discuter du besoin, comment on place les commandes, etc. Mais de toute façon, on va devoir planifier une séance sur cette partie-là.
+
+Emmanuel Coletti
+2:10:47
+Oui, je pense que le reste, ça va aller. Je pense que les placements de commandes, ça va aller. C'est plus cette notion d'assemblée qui me semble être un point critique qui va demander un peu d'effort chez nous pour essayer de réfléchir à comment on veut gérer ça.
+
+Youssef HAFSI
+2:11:09
+Sinon, ce qu'on peut faire, c'est qu'on s'arrête là, comme on l'avait prévu, on boucle la séance Joël-Katia et on reboucle juste après les deux heures pour refaire une séance continuée là-dessus.
+
+Joel Junod
+2:11:24
+Oui, ça me va très bien. C'est important qu'on définisse ça clairement, parce. C'Est vraiment quelque chose qui va impacter autant la conception que le montage, que la façon dont on va passer les commandes. Je pense que c'est vraiment un gros morceau. Tout à fait.
+
+Youssef HAFSI
+2:11:40
+Alors, moi ce que je te propose, c'est qu'on peut faire ça vendredi prochain à 11h. Juste après nous, notre atelier Five Drive.
+
+Joel Junod
+2:11:57
+Ouais, vendredi prochain, c'est bon pour moi.
+
+Unknown speaker
+2:11:59
+J'espère que c'est sans moi, parce que normalement je ne suis pas censée travailler vendredi, donc. Elle ne va pas le faire.
+
+Julie Ehrhart
+2:12:06
+Si, vendredi. Prochain ça irait pour moi. Cela dit, je serai disponible. Ce ne serait pas incompatible, on va dire.
+
+Emmanuel Coletti
+2:12:11
+Oui, mais ce n'est pas indifférent à tous les ateliers, Julien. Là, si c'est très orienté... Si c'est très orienté. Ça c'est 4 heures.
+
+Julie Ehrhart
+2:12:17
+Alors du coup, pour moi, ça me va très bien. Je ne peux pas y participer.
+
+Youssef HAFSI
+2:12:22
+Ce sera par Teams celui-là, c'est une hitteur. Alors, je vais mettre Atelier Conception. Katia, c'est avec un C. C'est A-T-I-A. Oui, tout à fait. Alors, Emmanuel, je te mets en facultatif. Par contre, si tu veux inviter d'autres personnes, si tu penses qu'elles sont nécessaires, je te laisserai transférer...
+
+Youssef HAFSI
+2:12:53
+Ah oui, Daniel...
+
+Unknown speaker
+2:12:59
+Et puis voilà, c'est d'autres personnes qui sont...
+
+Emmanuel Coletti
+2:13:02
+Peut-être mets Sandro en facultatif.
+
+Joel Junod
+2:13:04
+Là, c'est pour du quatrième, non ?
+
+Emmanuel Coletti
+2:13:06
+Son expérience peut-être est utile sur comment traiter ça. Sondro Libera. En facultatif. Il n'a pas d'avis, mais je pense qu'il a. Comme c'est un ancien concepteur, maintenant chef de projet.
+
+Joel Junod
+2:13:26
+Je sais pas si c'est bien. Il va râler avec des grandes idées. C'est vrai ? Bah ouais. Je sais, il vaut peut-être mieux l'impliquer au début plutôt qu'il râle parce que c'est pas comme ça qu'il l'aurait fait. Il y a ça aussi dans la gestion du changement. Moi j'aime bien faire râler les chefs de projet, ça me gêne pas.
+
+Unknown speaker
+2:13:42
+On ne se venge pas, Joël !
+
+Youssef HAFSI
+2:13:44
+On lui a passé les épaules avant alors. Qu'est-ce qu'on peut refaire ensuite ? Évidemment la semaine du 22, séance production. Donc, on va éviter le vendredi. Le 22, c'est férié. Donc, ça sera entre 23, 24 et 25.
+
+Unknown speaker
+2:14:08
+C'est férié le 22? Oui. Disponible les trois jours. Moi aussi, dispo. Emmanuel, j'aimerais bien que tu sois, si tu peux, être avec nous.
+
+Youssef HAFSI
+2:14:37
+Et Julie. Aussi, parce qu'on. Va parler des. Besoins des...
+
+Unknown speaker
+2:14:41
+Je n'ai rien de prévu pour l'instant.
+
+Emmanuel Coletti
+2:14:43
+On va voir quel jour, excuse-moi, j'ai... J'ai dit un moment d'absence. 23, 24, 25. Ouais, c'est un peu la semaine infernale. C'est la semaine affreuse. Le 23, je suis en revue toute la journée. Pour moi, je ne sais pas s'il faut que je sois indispensable.
+
+Emmanuel Coletti
+2:15:01
+Le 25, il faut que je rende une offre, donc le 24, je vais être à fond dedans. J'ai même deux offres à rendre le 25, je suis désolé. Ou alors mettez-moi le 25. Après-Midi. En espérant que j'ai passé le...
+
+Youssef HAFSI
+2:15:15
+Non, on va faire autre chose. Est-ce qu'on peut faire le 23 de 10h à midi, et après on débriefe. De toute façon, dans. La réunion projet. Emmanuel, on va débrouiller rapidement sur le process. Oui, ça va. Pour tout le monde, c'est de 10h à midi le 23, c'est.
+
+Youssef HAFSI
+2:15:34
+Bon ?
+
+Unknown speaker
+2:15:34
+Oui, c'est tout bon.
+
+Youssef HAFSI
+2:15:36
+Ok, j'envoie l'invitation. Atelier, production. On n'aura pas la. Qualité ici, vous savez ?
+
+Julie Ehrhart
+2:15:50
+Je crois qu'elle revient à 23, non Judith ?
+
+Unknown speaker
+2:15:53
+Je vérifie. Peut-être même avant, je ne sais plus.
+
+Julie Ehrhart
+2:15:59
+Elle avait dit trois semaines. Elle revient le 23.
+
+Unknown speaker
+2:16:03
+Effectivement. On peut la rajouter, je pense.
+
+Youssef HAFSI
+2:16:13
+Je vais la rajouter. Parce que c'est quand même la partie, une des parties les plus importantes, cette partie-là. Elle s'appelle ?
+
+Unknown speaker
+2:16:25
+Judith Poncet. P-O-N-C-E-T. OK. Donc le 23 de 12 heures à midi. OK. C'est tout bon. L'invitation, elle va partir.
+
+Unknown speaker
+2:16:45
+Et puis comme ça, on peut s'aligner. Est-ce que vous avez des questions, des points ? Est-ce qu'il y a des...
+
+Emmanuel Coletti
+2:17:03
+Youssef, ça te va si on reste 5 minutes ensemble juste pour que tu fasses un premier feedback ?
+
+Youssef HAFSI
+2:17:08
+Oui, j'aurais juste besoin de... Alors, je ne sais pas qui va s'en occuper, mais j'ai besoin... Je vais bien jouer parce qu'il m'a montré la liste, la liste de tous les parts que vous avez.
+
+Joel Junod
+2:17:20
+Je ne sais.
+
+Youssef HAFSI
+2:17:34
+Pas si les nomenclatures. Qu'On a reçues suffisent ou s'il faut. Qu'On prenne un projet qui a 2-3 assemblies et qu'on le crée de A à Z pour qu'on ait vraiment un exemple typique sur lequel on va pouvoir discuter et qui parle un petit peu à tout. Le monde.
+
+Joel Junod
+2:17:57
+Ouais, on devrait pouvoir trouver ça, quitte à faire une arborescence exprès pour...
+
+Youssef HAFSI
+2:18:04
+C'est ça, tu vois un projet type avec arborescence qui contient des articles standards, des articles pas standards avec 2-3 niveaux, et quelque chose qui parlerait un petit peu à tout le monde avec la partie machine. Ressources qu'on. Pourrait comme ça construire. Dessus.
+
+Joel Junod
+2:18:25
+Ok, c'est noté, je vais faire un petit truc. Emmanuel, tu sais si on a un numéro de projet qu'on pourrait utiliser ? Juste pour avoir un code, où est-ce qu'on crée un projet de test ? Je ne sais pas si ça vaut le coup, sinon un projet *** moi ça me va aussi, ce n'est pas un problème.
+
+Unknown speaker
+2:18:48
+Je vais.
+
+Julie Ehrhart
+2:18:49
+Devoir vous laisser si ça ne vous jette pas.
+
+Emmanuel Coletti
+2:18:52
+Bon.
+
+Julie Ehrhart
+2:18:54
+Week-End à tous et puis à lundi. Et puis Youssef, à la prochaine fois.
+
+Unknown speaker
+2:19:00
+Merci, au revoir.
+
+Emmanuel Coletti
+2:19:01
+Bon week-end, merci, au revoir. Si je comprends bien, on a besoin de passer par toutes les branches. Pour bien comprendre et bien appréhender le problème. Donc si on crée un projet factice, on va passer du temps pour s'assurer qu'il couvre tous les cas. Peut-être mieux prendre un projet existant et s'assurer que... Voilà. Et donc projet existant qui est compliqué, où il y a plein d'assemblages.
+
+Emmanuel Coletti
+2:19:25
+C'est ça qu'on veut ou juste...
+
+Joel Junod
+2:19:27
+Je pense qu'on veut une synthèse plutôt. Faut qu'on reste tous les cas mais pas avoir des...
+
+Youssef HAFSI
+2:19:32
+Un projet qui correspond au 70-80% des cas, parce qu'il y aura toujours des petites exceptions, mais vraiment un projet typique pour lequel tout le monde...
+
+Emmanuel Coletti
+2:19:40
+Ça, tu connais mieux, Daniel. Moi, j'aurais dit Floris. Exactement.
+
+Joel Junod
+2:19:46
+C'est peut-être des assemblages un peu costauds, non ? Si on veut simplifier peut-être un peu.
+
+Unknown speaker
+2:19:53
+Floris, c'est quoi ? C'est lequel le pire des deux ? Ah c'est le CRS je pense le pire.
+
+Emmanuel Coletti
+2:20:03
+Il est représentatif en termes de sous-ensemble, il y a des sous-ensembles ?
+
+Joel Junod
+2:20:08
+Oui mais après il faut que j'y réfléchisse parce que typiquement le cas des parts qui sont des sous-ensembles mais qu'on considère comme des parts. On ne les trouve pas sur Floris, ça serait plus le CRS. Je vais regarder avec Daniel et puis on va trouver un cas de figure qui couvre le plus de besoins possible, je pense que ça ne posera pas de problème. On va trouver un truc. C'est très spécifique ça aussi. On fait que du spécifique. Ouais non mais là c'était un build to print.
+
+Emmanuel Coletti
+2:20:43
+Ouais il vaut mieux prendre un truc qu'on a défini. De même. Il faut remarquer que ça change quelque chose parce que de toute façon même au build to print on crée. Tous les articles de même. Mais bon.
+
+Daniel Boving
+2:20:58
+On va regarder. Il y en a plusieurs qu'on peut prendre.
+
+Joel Junod
+2:21:03
+Je ne suis pas sûr que la bombe de Sentinelle ait été exploitable parce qu'il y avait beaucoup de numéros clients. C'était des numéros très spécifiques à côté. On peut voir. Il faut qu'on se penche sur le sujet.
+
+Youssef HAFSI
+2:21:17
+Si je peux avoir ça. Pour la semaine prochaine, comme ça la prochaine. Séance, on aura déjà. Ça de créé, ce qui nous permettra d'avoir un exemple concret sur lequel on peut discuter.
+
+Unknown speaker
+2:21:32
+Ça marche. Je m'en occupe. OK. On est tout bon ? Au moins, oui. On vous libère Daniel et Joël ?
+
+Joel Junod
+2:21:53
+Ouais, ça marche. Merci beaucoup. Merci à vous. Bonne continuation, à tout bientôt.
+
+Youssef HAFSI
+2:21:58
+Bonne journée.
+
+Emmanuel Coletti
+2:22:00
+Bonne journée, au revoir. Et Youssef, ma question c'était juste... Premier. Feedback sur ces trois ateliers, donc achat, production. Vente, plus le kick-off. Moi j'ai pris des notes d'ailleurs, j'avais pris l'action télé, j'ai pas encore fait, mais je le fais maintenant que j'étais à Paris hier. Je fais ça tout de suite.
+
+Emmanuel Coletti
+2:22:22
+Comment tu vois la qualité de dialogue ? Est-ce qu'on est dans un. Dialogue classique ? Est-ce qu'il y a besoin. De s'ajuster. Sur le vocabulaire ? Est-ce qu'il y a des incompréhensions ?
+
+Emmanuel Coletti
+2:22:34
+Est-ce que tu penses que ça avance. Par. Rapport à ton expérience comme tu. T'Y attendais ?
+
+Youssef HAFSI
+2:22:40
+Non, c'est assez classique le dialogue. Après, ça va prendre des petites habitudes. Ce qui est normal parce qu'il y. A parfois des petits abus dans certains vocabulaires, ce qui est tout à fait normal, mais ça reste très compréhensible. Les process sont assez clairs. On se rapproche quand même d'un certain standard, ce qui est assez bien. Par contre.
+
+Youssef HAFSI
+2:23:05
+C'Est vrai qu'il va y. Avoir pas mal de discussions chez le groupe d'interne. Il y a pas mal de choses qui vont répondre par du process. On a parlé des achats. On est dans un quasi full standard. Je n'ai rien vu de particulier. Quand je dis standard, il y a une partie jet, c'est insérer les documents, etc.
+
+Youssef HAFSI
+2:23:28
+Mais ça, c'est un sujet transverse. Par contre, c'est assez standard, mais il y a quand même un process à clarifier de qui fait la réception, comment se passe l'incoming, etc. Il y a un sujet qualité, mais c'est normal, on avait prévu. De toute façon, il y a de la qualité tout le temps, donc il faudra qu'on discute de façon aussi transverse. C'est plus après de structurer les... On le voit chez vous et on le voit dans différents échanges, il y a une certaine standardisation des procédures qui est en train de se faire. Il faut juste la compléter et la retraduire dans l'URP.
+
+Youssef HAFSI
+2:24:08
+Je n'ai pas vu de point bloquant. De processus. Complexe. Et en plus à une volonté des différents interlocuteurs de standardiser, de simplifier et donc ça c'est bien. Pour le moment on avance assez bien. C'est normal là que. Production on refasse deux fois, on fera même trois fois.
+
+Youssef HAFSI
+2:24:29
+Parce que c'est...
+
+Emmanuel Coletti
+2:24:29
+Oui, oui, pour moi c'était le gros mensonge, ça a toujours été le gros mensonge, en plus on. L'A peu abordé. Quand on était à Guillaume. Exactement. Et moi je le voyais tellement comme un gros morceau que j'ai toujours dit aux équipes, il n'y aura rien avant 2026 là-dessus. Quelque part c'est un truc qu'on démarre en 2026, c'est très compliqué, mais c'est très bien sur l'anticipé évidemment. Parce que ça va impacter le projet, donc il faut qu'on ait.
+
+Emmanuel Coletti
+2:24:54
+Une vue là-dessus. C'est bien. Bon, c'est des gens un peu différents, mais donc la qualité de dialogue, elle est bonne. Tu les comprends quand ils parlent. Ça se passe bien. Moi, je n'ai pas besoin d'être là. Qu'est-ce qui se passe ?
+
+Emmanuel Coletti
+2:25:08
+Que je sois là ou pas là, c'est transparent. Où est-ce que tu penses que c'est mieux que je sois là ? Tu me diras si tu penses qu'il y a sur certains ateliers, ça part en cacahuètes, où les gens sont pas clairs, où il y a des malentendus. Moi je joue un peu le rôle de traducteur par rapport à tous les échanges qu'on a eu en amont. Par contre je suis assez pris, donc n'hésite pas à me dire si tu as besoin. Que je vaille faire un peu de traduction. Sinon, je vous laisserai aussi de plus en plus faire vos ateliers en direct avec les personnes.
+
+Youssef HAFSI
+2:25:37
+Moi, je vais faire les ateliers. Ce qui serait bien, c'est qu'il y ait toujours soit Julie, soit Guillaume peut-être. Parce que tu vois, là, je demande la liste des articles. Je ne dis pas que c'est Joël qui doit le faire. C'est peut-être plus Guillaume. Parce qu'on va demander à chaque fois des informations pour commencer à alimenter la base. On ne va pas perdre du temps et attendre trois semaines, quatre semaines.
+
+Youssef HAFSI
+2:25:59
+On commence dès maintenant. Donc il faudrait qu'il y ait potentiellement peut-être soit Julie soit Guillaume qui sont présents à l'atelier pour ensuite faire le point, faire avancer les choses à l'intérieur, récupérer la liste. Pour ne pas qu'on perde du temps aussi, tu vois, à relancer. Voilà, on a dit, c'est le point. L'output aujourd'hui, c'est d'avoir la liste. Je sais qu'il y a une discussion sur quel projet choisir, mais après, on a la liste, on la met, on peut en discuter. Et puis, moi, je fais toujours un petit peu de mix, c'est-à-dire que je prends une heure avec quelqu'un pour voir un sujet.
+
+Youssef HAFSI
+2:26:34
+Là, typiquement, ça va être Katia, etc. Parce que c'est rien qu'on en parle à 3 à 4, ça ne va pas changer quelque chose. Par contre, après, on revient et on redéballe le flux. Quand on va faire le flux de production, si tu n'es pas là, ce n'est pas gênant. Mais à un certain moment, on fera une séance de process complet global avec qualité. Par contre, là, il faudra que tu sois là pour que tu valides. Il y a ce point-là, il y a peut-être ce point-là, parce que tu as une connaissance que pour le moment, nous, on est en train d'acquérir petit à petit.
+
+Youssef HAFSI
+2:27:02
+Et puis je pense qu'à un certain moment, il faudra qu'on regarde aussi l'atelier, comment c'est organisé en termes de logistique, parce que ça, ça va nous permettre de bien comprendre. Je pense qu'ils sont en train de travailler très proche de ce que fait MTA, l'histoire des zones réservées. Et donc, il n'y a pas besoin de faire les étiquettes manuelles. Tout ça, on a les étiquettes qui sortent, les numéros de série. Ça va faire gagner de temps. Mais j'ai besoin quand même de m'assurer que c'est dans le même flux.
+
+Emmanuel Coletti
+2:27:27
+Peut-être au niveau des personnes, mais tu l'as compris, Julie est quand même toute nouvelle. Donc même si elle a une expérience dans d'autres environnements, je n'ai pas de soucis pour la mettre systématiquement. Mais attention parce qu'elle peut confondre ce qu'elle voudrait avec ce qui existe actuellement. Moi j'aimerais bien déjà que tu comprennes bien ce qu'on fait, parce que sinon après ça va créer un problème aussi avec les autres personnes, les autres intervenants. Donc ça je peux lui faire un petit rappel, enfin je vais le faire. Après Joël, honnêtement c'est celui qui est le plus capé en prod. Clairement aujourd'hui pour moi c'est le seul qui maîtrise ce process de **** en **** parce qu'il le déroule au quotidien et Guillaume par exemple ne le maîtrise pas.
+
+Emmanuel Coletti
+2:28:10
+Guillaume il n'est pas passé en tant que chef de projet par ces étapes là ou en tout cas partiellement. Il faut savoir qu'il est jeune et qu'il est aussi arrivé récemment dans la boîte un petit peu avant moi mais pas beaucoup plus tôt. Et Julie Guillaume, oui, pourquoi pas pour avoir un suivi. Mais attention, ce sont des jeunes qui ne sont pas forcément les meilleurs connaisseurs des process. Donc production, je pense qu'il faut qu'il y ait Joël à chaque fois. En plus, il a un peu de disponibilité en ce moment. Et moi je l'ai mis dans ces objectifs annuels de contribuer à la société.
+
+Youssef HAFSI
+2:28:43
+C'est top, comme ça au moins on le met avec nous dans la boucle. Sur la particularité aussi, je vais avoir besoin de...
+
+Emmanuel Coletti
+2:28:48
+Alors particularité, j'ai fait effectivement, aujourd'hui je n'ai pas impliqué suffisamment Judith, bon elle est en congé mais il va falloir le faire. Parce qu'à la fin, si elle découvre les process en disant mais attendez, dans notre certification on avait parlé de ça, ça elle ne voulait pas adresser, on va se retrouver comme un *** et puis... Donc ouais, tout à fait. Donc ça c'est Judith.
+
+Youssef HAFSI
+2:29:08
+C'est pour ça qu'on la met dans l'atelier de production, quand on reparle de la partie qualité, je pense que ce sera important.
+
+Emmanuel Coletti
+2:29:17
+Je reviens sur Daniel, normalement c'est l'IT manager, mais lui il est un petit peu timide, vu qu'il n'a pas beaucoup parlé. Normalement c'est lui qui est un peu dépositaire de ça, mais je pense que Joël comme il manipule tous les jours, Donc n'hésitez pas à le faire parler sur les process production parce qu'en fait il a quand même pas mal d'expérience mais il ne dit rien. Ça marche.
+
+Youssef HAFSI
+2:29:43
+C'est tout, je crois. Nous, de toute façon, on a ouvert le DevOps, là. Donc, on va le structurer, mettre les documents. Il faudrait nous ouvrir le... Enfin, on vous ouvre le Teams, mais il serait mieux qu'il soit chez vous. Parce qu'on doit commencer à vous déposer les documents, les notes, les documents de process pour qu'ils soient quand même aussi revus au fur et à mesure et puis alimentés avec les commentaires. Donc ça.
+
+Emmanuel Coletti
+2:30:10
+C'Est important.
+
+Youssef HAFSI
+2:30:12
+Et puis tu peux lui donner mes contacts s'il a besoin de me demander des choses, de savoir comment on fait, pas de problème.
+
+Emmanuel Coletti
+2:30:23
+Parce qu'en fait on est en train de commencer, donc nous on démarre sur SharePoint. Tout ce qui est accès extérieur, accès par des sociétés extérieures Almatech, on l'a interdit dans notre base de données. Par contre, on a créé un site externe, SharePoint, pour ces échanges-là. On a créé le site, on a un répertoire dédié à Almacom. Par contre, il faut le structurer, notamment au travers d'un canal Teams. Donc ça, je pense que ce n'est pas très compliqué à faire, mais je préfère qu'ils s'appuient sur eux pour les espèces d'eau d'accès.
+
+Youssef HAFSI
+2:30:59
+Oui, bien sûr. Pas de souci. Je pense qu'on est bon. On est pas mal. Puis là, ça avance bien. Est-ce.
+
+Emmanuel Coletti
+2:31:23
+Que tu veux qu'on refasse un point, est-ce que tu veux qu'on place un comité de pilotage, peut-être pas tout de suite, mais justement un peu comme ce qu'on vient de faire là, informellement, mais de façon un peu plus formelle. On va faire un projet.
+
+Youssef HAFSI
+2:31:35
+Est-ce que tu peux me donner tes dispos potentiellement ? La semaine prochaine, tu m'as dit que ce n'était pas. Possible.
+
+Emmanuel Coletti
+2:31:49
+Si, c'est possible.
+
+Youssef HAFSI
+2:31:51
+C'est la semaine du 25 qui va être infernale. Est-ce que vendredi, l'après-midi, Tu as des credos comme ça on aura fait déjà les deux ateliers. Oui, le 19? Le 19, oui.
+
+Emmanuel Coletti
+2:32:03
+Oui, moi c'est ok, sauf de 2 à 3.
+
+Unknown speaker
+2:32:07
+Donc 3. À 4? 3 à 4, c'est bon. Alors, je fais l'invitation. Qui je dois inviter ? Pour. Le.
+
+Emmanuel Coletti
+2:32:36
+Comité de pilotage ? Oui. Juste Guillaume et moi, je pense. D'accord. De toute façon, Hervé, il est au Japon et Julie Telfranc est en congé. Fabrice n'est pas très impliqué, donc juste Guillaume et moi. Je vais essayer d'impliquer davantage Guillaume aussi sur le suivi justement, parce que même s'il ne maîtrise pas tous les process, il va être capable de faire le lien entre tous ses ateliers et en plus il a l'expérience de tout ce qu'on a regardé ensemble.
+
+Emmanuel Coletti
+2:33:12
+Donc Guillaume je pense qu'effectivement il faut le mettre systématiquement sans problème.
+
+Youssef HAFSI
+2:33:17
+Je réserve une heure, mais normalement 30 minutes, on fait le poids sur ce qu'il y a. Je l'ai envoyé comme ça. C'Est fait.
+
+Emmanuel Coletti
+2:33:27
+Est-ce que c'est parti en courrier indésirable ? J'espère pas, parce que c'est... Moi, je comprends pas. Quand t'acceptes un meeting, l'acceptation tombe dans les courriers indésirables. Par contre... L'acceptation disparaît. Ça, c'est normal.
+
+Emmanuel Coletti
+2:33:43
+Ça, c'est normal. Ok, par contre là c'est bon, c'est arrivé dans la boîte de réception. Ah bah super. Merci Youssef, merci à toi, à toi aussi, salut !

@@ -1,0 +1,201 @@
+3.	Estimation projet
+3.1.	Contexte et Hypothèses
+Décrire la situation actuelle, les points critiques et les attentes client sur ce processus.
+Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées.
+ 
+3.3.	Principales règles de gestion
+Décrire les principales règles du client et comment l’ERP peut y répondre.
+
+3.4.	Documents et statistiques
+Décrire les documents de l’ERP qui doivent être imprimés durant ce processus ainsi que les états et statistiques métiers attendus.
+
+3.5.	Volume des données
+Indiquer les volumes des données ainsi que le nombre de documents par période (jour, semaine, mois ou années).
+
+3.6.	Écarts critiques et interfaces 
+Indiquer les écarts critiques et interfaces identifiés durant ces ateliers d'analyse.
+Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.
+
+
+4.	Planification projet (ordonnancement et planification de ressources) 
+4.1.	Contexte et Hypothèses
+Décrire la situation actuelle, les points critiques et les attentes client sur ce processus.
+Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées.
+
+ 
+4.3.	Principales règles de gestion
+Décrire les principales règles du client et comment l’ERP peut y répondre.
+
+4.4.	Documents et statistiques
+Décrire les documents de l’ERP qui doivent être imprimés durant ce processus ainsi que les états et statistiques métiers attendus.
+
+4.5.	Volume des données
+Indiquer les volumes des données référentielles ainsi que le nombre de documents par période (jour, semaine, mois ou années).
+
+4.6.	Écarts critiques et interfaces 
+Indiquer les écarts critiques et interfaces identifiés durant ces ateliers d'analyse.
+Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.
+
+
+
+5.	Traitement projet : Saisie de temps (interne)
+5.1.	Contexte et Hypothèses
+Décrire la situation actuelle, les points critiques et les attentes client sur ce processus.
+Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées. 
+
+5.3.	Principales règles de gestion
+Décrire les principales règles du client et comment l’ERP peut y répondre.
+
+5.4.	Documents et statistiques
+Décrire les documents de l’ERP qui doivent être imprimés durant ce processus ainsi que les états et statistiques métiers attendus.
+
+5.5.	Volume des données
+Indiquer les volumes des données référentielles ainsi que le nombre de documents par période (jour, semaine, mois ou années).
+
+5.6.	Écarts critiques et interfaces 
+Indiquer les écarts critiques et interfaces identifiés durant ces ateliers d'analyse.
+Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.
+
+
+6.	Traitement projets : Achats
+6.1.	Contexte et hypothèses
+Décrire la situation actuelle, les points critiques et les attentes client sur ce processus.
+Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées. 
+
+6.3.	Principales règles de gestion
+Décrire les principales règles du client et comment l’ERP peut y répondre.
+
+6.4.	Documents et statistiques
+Décrire les documents de l’ERP qui doivent être imprimés durant ce processus ainsi que les états et statistiques métiers attendus.
+
+6.5.	Volume des données
+Indiquer les volumes des données référentielles ainsi que le nombre de documents par période (jour, semaine, mois ou années).
+
+6.6.	Écarts critiques et interfaces 
+Indiquer les écarts critiques et interfaces identifiés durant ces ateliers d'analyse.
+Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.
+
+
+7.	Traitement projets : Stock
+7.1.	Contexte et Hypothèses
+Décrire la situation actuelle, les points critiques et les attentes client sur ce processus.
+Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées. 
+
+7.3.	Principales règles de gestion
+Décrire les principales règles du client et comment l’ERP peut y répondre.
+
+7.4.	Documents et statistiques
+Décrire les documents de l’ERP qui doivent être imprimés durant ce processus ainsi que les états et statistiques métiers attendus.
+
+7.5.	Volume des données
+Indiquer les volumes des données référentielles ainsi que le nombre de documents par période (jour, semaine, mois ou années).
+
+
+7.6.	Écarts critiques et interfaces 
+Indiquer les écarts critiques et interfaces identifiés durant ces ateliers d'analyse.
+Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.
+
+
+8.	Traitement projet : Production (produit standard)
+8.1.	Contexte et Hypothèses
+Décrire la situation actuelle, les points critiques et les attentes client sur ce processus.
+Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées. 
+
+8.3.	Principales règles de gestion
+Décrire les principales règles du client et comment l’ERP peut y répondre.
+
+8.4.	Documents et statistiques
+Décrire les documents de l’ERP qui doivent être imprimés durant ce processus ainsi que les états et statistiques métiers attendus.
+
+8.5.	Volume des données
+Indiquer les volumes des données référentielles ainsi que le nombre de documents par période (jour, semaine, mois ou années).
+
+8.6.	Écarts critiques et interfaces 
+Indiquer les écarts critiques et interfaces identifiés durant ces ateliers d'analyse.
+Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.
+
+
+9.	Traitement projet : Expédition
+9.1.	Contexte et Hypothèses
+Décrire la situation actuelle, les points critiques et les attentes client sur ce processus.
+Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées.
+ 
+
+9.3.	Principales règles de gestion
+Décrire les principales règles du client et comment l’ERP peut y répondre.
+
+9.4.	Documents et statistiques
+Décrire les documents de l’ERP qui doivent être imprimés durant ce processus ainsi que les états et statistiques métiers attendus.
+
+9.5.	Volume des données
+Indiquer les volumes des données référentielles ainsi que le nombre de documents par période (jour, semaine, mois ou années).
+
+9.6.	Écarts critiques et interfaces 
+Indiquer les écarts critiques et interfaces identifiés durant ces ateliers d'analyse.
+Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.
+
+
+10.	Traitement projet : Facturation
+10.1.	Contexte et Hypothèses
+Décrire la situation actuelle, les points critiques et les attentes client sur ce processus.
+Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées. 
+
+10.3.	Principales règles de gestion
+Décrire les principales règles du client et comment l’ERP peut y répondre.
+
+10.4.	Documents et statistiques
+Décrire les documents de l’ERP qui doivent être imprimés durant ce processus ainsi que les états et statistiques métiers attendus.
+
+10.5.	Volume des données
+Indiquer les volumes des données référentielles ainsi que le nombre de documents par période (jour, semaine, mois ou années).
+
+10.6.	Écarts critiques et interfaces 
+Indiquer les écarts critiques et interfaces identifiés durant ces ateliers d’analyse.
+Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.
+
+
+11.	  Suivi projet : Surveillance et contrôle
+11.1.	Contexte et Hypothèses
+Décrire la situation actuelle, les points critiques et les attentes client sur ce processus.
+Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées. 
+
+11.3.	Principales règles de gestion
+Décrire les principales règles du client et comment l’ERP peut y répondre.
+
+11.4.	Documents et statistiques
+Décrire les documents de l’ERP qui doivent être imprimés durant ce processus ainsi que les états et statistiques métiers attendus.
+
+11.5.	Volume des données
+Indiquer les volumes des données référentielles ainsi que le nombre de documents par période (jour, semaine, mois ou années).
+
+11.6.	Écarts critiques et interfaces 
+Indiquer les écarts critiques et interfaces identifiés durant ces ateliers d'analyse.
+Décrire les paramétrages qui seront fait sur l’ERP pour répondre aux besoins (Processus et moyens principaux).
+Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.
+
+
+12.	Rapports Projets
+12.1.	Contexte et Hypothèses
+Décrire la situation actuelle, les points critiques et les attentes client sur ce processus.
+Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées 
+
+12.3.	Principales règles de gestion
+Décrire les principales règles du client et comment l’ERP peut y répondre.
+
+12.4.	Documents et statistiques
+Décrire les documents de l’ERP qui doivent être imprimés durant ce processus ainsi que les états et statistiques métiers attendus.
+
+12.5.	Volume des données
+Indiquer les volumes des données référentielles ainsi que le nombre de documents par période (jour, semaine, mois ou années).
+Si possible, décrire d’éventuel contournement ou de méthode à changer pour éviter un développement d’écart.
+
+12.6.	Écarts critiques et interfaces 
+Indiquer les écarts critiques et interfaces identifiés durant ces ateliers d'analyse.
+Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.
+
+
+13.	Liste d‘écarts
+13.1.	Liste d’écarts
+La liste d’écart doit être initialisée et finalisée à la fin de la phase d’analyse.
+Indiquer l’URL où la liste des écarts sera stockée (SharePoint / Teams / DevOps / Autre).
+

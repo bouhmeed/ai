@@ -1,0 +1,1879 @@
+Unknown speaker
+00:02
+Bonjour. Bonjour à tous. Salut Élise. Bonjour Emmanuel. Salut Youssef. Ah, on ne vous entend pas Emmanuel. Vous.
+
+Unknown speaker
+00:20
+N'Êtes pas sur Bute, mais. En tout cas. Alors maintenant.
+
+Youssef HAFSI
+00:26
+Je vous entends. Ok, j'avais une config casque qui s'utilisait. Donc, on a Élise qui est avec. Nous, Darine. Elle est là. Il y a d'autres aussi, Lara qui va nous rejoindre. Est-ce qu'on.
+
+Youssef HAFSI
+00:38
+Attend encore. Des gens de. Votre côté ?
+
+Emmanuel Coletti
+00:41
+Alors, je crains que non. Guillaume est en congé et Sandro...
+
+Unknown speaker
+00:47
+Sandro.
+
+Emmanuel Coletti
+00:54
+Il a un projet de meeting dans une heure qui est important, donc je ne suis pas sûr qu'il joigne à nous. Donc je vous propose qu'on démarre. Comme ça. D'accord, ok.
+
+Youssef HAFSI
+01:02
+Ça marche. Alors, ce qu'on va faire peut-être un petit tour de table pour les personnes. Que vous ne connaissez pas. Je ne sais plus si vous avez échangé. Avec Darine, tu étais avec nous. La dernière fois, j'ai complètement… C'est ça, vous étiez tous les deux. On était tous les deux.
+
+Youssef HAFSI
+01:20
+Alors, Élise, je te laisse te présenter. Bonjour, je me présente, je m'appelle Élise et je suis responsable marketing chez Almakom. Enchantée. Et puis, nous, je pense qu'on se connaît déjà, donc on est bon.
+
+Darine SAMMOUD
+01:37
+Il y aura Mme Müller qui va se rejoindre à nous plus tard. Et puis, l'agenda de la séance aujourd'hui, on souhaite vous présenter notre plateforme de planning. l'intégration de l'outil de planning en se basant sur les données que vous avez envoyées de MS Project à Business Central et puis après vous présenter aussi la méthodologie de Microsoft de gestion de projet afin que vous arrivez à vous projeter par rapport au déploiement et puis notre offre. Au commercial avec Mme Müller à la fin. Elle est en séance à côté de moi, elle finit sa séance.
+
+Youssef HAFSI
+02:41
+On commence peut-être par la présentation de la plateforme et après on fait le tour de la présentation de la société. Je pense que ce sera mieux comme ça. La dernière fois, on avait fait un petit tour sur Business Central. D'accord ? Donc, je résume un petit peu ce qu'on avait dit. C'est que vous, aujourd'hui, vous êtes dans l'industrie aérospatiale, vous fabriquez des composants, mais ce n'est pas vous qui les fabriquez, c'est sous-traité, la fabrication les sous-traitait. Par contre, vous avez besoin.
+
+Youssef HAFSI
+03:21
+D'Un ERP pour gérer les stocks, les approvisionnements, les ventes, la facturation, et aussi gérer les projets, les plannings, les ressources qu'il va y avoir. On avait présenté l'outil assez rapidement. On vous a créé une base.
+
+Emmanuel Coletti
+03:41
+Vous êtes juste pour compléter ce panorama qui est juste. Certes, on ne fabrique pas, mais on assemble. Un des atouts, je pense, de la solution Business Central, c'est d'intégrer aussi une petite partie PLM, notamment gestion du stock, mais aussi peut-être une traçabilité end-to-end des nomenclatures d'articles. Voilà. Depuis l'achat jusqu'à son intégration sur le produit pour pouvoir donner au client la visibilité sur quelles sont les parties qui sont incluses dans le produit.
+
+Youssef HAFSI
+04:14
+Exactement. Et on va pouvoir faire ça avec les nomenclatures d'assemblage. Pourquoi je dis les nomenclatures d'assemblage ? Parce qu'ils vont nous permettre d'avoir un niveau de licence moindre que de la production, parce que vous avez besoin de la production. Et derrière, on va avoir les nomenclatures d'assemblage et on va pouvoir aussi faire tout ce qui est versionnique des nomenclatures d'assemblage, les connecter par exemple à un SOLIDWORK ou des outils comme ça. On a déjà un connecteur SOLIDWORK par exemple. ou d'autres outils de PLM, et ça on va pouvoir le suivre.
+
+Youssef HAFSI
+04:51
+Pour la petite info d'Arine-Elise, c'est le cas d'un de nos clients, Zurimet, qui est dans les devices médicaux. Ce n'est pas eux qui fabriquent, Mais par contre, ils font le suivi des nomenclatures d'assemblage assez poussé avec les versionnings. Donc ça, c'est géré chez eux. Et c'est eux qui envoient les ordres d'assemblage avec les numéros de série ou de lot aux fabricants. Et ils ont toute la traçabilité chez eux. Parce que la qualité, c'est de leur responsabilité. Je pense que chez vous aussi, la traçabilité de la qualité, c'est votre responsabilité.
+
+Youssef HAFSI
+05:22
+Ce n'est pas forcément le sous-traitant. C'est à vous de donner ça. Là-dessus, on va pouvoir revenir...
+
+Unknown speaker
+05:36
+Alors. Je parle doucement.
+
+Darine SAMMOUD
+05:39
+Ta voix est hachée en fait, je ne sais pas. Moi j'ai aucun problème. Moi ça va aussi. Elise, est-ce que c'est pareil pour toi ? Non, moi c'est impeccable. Je pense que c'est ton côté. C'est moi là.
+
+Youssef HAFSI
+05:57
+Voilà, ok, c'est ton côté. Du coup, on vous a créé un environnement, il faudra juste dire après à qui vous voulez qu'on donne accès, vos collègues, je vous enverrai le lien. Puis on a la partie planning. C'est une application web qui est complètement connectée à Business Central. Il n'y a aucune donnée en dehors. Tout ce que vous allez voir, c'est des données de Business Central. On a des dashboards.
+
+Youssef HAFSI
+06:28
+On utilise Power BI pour faire simple, pour les états. On a les projets. On peut filtrer sur les projets. On peut voir le nombre de tâches, les ressources. On peut voir par date qui est chargée, etc. Et puis, on va avoir deux types de vues. La première vue, c'est un compte.
+
+Youssef HAFSI
+06:50
+Comment ça se passe ? Vous allez créer le projet dans Business Central. Vous allez définir vos tâches. Je vais jongler un peu entre les deux. Je viens dans Business Central. Je prends un projet. J'ai ma liste de projets, je peux prendre celui-là, le demi-planning 1, c'est ce que vous nous avez envoyé.
+
+Youssef HAFSI
+07:15
+J'ai mon projet, mon client, j'ai mes différentes tâches et à l'intérieur de chaque tâche, je vais pouvoir définir le ou les ressources, leur date d'intervention, la quantité d'heures. Par exemple ici, je peux dire tiens, j'ai aussi Christian et puis il va faire 5 heures. C'est de la location. Mais la location, je peux la faire côté planning aussi. J'ai deux côtés. Par contre le projet, je dois le créer dans Business Central. Je dois initier le premier projet dans Business Central.
+
+Youssef HAFSI
+07:55
+D'accord.
+
+Emmanuel Coletti
+07:57
+Une fois que j'ai ça... Donc un. Projet, juste pour bien être sûr, parce que dans Houdou, par exemple, ça va être peut-être différent. Là, dans un projet, ça va être un recueil de tâches, Houdou WorkPackage. Là, on voit les WorkPackages qui sont disposés, disposés dans le temps, auxquels on a associé des ressources en œuvre. Éventuellement, on peut y adjoindre des prévisions d'achat avec des montants. Ça peut être des articles.
+
+Youssef HAFSI
+08:22
+Ça peut être des articles, très bien. Donc vous allez consommer des composants. Ça peut être des articles à assembler, donc ça va vous générer derrière des ordres d'assemblage, d'amonclature. Ça peut être des frais généraux.
+
+Emmanuel Coletti
+08:36
+Ça peut être des prestations de services.
+
+Youssef HAFSI
+08:38
+Ça peut être de la prestation de services. Grosso modo, c'est ça.
+
+Emmanuel Coletti
+08:45
+D'accord. Donc on va structurer pratiquement toutes les... Ok, je comprends. Est-ce qu'on va pouvoir y adjoindre des jalons de paiement de notre client vers nous?
+
+Youssef HAFSI
+08:56
+Oui, alors là-dessus, cette partie-là, ce sont vos tâches. Ça, c'est les vôtres. Je pense que ça vous parle. Oui, ça me parle parfaitement. Tout à fait. Je peux venir ici faire...
+
+Unknown speaker
+09:13
+WP900, facturation, WP910, paiement 1, WP920, ça.
+
+Youssef HAFSI
+09:35
+Dépend comment vous avez défini votre planning de paiement. Oui, tout à fait.
+
+Emmanuel Coletti
+09:42
+C'est ce qu'on appelle le plan de paiement.
+
+Youssef HAFSI
+09:43
+Le plan de paiement, paiement. 3. Et là-dessus. Quand je vais mettre. Ma planning cash. Ce n'est pas un budget. Mais c'est du facturable.
+
+Youssef HAFSI
+09:52
+D'accord. Alors, je pense que vous facturez peut-être un article de service ou un compte général. Ça, on. Regardera. Oui. Mais ça peut être un article de. Service qui.
+
+Youssef HAFSI
+10:04
+S'Appelle facturation. Voilà. Peu importe, j'appelle ça facturation.
+
+Emmanuel Coletti
+10:14
+D'accord.
+
+Youssef HAFSI
+10:15
+Je vais y mettre mon quantité 1, je vais y mettre le prix parce que c'est ce qui m'intéresse. Donc, disons que c'est un projet à 200 000 et puis premier. Jalon 50 000. Alors, premier jalon, ça va être le 01-09-2025. Donc. Ça, voilà, c'est fait. Ensuite, le deuxième jalon, donc lui c'est.
+
+Youssef HAFSI
+10:42
+Du facturable, c'est le 31.
+
+Unknown speaker
+10:44
+12, 25. Pareil, article. Je prends un article de facturation et.
+
+Youssef HAFSI
+10:54
+On va dire là on va lui facturer 100. 000 et. Puis à la fin, donc.
+
+Unknown speaker
+11:02
+Ça le 31 et puis le dernier jalon, Lui.
+
+Youssef HAFSI
+11:17
+On va le mettre, on va dire le. 0.1.0.3.26 et. C'Est les 50.000. Restants. Quand je vois, je vais mettre peut-être un total pour que vous visualisez le total.
+
+Unknown speaker
+11:41
+Voilà, je vais lui dire ici, début total, fin total.
+
+Youssef HAFSI
+11:48
+Il va calculer après, juste quand je vais rafraîchir, il va mettre la fin. Et ici, quand je suis sur le projet, quand je suis sur la liste de tous les projets, j'ai un bouton qui s'appelle créer facture vente. Alors, je vais prendre juste mon projet à moi, pour l'exemple. Et quand je vais lui dire, sort moi toutes les factures qui sont jusqu'au 1er juin 25, Il va me sortir les factures. Il va me sortir les factures qui sont jusqu'au 30 septembre 2025. Il va me sortir la facturation par projet de tous les jalons. Qui.
+
+Youssef HAFSI
+12:36
+Sont échus jusqu'au 39.25. Donc j'ai les factures qui sont créées et j'ai juste ensuite à les valider pour qu'elles partent par mail. Donc typiquement, je vais avoir ici ma facturation, les premiers 50 000. Ensuite, je dis, sors-moi toutes les factures qui sont à date d'échéance jusqu'au 31.12 et il va me les sortir, etc. Une fois que vous définissez vos jalons, vous pouvez sortir toutes les factures des jalons jusqu'à la date que vous vous indiquez. Vous avez aussi... Si je vais trop vite, vous me dites.
+
+Emmanuel Coletti
+13:13
+Non, je vous remercie. C'est extrêmement clair, même si je ne manie pas. Est-ce qu'il y a une notion de jalon atteint ou pas atteint? Par exemple, nous, c'est comme ça qu'on fonctionne avec nos clients. En fait, on peut... Oui, ce qui se passe en général, c'est qu'un jalon typique chez nous, c'est qu'on va livrer de la documentation à une date, donc on va mettre livraison 1. Ensuite, le client va l'étudier et s'il est OK, on va facturer.
+
+Emmanuel Coletti
+13:44
+En fait, il y a une sorte de flag ou une bascule. J'approuve, j'accède votre livrable. Est-ce que ça peut se manipuler, ça ? Parce que là, si je l'interroge, il va dire oui, il faut que tu factures, mais je n'ai pas encore eu l'approbation client. C'est un détail, mais est-ce qu'il y a une notion de planning ? Ma tâche est finie ou ma tâche n'est pas finie ?
+
+Youssef HAFSI
+14:09
+On a ici une colonne qu'on peut flaguer, c'est une case à cocher, et qui va dire que ce. Paiement-Là, je peux le facturer. C'est ça. Donc là on pourrait ajouter une colonne, typiquement. Elle y est. C'Est juste que là. Je ne l'avais pas, mais parce que ça dépend des processus, mais il y a une colonne qui dit, c'est un petit peu le OK pour facturation.
+
+Emmanuel Coletti
+14:32
+C'est ça, exactement.
+
+Youssef HAFSI
+14:33
+On va facturer. C'est ça.
+
+Emmanuel Coletti
+14:35
+Et on peut filtrer ensuite, quand on interroge le système, on peut filtrer pour n'avoir que celles qui ont le statut OK.
+
+Youssef HAFSI
+14:42
+Ici quand je crée, j'ai tous mes champs qui sont disponibles et je peux dire c'est tel ou tel projet, c'est telle date comme j'avais fait tout à l'heure et c'est seulement qui sont OK à facturer. D'accord. Vous avez aussi des états qui sont disponibles comme par exemple proposition de facturation et il va vous sortir tout ce que vous pouvez facturer à une date donnée. Avant même de créer les factures, vous pouvez savoir qu'est-ce que vous allez pouvoir facturer ou pas en fonction de ce qui est OK à facturer. C'est-à-dire un rapport qui vous dit, voilà, ça, c'est vraiment là, sans valider, valider, on va pouvoir les facturer, mais sans pour autant créer la facture. Une fois que j'ai fait, j'ai préparé mes tâches, je vais me retrouver sur mon planning. Et là, généralement, c'est un un organisateur de ressources, de planning, vous avez quelqu'un qui organise différents projets, il a une vue globale, il a ses ressources qui sont là, il a ses différents projets qu'il voit.
+
+Youssef HAFSI
+15:55
+Typiquement, le projet là en question, il va voir les différentes tâches qu'il a à disposition et il va voir pour chaque projet les tâches qui sont positionnées puisqu'on a mis une date et il va pouvoir aussi les déplacer. Et quand il déplace, ça vient mettre à jour dans Business Central Au niveau de l'attache, par exemple si c'est celle-ci, il va venir mettre à jour ces dates-là.
+
+Unknown speaker
+16:28
+D'accord. Alors, là, c'est intéressant. J'y vais doucement.
+
+Darine SAMMOUD
+16:33
+C'est ce que vous avez demandé par rapport à le fait de déplacer ou que ça déplace aussi, que ça fait glisser les tâches des projets. La dernière fois.
+
+Emmanuel Coletti
+16:47
+Oui. Oui, non, c'est extrêmement intéressant. Par contre, j'essaie de comprendre la mécanique qu'il y a derrière. Parce qu'en fait, comme ça va un petit peu vite, si vous remettez le plugin, Web Plugin Planning. Il a l'air condensé dans le sens où on ne voit pas chaque tâche. Par exemple, 511, 512, 513, il n'y avait pas tout ça ou c'est parce que vous ne l'avez pas montré ?
+
+Unknown speaker
+17:12
+Ou c'est que les macro-tâches dans le Web Plugin ?
+
+Youssef HAFSI
+17:21
+Vous avez tout. Ici, j'ai la WP 110. Là, je n'ai pas tout montré, mais si je prends les chops, j'ai toutes les tâches à l'intérieur.
+
+Emmanuel Coletti
+17:36
+Là, une ligne, juste pour être sûr, une ligne de ce web planning, ça correspond à une ligne du Microsoft MPP Project que je vous avais envoyé, qui est aussi une ligne du Business. Central. Ou il. Y a une notion d'agrégation.
+
+Youssef HAFSI
+17:51
+Non, non, il n'y a pas d'agrégation. Il y a une notion d'agrégation des sous-touches, pardon. Je vous montre les deux parce que. C'Est vrai que la.
+
+Unknown speaker
+18:00
+Ligne bleue, c'est une ligne comme ça.
+
+Emmanuel Coletti
+18:05
+C'est ça.
+
+Youssef HAFSI
+18:06
+Ça c'est le plus bas niveau auquel on ira. Donc c'est très bien. Non, il est encore plus bas en fait. Parce que quand vous double cliquez, vous. Voyez les différentes ressources à l'intérieur qui sont affectées. Ah oui, d'accord. Et donc vous voyez chaque ressource, vous pouvez rajouter, enlever des ressources, à quelle date, soit c'est en parallèle, soit ils sont séquentiels, quand est-ce que l'une ou l'autre doit démarrer.
+
+Youssef HAFSI
+18:34
+Parce que dans un planning, aujourd'hui, vous gérez les tâches du projet et vous gérez les ressources associées à cette tâche. Absolument. Si je prends cette tâche-là, j'ai X ressources. Je peux les enlever, les ressources, comme je peux aussi en rajouter.
+
+Emmanuel Coletti
+18:57
+Et là, vous travaillez dans le planning. C'est indifférent de travailler dans le planning ou dans le central.
+
+Youssef HAFSI
+19:04
+Ce qui va vous donner Business Central, c'est la partie articles, les coûts, les prix, que vous ne voyez pas ici parce que ça n'a pas d'intérêt de les avoir ici. Par contre, je peux faire du drag and drop. Je peux prendre cette ressource-là et je dis qu'elle va travailler sur cette tâche. Et cette ressource là, en faisant drag & drop, je l'ai rajoutée à l'intérieur et elle est ajoutée ici. Donc je peux soit rajouter manuellement, soit. Faire du drag & drop. Je peux mettre à l'un.
+
+Emmanuel Coletti
+19:31
+Avec une allocation d'heures à zéro initialement, et puis ensuite on vient mettre manuellement la valeur.
+
+Youssef HAFSI
+19:37
+Très bien. Et puis regardez, vous voyez ici la barre elle est mauve, donc c'est la couleur de, je crois que c'est Annette. parce que les quantités sont à 0, mais si je mets ici 2, ici 5 et ici 10, vous avez une visualisation. Vous avez une visualisation de la part de charge par rapport à la charge totale de chaque ressource. C'est par couleur en travail. C'est-à-dire, on peut voir qu'Alain, il a deux heures. Ici, Alain, il a cinq heures.
+
+Youssef HAFSI
+20:13
+La ressource une, elle a deux heures. Ici, par exemple, on peut voir qu'Isabelle, elle a deux heures. La ressource une, elle s'appelle comme ça cinq heures. Et puis Alain, Charon, il a dix heures. Donc c'est une tâche et chacun a une partie d'heure dans cette tâche-là qu'on lui a affectée.
+
+Unknown speaker
+20:56
+Il y a des petites notes. Extrêmement intéressantes.
+
+Youssef HAFSI
+21:00
+Je vous enverrai le compte rendu aussi de la réunion. Le gris, ce que vous voyez en gris, c'est là, ce que vous voyez ici en gras. C'est là. C'est la phase.
+
+Emmanuel Coletti
+21:22
+C'est ce qu'on appelle la macro tâche ou la tâche récapitulative dans le langage Project. C'est ça. Et puis en dessous, vous avez le. Détail. Elle n'a pas d'allocation en propre, elle agrège des allocations à la tâche.
+
+Youssef HAFSI
+21:36
+Alors, il y a une petite particularité aussi. Vous pouvez faire comme ça et hop, je me mets là-dessus. Donc, je viens de lier cette tâche-là à cette tâche-là. Je peux. Toujours l'avancer. Vous voyez ici les points. D'accord.
+
+Youssef HAFSI
+21:54
+Ça vient alimenter dans Business Central. Tout est dans Business Central. Il y a l'information. Tant que j'avance celle-là, elle est après celle-là, il n'y a pas de problème. Si jamais je la recule, celle-là va reculer automatiquement pour que sa dernière date soit la première date de celle-ci. Parce que dans un compte, quand je lis les tâches, je ne peux pas voir celle-ci qui démarre avant que celle-là soit terminée. Sinon, je supprime la liaison.
+
+Youssef HAFSI
+22:20
+Donc ça peut être du parallèle. Typiquement ça, ça peut être du parallèle. Mais je peux dire que celle-là, non, ce n'est pas du parallèle. Elle est obligée de démarrer avant. Ça vous le faites à la main, ce déplacement-là ? Oui, oui, je fais tout à la main. Je vais vous donner accès, vous allez voir.
+
+Emmanuel Coletti
+22:36
+Ce que je veux dire, c'est qu'il n'y a pas de... Vous savez dans Project, quand on lit, ça décale automatiquement pour respecter la contrainte début-fin, ou fin-début plutôt. Là, par exemple, je viens de vous empêcher de ne pas respecter la contrainte. Il y a un lien et la flèche va être envers.
+
+Youssef HAFSI
+22:51
+Non, non, je suis obligé. Si jamais je recule ça ici, ça la va reculer.
+
+Emmanuel Coletti
+22:54
+Qu'est-ce qui se passe ?
+
+Youssef HAFSI
+22:56
+Alors pour le moment, parce que j'ai la version de. Démo. Non, non, mais celle-là, elle va revenir comme ça. Toute seule ? Ok. Toute seule. Quand vous allez réfléchir.
+
+Youssef HAFSI
+23:06
+Oui, toute. Seule pour que la dernière. Date soit. Alignée avec la date de début. Ok. Et c'est alimenté dans Business Central. C'est alimenté, alors je vais vous montrer aussi.
+
+Youssef HAFSI
+23:18
+Dans Business Central, quand vous allez. Rentrer dans le. Détail des tâches, Vous. Allez avoir cette information-là qui va se représenter aussi ici pour dire la. Prochaine étape. Après cette étape-là. Et c'est comme ça qu'on sait qu'on lit que cette tâche est liée à une autre.
+
+Youssef HAFSI
+23:35
+Tâche. Je vous le montre dans Business Central, mais vous, c'est le graphique. Le graphique le représente. Très, très bien.
+
+Emmanuel Coletti
+23:44
+OK. Oui, non, c'est vraiment très, très bien.
+
+Youssef HAFSI
+23:46
+C'est ce qu'on. Souhaite. Alors, ici, j'affiche la semaine de travail. Je pourrais afficher la semaine. Semaine de travail, c'est du lundi au vendredi. Je peux afficher la semaine. Je peux afficher par jour.
+
+Youssef HAFSI
+23:57
+Je peux naviguer. Je peux afficher. Par mois. Alors, je vais peut-être rafraîchir un peu. Mais sinon, semaine de travail. C'Est... Moi.
+
+Youssef HAFSI
+24:06
+J'Aime bien semaine de travail. Ça me donne la. Vue la plus complète.
+
+Unknown speaker
+24:13
+Je rafraîchis la page. OK. OK. On a une minute vue.
+
+Emmanuel Coletti
+24:22
+Excusez-moi, juste sur la gestion des tâches et de leur planification. Si je prolonge une tâche, vous en prenez une, par exemple, à 1110. Qu'est-ce qui se passe au niveau de l'allocation des ressources ? C'est vraiment une question ouverte. Est-ce qu'elles restent identiques, mais elles sont étalées sur plus de temps ? Est-ce que les heures sont augmentées pro rata de l'allongement ? Comment ça marche ?
+
+Youssef HAFSI
+24:44
+Non, on ne touche pas aux heures. Par contre. La première date, c'est la date à laquelle commence la tâche. Et si, par exemple, entre la première ressource et la deuxième ressource, il y a deux jours et qu'on a changé la date, il y aura toujours un. Décalage de deux jours. Trois jours, etc. De telle sorte que la dernière date aussi tombe pile poil avec la date que vous venez de mettre.
+
+Youssef HAFSI
+25:09
+Allongez la tâche. Bleue. Va augmenter soit la dernière date de fin, soit la première date de début, mais ne va pas changer les allocations de temps des ressources. Ok. Très bien. Parce que vous pouvez dire, ma tâche de fabrication finalement, ce n'est pas trois jours, c'est une semaine, parce que j'ai du ****** sur l'approvisionnement de composants, mais pour autant, quand le composant arrive, il faudra toujours deux heures. Ce n'est pas parce que ça dure trois semaines que c'est dans cette logique-là.
+
+Emmanuel Coletti
+25:38
+Et par contre, si jamais il y a un surcoût, Ça on va le voir au niveau des timesheets, vous montrerez après les timesheets, et on peut comparer justement les allocations avec les actuals.
+
+Youssef HAFSI
+25:54
+Dès qu'il va mettre le temps, par exemple ici j'ai planifié 5 et 7 heures, 12 heures, Si je passe au totalité 15 heures, je vais voir que le coût est supérieur à ce que j'ai prévu, parce que j'ai passé plus de temps.
+
+Unknown speaker
+26:14
+C'est direct, je vais avoir la vue directement ici. D'accord ? D'accord. On a une autre vue. Moi, j'adore cette vue-là.
+
+Youssef HAFSI
+26:29
+Pour nous, dans notre travail. C'est une vue qui est différente. Ce n'est pas une vue de gestion de projet. C'est une vue de gestion de ressources. Donc, j'ai mes ressources qui peuvent être affectées. Les ressources, ils ont une capacité dans Business Central. Et puis, quand je vais les affecter, je vais voir combien d'heures ils en font par par jour.
+
+Unknown speaker
+26:54
+Je m'explique.
+
+Youssef HAFSI
+26:57
+J'ai une phase 1 sur le projet, je vais l'affecter à Annette, par exemple. Je n'affecte pas les ressources sur les tâches, j'affecte les tâches sur les ressources. C'est différent.
+
+Emmanuel Coletti
+27:17
+C'est une autre façon d'allouer les deux.
+
+Youssef HAFSI
+27:26
+Oui, mais ça, vous en avez besoin pourquoi ? Vous voyez les heures, 8h, ils changent. Je ne sais pas si vous arrivez à voir ici. Vous voyez les heures, donc je sais combien. En fait, ça me permet de dire si j'ai deux ressources qui ont la même compétence, quelle est la disponibilité d'une ressource pour l'affecter sur telle ou telle tâche de projet. Ce que je ne peux pas directement voir ici. Je suis en train de raisonner pas par ressource, mais je suis en train de raisonner par projet.
+
+Youssef HAFSI
+27:58
+C'est pour ça que je vous dis, cette vue-là, moi, j'aime bien parce qu'elle me dit les disponibilités des personnes en fonction des projets. Et donc, je sais combien de temps ils ont. Et ça, ça prend la capacité de ressources. C'est clair. Vous avez des gens qui sont à 50%, qui sont à 60%.
+
+Unknown speaker
+28:22
+Vous voyez ici, quand je vais dans les ressources.
+
+Youssef HAFSI
+28:31
+Vous allez, si je prends Alain Charan, vous allez lui définir sa capacité par jour, par mois, ça peut être par mois, par semaine, sa capacité. Donc s'il est à 50%, il aura une disponibilité moindre et donc on verra tout de suite si on a utilisé toute sa capacité, s'il est assigné ou pas, et pouvoir aussi optimiser par rapport au projet.
+
+Emmanuel Coletti
+29:00
+Tout à fait. Donc ça c'est en fait ce qu'on fait déjà nous dans un Excel à la volée. Et on le fait d'une façon un peu artisanale. Si on veut le faire très proprement, je comprends que là on a l'avantage que tout est connecté dans l'outil. Donc si on a deux ressources qui ont les mêmes... J'imagine qu'on y reviendra peut-être dans la notion de ressources, il y a la notion peut-être de rôle et d'horaire. Par exemple l'analyse.
+
+Emmanuel Coletti
+29:24
+Voilà. Parce que quand vous dites on annule les tâches ou ressources, on est bien dans le prévisionnel. C'est-à-dire aujourd'hui on est lundi, puis on dit qu'est-ce qui va se passer mardi, mercredi, on joue avec le drag and drop. Et puis alors si à un moment donné on annule une personne qui a un taux d'erreur différent, quelque part il y a un surcoût qui va être généré. Parce que par exemple, on a, il nous manque, c'est un exemple, on a un taux R bas et un moyen R haut. Il nous manque une ressource sur un taux R bas, on vient, et on a besoin de faire la tâche, on prend quelqu'un d'un taux R B pour la faire, donc drag and drop, et ensuite la personne va. La.
+
+Emmanuel Coletti
+30:06
+Personne va. Booker ses heures, je ne sais pas. Comment vous dites, avec sa time sheet, va booker, donc au niveau des heures, ce sera peut-être la même chose, mais au niveau du coût, ce sera un peu différent. Ça, on va aller jusqu'à ce niveau de détail. C'est-à-dire qu'est-ce qu'il y a un passage dans les vues que vous avez à la fin, dans les actuelles, on compare que des heures avec des heures ou est-ce qu'il y a une vision en francs ou en euros qui peut être ressortie et qui tient compte qu'on a à un moment donné fait ce choix de changer de ressources avec un autre.
+
+Youssef HAFSI
+30:36
+Horaire ?
+
+Emmanuel Coletti
+30:38
+C'est clair ce que je dis ? C'est peut-être un peu trop détaillé.
+
+Youssef HAFSI
+30:40
+Non, non, c'est très, très clair et c'est parfait et je vais aller Petite étape. Première étape, un projet. Vous pouvez définir les deux visants. Voilà. Vous pouvez définir des devises. Donc, si vous voulez suivre tout en France-Suisse, même si vous le facturez en euros, ou alors suivre chaque projet dans sa devise. Mon conseil, c'est de suivre tout dans une même devise, le France-Suisse, même si je facture après en euros.
+
+Youssef HAFSI
+31:09
+Mais après, je vous dis ça, mais je ne connais pas encore le détail. Peut-être que vos ressources, vous les achetez en euros. C'est à voir. C'est à voir. Quand vous allez affecter dans le planning une ressource qui coûte plus **** vous avez vu tout de suite que dans la fiche ressources, Il a un taux horaire et donc il a un coût qui est venu. Donc forcément, mon budget aussi va augmenter. Si j'affecte mon prévisionnel, il va augmenter puisque finalement, j'ai affecté.
+
+Emmanuel Coletti
+31:35
+Oui, parce que ce qu'on appelle budget, c'est prévisionnel.
+
+Youssef HAFSI
+31:40
+Alors, on a aussi la capacité de mettre ce qu'on appelle un devis budget. C'est une autre colonne qui s'appelle devis budget. C'est le tout budget initial que le commercial met et qui ne bouge plus. Cela permet de comparer ce que font les entreprises un petit peu dans votre secteur, c'est de comparer ce que le commercial a estimé, ce que le chef de projet estime par rapport à ses possibilités et puis il y a le réel. Et ça, c'est très intéressant et personne ne peut plus le toucher que le commercial une fois qu'il l'a mis une première fois, ce qu'on appelle le devis budget. Maintenant, quand il va saisir ses temps, la ressource va saisir ses heures, mais vous lui avez paramétré un coût Et du coup, dans le réel, on va voir si le dépassement, c'est une question de quantité ou si c'est une question de coût supérieur. Et ça, on peut l'afficher.
+
+Youssef HAFSI
+32:33
+C'est-à-dire, on peut comparer le budget en quantité.
+
+Unknown speaker
+32:38
+Je vais vous montrer rapidement des informations. On va pouvoir comparer le budget en quantité.
+
+Youssef HAFSI
+32:51
+Je ne sais plus ce qu'est la colonne, mais on a le budget ici, on voit la quantité, par exemple 10h, réel 10h, mais le coût a changé parce qu'on a utilisé une ressource plus chère. Ou alors, budget 10h, réel 12h, c'est le même coût, mais c'est plus élevé parce qu'on a passé plus de temps. Donc ça, vous l'avez ce détail-là ici. Je peux mettre toutes les colonnes en vis-à-vis pour avoir la comparaison détaillée. Oui, et après vous les avez dans les rapports, c'est aussi ça qui est bien là-dessus, c'est que vos rapports vont vous montrer par exemple le coût estimé, le devis-coût par budget, on peut rajouter d'autres types de graphiques, c'est complètement flexible. Et puis c'est du Power BI, donc si vous connaissez Power BI, vous pouvez aussi rajouter vos propres graphiques à vous. et vous les affichez ici.
+
+Youssef HAFSI
+33:38
+Et donc, on peut voir la performance financière de chaque projet en termes de coût et de durée.
+
+Unknown speaker
+33:45
+Et ça, c'est super intéressant.
+
+Youssef HAFSI
+33:51
+Le planning est complètement connecté à Business Central. Donc, même si vous voulez voir par exemple ici, vous me dites, ce serait bien que vous m'affichiez le coût budgété total, je pourrais vous l'afficher. Parce que tout vient de Business Central. On a les infos, c'est juste qu'on ne les met pas dans le planning parce que généralement. C'est pas les mêmes personnes qui gèrent les coûts, mais si vous dites demain celui qui va gérer ça, ce serait bien qu'il voit coûts budgétés, etc. Quand il ouvre la fiche, c'est des choses qu'on fait. L'information, elle est là.
+
+Youssef HAFSI
+34:19
+Elle n'est juste pas affichée.
+
+Emmanuel Coletti
+34:21
+Non, mais tel que je vois l'outil, tel que je vois l'outil. Après, vous me dites si ce n'est pas la bonne manière de faire, mais je me vois bien créer le projet dans Business Central, mettre au maximum d'informations au moment de l'offre et donc avant le démarrage du projet. Ensuite, m'assurer dans le planning que toutes ces informations qu'on tabule finalement, elles se présentent d'une manière cohérente et je fais un cross-check sur la vision planning. Puis ensuite, dans la vie du projet, je vais surtout interagir avec le planning, je vais déplacer les tâches, les allonger et je vais regarder ce que ça fait au niveau des dashboards qui vont être générés automatiquement. Alors, vous avez parlé, je crois, pour les dashboards, typiquement, soit on va être dans Business Central, Power BI, Alors Power BI, en fait, juste pour me rappeler par rapport à... Ça, ça va être des dashboards qu'on aura configurés préalablement et qui vont s'alimenter dynamiquement, je suppose. Oui.
+
+Emmanuel Coletti
+35:22
+Parfois, vous regardez ça et parfois, vous regardez directement les tableaux dans Business Central, c'est ça ?
+
+Youssef HAFSI
+35:27
+Il y a aussi Power BI dans Business Central. Ce même dashboard, je peux vous l'afficher directement dans Business Central dans les étapes Power BI. Peut-être que celui qui va gérer le planning n'a pas accès à Business Central en fait.
+
+Emmanuel Coletti
+35:48
+Rappelez-moi les licences.
+
+Youssef HAFSI
+35:59
+L'accès au Dashboard, c'est 100 francs par utilisateur par mois avec la licence Business Central inclue. sur le dashboard, mais ça peut être une personne qui a accès au dashboard, mais qui n'a pas les droits sur Business Central, pour pas qu'il regarde la comptabilité, pour pas qu'il manipule les projets, il a juste besoin de manipuler les tâches. Celui qui accède à Business Central, je vais vous montrer après les prix, le coût des licences, accède à Business Central et peut avoir besoin que de Business Central, il n'a pas besoin de l'outil de planning.
+
+Emmanuel Coletti
+36:39
+Oui, il faudra qu'on revienne sur la licence parce que je n'ai pas noté les 100 francs. J'étais sûr d'acheter sur 9,90, on va dire 10 pour de la visu ou l'utilisateur de base qui va booker ses heures, et puis 64 pour le management et les gens qui auront besoin de rentrer dans le business central.
+
+Youssef HAFSI
+36:57
+Et pour la partie planning, c'est 100 francs parce qu'il a déjà les 64 qui sont inclus dedans, plus le coût du planning. Parce qu'il y a un hébergement derrière, il y a quelques frais d'hébergement, etc. Parce que là-dedans, lui, il est obligé d'avoir une licence Business Central pour pouvoir faire la manipulation des tâches. Sinon, ce serait que de la visu.
+
+Emmanuel Coletti
+37:19
+Mais alors les 64. C'Est quoi ?
+
+Youssef HAFSI
+37:22
+C'est Business Central. Oui. Et la différence avec les sons, c'est l'accès au planning. Ça couvre l'hébergement. Par exemple, si c'est vous, vous n'avez pas besoin d'avoir deux fois. Vous prenez juste la licence planning et vous aurez accès à Business Central. Mais si vous avez demain quelqu'un où on dit, il va gérer les projets, mais je ne veux pas qu'il accède à Business Central juste au planning, il aura la licence pour pouvoir modifier les données, affecter les ressources, mais son accès à Business Central peut être bloqué à l'URP lui-même, juste l'accès au planning.
+
+Youssef HAFSI
+38:01
+Et ça, c'est combien?
+
+Unknown speaker
+38:03
+65 ou 84. 65. C'est. Le franc 7,56.
+
+Emmanuel Coletti
+38:18
+Ah oui, je me suis peut-être basé sur des euros.
+
+Youssef HAFSI
+38:21
+Ça, c'est le. Franc. Alors ça, sincèrement, je le prends du catalogue officiel. De Microsoft. C'est comme ils font le taux de change, mais c'est 7,56. Avant, je pensais que c'était 7,50. Voilà, ça change.
+
+Youssef HAFSI
+38:36
+En euros, c'est toujours la conversion par rapport au dollar, pour faire simple.
+
+Emmanuel Coletti
+38:42
+Vous allez me donner ces planches ?
+
+Youssef HAFSI
+38:44
+Je vais les envoyer, oui.
+
+Emmanuel Coletti
+38:46
+C'est juste pour que je refasse mon budget, parce que j'essaie de m'assurer que je n'ai rien oublié sur les types de licences et la quantité pour chaque. Donc. Là, je pense qu'on a les trois qui s'affichent devant nous. Ça, vous n'en avez pas besoin.
+
+Youssef HAFSI
+39:02
+Ça, vous n'en avez pas besoin de premium, c'est pour. La production. Non, non, je vais vous rajouter le planning. Celui qui a le planning, il va avoir celle-ci, plus l'accès au planning, donc c'est la différence qu'il fait avec l'essent. Nous, on met des petits frais pour couvrir l'hébergement. Ce n'est pas. Plus.
+
+Youssef HAFSI
+39:19
+Donc une personne qui a besoin de l'ERP et du planning prend juste la licence.
+
+Unknown speaker
+39:22
+Planning. Suffit.
+
+Youssef HAFSI
+39:29
+On refera ensemble, si vous me donnez après le nombre d'utilisateurs qui accèdent à quoi, je vous ferai une simulation. Oui, volontiers. Je vous ferai une simulation, ce sera plus. Simple. Alors, est-ce que vous avez des questions sur le planning ? Est-ce que c'est clair. ?
+
+Emmanuel Coletti
+39:46
+Non, honnêtement, je ne devrais pas vous dire ça, mais je trouve que ce correspond parfaitement aux besoins. Ça matérialise ce qu'on cherche à faire d'une manière qui me semble ergonomique, en tout cas beaucoup plus que les errements qu'on a fait au départ dans les différents modules Microsoft Project ou autres. Central, comme on sait, à rendre les choses un peu plus intégrées, un peu plus aisées à manipuler pour des gens qui ne connaissent pas l'outil. Et puis là, ce planning, pour moi, il donne vraiment satisfaction en termes de présentation de l'information, manipulation, dynamique d'information, connexion avec les autres éléments du projet.
+
+Youssef HAFSI
+40:30
+D'accord. Sinon, c'est bien. OK. On pourra mettre votre logo, c'est fait pour, on pourra mettre votre logo, vos couleurs, chartes, graphiques, ça c'est complètement personnalisable sur les topologies, les couleurs des ressources.
+
+Emmanuel Coletti
+40:48
+Il y a eu un effort d'ergonomie qui est appréciable par rapport aux tableaux de chiffres, notamment j'aime bien les petits codes couleurs sur les ressources, ça j'aime bien. Parce que nous, comme on vous l'a expliqué, c'est vrai qu'on est vraiment dans une problématique tous les jours, toutes les semaines, de gérer ces 30 projets versus 30 ressources, donc on est avides de ce type de visualisation.
+
+Youssef HAFSI
+41:12
+Après, vous avez des codes. Si ils ont des codes, des matricules, on peut mettre leurs matricules. Ça, après, c'est des choses en fonction de comment vous les reconnaissez rapidement. Les couleurs, ça peut être des nuances par rapport aux... Alors, chose que je n'affiche pas, je ne sais pas si je l'affiche ici. Non, je n'affiche pas ici. Je crois que c'est quelque chose qu'on peut afficher.
+
+Youssef HAFSI
+41:37
+C'est les compétences. Si. Ça facilite l'affectation. Oui, ça facilite beaucoup. On. Peut afficher ici les compétences électroniques, électromécaniques, etc. Tout ce qui facilite le rôle d'un gestionnaire de ressources d'un chef de projet qui va affecter ces ressources.
+
+Youssef HAFSI
+42:05
+C'est tout à fait aussi possible d'avoir plusieurs chefs de projet et chacun gère son propre projet, puisqu'ici ils sont sur une base commune.
+
+Emmanuel Coletti
+42:15
+Excusez-moi, il y a quelqu'un qui sonne. Je suis désolé, je m'interromps juste un instant.
+
+Unknown speaker
+42:21
+Oui, allez-y. À tout de suite. On est tout bon.
+
+Youssef HAFSI
+42:59
+Ça, c'est pour le planning. Par rapport à l'ERP, vos attentes, c'est quoi principalement ? On a parlé du projet, bien évidemment, gestion de. Stock.
+
+Emmanuel Coletti
+43:15
+Le projet, on a vu, on a parlé peut-être, vous l'avez déjà évoqué, le 9 mai. Bien sûr, sur certaines de ces étages, comme on a dit, il y a des achats qui sont planifiés. Donc l'attente de l'ERP, ça va être aussi de suivre ces achats de **** en **** c'est-à-dire on les planifie dans, j'imagine, la centrale, puis ensuite on va recueillir des devis de fournisseurs. Ces devis, on va les accepter, on va passer les commandes d'achat et on va venir imputer le projet, le coût de cette commande. Et ça, j'imagine qu'on est dans des processus complètement standards qui peuvent être complètement standard quand.
+
+Youssef HAFSI
+43:51
+On sort du projet ou de la commande, vous allez le lier directement dans une commande. La ligne d'achat, parce que vous pouvez en acheter pour plusieurs projets, vous allez lier...
+
+Unknown speaker
+44:10
+Quand je vais vous donner.
+
+Youssef HAFSI
+44:11
+Les accès. S'Il y a des choses que vous ne voyez pas, c'est normal. Vous voyez comme moi, il y a des champs qui sont cachés. Donc, vous me direz ce qui... Numéro de ligne... Pourquoi. On cache et.
+
+Youssef HAFSI
+44:28
+On laisse, c'est pour ne. Pas trop perturber. L'Utilisateur. Donc. Qu'Il n'y ait pas. Vraiment...
+
+Unknown speaker
+44:36
+Perturé d'informations.
+
+Youssef HAFSI
+44:37
+C'est ça. Donc directement dans le. Projet, que j'ai. Un article ou pas, je peux choisir. À quel projet il est rattaché et à quelle tâche. Du projet. Il.
+
+Youssef HAFSI
+45:02
+Est rattaché. Et comme il y a un coût. Réel. Il va venir alimenter le coût. Réel par rapport au. Coût budgété. Parce que vous pouvez dire, ok, ça va me coûter mais en fait ça coûte 1050.
+
+Youssef HAFSI
+45:12
+Francs. Même si c'est un article, il peut y avoir une différence de coût par rapport à ce que vous avez budgété.
+
+Unknown speaker
+45:24
+Donc ça c'est complètement standard.
+
+Emmanuel Coletti
+45:26
+La comparaison entre le budgété et le réel, c'est au niveau d'une ligne d'achat ou c'est au niveau d'une ligne d'activité du projet ou c'est pareil en fait parce que c'est connecté ?
+
+Youssef HAFSI
+45:39
+Ici comme je vais mettre un article que je budgète d'acheter, je dis par exemple que là il a un coût de 1000 francs. Et puis quand vous allez faire votre commande, vous allez rattacher à cette ligne, l'article. Finalement, son coût, ce n'est pas 1 000 francs, c'est 1 050. Et je vais toujours me retrouver avec un écart budget et puis réel. Et le réel, c'est soit la quantité que j'ai prise qui est la plus importante ou alors c'est le coût de l'article qui est le plus important. C'est comme les ressources, la quantité d'heures ou le coût de la ressource.
+
+Emmanuel Coletti
+46:09
+Mais ce réel, je vais le saisir à la main dans. Ce moment-là ou. Ça va être automatiquement transfait du paiement de la commande d'achat.
+
+Youssef HAFSI
+46:18
+C'est automatiquement quand vous avez saisi la commande d'achat et qu'on va valider. Oui, parfait. C'est pour ça qu'à la commande d'achat, je lis le projet et la tâche projet. Il n'y a pas de double saisie, jamais, dans le système. C'est ça. Aucune double saisie. Mes clients qui ont une activité, comme je l'ai dit, très similaire à la vôtre, ils ont toujours une ligne qui est que pour le matériel.
+
+Youssef HAFSI
+46:40
+et les autres et des lignes avec des ressources, ils ne mélangent pas les deux, ce qui leur permet de bien suivre l'écart ressources versus l'écart matériel. Quand on fait la phase d'analyse, on le verra ensemble. qui sont importantes, c'est un peu notre expérience qu'on voit aussi des clients, c'est quand on fait un budget, on peut avoir une partie équipement et puis différentes catégories de matériel pour faire le suivi, pour faire la visu, parce qu'il y a des composants, si vous les importez de Chine ou je ne sais pas où, et qu'au final avec les frais, parce que dans la commande achat, j'ai mis l'article, on va pouvoir mettre des frais d'approche, les frais de transport. Vous pouvez voir pourquoi c'est plus important. Au lieu d'avoir 100 francs de frais de transport, j'en ai eu pour 400 francs. Ce n'est plus du tout la même chose. D'où le budget de vie.
+
+Youssef HAFSI
+47:34
+Il est super intéressant parce que le budget de vie, ça permet de dire est-ce que le commercial a bien fait son travail ou pas ? Est-ce que le chef de projet a bien fait son travail ? J'exagère quand je dis ça, mais est-ce qu'il a bien estimé au départ ? Et voilà la réalité. Ce qui permet sur un projet similaire prochain, on ne se trompe pas.
+
+Emmanuel Coletti
+47:53
+Ça, c'est intéressant parce que dans la vie du projet, il peut arriver aussi qu'on arrive à revendre des activités supplémentaires. Alors, soit sous forme d'un travail, on dirait un petit peu déconnecté, et à ce moment-là, on peut très bien le traiter comme un nouveau projet, soit c'est vraiment connecté, c'est une sorte de prolongation des activités engagées. À ce moment-là, est-ce que cette fameuse colonne de vie budget négociée par le commerçant au départ, est-ce qu'on pourrait créer une sorte de devis numéro deux avec un périmètre augmenté, un budget élargi ? En gros, redéfinir une baseline budgétaire qui intègre cette ajoute qu'on a revendue au client. Vous voyez ce que je veux dire ? Soit on change les chiffres de devis initiales en les augmentant, soit on crée une colonne dédiée pour mieux tracer les choses et les nouveaux coûts seraient comparés à ce budget élargi.
+
+Youssef HAFSI
+48:53
+Voilà ce que mes clients font. Mais c'est une proposition. Oui, on pourrait faire ça, mais ils font ça.
+
+Unknown speaker
+48:59
+Ils rentrent dans une phase 2.
+
+Youssef HAFSI
+49:06
+Dans une phase 2, début total, et ils commencent à créer la nouvelle partie avec leur propre devis, leur propre budget et qui est une extension du budget initial. Pourquoi ?
+
+Emmanuel Coletti
+49:26
+Elles sont dissociées, on ne vient pas toucher les lignes existantes.
+
+Youssef HAFSI
+49:30
+On pourrait toucher les lignes existantes, on pourrait. Mais regardez, je vous fais l'exemple tout de suite.
+
+Unknown speaker
+49:44
+Les deux tâches c'est les mêmes, la WP 110 et la WP 232.
+
+Youssef HAFSI
+50:03
+Est-ce que vous préférez le voir de cette manière-là ?
+
+Unknown speaker
+50:12
+Je sais que j'ai 1977 plus 423 d'ajout. Préférez le voir comme ça.
+
+Youssef HAFSI
+50:32
+Parce que là je ne sais plus qu'est-ce qui est initial, qu'est-ce qui n'est pas initial. Alors que ce que j'avais fait avant, j'ai séparé et ça me permet de voir exactement qu'est-ce qui a été fait initialement discuté et qu'est-ce qui a été rajouté ensuite dans un lot 2, une phase 2.
+
+Emmanuel Coletti
+50:53
+Mais du coup, j'essaie de comprendre, parce que là, les gens peuvent continuer. À... Est-ce que ça peut être transparent pour une personne qui, comment vous dites, ventile, book, pointe, comment vous dites ? Non. Quand ils vont pointer leurs heures.
+
+Youssef HAFSI
+51:09
+Ils vont choisir... On va lui dire, tu pointes sur nouveau. Oui, d'accord. Parce que. Quand ils ont.
+
+Unknown speaker
+51:15
+Fini...
+
+Youssef HAFSI
+51:17
+Oui, parce que, Darine, on peut bloquer ça. Ce n'est pas critique.
+
+Emmanuel Coletti
+51:21
+Ce que je vous dis.
+
+Youssef HAFSI
+51:22
+Ce n'est vraiment pas critique.
+
+Darine SAMMOUD
+51:23
+Moi, par. Exemple, mes. Clients, on a fait les deux cas de figure. En fait, on a rajouté en termes de colonne un budget complémentaire tout en continuant à pointer au niveau des lignes comme d'habitude avec en prenant en compte ce budget complémentaire qu'on isole admettant la ligne.
+
+Unknown speaker
+51:50
+Ah, on a perdu Darine. On a perdu Darine.
+
+Darine SAMMOUD
+51:52
+Qu'on continue à pointer sur le fond. Oui, pardon. Est-ce que vous m'entendez? Oui. Fonctionnellement parlant, au fait, ça va dépendre si cette extension de budget, c'est vraiment une nouvelle tâche, comme a fait Youssef, que c'est un lot nouveau, ou c'est vraiment une extension de budget, donc on rajoute ça au niveau des colonnes, Youssef. Et puis, j'étais amené à créer une colonne supplémentaire. De budget en complément afin d'avoir au niveau des lignes quelque chose de linéaire.
+
+Darine SAMMOUD
+52:25
+C'est plus pratique.
+
+Youssef HAFSI
+52:26
+Oui, oui. Mais je sais qu'on en va discuter.
+
+Darine SAMMOUD
+52:30
+Tout à fait. Mais les deux sont possibles.
+
+Emmanuel Coletti
+52:36
+On va avoir les deux cas, je pense qu'on va avoir les cas qui sont des activités qui sont quelque part nouvelles, même si elles s'insèrent toujours dans le projet, peuvent être connectées à des activités existantes, mais elles sont nouvelles et on peut imaginer demander aux personnes de pointer sur ces nouvelles activités avec un budget dédié. On peut aussi imaginer ce que vient de décrire Darren, c'est-à-dire une extension budgétaire sur des activités qui, par nature, restent les mêmes. Et donc, on demande aux gens de continuer à pointer sur les mêmes comptes. Et du coup, ça va bien sûr améliorer notre économie du projet.
+
+Youssef HAFSI
+53:15
+Final et manuel, c'est ce que vous vous attendez après comme lecture. Le système est flexible dans les deux sens. Je vous ai montré les deux, c'est après vous ce que vous attendez et quel process vous voulez mettre en place pour le suivi. C'est clair, c'est clair. Après le reste, oui, allez-y.
+
+Emmanuel Coletti
+53:34
+Le reste, ce qui est peut-être encore une petite visu, c'est plus au niveau des dashboards, comment on va compiler Comment ça va se passer au niveau de l'exploitation multi-projets de tout ça ? C'est-à-dire, je crois que vous l'avez déjà montré un petit peu, aussi bien côté ressources. Par exemple, est-ce que je peux faire un zoom à net ? Elle a combien de projets à instanter ? Combien elle en aura dans deux mois ? Est-ce qu'il y a des moments où elle est libre ? Ça, je crois qu'on l'a vu.
+
+Emmanuel Coletti
+54:04
+On l'a vu, et après il y a l'aspect économique. Avant de passer sur l'agrégation multi-projets, au niveau d'un projet donné, quand je vais vouloir réestimer, donc on est en cours de route, on avait un budget, on a des pointages qui s'effectuent sur les tâches, le chef de projet s'aperçoit qu'il a sous-estimé une tâche, Donc, en fait, il vient réestimer son coût à terminaison, c'est-à-dire qu'il va réallouer des heures dans le futur pour terminer la tâche. Il va réestimer le besoin, l'effort nécessaire pour finir la tâche. Comment ça se gère ? Comment ça se gère ? Et comment on peut le visualiser graphiquement ? En fait, comment va venir ce...
+
+Emmanuel Coletti
+55:00
+L'idéal, pour moi, c'est un graphique qui vient typiquement un graphique down value management. Vous voyez ce que je veux dire ? Une courbe de dépenses, étalement des dépenses dans le temps, prévisionnelle, une courbe de consommation à date, qui bien sûr s'arrête à la date d'aujourd'hui, et puis une courbe qui correspond à l'avancement réel et non pas consommé, et une prolongation bâtie sur la base de la réestimation du reste à faire. Ce genre de graphique.
+
+Youssef HAFSI
+55:33
+sur la partie affichage. On affiche ce qu'on veut, c'est l'avantage qu'on avait pour BI, on affiche ce qu'on veut comme graphique. Une courbe, un histogramme empilé, c'est-à-dire première partie de budget, deuxième partie de budget, une courbe d'évolution avec le temps du budget, etc. La seule chose dont on a besoin, et ce que le chef de projet va faire, il va dire, ok, j'ai mal estimé mon budget initial, Ce qu'il doit faire, ce n'est pas modifier le budget initial, mais c'est rajouter un complément de budget. Parce que quand il va rajouter un complément de budget, il va le rajouter à une date, par exemple, aujourd'hui. On va dire 31-12-25. Finalement, j'ai mal estimé, il va me falloir 10 heures de plus.
+
+Youssef HAFSI
+56:24
+Et le budget va évoluer par rapport à la date. Donc, on a commencé. Sur 2020.
+
+Emmanuel Coletti
+56:30
+Il rajoute une ligne avec la date. J'aurais plutôt rajouté une colonne, si je peux me permettre. Parce que c'est la même tâche. ? C'est la même tâche. Et donc on vient du ****** des tâches quelque part pour mettre plus de valeur ? Non.
+
+Emmanuel Coletti
+56:45
+Pourquoi on peut pas rajouter une colonne. ? Mais c'est la même tâche.
+
+Youssef HAFSI
+56:51
+C'est la même tâche. Là, on n'a pas appliqué la tâche. Non, c'est à l'intérieur du détail de la tâche. Il y avait le premier budget initial au 16-10 et aujourd'hui, en 31-12-2025, j'ai rajouté un complément. Et c'est avec ça que je vais vous montrer qu'à partir du 16-10 jusqu'au 31-12, j'avais un budget estimé de 423 et puis ça a augmenté. Il y a eu un complément d'estimation de budget additionnel. C'est ça dont j'ai besoin.
+
+Emmanuel Coletti
+57:26
+Oui, absolument. Vous pouvez refaire juste la même manip que je comprenne.
+
+Youssef HAFSI
+57:30
+Au départ, il n'y avait qu'une ligne. Prenons un autre exemple. Vibration, ça c'est bien. Budget initial, ressource Christian, on a démarré le 01.06.25. J'estime que c'est 15 heures.
+
+Emmanuel Coletti
+57:49
+Ce qui est bizarre, c'est qu'elle a une durée de zéro jour. Je ne sais pas pourquoi.
+
+Unknown speaker
+57:53
+Je n'ai pas fait attention quand je l'ai créé, mais j'ai mis 15 heures.
+
+Youssef HAFSI
+58:07
+Donc j'ai 1155 francs d'estimation de budget. Maintenant, parce que si je rajoute la colonne, je vais devoir rajouter autant de colonnes, mais en fait non. Est-ce que je peux réviser une fois, deux fois, trois fois ? Oui, d'accord. Ah oui, mais non, mes vibrations, non, non, non, non, il y a un souci, je me suis trompé, donc finalement ce n'est pas 15 heures, mais il me faut 30 heures. Donc, je viens, je dis, le 1er juillet 2025, le jour où je me suis rendu compte que ce n'était pas bon, en fait, il me faut encore 15 heures de questions. Et puis là, j'ai révisé le budget.
+
+Youssef HAFSI
+58:49
+Non seulement je l'ai révisé globalement, mais sur le graphique, on va pouvoir montrer par rapport à la courbe du temps que le budget a augmenté à partir du 1er juillet. Il était plus de 15 heures, mais c'est devenu 30 heures.
+
+Emmanuel Coletti
+59:02
+Et ça, on peut le faire que la tâche ait démarré ou non. Par exemple, une tâche qui est dans le futur, en fait, je peux à un instanté anticiper qu'elle va coûter plus **** que ce que j'avais estimé il y a un an. Même si elle n'a pas démarré, je fais la même manip, je rajoute une ligne dans la tâche.
+
+Youssef HAFSI
+59:15
+Je le fais absolument ici. C'est vrai, c'était à zéro, je ne sais pas pourquoi. C'est vrai. J'ai une tâche qui commence le 1er septembre 25. J'estime que c'est 20h. Je suis toujours le 28 mai. Je me suis trompé.
+
+Youssef HAFSI
+59:31
+Alors, il ne faut pas que je la modifie pour garder un historique, tout simplement. Je dis, je peux mettre la même date ? En fait non, le 1er septembre, je vais avoir besoin de 10 heures complémentaires. Il faut juste que je garde. Pour. Que vous puissiez lire que c'était 20 plus 10, etc.
+
+Emmanuel Coletti
+59:55
+Et le 30, il. Va apparaître où du coup ? Si vous mettez la colonne totale, c'est-à-dire en heure, en quantité ?
+
+Youssef HAFSI
+1:00:01
+Oui. Je vais rajouter la colonne quantité. Je verrai 30 au total.
+
+Emmanuel Coletti
+1:00:05
+Et en dessous, le détail de la tâche que vous venez de montrer, où. Il y a les deux lignes, Là. On peut rajouter une ligne totale. Imaginons qu'on fait quatre modifications successives. On veut s'assurer avant de basculer que c'est le bon total.
+
+Youssef HAFSI
+1:00:34
+Je pourrais rajouter sur le côté et dire total aussi.
+
+Emmanuel Coletti
+1:00:37
+Non, non, je vous embête, c'est du détail, c'est vraiment du détail. Ok, alors ça c'est très bien. Maintenant, on peut parler agrégation de projet. Alors, peut-être juste avant, la façon dont on va se structurer là, c'est qu'on a des chefs de projet, ils gèrent plusieurs projets. Et vous me dites ce qui est possible d'implémenter facilement, il ne s'est pas à des choses imposées. Donc ça veut dire qu'il y a une notion de portefeuille projet qui apparaît au niveau d'une personne. Après, moi je suis par exemple responsable d'une business unit, je vais être responsable d'un plus gros portefeuille.
+
+Emmanuel Coletti
+1:01:13
+Typiquement sur les tranches, je vais être responsable de la moitié, 15. Puis j'ai un collègue qui va faire la même chose sur les 15 autres. Et moi, mon CEO, il me demande de faire un reporting économique sur mon portefeuille. Donc, ce que je vais faire, c'est que je vais exploiter ce que j'ai beaucoup de mal à faire aujourd'hui, mais je vais exploiter via l'ERP des graphiques qui agrègent en fait l'économie de tous les projets pour donner une vision d'ensemble sur ma business unit. Et puis, quand il aura des questions, mais pourquoi ça a baissé par rapport au mois dernier. Je vais dire, il y a un projet qui est en souffrance et puis là, on va pouvoir rentrer dans le détail et puis identifier effectivement qu'il y a un projet qui a dérivé alors que les autres sont sains. Et c'est bien, c'est à cause de celui-là qu'on a dégradé l'économie, par exemple, de la business unit.
+
+Emmanuel Coletti
+1:01:55
+Vous voyez ce que je veux dire ? Donc, un outil de communication et de reporting qui agrège des projets.
+
+Youssef HAFSI
+1:02:01
+Alors, première chose, vous allez affecter le chef de projet à chaque projet pour qu'on ait tout le portefeuille. Ensuite, différents outils graphiques, etc. On peut sortir des rapports d'analyse de projet. Mais ici, avant de sortir le graphique et de vous montrer les données, ça va être très simple en fait. On va définir quelles sont les vues que vous voulez avoir et puis même que votre responsable peut y accéder directement. sans même vous demander. Et c'est là où je reprends l'intérêt, c'est que lui, il peut visualiser ce dashboard-là sans même accéder à l'ERP.
+
+Youssef HAFSI
+1:02:39
+Donc, il peut avoir ce dashboard-là. Qu'est-ce qu'on va lui montrer ? On va lui montrer le budget global de tout votre portefeuille projet, donc de chaque portefeuille projet par chef de projet, le niveau d'avancement, le réel. Et moi, je pense que c'est ce qui va surtout l'importer, c'est tous les paiements qui peuvent être facturés, mais qui ne sont pas facturés parce qu'ils ne sont pas flagués. Pour moi, c'est ça. Oui, bien sûr. Alors ça, c'est sûr que ça va l'intéresser.
+
+Youssef HAFSI
+1:03:12
+C'est-à-dire qu'on a 30 échéances qu'on peut facturer parce que la date d'échéance est passée, mais sur les 30, il y en a 15 qui ne sont pas flagguées. Moi, personnellement, je suis le CFO. Après, je regarde le détail. Mais première chose, c'est qu'on a un potentiel de facturation qu'on n'a pas facturé. Après, ça peut être le coût des ressources. Vous allez voir que pour OBI, vous-même, vous allez créer vos propres graphiques, parce qu'on va vous donner la base. On va en faire deux, trois, quatre, mais après, vous allez créer vos propres graphiques.
+
+Youssef HAFSI
+1:03:46
+C'est pour ça, je peux vous montrer des rapports tout près, mais qu'est-ce qu'on veut voir tout de suite ?
+
+Emmanuel Coletti
+1:03:50
+Non, je n'ai pas de doute que c'est possible. On peut filtrer, par exemple, quand vous parliez de Fortefeuille, les graphiques avec les camemberts que vous montriez, on peut filtrer en sélectionnant, par exemple, je veux afficher Ce projet là, ce projet là, voilà c'est ça. Et puis pas celui-là.
+
+Youssef HAFSI
+1:04:06
+On peut sectionner tout, pas sectionner, rien sectionner. On peut venir ici voir cette ressource, combien de temps lui a alloué sur une période de trois mois. On peut filtrer par ressources. C'est complètement flexible. C'est super. C'est vraiment l'outil super et fait pour ça. Darine, c'est la spécialiste de ça.
+
+Youssef HAFSI
+1:04:30
+On fera un dashboard pour le CFO. Combien je dois facturer qui est échu, mais non flagué. Ensuite, on peut faire un rapport sur les variations de budget dans le temps. Oui, Lara, vas-y.
+
+Lara Müller
+1:04:47
+Oui, bonjour Emmanuel. Je suis désolée de mon ****** mais j'étais là depuis le début de la démo. Donc, j'ai visualisé toute la démo. Je voulais juste reprendre la main par rapport à cette partie pour BI. Nous, on a l'habitude de travailler avec nos clients en mode transfert de compétences. Donc, on va réaliser pour eux deux, trois reports qui sont assez complexes pour eux avec une montée de compétences. Donc, ils nous voient regarder faire, ils apprennent.
+
+Lara Müller
+1:05:11
+en les formes pour qu'ils soient autonomes à créer leurs propres reports. Et puis vraiment les reports qui sont très compliqués à ce moment-là, on les fait pour eux avec ce mode de transfert de compétences. Et tout le reste, tous les autres petits rapports, vous êtes totalement autonomes pour les réaliser vous-mêmes.
+
+Unknown speaker
+1:05:30
+C'est clair.
+
+Youssef HAFSI
+1:05:33
+Je pense qu'entre vous et Guillaume...
+
+Emmanuel Coletti
+1:05:37
+C'est ça, on va avoir normalement la capacité d'appréhender l'outil. Et juste pour donner encore quelques exemples, par exemple, moi j'ai une problématique aussi en tant que CEO, c'est de visualiser le plan de charge de l'ensemble des équipes sur une page de temps. Donc ça va être quelque part une agrégation des ressources et de leur allocation au projet. Alors typiquement ce ne serait pas par personne, mais ce serait une visualisation dans le temps de la charge totale et par exemple distribuée par projet. Quel projet me demande le plus de ressources dans un an ?
+
+Youssef HAFSI
+1:06:17
+Ça va être ce que je vous montre là. On peut l'adapter un peu. Ici par exemple, on a une vue sur le mois. On a les projets, les phases, et puis on va voir la ressource, quelles tâches lui affecter par temps. On verra pour chaque tâche de projet qu'est-ce qui lui a affecté par heure sur tout le mois.
+
+Emmanuel Coletti
+1:06:43
+Donc là, c'est le détail. Et après, je suppose qu'avec Power BI, on peut créer un histogramme. L'idéal pour moi, c'est un histogramme mois par mois avec la charge totale intégrant toutes les ressources. En gros, les appels de charge des projets cumulés mois par mois.
+
+Youssef HAFSI
+1:07:01
+En fait c'est ça, mais là on le montre en nombre de tâches, mais c'est exactement ce graphique-là qui devient un histogramme. Un histogramme dans le temps avec les heures. C'est pour ça qu'on a fait le choix de ça, parce que vous allez voir qu'après, vous n'allez même plus nous demander, vous allez le réaliser même, vous avez le copilote qui le réalise pour vous, l'assistance AI, et ça va très vite. Ça, c'est excellent. C'est l'outil le plus flexible pour les utilisateurs pour ne pas quitter à être tributaire de leur partenaire pour demander à chaque fois des nouveaux rapports.
+
+Unknown speaker
+1:07:44
+OK.
+
+Emmanuel Coletti
+1:07:48
+Les prévisions de marge sur les projets, ça va se déduire de l'économie des projets, de la réestimation du reste à faire.
+
+Youssef HAFSI
+1:08:02
+Vous avez les coûts, l'ensemble. Des coûts, l'ensemble de ce que vous allez facturer. Et puis la marge, elle va être très sympathique au début, se réduire au fur et à mesure comme tout projet. Et on va montrer dans un graphique l'évolution de la marge dans le temps par projet et le CFO il va être super content et il va vous dire qu'est-ce qui se passe là, qu'est-ce qui se passe là.
+
+Emmanuel Coletti
+1:08:36
+Donc là on va comparer typiquement ce que le commercial a vendu, est-ce que ça se fait directement dans le business central ou brutalement je dirais ou est-ce qu'il faut créer un graphique Power BI quand je vais vouloir comparer le budget du commercial de ce que vous disiez la colonne fixe avec m'a réestimé à date de l'ensemble des budgets et l'ensemble des achats. Vous savez, pour une tâche donnée, on a réestimé le budget, on a rajouté par exemple 20 heures. Donc tout ça, ça vient être transformé en francs. Et puis donc, ça fait une réestimée du Cost to Completion. Et cette comparaison Cost to Completion avec le devis du commercial, je peux l'avoir sans créer un graphique pour biais, je peux l'avoir là directement dans le tableau.
+
+Youssef HAFSI
+1:09:15
+Vous l'avez directement dans le tableau en chiffres. L'avantage peut-être dans le graphique, c'est que vous allez voir l'évolution dans le temps. Oui, c'est simple. La qualité de ma marge estimée commerciale, ma marge budgétaire Montréal, et puis on voit dans le temps comment ça bouge et comment ça augmente ou ça diminue. Il y a un sujet, vous l'avez dit tout à l'heure. Je ne voulais pas vous poser la question, mais je vais quand même poser la question. Nous, la plupart de nos clients, sur les coûts des ressources, ils font un coût par département.
+
+Youssef HAFSI
+1:09:50
+Ce n'est pas un coût réellement par ressource. C'est-à-dire, il va dire, moi, tous mes ingénieurs, ils ont cette moyenne de salaire, voilà le taux horaire, et ils ne différencient pas Vous avez.
+
+Emmanuel Coletti
+1:10:02
+Raison Youssef, c'est pareil. D'ailleurs en fait on s'est fait auditer nos tourères par notre client principal, c'est l'ESA, et donc en fait on a je crois 6 ou 7 rôles officiellement déclarés sur lesquels on budgette, mais certains ont les mêmes tourères, on a 3 ou 4 tourères, pas plus, on n'a pas 30. Il y a une... Oui. Allez-y. Je vous laisse finir parce que c'est autre chose après que je vous l'aborder. Oui, l'effet de temps, très bien.
+
+Youssef HAFSI
+1:10:31
+Voilà, je vais aborder ça. On a des clients qui nous demandent qu'on leur envoie... Alors, nous, le RP, il gère la finance, facturation, comptabilité, etc. D'accord ? Donc, il y a tout. Donc, on va mettre tout. Il y a aussi le module suisse salarié pour la paie.
+
+Youssef HAFSI
+1:10:48
+Alors... Que vous mettez le module suisse salarié ou pas, on a des clients qui ont d'autres outils de paye puisqu'ils sont habitués. Ils nous demandent de recevoir le total par jour et par semaine de ce qui est timbré, comme feuille de temps, parce qu'ils le comparent avec ce qui est timbré à la timbreuse.
+
+Unknown speaker
+1:11:12
+Je ne suis pas sûr d'avoir le vocabulaire.
+
+Youssef HAFSI
+1:11:16
+Si vous devez faire 8 heures par jour et que j'ai pointé dans mes feuilles de temps que 7 heures de. Projet. Mais que Donatin Breuze, il a mis 8 heures, il regarde ça au niveau des RH et puis derrière, il sort des rapports pour demander où vont les dernières heures parce qu'ils veulent toujours que ce soit affecté à tout travail en fait. D'accord.
+
+Emmanuel Coletti
+1:11:36
+Donatin Breuze, c'est juste le vocabulaire.
+
+Youssef HAFSI
+1:11:39
+La timbreuse.
+
+Emmanuel Coletti
+1:11:41
+La badgeuse, la pointeuse. Donc je crois qu'on l'avait évoqué le 9 mai, je ne me souviens plus bien, mais il y a une notion de validation de façon des timesheets, des feuilles de temps, je crois.
+
+Youssef HAFSI
+1:11:57
+Ça c'est le chef de projet. Ce n'est pas les RH. Ce n'est pas la même chose. Les RH, eux, ils ne regardent pas les projets en détail, ils regardent plutôt à ce qu'ils veulent. Il a timbré 8 heures, il a fait 8 heures d'affecté. C'est une question... Est-ce qu'il a bien.
+
+Emmanuel Coletti
+1:12:11
+Pris ses congés, est-ce qu'il a bien timbré, ventilé, vacances, etc.
+
+Youssef HAFSI
+1:12:18
+Ok ? Ok, ok. Donc ça, c'est des choses qui reviennent. Allez-y, je pense que vous pouvez passer sur un autre sujet.
+
+Emmanuel Coletti
+1:12:26
+Imaginons qu'on prend Business Central. Comme vous l'avez vu, on a des Microsoft Project MPP. Ce que j'ai compris de notre discussion, c'est qu'on n'a pas la bonne licence Project. Comment on ferait ? Est-ce qu'on migrerait nos plannings existants dans l'environnement Business Central ? Ce que je comprends de ce qu'on voit là, c'est qu'en fait on abandonne l'outil Microsoft Project tel qu'on l'utilise aujourd'hui. On arrête d'utiliser cet outil, on ne paye plus les licences, on bascule tout dans le cloud et dans ce qu'on est en train de regarder.
+
+Youssef HAFSI
+1:13:04
+Vous avez. Le projet pour web, qui est vraiment la partie simple, et c'est une visualisation graphique. Ce qu'il y a, c'est que vous n'allez pas voir le niveau de détail de la gestion des ressources. Vous n'avez que des tâches. et ça ne resterait qu'un graphique de tâches. Il n'y a pas derrière l'affectation des ressources et puis une gestion des ressources.
+
+Emmanuel Coletti
+1:13:34
+Pour avoir cette vue qu'on voit en ce moment à l'écran, il faut avoir la licence à 65 ou à 100 ?
+
+Unknown speaker
+1:13:44
+Non, à 100. Parce que vous avez et la vue et l'accès à ABC, les deux.
+
+Emmanuel Coletti
+1:13:53
+Mais dans cette vue-là, qu'est-ce qu'il y a de la part baissée là-dedans ?
+
+Youssef HAFSI
+1:13:56
+On va faire la simulation ensemble. Cet outil de planning, il est complètement connecté à Business Central et donc vous avez la vue sur les ressources, vous avez les tâches, etc. Donc ce que vous faites ici, c'est ce que vous faites dans Business Central et vice-versa. C'est complètement connecté. Ce qui se passe, c'est que vous avez l'ERP Business Central, d'accord ? Vous avez deux types de licences. Vous avez ce qu'on appelle la Essential, qu'on a vu à 64, 54, enfin genre le ventre soit pris.
+
+Youssef HAFSI
+1:14:31
+Et vous avez la Team Member.
+
+Unknown speaker
+1:14:36
+Qui est de la lecture. Plus timesheet. D'accord ?
+
+Youssef HAFSI
+1:14:48
+Et celle-là, elle est à, je reviendrai sur les prix exacts, 7,54. Je crois. Pour. Le portail, En fait, le portail, nous, on ne prend que vraiment des frais d'hébergement du portail. Ce n'est pas une licence de suivi. Mais celui qui doit se connecter au portail, il va gérer les projets. Sauf que ces projets ne sont pas dans Project, ils ne sont pas dans le portail, ils sont dans BC.
+
+Youssef HAFSI
+1:15:17
+Donc, il a besoin d'avoir une licence à BC. Donc, on a fait quelque chose de très simple. On a dit, c'est 100. Francs.
+
+Unknown speaker
+1:15:24
+Et dans les 100 francs, c'est inclus une licence et son charme.
+
+Youssef HAFSI
+1:15:34
+Qu'il rentre à l'ERP ou qu'il ne rentre pas à l'ERP, c'est une question de droit. Mais dedans, s'il accède au portail, il a une licence essential qui est dedans. Dans les 100 francs, c'est inclus. Je. N'Ai pas compris ce que c'est le portail. C'est ça, le planning. C'est tout ce que vous voyez ici.
+
+Youssef HAFSI
+1:15:55
+Si vous avez besoin de gérer les ressources dans le planning, vous prenez une licence à 100 et vous aurez automatiquement accès à l'ERP aussi. Ça, c'est automatique. Si, par contre, vous voulez quelqu'un qui accède uniquement à l'ERP, il n'a pas besoin d'accéder au planning, il prend juste la licence de l'ERP. Les membres qui vont faire le timesheet, ils ont juste besoin de la team member. Ils vont rentrer leur temps. Qui aurait besoin.
+
+Emmanuel Coletti
+1:16:21
+De l'essentiel. Et pas de...
+
+Youssef HAFSI
+1:16:23
+Les comptables. ceux qui font de la facturation, ceux qui font des achats, tout ce qui est support, ils n'ont pas besoin d'avoir accès au planning.
+
+Emmanuel Coletti
+1:16:35
+Ok, donc je vais pouvoir vous faire, on peut faire une petite simulation en direct ?
+
+Youssef HAFSI
+1:16:39
+Oui, oui.
+
+Emmanuel Coletti
+1:16:40
+Donnez-Moi juste. Les profils d'utilisateurs. Voilà, donc moi j'ai des profils, alors les profils comptables, je vais en avoir.
+
+Unknown speaker
+1:16:54
+On va faire plutôt. Robuste.
+
+Emmanuel Coletti
+1:16:58
+Des. Profils, chef de projet, direction, parce qu'en fait moi je pense que la direction va vouloir voir l'allocation des ressources, va vouloir analyser les données, vouloir rentrer dans les réseaux centrales, ressortir, créer des graphiques. Donc là je comprends que c'est le truc à 100 francs. Donc là on va être sur On. Va être sur 8.
+
+Unknown speaker
+1:17:28
+Au max.
+
+Emmanuel Coletti
+1:17:33
+Et le reste, donc là on est à 13, admettons qu'on monte à 33, donc on a 20 visualiseurs purs et timesheet.
+
+Unknown speaker
+1:18:02
+Qui a besoin d'utiliser l'outil. De graphique ? Ce sera le chef de projet de direction. Le. Power.
+
+Youssef HAFSI
+1:18:13
+BI ? Non, la gestion des ressources d'affectation. Chef de projet ? Voilà ça, oui. Qui a besoin uniquement de reporting ?
+
+Emmanuel Coletti
+1:18:25
+Heureux d'y voir ce que c'est le uniquement reporting.
+
+Youssef HAFSI
+1:18:28
+C'est soit. Visualiser des données dans Business Central, soit avoir des rapports Power BI.
+
+Unknown speaker
+1:18:37
+Le comptable.
+
+Emmanuel Coletti
+1:18:39
+Parce qu'en fait, les chefs de projet, ils bâtissent leurs projets en allant dans les ressources et ils rentrent dans les jeux. Je pense que tous les chefs de projet ont besoin du truc à 100.
+
+Youssef HAFSI
+1:18:47
+Alors ici, on est à 100. Pardon, je reprends les 65, 84. Ici, on est à 65, 84. Et les timesheets, ils n'ont que saisir des temps, ils ne vont pas voir d'autre chose.
+
+Emmanuel Coletti
+1:19:04
+Peuvent-ils voir leurs charges dans le temps sur les projets en visu, sans modif ? Peuvent-ils voir leurs allocations faites au projet ?
+
+Youssef HAFSI
+1:19:18
+Oui. Mais il va y avoir. Un tout petit coup supplémentaire, il faudra que je regarde. Donc, ils vont accéder, mais voir que, par exemple, leur affectation à eux. Enfin, accéder à ça, mais que en lecture. C'est une visu centrée ressource 1, par exemple.
+
+Emmanuel Coletti
+1:19:39
+La ressource 1, elle ne doit pas savoir ce que fait la ressource 2 ni la 3. Par contre, elle veut savoir ce qu'elle doit faire demain, après-demain et dans 3 mois.
+
+Youssef HAFSI
+1:19:50
+Je vais... Il y a TimeSheeted. Alors TimeSheeted, c'est très simple. Parce que c'est 7,56. Je vous dirai c'est quoi le complément. Mais ça ne va pas chercher loin. C'est une vingtaine de francs par utilisateur par mois.
+
+Youssef HAFSI
+1:20:06
+Vraiment, ça ne va pas chercher loin. Donc, prix...
+
+Emmanuel Coletti
+1:20:14
+Total... C'est quand même une vingtaine de francs. On serait 27 au lieu de 7. Ah non, c'est 20...
+
+Youssef HAFSI
+1:20:20
+Oui, c'est ça, ce serait 20 au lieu de 7, pas 27. Mais il faut que je regarde parce qu'après, c'est... En fait, sincèrement, je regarde le coût d'hébergement par nombre de ressources par taille, c'est tout. D'accord.
+
+Unknown speaker
+1:20:35
+Donc, on serait à... Alors, qu'est-ce qu'il me. Fait ?
+
+Youssef HAFSI
+1:20:53
+Serait à 1348.72 francs suisses par mois, ce qui ferait. 16 184 par an avec tout inclut l'hébergement. Les mises à jour, tout. Ça, c'est pour les licences.
+
+Darine SAMMOUD
+1:21:15
+Youssef, par rapport à la deuxième ligne, chef de projet et direction, au fait, la direction, parfois, ils sont en mode lecture seule, ils n'ont pas besoin de modifier.
+
+Youssef HAFSI
+1:21:30
+Non, parce que quand il a dit. Chef de projet, c'est pas slash direction. C'est les chefs de. Projet direction qui vont affecter les ressources, qui vont, si j'ai bien compris.
+
+Emmanuel Coletti
+1:21:40
+Non, c'est, vous n'avez pas bien compris, c'est plutôt chef de projet slash direction. Mais peut-être qu'il faut que je réfléchisse davantage. Ce qui est sûr, c'est que les chefs de projet, eux, commençons par le simple. Les chefs de projet, ils vont faire, je pense qu'il va falloir qu'ils rentrent dans tout ce qu'on vient de voir. C'est-à-dire qu'il faut créer le projet dans Central, il faut qu'ils renseignent les prévisions, les budgets d'achat, ils vont probablement eux-mêmes passer les commandes, ils vont suivre de **** en **** ils vont analyser les données, les graphiques, ils vont réestimer le reste à faire, ils vont allouer les ressources, tout ça ils vont faire. Donc ils vont manipuler le planning, les dashboards, le Central, ça c'est clair. Aujourd'hui j'en ai 5 de chefs de projet, j'en ai 5.
+
+Emmanuel Coletti
+1:22:22
+Ah bah c'est différent.
+
+Youssef HAFSI
+1:22:23
+Et la direction ils vont consulter.
+
+Emmanuel Coletti
+1:22:25
+Par contre direction c'est les coquins comme moi qui sont... Alors déjà direction... Parce que, Direction, ce qu'on leur enlèverait, pour gagner un peu de sous là, on leur enlèverait... La question c'est, pourquoi on dit ça aussi? Qu'est-ce qu'on enlèverait? Votre chef de projet, Direction? On peut enlever le planning...
+
+Darine SAMMOUD
+1:22:50
+En fait, ce qu'on enlève, c'est des modifications. Ouais, allez-y.
+
+Youssef HAFSI
+1:22:54
+Direction, est-ce qu'ils ont besoin de créer? Parce qu'ils n'ont pas besoin d'avoir un accès à la Business Central en création, mais juste en consultation. Ils ne vont pas affecter des ressources, ils ne vont pas créer des projets, ça va être juste de la consultation.
+
+Emmanuel Coletti
+1:23:18
+Je pense qu'il faut quand même rajouter, je pense qu'il faut, alors dans ce cas chef de projet, il faut en mettre deux de plus, parce qu'en fait, il y a une notion d'administrateur. Là, il n'y a pas d'hiérarchie dans le chef de projet, mais moi, typiquement, je vais être aussi un petit peu chef de projet, 10% de mon temps, mais moi, il me faut un rôle d'administrateur, donc je suis en plus des cinq. Donc ça, on va dire sept, ouais. Direction 3, alors mes directions, du coup, ça va être, on a un CTO qui, non lui, il veut leur toucher aussi tout à tout, ça fait sept. Et après du coup on va vite retrouver le CEO qui lui va toucher à rien du tout, mais il va rentrer dans la comptable. Il a aussi un rôle de CFO, il a un comptable associé, donc ça fait deux. Et puis un jour il va prendre un vrai CFO, ça fera trois.
+
+Emmanuel Coletti
+1:24:02
+Notre qualiticien, normalement il n'a pas besoin de tout ça.
+
+Youssef HAFSI
+1:24:13
+Manuel, ça, ce n'est pas quelque chose qu'on décide dès le début. Là, je vous donne une simulation. On va commencer, on va prendre une licence de chaque et c'est dans le cours du projet qu'on va augmenter les licences et comme ils vont tester, on va voir plus ou moins les profils, on va pouvoir se décider. sachant que les prix que vous voyez, c'est un paiement annuel, donc au **** d'un an, on peut soit retirer la licence et la changer, soit l'augmenter, ça reste flexible d'une année à une autre, à date d'anniversaire. Mais ce n'est pas quelque chose qu'on décide dès le départ, je ne vous dirais pas de prendre toutes les licences dès le départ parce que justement, on va peut-être se rendre compte qu'il y a des profils que finalement, Peut-être qu'il y a des profils qui ont juste besoin d'avoir besoin de Power BI et pas du tout d'accès à Business Central ou des choses comme ça. Donc là on fait une simulation.
+
+Emmanuel Coletti
+1:25:10
+Bon t'es l'optimiste parce que là on est toujours à 7.56 sur le timesheet et c'est plutôt 20. Non, celui-là. Je change pas. Ouais c'est ça. Donc 15 000, c'est juste pour un ordre de grandeur. On est à 15 000 francs par an.
+
+Youssef HAFSI
+1:25:31
+Et vous n'avez pas de coût d'hébergement, vous n'avez pas de licence à acheter, vous avez... Vous n'avez rien et vous avez les mises à jour qui sont bons. Après, il y a le coût de l'implémentation. Ça, c'est autre chose.
+
+Emmanuel Coletti
+1:25:41
+Et le fait qu'on ait déjà... En. Fait, on ait déjà des SharePoint, des coûts d'hébergement Microsoft, ça ne rentre pas en ligne de compte, ça. Pas une petite offre combo Microsoft ?
+
+Youssef HAFSI
+1:25:54
+Si. Demain vous voulez prendre du CRM, il y a une offre combo avec le CRM.
+
+Unknown speaker
+1:25:59
+Pas là-dessus. Je vais vous le mettre dans la présentation qu'on va vous envoyer.
+
+Youssef HAFSI
+1:26:11
+Oui, volontiers. Est-ce qu'il y a des questions encore sur la partie usine centrale ? Je vais vous donner un accès à cette base avec le graphique. Vous pourrez jouer un petit peu et vous amuser un peu. On va passer à la présentation de la société, de la méthodologie. Lara, je te laisse. Merci, j'ai peut-être une dernière question.
+
+Emmanuel Coletti
+1:26:34
+Je suis désolé, c'est un peu en marge de l'ERP, Il y a des solutions qui proposent ça, donc je pose la question. Les aspects suivi de circuit signature document. Est-ce que ça, c'est quelque chose que Microsoft propose dans une suite qu'on pourrait obtenir gracieusement, entre guillemets, soit via l'ERP, soit dans ce qu'on a déjà dans Microsoft, mais pour l'instant on ne l'a pas identifié. Vous voyez ce que je veux dire ? C'est-à-dire, prenez un document, Office, Et puis ensuite on veut le signer, il y a trois signataires qui doivent arriver dans l'ordre et puis on voudrait savoir... Et puis donc l'auteur en fait met dans nos studios le document, s'envoie un mail au chef qui doit le signer, puis quand il l'a signé on lui en met le suivant, etc. Ça c'est un truc qui a...
+
+Emmanuel Coletti
+1:27:22
+maintenant ça existe presque en freeware, mais je me posais la question si ça existait de façon intégrée dans la suite Microsoft.
+
+Youssef HAFSI
+1:27:28
+C'est DocuSign, on utilise DocuSign. DocuSign. Mais DocuSign c'est pas Microsoft ?
+
+Emmanuel Coletti
+1:27:34
+Si.
+
+Youssef HAFSI
+1:27:35
+Alors, ils ont repris, mais ce n'est pas gratuit. Par contre, c'est intégré au CRM. Ça peut être intégré à Business Central et ça fait le circuit de validation. Par exemple, vous avez un devis et puis il part directement dans un circuit. Ça peut être vous qui le signez d'abord, ensuite le client, ensuite le chef. C'est docu-san. Ça peut.
+
+Youssef HAFSI
+1:27:58
+Être intégré dans l'ERP ? Oui, on peut l'intégrer dans l'ERP. C'est intégré dans le CRM ? C'est pas gratuit. Non, parce que ça dépend du nombre d'enveloppes. D'accord.
+
+Unknown speaker
+1:28:08
+Et ça négocie ça. Ou quoi ?
+
+Youssef HAFSI
+1:28:10
+Nous, les licences, on reverse directement à Microsoft, pour qu'on soit clair.
+
+Emmanuel Coletti
+1:28:18
+Et on négocie rien avec Microsoft, je comprends bien. Surtout. Pas quand on s'appelle Alma Tech. Ou AlmaCom.
+
+Youssef HAFSI
+1:28:30
+Par contre, en Suisse, faites attention à. Ce que vous souhaitez. Comme signature. Ça, c'est quelque chose qui est très important. Parfois, il faut que la signature soit une signature déposée chez un notaire. et non pas une signature juste comme ça avec un docu-sign ou signo ou autre chose. Il faut que vous ayez un certificat de chez le notaire si vous voulez que ça a un pouvoir juridique.
+
+Youssef HAFSI
+1:28:55
+Oui. Absolue.
+
+Emmanuel Coletti
+1:28:57
+Oui d'accord, mais ça on verra plus tard. Ça je vous le dis, ça serait plus pour des documents qui engagent la société, en particulier des documents à caractère contractuel. Mais bon, ok.
+
+Youssef HAFSI
+1:29:07
+Nous on utilise DocuSign, donc même quand on vous envoie une offre, on vous l'envoie sur DocuSign et puis ça marche très bien, il y a un bon circuit derrière de validation qui est très très très bien.
+
+Emmanuel Coletti
+1:29:18
+D'accord. Et une dernière question, parce que moi je... Oui, oui, oui. Je viens de l'oublier. Oui, la licence suisse salarié par rapport à ce qu'on vient d'évoquer, les trucs à 64, à 100, à 754, ça se rajoute? Enfin, c'est encore un autre type de licence?
+
+Youssef HAFSI
+1:29:39
+Je le montre directement sur leur site.
+
+Emmanuel Coletti
+1:29:47
+N'Est-Ce pas intégré dans l'ERP, par exemple, la licence comptable. ? On ne peut pas dire que ça inclut Swiss. Salary ?
+
+Youssef HAFSI
+1:29:57
+Non, le comptable, il a la licence à l'ERP, mais Swiss Salary, il fonctionne différemment parce qu'il y a une notion de fiche de paie, il l'envoie sous un format, il y a des déclarations Swissdex. Je vous le montre comme ça directement sur le site. Allo. Vous avez combien de sociétés juridiques ? Une seule. Alors, je vous montre le prix mensuellement. Ça, vous ne le payez pas.
+
+Youssef HAFSI
+1:30:29
+Ça, c'est le prix de la licence.
+
+Unknown speaker
+1:30:32
+Il est Business Central. Vous allez payer soit 39 francs, soit 74 francs par mois.
+
+Youssef HAFSI
+1:30:47
+Qu'est-ce qui va être la différence ? C'est le niveau d'intégration Swissdex, les assurances, etc. Mais la version à 39 francs est amplement suffisante. Ensuite, il faudra me dire combien d'employés vous avez.
+
+Unknown speaker
+1:31:06
+Parce que vous êtes facturé chaque mois sur le nombre de déclarations qui est.
+
+Youssef HAFSI
+1:31:10
+Faite, et ça vous fait un total de 72 francs par mois. C'est 1 franc. 10 parce que vous. Payez une fois l'application par mois, la licence de leur application qui est dans le business central, et ensuite vous payez 1 franc 10. Par mois par. Certificat de. Salaire.
+
+Youssef HAFSI
+1:31:29
+Donc, si sur un mois vous faites. 25, vous payez 25 fois 1 franc 10, etc. les certificats de salaire sont. Envoyés automatiquement. C'Est connecté à Swissday, que. Les déclarations sont faites, etc.
+
+Emmanuel Coletti
+1:31:38
+Donc c'est. 39 plus 30 fois 1 10 égale 72, 72 pendants.
+
+Youssef HAFSI
+1:31:43
+Exactement.
+
+Unknown speaker
+1:31:44
+OK.
+
+Youssef HAFSI
+1:31:47
+Et ça. C'Est, puisque nous, c'est Swiss Salary qui. Est mis en place, c'est à peu près 3-4. Jours.
+
+Emmanuel Coletti
+1:31:57
+Et. Il y a une connexion avec Centrale qui est intéressante.
+
+Youssef HAFSI
+1:32:02
+C'est complètement dedans.
+
+Emmanuel Coletti
+1:32:04
+C'est dedans. C'est dedans, c'est-à-dire que par rapport à ce que je suis salarié, ça existe aussi ? Non, ça n'existe pas indépendamment de Central ?
+
+Youssef HAFSI
+1:32:16
+Il me semble pas, j'ai jamais... Il. Me semble pas, Darine, tu me dis, il me semble pas, j'ai jamais fait...
+
+Darine SAMMOUD
+1:32:25
+Je suis désolée parce que je suis avec madame Muller dans la même salle. Au fait, non, c'est complètement intégré à Navision nativement et maintenant à Business Central. D'ailleurs, quand vous naviguez dans SwissAlari, c'est exactement les mêmes dashboards que vous voyez ici, les mêmes filtres. Ils ont repris tout de Microsoft. Et puis ça fait une intégration à Swissdex et puis une intégration complètement à la comptabilité. On peut charger automatiquement dans la compta les journaux.
+
+Unknown speaker
+1:33:05
+De salaire.
+
+Youssef HAFSI
+1:33:09
+Quand je dis dedans, c'est-à-dire vous êtes dans Business Central, vous ne sortez pas. Vous ne sortez pas, vous ne laissez pas. Ça a un menu comme article ou fournisseur et il n'y a que les gens de la paix qui ont accès.
+
+Unknown speaker
+1:33:24
+D'accord. OK.
+
+Youssef HAFSI
+1:33:29
+Madame Müller, on a la présentation et après on aura le planning, les licences et le budget.
+
+Darine SAMMOUD
+1:33:41
+Alors j'ai juste une précision à faire. Moi, parfois pour le calcul par rapport à tout à l'heure, ce que vous montrez, par rapport aux licences, les accès et tout, on a des tableaux pour nous, on essaie toujours d'optimiser pour nos clients en fonction des rôles, afin d'avoir optimisé en tout cas les coûts des licences. Et on conseille toujours nos clients des meilleures compositions qu'ils peuvent faire parce qu'il y a, Youssef n'a pas parlé de là, il y a une autre licence qui est à 34 francs, où des comptables par exemple ou des admins qui sont à mi-temps, se connecter aussi, se partager la même licence parce qu'elle n'est pas nominative. C'est vraiment un rôle qu'on attribue. Il y a plusieurs combinaisons aussi. Par rapport au timesheet, on peut accéder pour la saisie du temps, on peut donner un accès. À la saisie du temps sur une plateforme et puis charger des templates qui viendront alimenter la base.
+
+Darine SAMMOUD
+1:35:00
+Donc il y a pas mal d'optimisation à faire au niveau des rôles. Nous, on. A des calculs. Si on avance un peu dans le projet, on a nos tableaux de calcul des licences et d'optimisation afin de faire des croisements parfois de rôle ou des responsabilités entre certains profils pour optimiser ces coûts-là.
+
+Youssef HAFSI
+1:35:22
+C'est. Pour ça Emmanuel, on regarde pendant le projet. Là, je vous fais l'estimation max et après on regarde pendant le projet l'optimisation. Parce que c'est vrai que dans la licence device, il y a des limites et je ne peux pas vous dire maintenant tant que je ne vois pas ce que l'utilisateur fait comme limite. Par exemple, il y a des workflows qui ne seront pas possibles, etc. Mais vous avez comme ça au moins le chiffrage.
+
+Darine SAMMOUD
+1:35:48
+Oui, c'est jamais moins que ça, mais en général il y a des optimisations à faire, surtout jamais plus, c'est toujours moins. Pour tout ce qui est approbation et tout en mode lecture, il y a toujours, par exemple, pour Power BI, parfois on donne accès à un seul utilisateur, celui qui va charger, qui va modifier, celui qu'on va former sur BI et puis il va juste créer une récurrence d'envoi des rapports. Sur les dashboards de Microsoft, Youssef, si tu permets, Est-ce que tu partages, est-ce que tu peux aller sur ton dashboard et montrer les Power BI qui peuvent être chargés directement dans Microsoft? Donc si vous êtes en utilisation de Microsoft, tout en bas. Elles sont configurées, Youssef, c'est juste de montrer qu'on peut accéder à Power BI.
+
+Youssef HAFSI
+1:36:54
+Je trouve que ça, elles sont jolies, mais attends. Comme ça, ça sera fait.
+
+Darine SAMMOUD
+1:37:01
+Surtout pour la direction, pour les chefs de projet qui ne vont pas, ou même un responsable, un CFO, un direct, un responsable compta, qui vont juste...
+
+Youssef HAFSI
+1:37:15
+Je le paraphrase parce que ça va être leur base de démo, comme ça ils pourront le voir aussi quand ils vont y accéder.
+
+Unknown speaker
+1:37:23
+Je me remets là-dessus. Du coup, pas besoin d'avoir...
+
+Darine SAMMOUD
+1:37:36
+Alors, vous voyez là, par exemple, au niveau du dashboard, il y a tout un tas de reporting qu'on crée ici. Pour les utilisateurs qui sont en mode lecture, pas modification de table, pas de création. ils vont accéder ici, ils vont avoir, là Youssef il n'a pas chargé l'État, mais vous voyez par en BI, il va juste connecter en mode lecture au rapport. Et puis si tu descends un peu plus bas, Youssef, il y a la voie de réception d'État. Ce qu'on fait en général, c'est qu'on lance des rapports à telle ou telle fréquence. Il y a des rapports de vente mensuel, par exemple. Il y a des rapports hebdomadaires qu'on va lancer ici.
+
+Darine SAMMOUD
+1:38:28
+On va choisir la fréquence de lancement des rapports. Et puis là, c'est une boîte de réception qui est connectée aussi à votre adresse mail. Vous allez ouvrir les rapports, les consulter. Donc ça, c'est toujours en mode lecture. Donc aussi, en termes de licence et d'accès à la base, juste mettez en tête que la licence la plus complète, c'est les 100 francs pour pouvoir faire tout. Par contre, il y a aussi les comptables qui ont besoin parfois de quelques informations ou de partagés qui sont admittants, qui peuvent optimiser leur licence. Il y a plusieurs combines à faire.
+
+Darine SAMMOUD
+1:39:11
+Vraiment, notre valeur ajoutée, c'est toute la partie consulting, l'accompagnement et l'expertise sur l'ORP. Ce n'est pas les licences. On n'est que des revendeurs de Microsoft. Et puis, on vous permet aussi d'avoir le maximum avec moins d'accès de gestion de licences derrière.
+
+Lara Müller
+1:39:35
+C'est l'optimisation. Ce que Tariq propose et nous serve également, c'est d'optimiser le coût des licences pendant l'implémentation. Donc, durant l'implémentation, on prend le minimum des licences. Et en fonction de l'analyse qui va ressortir, on pourra réajuster, augmenter les licences et avoir le nombre de licences adéquat à votre environnement, à votre activité. Et pas prendre toutes les licences possibles pour, en finalité, ne pas les utiliser à leur capacité maximale. Et ça, c'est quelque chose qu'on pourra en discuter tout au long de l'implémentation.
+
+Youssef HAFSI
+1:40:17
+Typiquement Emmanuel, ça c'est des rapports que vous allez avoir, c'est des packages qui sont fournis avec. Ce qu'on me disait tout à l'heure par exemple, ici c'est la marge bénéficiaire nette par exercice. Vous allez pouvoir reprendre ce graphique et en pouvoir faire la marge bénéficiaire par projet. Et typiquement montrer qu'au fil du temps comment la marge, c'est ce qu'on disait tout à l'heure parce qu'on va lire les dates. C'est des choses comme ça. Tout ce qui est CFO, comptable, ils ont déjà des rapports préfets pour leurs finances. Et puis, tout ce qui va être chef de projet, etc., ça va être des rapports.
+
+Youssef HAFSI
+1:40:46
+C'est exactement ces rapports que vous voyez là, que j'étais en train de montrer tout à l'heure sur le portail. Donc, ils peuvent directement les visualiser dans leur portail sans avoir besoin de sortir, de rentrer dans le RP et de faire quoi que ce soit. Et ça c'est hyper pratique parce que tout est à même endroit. Et on construit ça par rôle. Même il y a certains qui peuvent avoir des graphiques que d'autres ne voient pas. Après c'est des discussions.
+
+Emmanuel Coletti
+1:41:12
+Il y a une raison pour laquelle Central, la palette de couleurs est extrêmement restreinte. Je vous le dis, c'est assez rebutant.
+
+Unknown speaker
+1:41:22
+En mauvaise teinte ? Il y a des gens qui aiment bien. Vous. Êtes le premier.
+
+Youssef HAFSI
+1:41:35
+Les seules remarques que j'ai, c'est est-ce que je peux mettre du rouge, du vert, mais vous êtes le premier. Je pense qu'ils ont pris la couleur la moins... Alors après peut-être que c'est mon écran qui vous fait cet effet-là, peut-être que si vous l'ouvrez chez vous...
+
+Emmanuel Coletti
+1:41:52
+C'est vrai qu'on s'habitue à avoir des codes couleurs un peu différenciés en fonction des fonctionnalités ou. Des types de vues. Et là, on est tout dans le vert. Donc, en fait, c'est. Juste un ressenti. On est un peu noyé dans du vert sans que ça discrimine. Je ne sais pas si vous voyez.
+
+Emmanuel Coletti
+1:42:09
+Ce que je veux dire. Tous les boutons sont dans les couleurs. Du. Coup, il faut rentrer dans. Le détail pour comprendre. Il n'y a pas de mémorisation. Visuelle.
+
+Emmanuel Coletti
+1:42:16
+Possible, en fait.
+
+Youssef HAFSI
+1:42:18
+Ce n'est pas les couleurs. Pas les couleurs. Il y a quelques années, ils étaient sur du bleu comme ça.
+
+Emmanuel Coletti
+1:42:29
+Là, par contre, c'est un peu plus. Vivant. Tout à l'heure, ce qu'on a vu avec les ressources, ça, c'est bien. Mais on n'est pas dans le même environnement. Là, on va voir des choses qui. Vont visuellement. Être très ergonomiques, je dirais.
+
+Emmanuel Coletti
+1:42:48
+Et le. Tout vert. Moi perso, je trouve que c'est plus compliqué d'entrer dedans. Même les graphiques que vous montriez tout à l'heure, les camemberts, c'est toute la palette de verre.
+
+Youssef HAFSI
+1:43:01
+Ça, ça change par contre. La palette de couleurs, ça change. Mais là-dessus, oui. Ok.
+
+Darine SAMMOUD
+1:43:10
+Youssef, j'avais une responsable, Conta, c'est Christy, aux États-Unis, qui est très rose, très rock'n'roll. Elle a personnalisé son dashboard. Je ne l'oublierai jamais, en fait. Je ne sais pas comment elle l'a fait, mais elle a personnalisé son dashboard.
+
+Youssef HAFSI
+1:43:28
+Le bandeau de Joe, et ici, il.
+
+Darine SAMMOUD
+1:43:30
+Y a des couleurs qu'on peut mettre.
+
+Youssef HAFSI
+1:43:31
+Oui, oui.
+
+Darine SAMMOUD
+1:43:32
+Mais pas ça. Non, pas ça. Oui. Mais pas comme ça. Elle a choisi un thème et puis...
+
+Youssef HAFSI
+1:43:39
+Oui, il y a un thème qui se fait. Lara, je te laisse...
+
+Darine SAMMOUD
+1:43:45
+Oui, madame, moi je vais couper mon micro comme ça. On est dans la même salle et puis on se fait un écho, on n'arrivait pas.
+
+Unknown speaker
+1:43:54
+Je prends le volume. Vous m'entendez bien ?
+
+Lara Müller
+1:44:05
+Oui, super. Donc, j'ai toujours le contrôle. Donc, on va passer sur la présentation d'AlmaCom. Je vais juste voir s'ils arrivent à basculer. Très bien. Donc, AlmaCom, on est à la fois un expert en transformation digitale, mais aussi un un conseiller dans l'accompagnement d'implémentation de solutions stratégiques informatiques. Et en fait, on est intégrateur Microsoft.
+
+Lara Müller
+1:44:34
+On est 100% intégrateur Microsoft. On est aussi éditeur de nos propres solutions, telle que la solution que Youssef a présentée. Donc, nos solutions, en fait, sous tour, je vais passer juste à la slide suivante si j'y arrive. Non, je n'y arrive pas, je pense. Si tu peux m'aider, Youssef. Cette slide est beaucoup plus intéressante. On accompagne nos clients dans la transformation autour de notre expertise qui est l'expertise Microsoft.
+
+Lara Müller
+1:45:04
+le système Microsoft ERP, le CRM, la BI, mais aussi la finance. Tous nos consultants sont certifiés Microsoft et on met en place avec Microsoft pas mal d'outils autour de l'intelligence artificielle. Aujourd'hui Microsoft implémente l'intelligence artificielle dans le business central. à travers Copilot, à travers pas mal d'outils d'intelligence artificielle. Et nous, on accompagne cette approche-là de Microsoft où on intègre également l'intelligence artificielle dans nos outils. étant donné qu'on est aussi éditeur. Alors, on a une approche de proximité avec nos clients et avec les métiers de nos clients.
+
+Lara Müller
+1:45:47
+Et donc, c'est pour ça qu'on est éditeur de pas mal de solutions métiers qui restent complémentaires à Business Central, qui seront totalement intégrés et transparents pour nos clients. Typiquement le portail web que Youssef a présenté, mais pas mal d'autres solutions qu'on peut vous présenter. Et nous sommes accompagnateurs également sur la stratégie. On connaît l'expertise de nos clients, on connaît les métiers de nos clients et on est en capacité de les accompagner dans l'implémentation, dans la conduite du changement également. C'est très bien. Tout projet ERP a besoin d'accompagnement. Donc, on a ce volet-là.
+
+Lara Müller
+1:46:24
+On peut accompagner sur la partie conduite de changement, mais tous nos consultants et chefs de projet sont également formés pour faire de la conduite du changement dans le projet d'implémentation. Voilà, simplement. Si tu peux aller à la suite. Merci beaucoup. On est présent physiquement dans deux pays, la France et la Suisse, mais on a une présence internationale. On accompagne des clients à la fois en Suisse, en France, mais aussi aux Etats-Unis. On a eu des clients aux Etats-Unis, en Amérique du Sud, en Asie.
+
+Lara Müller
+1:47:02
+Donc, on a ce volet international. Nos consultants parlent français, anglais et certains, oui, suisse allemand, pour certains, espagnol et allemand. Et donc, notre équipe, elle est constituée à la fois de développeurs, de consultants, de chefs de projet et d'architectes. Donc, on a certains consultants qui sont à la fois techniques et fonctionnels. Mais voilà, on a tout le volet. On peut accompagner nos clients. Donc, depuis l'implémentation, le développement et Voilà, et la mise en place et le suivi après la mise en production.
+
+Lara Müller
+1:47:37
+Bon, quelques secteurs d'activité. On a pas mal de secteurs d'activité dans l'industrie, le service, la logistique et la distribution, le médical également. Donc voilà, on a cette expertise, on a la chance d'avoir cette expertise autour de pas mal de métiers.
+
+Emmanuel Coletti
+1:47:52
+Vous êtes basée à Glan, c'est ça ? Si vous devez venir nous voir, c'est pas loin ?
+
+Lara Müller
+1:47:55
+On est à Glan, on est pas loin de la gare de Glan. Donc voilà, on est en face de.
+
+Youssef HAFSI
+1:48:02
+La gare. Pour être précis. Je. Suis désolé, je précise parce que c'était difficile, j'ai dû chercher pour trouver quelque chose en face de la gare.
+
+Lara Müller
+1:48:15
+Je confirme, on est en face de la gare et on voit le train passer. Voilà. Si tu peux aller à la slide suivante s'il te plaît, Youssef. Quelques références de nos clients, à la fois dans le service, dans la banque, dans la logistique et la distribution, et dans d'autres industries. Quelques références, n'hésitez pas à nous dire.
+
+Emmanuel Coletti
+1:48:40
+Vous les connaissez, ceux-là. Suite to 12, ça m'a tout de suite attiré, parce qu'évidemment ils sont dans le même secteur que nous, ils ont un peu la même typologie, même s'ils produisent davantage. Juste une question sur Michelin, parce que c'est une boîte monstrueuse. Et Michelin, ils ont fait appel à Almancom à Glan pour déployer un URP ? Alors. Je vais vous raconter. Rapidement l'histoire.
+
+Youssef HAFSI
+1:48:58
+Ils ont. Fait appel. À Youssef Afsi, pour être plus précis. J'étais le premier à déployer Michelin sur Microsoft Navision, qui est l'ancêtre de Business Central, et j'ai fait les premiers déploiements de Michelin sur Business Central. Et Michelin a choisi Business Central pour tous les pays où il y a une entité commerciale en dessous de 200 millions d'euros de chiffre d'affaires. Donc, c'est l'Asie, l'Amérique du Sud, l'Afrique, la Grèce, les pays nordiques, etc. Et jusqu'à aujourd'hui, on continue aussi à les supporter.
+
+Youssef HAFSI
+1:49:40
+Moi, c'est mon plus gros projet. C'est un gros projet international.
+
+Darine SAMMOUD
+1:49:50
+Au fait, il y a moi, il y a Youssef et on a deux. Autres profils. Qui ont fait de l'international. C'est une expertise particulière. Comme AMT, par exemple, que vous voyez. Là, Martre et groupe, Michelin. Vitogaz qui font aussi partie.
+
+Darine SAMMOUD
+1:50:10
+De la projet. En France et Shank pour. Le vin, au fait. Ça. Aussi, c'est des projets sur lesquels on a. Travaillé. Les projets à.
+
+Darine SAMMOUD
+1:50:21
+L'International, on déploie un corps modèle. Qui est applicable sur des localisations partout dans le monde pour la fiscalité, pour tout ce qui est local, en fait. On travaille avec des partenaires à l'international. Mais c'est la fierté de M. Hersey. Au fait, Bichelin, c'est un projet qui a démarré en France. On a un bureau à Paris, dans Paris 12e, et puis il a démarré en France.
+
+Darine SAMMOUD
+1:50:49
+Et puis maintenant, il est avec nous en support. Ils ont déjà déployé une trentaine de pays. Ils sont avec nous ici, au contrat suisse, en support ici.
+
+Youssef HAFSI
+1:51:03
+Et on a déployé Michelin en Suisse parce que la holding est en Suisse.
+
+Lara Müller
+1:51:08
+Voilà. Si tu peux passer à la slide, s'il te plaît. Alors, là, c'est quelques bénéfices de l'URP. Le fait de choisir un URP aujourd'hui dans le mode SaaS Cloud, on a une certaine agilité sur plusieurs facteurs en termes d'organisation et centralisation de données, puisqu'aujourd'hui, l'URP, c'est un outil, en tout cas dans l'écosystème Microsoft, qui est connecté et transparent à plusieurs applications en métier. Ça permet à la fois aussi d'améliorer la communication avec vos clients quand ils vous appellent et que vous avez besoin de donner quelques informations assez rapidement. Le fait d'avoir plusieurs systèmes connectés en train permet de retracer l'information assez rapidement. Je ne sais pas Emmanuel si vous parlez parce que je ne vous entends pas.
+
+Lara Müller
+1:52:03
+Je vois juste les lèvres bouger. Normalement, je ne suis pas en mute. Ah oui, c'est bon.
+
+Emmanuel Coletti
+1:52:10
+Non, je disais juste que c'est clair pour moi les avantages de l'ERP, c'est pour ça qu'on vient faire appel à vous, donc on peut avancer, je pense.
+
+Lara Müller
+1:52:15
+D'accord, pardon, parce que je voyais juste vos lèvres bouger, je ne vous entendais pas. C'est pour ça. Donc, on a une approche assez agile qui va toucher pas mal d'approches. La partie stratégique, structure, process et mesures et comment ? En fait, à travers l'organisation avec les responsabilités et les rôles de chaque partie en fait dans une équipe projet. Au niveau de l'opérationnel, comment au niveau de l'opérationnel ? C'est qu'on va s'adapter à la fois aux besoins métiers du client, mais aussi on essaie d'adapter ses besoins au standard de l'ERP, donc en standard des process ERP.
+
+Lara Müller
+1:52:55
+Et enfin, tout ça pour pouvoir avoir des KPIs mesurables, donc à travers quel outil, à travers l'outil de reporting, tout en sachant que piloter tous ces facteurs-là, ça se fait à travers toute la gestion de projet qui permet de répondre aux objectifs stratégiques. Donc c'est vraiment les facteurs corps en fait d'un déploiement en approche agile. Plus loin, on aura un peu plus de détails. On fait toujours, au niveau de l'approche agile, on va avoir trois facteurs clés. Trois facteurs clés de succès, c'est le facteur humain. Le facteur, c'est très important d'avoir ça en mémoire parce que ça passe à travers la vie. Ça passe à travers la vie.
+
+Lara Müller
+1:53:46
+Excusez-moi, j'ai un petit souci. Est-ce que vous m'entendez ? Donc, ça passe à travers les systèmes. Donc, très important, voilà, que les équipes soient intégrées dès le départ sur le projet, que les équipes soient formées pour qu'elles puissent adhérer au système ERP et puis qu'on accompagne cette implémentation via de la formation et de l'assistance. La partie processus, donc les process, c'est l'adaptation de vos process dans le système actuel et la technologie, c'est la réussite d'un projet ERP, c'est la mise en place d'un système centralisé, automatisé et qui répond à vos process métiers. Bon, l'équipe projet, donc globalement une équipe de projet, elle est constituée d'une équipe chez vous, client, et une équipe chez nous. Et donc, c'est une et même équipe qui va être constituée d'un chef de projet, de consultant ou d'utilisateur clé de votre côté.
+
+Lara Müller
+1:54:56
+Mais voilà, c'est juste pour expliquer un peu qu'il y a une équipe dédiée sur le projet qui est constituée à la fois de consultant, développeur et chef de projet ou d'utilisateur clé.
+
+Youssef HAFSI
+1:55:06
+J'ajoute. Juste. Lara, c'est que c'est très important.
+
+Lara Müller
+1:55:09
+Emmanuel.
+
+Youssef HAFSI
+1:55:13
+C'est très important de votre côté, Emmanuel, qu'il y ait au moins une personne, deux personnes qui soient fortement impliquées sur le projet. C'est un fort transfert de connaissances et vous allez être après beaucoup plus à l'aise et beaucoup plus confortable. Ça, c'est très important, que ce soit vous qui vivez, etc.
+
+Emmanuel Coletti
+1:55:34
+Oui, alors c'est... J'allais rajouter là-dessus. Désolé, il y a un écho. Je crois que c'est de l'autre côté. En fait, la problématique qu'on a, c'est clair, c'est qu'on veut déployer cette URP en 2025. Par contre, ça coïncide malheureusement avec une période de surcharge de notre côté. Donc ça, c'est plus notre problème que le vôtre.
+
+Emmanuel Coletti
+1:55:54
+Mais je comprends ce que vous dites, Youssef. On n'aura évidemment pas à la fois un user, un user, un coordinateur technique, un architecte, un chef de projet, un program manager pour faire ce déploiement. On est une petite structure. Je pense que ce qu'on a balayé, on a vu qu'il n'y avait pas non plus beaucoup de spécificités dans notre société par rapport à ce que vous avez l'habitude de faire. Donc il faudra qu'on soit efficace et que de notre côté on représente la palette de besoins sans trop oublier de dimensions et d'aspects. Et puis, évidemment, de votre côté, ce qu'on souhaiterait, c'est qu'il y ait une personne qui est rompue au déploiement. Voilà, si c'est VUSS, je pense que ce serait top, parce qu'on voit bien qu'on se comprend rapidement et nos problématiques, vous les comprenez immédiatement.
+
+Emmanuel Coletti
+1:56:50
+Donc voilà, c'est aussi de votre côté une efficacité qui peut être augmentée par l'expérience des personnes qui vont nous accompagner dans ce changement.
+
+Youssef HAFSI
+1:56:58
+On va discuter juste après dans le planning. Je vous ai fait une proposition et je veux dire, il y a deux façons de faire et vous allez me répondre qu'est-ce qui est possible. Je te laisse finir, Lara, pardon.
+
+Lara Müller
+1:57:11
+Oui, alors je pense qu'Emmanuel connaît un petit peu peut-être la mise en place d'un ERPF dans le passé, mais nous, on travaille avec une approche agile. Donc, c'est une approche de méthode de projet qui est basée sur des process Microsoft. Et juste pour résumer, cette approche, en fait, on travaille par phase. Sur chacune des phases, on va donc avoir des tâches. Sur la phase diagnostic et analyse, je vais les regrouper ensemble. Ça nous permet de comprendre votre besoin. pour pouvoir designer, construire la solution qui arrive dans la phase de design.
+
+Lara Müller
+1:57:43
+Ensuite, la phase de développement ici, si nous avons besoin de faire des formations, d'assister, de faire de la recette à l'utilisateur, on la fait sur cette phase-là. Ensuite, on a la phase de déploiement dans laquelle on va travailler sur un plan de bascule et basculer dans le nouveau système. Et tout au long de ces phases, je ne vais pas vous détailler tous les documents, il y a des livrables sur chacune des phases Ça nous permet en fait à la fois pour nous de confirmer la compréhension de votre besoin et pour vous de valider notre compréhension. Et sur chacune des phases, on a ce livrable-là qui permet pour vous d'être assez rassuré et conforté sur l'avancement du projet et la livraison sur chacune des phases, tout simplement.
+
+Emmanuel Coletti
+1:58:28
+Est-ce qu'on peut dire que par rapport aux études qu'on a eues, on est déjà engagé dans la phase diagnostique ?
+
+Youssef HAFSI
+1:58:32
+Oui. Exactement. Tout à fait. Alors, avant les questions, on va parler planning. Moi, je vous ai proposé un planning, démarrage 1er février. Moi, je peux m'engager à être chez vous 100% et à démarrer 1er janvier. Est-ce.
+
+Youssef HAFSI
+1:58:52
+Que vous, vous avez la capacité et la bande passante d'accepter ça en. Termes de disponibilité. D'Utilisateurs ? Moi, dès demain.
+
+Emmanuel Coletti
+1:59:02
+Juste pour comprendre, parce que là on voit un planning qui démarre en juin, c'est démarrer la bascule.
+
+Youssef HAFSI
+1:59:10
+Donc on. Démarre le projet en juin. Je suis 100% avec vous, chez vous, des séances à part Teams, etc., comme vous voulez, en fonction des disponibilités des personnes, mais c'est quasiment tous les jours, on va faire au moins une heure. C'est d'avancer, c'est d'avoir par exemple, je vais vous dire, donnez-moi l'ensemble de vos tâches, et il y a quelqu'un qui travaille dessus, peut-être en un jour, deux jours, trois jours, il nous fait le retour, parce que nous derrière, moi j'ai des équipes que je mets qui sont dédiées, on travaille, on avance, Mais je m'engage avec vous sur le planning. Après, si en termes de bande passante chez vous en interne, vous pensez que ça peut être un peu difficile ou qu'il y a trop de, en fonction de ce que vous avez aussi, on ne va pas mettre la pression sur les gens, vous pensez que c'est difficile, c'est pour ça que je vous ai proposé quelque chose peut-être sur février. Ça peut aussi changer, on peut mettre un objectif 1er janvier et puis d'ici septembre, pendant un copil, c'est mieux peut-être qu'on relâche un peu la pression ou qu'on décale un peu. Ils vont vous dire aujourd'hui, les filles, je vous dis les filles, mais c'est pas forcément, en un client, le pauvre, il s'arrache les cheveux à préparer ses bases, on l'aide au maximum, mais c'est de la charge qui va être chez vous en interne.
+
+Youssef HAFSI
+2:00:42
+Mais j'ai confiance qu'entre vous et Guillaume. Vous maîtrisez absolument tous les éléments pour pouvoir nous les communiquer. Donc ça, c'est quelque chose qui est important. Moi, j'ai échangé rapidement avec Guillaume, j'ai compris. J'ai compris, voilà. Vous aussi, vous maîtrisez les aspects, donc on ne va pas être sur de l'explication, on va plutôt être sur la réflexion, de l'optimisation. Mais après, je ne connais pas la charge que vous avez sur vos activités à côté.
+
+Youssef HAFSI
+2:01:07
+Donc moi, je suis là pour vous à 100 %.
+
+Emmanuel Coletti
+2:01:11
+Ça, c'est une très bonne nouvelle Youssef. Et la balle est dans notre camp. Alors, j'apprécie cette transparence et cette dynamique. J'apprécie beaucoup. Moi, je pense que bon, il faut qu'on fasse. Déjà, il faut qu'on décide d'aller avec vous. Donc là, déjà, vu qu'on est le 28 mai, démarrage en juin, connaissant mon CEO, ça va prendre plus de temps que ça, sans rien du tout.
+
+Emmanuel Coletti
+2:01:39
+Donc je pense que de toute façon, tout ça, ça risque de décaler. Et effectivement, si on commence déjà à se mettre en pression pour faire un 1er janvier, alors qu'on n'aura pas décidé en juin du démarrage et qu'on n'aura pas forcément toutes les ressources, il vaut mieux être réaliste tout de suite, je préfère vous le dire, et tout décaler d'un mois pour être aussi pour vous, pour être un peu plus dans le réaliste. Ensuite, moi, peut-être que ce dont j'aurais besoin, c'est Parce que ça je maîtrise mal, dans les différentes phases que vous avez évoquées, peut-être dans la planche d'avant, à quel moment vous voyez le plus de besoin de notre part ? Est-ce que c'est continu ? Est-ce qu'il y a des pics ? Et quels sont les profils ? Donc je pense qu'avec Guillaume et moi, vous avez vu qu'effectivement, on maîtrise à peu près les processus, mais à un moment donné, il faudra peut-être rentrer dans plus de détails.
+
+Emmanuel Coletti
+2:02:28
+À un moment donné, peut-être vous serez plus autonome. Moi, la question que je me pose, c'est ça, c'est comment je peux faire ? Parce que moi-même, j'ai une dispo qui est limitée. En fait, pour que je réfléchisse à comment vous donner le change et être toujours en répondant, Peut-être dis-moi un peu plus clair sur à quel moment dans cette phase, qui va quand même durer 6 mois, 7 mois, on a besoin de nous au plus, et quel type de profil, quel type de compétences vous avez besoin ? Vous voyez ce que je veux dire ? Oui, alors...
+
+Lara Müller
+2:02:55
+Tu peux revenir sur l'autre slide de planning, comme ça on peut détailler par rapport à cette slide-là de planning.
+
+Youssef HAFSI
+2:03:02
+Ah. Pardon. Parce que je peux vous dire par pic, et je peux vous dire que pendant la phase de développement, vous avez l'idéal. Ce qu'il faut me dire, c'est que, est-ce que vous pouvez l'attribuer deux jours par semaine, trois jours par semaine, un jour par semaine. Ce n'est pas forcément deux jours où on est ensemble, c'est aussi, ça peut être du temps où vous allez devoir rechercher de la donnée ou discuter en interne. Bon, dans la phase d'analyse, vous allez être très sollicité. Très, très sollicité.
+
+Youssef HAFSI
+2:03:38
+Bon, dans la phase de conception, pareil. la phase de développement un petit peu moins, parce que c'est plus de notre côté. Par contre, la migration de données et les formations ou la configuration, c'est peut-être plus Guillaume, parce qu'on a envie qu'il comprenne mieux le paramétrage contre la phase du transfert de compétences. Mais à partir des formations des UAT, c'est quasiment tout.
+
+Darine SAMMOUD
+2:04:05
+Il fallait se mettre ensemble, je pense, sur le BAMA.
+
+Youssef HAFSI
+2:04:09
+C'est quasiment tous les key users. C'est pour ça que je dis qu'il vaut mieux qu'on garde un rythme, parce qu'un rythme constant est plus facile pour vos équipes à absorber que des phases de pique. C'est mon avis.
+
+Darine SAMMOUD
+2:04:41
+Moi, je souhaite rajouter... Moi, ce que j'observe, je prends de casquette en général, soit une expertise sur des sujets pointus, soit je suis chef de projet. Donc, ce que j'observe, c'est la phase d'analyse, elle est très, très preneuse. C'est là où on va vous challenger. C'est là où on a besoin de vous le maximum par rapport à, on va aller vraiment dans les détails, En posant des questions, comme a expliqué Mme Müller au fait, on a investi dans l'IA qui nous accompagne pour sortir un peu plus des sentiers battus, pour challenger, spécialement dans la phase d'analyse, et puis ça nous permet aussi d'anticiper par rapport à cette phase-là de conception. parce que lors de la phase d'analyse, c'est là où on va établir un document de design qui va servir de base sur tout le reste. Durant la phase d'analyse, ce n'est pas analyser ce que vous venez de dire.
+
+Darine SAMMOUD
+2:05:52
+Seulement, mais c'est vraiment challenger vos processus. Nous, on a des équipes métiers. Peut-être vos processus internes étaient faits parce qu'il n'y avait pas le rôle, le bon profil pour ou l'outil IT. C'est ce qu'on observe en général. On se retrouve à faire deux en un parce que le système ne nous permettait pas. Par exemple, de faire autrement. Donc, nous, on va vous challenger.
+
+Darine SAMMOUD
+2:06:21
+Donc, on a besoin des key users lors de ces phases-là. Les key users, ça va être qui? Ça va être par module responsable comptabilité ou comptable directement. Vraiment, ça va être soit responsable, si le responsable n'est pas à l'aise avec les processus, eh bien, on va aller vraiment directement à échanger avec le comptable qui connaît vraiment toute la partie processus. Pour toute la partie gestion projet, on a besoin de profils comme vous, votre collègue Guillaume, largement suffisant. Et puis pour toute la partie sales, achats, C'est les personnes qui connaissent au mieux, que vous allez identifier les processus. Nous, on travaille par modules, donc chaque phase-là d'analyse, il y a les modules qui vont être dans le scope de votre projet.
+
+Darine SAMMOUD
+2:07:12
+C'est cette phase qui va être prenante le maximum. La phase de conception, c'est plus de notre côté. La phase de développement, c'est de notre côté. On va arriver à la configuration aussi et là on va faire des allers-retours vers vous. mais on est plus flexible par rapport au délai. Ça veut dire que nous, on va vous poser des questions parce qu'on va avoir besoin de plus de clarification sur certaines informations ou typiquement de retravailler vos données dans le format business central, par exemple pour le chargement de vos projets. On va vous envoyer des templates, on va vous former sur ça et puis on va faire ces allers-retours d'une façon très agile.
+
+Darine SAMMOUD
+2:07:57
+l'agilité aussi par rapport à nos outils de travail. Donc nous on met en place DevOps complètement gratuit pour vous. C'est notre outil aussi de planning, de gestion qui est un outil de Microsoft. Vous allez vous pouvoir à tout moment de la journée voir l'évolution. Des tâches. Par exemple, vous allez nous envoyer votre base client, votre plan comptable. Vous allez voir que ce que partageait Youssef DevOps, ça ressemble un peu à ça, que ça avance.
+
+Darine SAMMOUD
+2:08:31
+Au fait, il y a cette tâche-là, ça a avancé avec les deadlines et tout. Vous, si on a besoin de vous, on va vous mettre aussi les commentaires, le besoin dans cette base-là, et vous, vous allez voir directement le blocage, il est à quel niveau, sur quel module. Nous, on va aussi vous alerter si vous allez prendre plus la casquette chef de projet interne avec Guillaume, par exemple, pour chapeauter le projet IT dans sa globalité. On va vous alerter s'il y a de la résistance au changement, chose que Mme Müller a évoquée, parce qu'on est formés sur le change management. La résistance au changement, ça peut être des utilisateurs qui vont manifester un blocage ou vraiment ils ne sont pas très coopératifs. Nous, on va échanger avec vous pour vous dire, ok, est-ce que vous pouvez un peu Voilà, notre but, c'est de vous représenter auprès de vos collaborateurs. Ça veut dire que pour le bien du projet, en général, nos clients passent à travers nous pour faire passer des choses parce que le but final, c'est de faire réussir ce projet-là ensemble.
+
+Darine SAMMOUD
+2:09:42
+Donc voilà, c'est la phase analyse. Moi, de ma part, ce que je vois, c'est la phase d'analyse. Et la phase qui est très prenante, ce n'est pas la formation, c'est la phase UAT. UAT c'est User Acceptance Testing. C'est là où les utilisateurs vont commencer à manipuler l'outil et ils doivent prendre le temps en interne pour tout simplement manipuler l'outil.
+
+Youssef HAFSI
+2:10:08
+Quand on dit du changement, Emmanuel, je vous rassure, on n'aura pas trop de résistance, parce que par expérience, les entreprises dans la haute technologie, généralement, vous êtes assez bons. Vous êtes assez bons dans les process, c'est quand même des gens qui sont des ingénieurs derrière, et la coutume de changement, je pense que vous y êtes tous habitués. Mais je vais vous le dire en toute transparence, à chaque fois qu'on est dans la haute technologie ou des concepts industriels, J'ai.
+
+Emmanuel Coletti
+2:10:42
+Le même sentiment, j'ajoute parce que j'ai fait trois boîtes maintenant, chez Almatech les gens sont dociles, je ne dis pas ça de façon péjorative, quand on leur dit maintenant on va faire ça, ils vont le faire, il n'y aura pas trop de résistance, je pense qu'il y aura des questions, il y aura peut-être même des questions très détaillées parce qu'ils vont, un peu comme moi, tout d'un coup ils vont vouloir entrer vraiment dans un niveau de détail, mais je ne pense pas qu'il y aura de... Non, je pense que le plus dur là c'est de convaincre. Par rapport à tout ce qu'on vient de se dire, le plus dur maintenant pour moi ça va être de faire un choix éclairé et de convaincre mon management de démarrer assez vite. On va peut-être voir au niveau budgétaire aussi.
+
+Youssef HAFSI
+2:11:23
+Je vais vous montrer le budget juste après. Là où moi je dis il y a un point, c'est que. Nous, on ne vient pas vous dire qu'est-ce que vous voulez, on va vous changer parce qu'on sait en fait, on sait le process, on sait le graphique, on connaît la gestion des ressources. C'est par contre rentrant dans le détail dans ce qui va être très amusant, qui a de la valeur ajoutée, comment je peux optimiser ça, comment je peux faire ci, c'est ça qui va être super intéressant. C'est comment AlmaCom et AlmaTech peuvent faire quelque chose de très joli, donc ça c'est important. Et du coup, en termes de budget. Juste Lara, si tu peux, juste ne pas toucher l'écran parce que...
+
+Youssef HAFSI
+2:12:10
+Attends, je vais... Il a disparu. J'ai quelque chose qui a disparu, je ne sais plus où est-ce qu'elle est là. Attends, je vais la retrouver. Voilà.
+
+Unknown speaker
+2:12:24
+OK, c'est bon.
+
+Emmanuel Coletti
+2:12:29
+Le besoin de ressources, peut-être pour être sûr qu'on s'entend bien du coup, parce que vous nous avez alerté là-dessus. Ce que je vous propose, c'est quand je reçois vos slides, ce que je peux faire, c'est mettre en vis-à-vis des différentes tâches qui s'enchaînent, la disponibilité de nombre de jours par semaine, qu'on peut imaginer de mettre raisonnablement en place côté Almatech. Et vous, vous me dites si ça correspond au planning qui est en face ou si vous pensez que ça va rallonger.
+
+Youssef HAFSI
+2:13:05
+Si je vous dis par exemple, je prends Guillaume parce que c'est celui que j'ai vu avec vous et j'ai vraiment pensé qu'il allait être vraiment sur le projet, mais peut-être qu'il y a d'autres personnes. Mais est-ce que Guillaume, c'est quelqu'un qui peut être par exemple faire aussi, nous aider à faire le tour un petit peu des différents key users, faire les process en interne parce que ça va aussi plus vite.
+
+Emmanuel Coletti
+2:13:24
+L'avantage de Guillaume c'est qu'il a, pour l'instant, il a de la dispo et il est jeune et il est très agile dans sa tête, très adaptable donc il va être très vite pigé et je pense qu'il va être un des moteurs. l'inconvénient c'est qu'il est jeune, il est dans l'associé depuis peu de temps et il n'a pas pratiqué des projets end-to-end. Et ça c'est embêtant parce que moi j'ai besoin d'impliquer à un moment donné des sujets expérimentés qui sont vraiment passés par toutes les branches de nos processus pour aller explorer tout ce qu'il faut. Et ça, c'est un petit peu plus difficile d'aller... Enfin, j'en ai un en tête directement et il sait qu'il doit se mobiliser là-dessus. On en discutait parce que j'ai fait son entretien annuel pas plus tard que ce matin. Il faudra que j'arrive à le mobiliser, mais il le fera volontiers.
+
+Emmanuel Coletti
+2:14:13
+C'est juste qu'il est très chargé. Donc, c'est le genre de choses qu'il faut qu'on quantifie un peu avec vous pour voir comment on se positionne.
+
+Youssef HAFSI
+2:14:22
+Alors on en discutera de ça, de toute façon on aura des points hebdo pour faire les petits avancements, pour valider des process. On regardera la meilleure façon d'optimiser ça, mais c'est le plus important. En termes de budget, moi je vous donne un budget qui est. Le plus proche en fait de la réalité, de l'expérience. Donc avec une phase de kick-off, de préparation, de mettre en place les bases de test, etc. Il y a une phase d'analyse qui est assez importante parce que si on se loupe dans l'analyse, on risque de manquer des choses et après de se dire c'est trop tard. Et c'est là où s'il y a de l'optimisation, c'est important.
+
+Youssef HAFSI
+2:15:11
+Il y a une phase de conception technique. Par exemple, j'ai mis des interfaces parce que je sais que souvent vous allez peut-être avoir du solidware ou des trucs comme ça, mais peut-être qu'il n'y aura pas d'interface. En tout cas, je préfère vous le dire, c'est provisionné, c'est estimé. Et si de toute façon derrière, il n'y a pas d'interface, on facture en time et en matériel à l'heure. Donc, s'il n'y a pas d'interface, il n'y a pas d'interface. Mais au moins que vous savez, c'est là. En termes de déploiement, il va y avoir des petites customisations.
+
+Youssef HAFSI
+2:15:40
+La petite customisation, typiquement, ça va être mon modèle de document, je veux rajouter un champ par-ci, est-ce que je peux mettre aussi par-là. La partie interface, lorsque j'appelle mon interface B2B, c'est le graphique. On va peut-être me dire, est-ce que je peux afficher le total du budget, est-ce que je peux modifier ci, est-ce que je peux faire tel graphique. En provision, ça ne veut pas dire que ce sera forcément tout, mais. Ça ne dépasse pas, c'est rare qu'on a dépassé des budgets dans un périmètre initial. Vous allez avoir peut-être des demandes complémentaires, là on arbitrera si on le fait initialement ou après, mais ça ne dépasse pas parce qu'on sait généralement qu'on couvre tous les processus classiques. Après c'est la partie paramétrage, la partie reprise des données, on va s'appuyer sur Très certainement, Guillaume aussi, pour la reprise des données, pourra les structurer, rechercher les faces que vous avez.
+
+Youssef HAFSI
+2:16:35
+Puis on provisionne de l'assistance au démarrage, ce qui est normal pour éviter que les gens soient frustrés. Il faut qu'on est là, je serai là, à côté des personnes. Et puis après, un petit peu pour la clôture, le CFO, il va être très content d'avoir quelqu'un pour la clôture parce qu'il va faire des reports, etc. Et puis après, vous passez au support.
+
+Emmanuel Coletti
+2:16:55
+Je vais quand même vous faire un petit feedback rapidement Youssef parce que c'est important. Jusqu'à présent tout était vert et là on passe au rouge malheureusement. Alors vous n'êtes peut-être pas surpris mais si c'était un petit écart avec le budget que j'ai je pense qu'on arrivera à s'entendre. Moi le problème que je vois là c'est que j'ai carrément un écart qui est en gros plus qu'un facteur 2 par rapport au budget que j'ai et je crains que ça ce soit un vrai problème d'autant plus qu'on a commencé quand même des discussions aussi avec d'autres acteurs qui rentrent dans mon budget. Et voilà, c'est un premier feedback. Je pense qu'il faut qu'on rentre dans le... peut-être un raffinement, parce que moi j'ai beaucoup aimé ce que vous avez présenté aujourd'hui, et je pense que c'est une solution qui correspond à notre besoin.
+
+Emmanuel Coletti
+2:17:37
+Mais il va falloir absolument qu'on rentre dans cette discussion, parce que le budget en l'état, il n'est pas financable, en fait, de notre côté. Est-ce que vous pouvez me donner votre budget maximum ? Le budget maximum, aujourd'hui, je ne sais pas défendre plus de 100 000 vis-à-vis de. Mon chef. D'accord.
+
+Darine SAMMOUD
+2:17:53
+Youssef, déjà là, je vois que, si je me permets, Youssef, tu avais mis trois jours d'écart et personnalisation, trois jours d'interface, de personnalisation, de documents, 3-3-4, 6-6-6. Déjà. Si. Il n'y a pas d'interface...
+
+Youssef HAFSI
+2:18:17
+On va faire deux choses. On va en rediscuter, je vais le raffiner. Ça, c'est la première chose. Et puis, parce que c'est quelque chose que j'avais en tête, parce que j'aime bien le nom d'Almatech, on va voir si on ne fait pas un geste derrière pour qu'on ait après, par la suite, quand le projet est un succès, une bonne référence, un bon témoignage. Voilà, comme ça, ça sera du budget marketing. On va en parler. Oui, je veux dire, toutes les options.
+
+Youssef HAFSI
+2:18:45
+Ça peut faire quelque chose de très bien. Voilà, un bon témoignage. On va regarder, parce que vraiment...
+
+Emmanuel Coletti
+2:18:52
+C'est juste que là, je sais que la pilule, elle ne peut pas être absorbée par mon CEO, c'est sûr. Donc c'est dommage.
+
+Youssef HAFSI
+2:18:58
+Emmanuel, je ferme le maximum.
+
+Darine SAMMOUD
+2:19:02
+Autre chose, Youssef, c'est important. Moi, parfois, au fait, quand je prépare le budget, je prépare la charge de travail du client. Ce que vous pouvez faire aussi, c'est faire une durée qui est chez nous et une durée de charge de travail chez eux. Parce que je pense, Emmanuel, vous êtes, voilà, très... Voilà... Pardon? IT?
+
+Darine SAMMOUD
+2:19:27
+Oui, très IT, et puis vous travaillez en mode aussi projet comme nous. Au fait, le fait de vous présenter la charge qui va être chez vous, Elle est très importante de dire, ok, lors de la phase d'analyse, au fait, c'est du one-to-one, si c'est deux jours de notre côté, c'est deux jours de votre côté, mais c'est plus la phase de test, de déploiement. Le support, l'assistance, il y a pas mal d'assistance qu'on peut faire, surtout si vous avez des profils comme Guillaume qui sont très IT d'après ce qu'on a vu, très jeune comme vous l'avez décrit, dynamique. On peut faire, on est amené à faire du transfert de compétences au fait, et de l'accompagnement, c'est-à-dire que nous on prend moins la casquette consulting.
+
+Emmanuel Coletti
+2:20:17
+Votre horaire est de 200 francs par heure, c'est ça?
+
+Youssef HAFSI
+2:20:21
+Alors, notre horaire il est 220 francs. Je vais faire un petit geste là-dessus. Je vais faire un petit geste là-dessus.
+
+Emmanuel Coletti
+2:20:29
+Ça, c'est très, très élevé par rapport à un auto interne. Effectivement, dans la balance qui fait quoi, si je ne raisonne pas du point de vue de ma charge qui est aujourd'hui aussi élevée, j'aurais tout intérêt à faire le maximum en interne, d'un point de vue coût.
+
+Youssef HAFSI
+2:20:42
+Alors, c'est ce que je vais faire. Je vais vous donner toute une partie que vous allez pouvoir faire en interne, comme on a fait par exemple avec Uni d'Arrin. On va faire en sorte de vous dire quelles sont les tâches qui peuvent être prises en interne. Je prends l'exemple de Guillaume, donc je vais le solliciter beaucoup plus, on va l'impliquer beaucoup plus et il y a des choses, par exemple, de la documentation, du testing, de la reprise des données. Par exemple, la reprise des données, je peux le former sur l'outil et c'est lui qui fait la reprise. On sera toujours là en assistance. Donc, on va déplacer une bonne partie de la charge sur une personne chez vous en interne.
+
+Youssef HAFSI
+2:21:17
+Ça a deux avantages. Un, vous allez avoir un super, super user et deux, ça va réduire le budget.
+
+Emmanuel Coletti
+2:21:23
+Je pense qu'il faut, pour arriver à résorber un gap aussi important, moi je vois trois leviers, le premier, même peut-être quatre, le premier c'est raffiner parce que vous avez peut-être été un petit peu généreux, on va dire, et faute d'informations, donc n'hésitez pas aussi à m'envoyer quelques questions sur des sujets qui pourraient piloter le coup chez vous. Donc combien de projets, on raffine un petit peu votre chiffrage en fonction de ce qu'il y a vraiment à faire, tel qu'on l'estime aujourd'hui. Deuxième élément, c'est effectivement basculer des activités peut-être davantage chez nous. Il y a peut-être des activités illégibles avec nos horaires qui sont grosso modo deux fois inférieurs aux vôtres. Et puis troisièmement, le geste commercial et peut-être même un quatrième levier, c'est de couper en deux budgets parce qu'il y aura une partie qui sera en 25 et une partie en 26. Et comme c'est des budgets d'investissement pour nous, ça passe plus facilement peut-être quand on dit que ça va être découpé en deux, qu'il y a un effort qui sera étalé, on ne sait pas 200 000 à sortir tout de suite.
+
+Youssef HAFSI
+2:22:30
+Vous n'allez pas sortir 200 000 tout de suite si vous êtes facturé sur. Les heures passées chaque fin de mois ? Par rapport. À tout ce que je vous ai montré, parce que c'est vrai qu'on a fait le budget avant qu'on fasse la séance d'aujourd'hui, qui a été plutôt importante, par rapport à tout ce que je vous ai montré, obliant la finance, la compta, ça c'est classique, c'est standard, est-ce que vous voyez. Des écarts par rapport à vos équipes quand ils vont voir ça, de gros écarts où vous allez dire finalement je paramètre, je reprends les données et puis je démarre. Parce que c'est ce sentiment-là en fait qui va être important.
+
+Emmanuel Coletti
+2:23:12
+Je reprends les données, je démarre, je n'ai pas compris.
+
+Youssef HAFSI
+2:23:14
+Donc aujourd'hui, est-ce que le système tel que je vous l'ai présenté aujourd'hui démarre, vous créez un nouveau projet, vous démarrez avec ?
+
+Emmanuel Coletti
+2:23:23
+Finalement, moi, moi, moi, mon sentiment, c'est qu'il n'y a pas besoin d'un effort considérable. C'est aussi ça qui me choque par rapport au prix, parce que mon sentiment par rapport à ce que vous avez présenté, c'est que souvent, à la limite, sous votre gouverne, je caricature à l'extrême. Vous venez Youssef, on se met à trois ou quatre autour de la table. On crée un projet template. On met basé sur des éléments réels, donc les achats, la planification, etc. Mon avis c'est ça, on arrive à le faire en un ou deux jours. Une fois qu'on a pigé comment ça marche, tous les projets sont structurés pareil.
+
+Emmanuel Coletti
+2:24:02
+On a des process complètement standardisés, donc les 30 projets sont tous pareils. La seule différence c'est qu'il y en a qui sont un peu moins riches en informations, mais si on prend un projet qui met toutes les composantes dedans, qui peut le plus, peut le moins.
+
+Youssef HAFSI
+2:24:19
+C'est ce qu'on va faire exactement, c'est qu'on va démarrer l'analyse, vous allez déjà revoir votre environnement, on va s'asseoir, on va créer un projet. Et puis là, vous allez me dire, ah ça c'est bon, ça c'est pas bon. Et puis on va vous challenger et vous dire, est-ce qu'on peut produire ça ? Est-ce que c'est nécessaire ? Est-ce que ce n'est pas nécessaire ? Est-ce qu'il y a de la valeur ajoutée ? Donc c'est ça qu'on va faire.
+
+Emmanuel Coletti
+2:24:34
+Société que je maîtrise moins, donc tout ce qui va être la compta société, là je ne la connais pas, donc c'est là où je pense qu'il y a une session dédiée avec notre comptable ou avec notre CEO pour analyser un peu les process et les fiches de paye, les loyers, etc. Tout ça commence à, ça je ne sais pas, je ne sais pas, je ne peux pas vous dire, mais ça reste du standard.
+
+Lara Müller
+2:24:55
+Sur le budget d'analyse, on voit qu'il n'y a pas énormément de jours. Sur la partie financière au porting, il y a deux jours d'atelier d'analyse. Ce n'est pas énorme. Nous, on a une approche Microsoft qui est l'approche des best practices. On va aller vers le standard. Donc, vraiment, on essaye de ne pas développer pour développer. On essaye de faire en sorte que les utilisateurs qui utilisent Business Central changent leur process en process standard.
+
+Lara Müller
+2:25:28
+Et vraiment, dans le cas extrême où ce n'est pas possible, à ce moment-là, on peut proposer des solutions soit de contournement, soit du développement, mais vraiment à l'extrême. Donc, on sera toujours basé sur du standard pour minimiser les coûts d'implémentation.
+
+Emmanuel Coletti
+2:25:43
+Je pense qu'il faut que votre chiffrage reflète le standard.
+
+Lara Müller
+2:25:48
+Faites attention quand même aux offres alléchantes. Il faut savoir que derrière l'implémentation de Business Central, il y a une expertise, une expertise métier. Cette expertise métier, un atelier d'analyse finance et reporting de jour, il n'y a qu'un expert qui est vraiment expert métier en finance. qui peut faire deux jours d'atelier.
+
+Emmanuel Coletti
+2:26:08
+Je me permets de vous couper, je suis désolé parce que dans trois minutes j'ai un autre meeting et j'ai mon CEO qui essaie de m'appeler peut-être pour préparer ce meeting, donc Florent je vous laisse. Je pense que peut-être on peut résumer, si vous pouvez envoyer la présentation, on continue à l'intérêt par mail ou on se rappelle peut-être la semaine prochaine. Voilà, je vous invite à vraiment raffiner par rapport à, moi je vous dis, ce que j'ai vu aujourd'hui, ça me semble bien très aligné avec nos process, enfin en tout cas je me projette dedans. C'est pour ça aussi que la solution m'intéresse. Mais à partir du moment où je me projette dedans, je ne comprends pas pourquoi le coût de déploiement s'est aussi élevé, par exemple.
+
+Youssef HAFSI
+2:26:38
+Emmanuel, je vous envoie une invitation pour lundi. D'ici là, j'aurais un projet qu'on aura révisé. Au moins, à la limite, je mets le nombre de jours dont on a besoin pour faire le travail, mais vous aurez un projet. Encore une fois, j'y tiens vraiment. Moi, j'aime bien le nom d'Almatech. Et puis voilà, l'échange, il est bien et j'aime bien les entreprises à haute technologie. On va faire du standard, du process, on va faire un effort commercial.
+
+Youssef HAFSI
+2:27:11
+Et lundi, je vous envoie une invitation si vous êtes disponible. Et puis, on regarde le budget révisé avec les différences d'effets qu'on aura fait. Et comme ça, on pourra en discuter. Après, on vous enverra une offre.
+
+Emmanuel Coletti
+2:27:23
+Lundi, c'est possible. Lundi, c'est possible après 15 heures. Voilà.
+
+Youssef HAFSI
+2:27:27
+D'accord. Super. Moi, ça me convient.
+
+Emmanuel Coletti
+2:27:28
+Super. Merci beaucoup à tout le monde.
+
+Youssef HAFSI
+2:27:30
+Ça marche. Merci à vous. A bientôt.
+
+Unknown speaker
+2:27:33
+Pédagogie. Au revoir. Au revoir.

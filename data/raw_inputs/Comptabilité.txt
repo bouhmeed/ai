@@ -1,0 +1,1110 @@
+Julie Ehrhart
+02:37
+Bonjour ! Vous m'entendez ? Bonjour. On va attendre un petit peu. C'est très bon. C'est très délicieux. Bonjour !
+
+Julie Ehrhart
+04:13
+Vous m'entendez ? Je ne vous entends pas, mais si vous m'entendez, c'est déjà ça. Est-ce que vous m'entendez maintenant ? Maintenant, je vous entends.
+
+Pierre-Henri Meystre
+04:32
+Oui, bonjour.
+
+Unknown speaker
+04:34
+Bonjour.
+
+Pierre-Henri Meystre
+04:34
+J'ai réglé mes paramètres audio. Bonjour.
+
+Unknown speaker
+04:39
+Super.
+
+Pierre-Henri Meystre
+04:39
+Bonjour. Voilà. Alors... Oui, juste peut-être une petite précision. Je pensais que vous alliez venir ici. Emmanuel avait réservé une salle, donc... Et on est dans la salle.
+
+Pierre-Henri Meystre
+04:52
+Ah, vous êtes. Dans la salle CRS ? Oui. Ah, d'accord. Alors, je vais vous rejoindre de la salle, alors. Ah, d'accord. OK.
+
+Pierre-Henri Meystre
+04:59
+C'est mieux. D'accord, j'y arrive. Ok, à tout de suite. On peut quitter le Teams, je pense.
+
+Julie Ehrhart
+05:16
+On aura besoin. Logiques qu'il faut mettre en place en premier.
+
+Youssef HAFSI
+13:56
+Ça veut dire quoi ? Ça veut dire que la partie compta, c'est un gros module. C'est toujours derrière tous les modules, on a toute la partie comptabilité. La comptabilité, elle vient pas dernière. Dès qu'on parle de module vente, on a les clients, on a le paramétrage des clients qui conservent la TVA, la localisation, si c'est en Suisse, si c'est hors Suisse. On a les articles, on a les projets, que ce soit pour la TVA, que ce soit pour le chiffre d'affaires, que ce soit pour la comptabilisation aussi dans le bilan, donc en biogestion, donc aussi par rapport au stock. En stock, en stock 3, c'est l'immobilisation, c'est plutôt du stock, c'est divers, c'est voilà.
+
+Youssef HAFSI
+14:39
+Il y a toute une classification où on aura besoin de vous tout au long du projet pour valider les référentiels principalement. À la fin de cette phase d'analyse, nous, les consultants pensionnels, on commence à préparer ce qu'on appelle la phase de design où on va préparer la base pour vous. en revenant toujours avec des précisions s'il y a besoin. On va travailler ensemble en tant qu'équipe. À la fin de cette phase de design, on va vous former sur l'outil avec vos accès à vous. Vous allez avoir directement l'accès comptable afin de commencer à manipuler dans le système. Et nous, on va aussi vous fournir des documents de formation.
+
+Youssef HAFSI
+15:25
+On va vous assister afin de faire votre processus actuel, ce qu'on a validé lors de la phase d'analyse. et de l'Europe. C'est important, c'est la base d'immigration.
+
+Julie Ehrhart
+15:40
+La base plus vaste, c'est la base qu'il y a à utiliser.
+
+Youssef HAFSI
+15:46
+Là, on va définir ensemble, de différentes façons. J'ai l'habitude de travailler avec des projets qui ont des filiales de partout, avec une certaine complexité, on va se mettre d'accord sur quand est-ce qu'on arrête. On reprend l'historique à partir de quand, comment, et puis toutes les transactions ouvertes, sachant bien qu'on va basculer mars-avril. Pour le GoLive, on appelle ça. Le GoLive, c'est qu'on va directement aller sur le système, on va arrêter l'utilisation de tous les outils existants, que ce soit pour la gestion des projets, pour la... Vous avez produit. Ça en mars, avril ?
+
+Youssef HAFSI
+16:29
+En mars et début avril, c'est bien ça.
+
+Unknown speaker
+16:32
+Peut-être qu'on va découper en deux, commencer peut-être par la partie projet et ensuite le reste. C'est des questions auxquelles on va répondre, je pense, d'ici... d'ici le mois de novembre, parce qu'il y a peut-être une volonté de commencer d'abord le module projet, saisir des temps, etc., et ensuite le reste, mais ce sera aux alentours de mars, avril, oui.
+
+Youssef HAFSI
+16:53
+Premier trimestre, peut-être ?
+
+Unknown speaker
+16:55
+Parce que tout est possible, mais c'est clair que dès l'instant où on parle de migration et surtout de catalyse générale, Il faudrait mieux faire ça en bouclement. Ce serait le plus simple.
+
+Youssef HAFSI
+17:07
+Oui, mais on sait le faire en fait. Dans quel sens je le dis, c'est tout à fait, je vous rejoins, c'est plus simple d'avoir un solde à nouveau, où vraiment on commence l'année avec. Un compte. De client tout simplement. Mais on a l'habitude de faire, ce n'est pas un blocage. Il y a pas mal de sociétés qui évitent la clôture parce que pendant le mois de décembre, janvier, ils sont fous, en fait, ils sont vraiment sous l'eau, ils n'arrivent pas à hopper, on n'a même pas la clôture, c'est même pas approuvé par le judiciaire, donc voilà, c'est...
+
+Unknown speaker
+17:43
+Il y a toujours... Oui, oui, alors on peut parler de remont d'immigration avec effet peut-être à une clôture...
+
+Youssef HAFSI
+17:49
+Exactement. Or, ce qu'on peut faire, effectivement, et c'est pour ça qu'on discutera de ça plus tard, c'est une des méthodes de... l'immigration possible, c'est de balancer tout ce qui est bilan, votre comptail en 2012-2025, et puis toute la partie transactionnelle ouverte va concerner un premier trimestre, on va la basculer après en tant que solde ouverte. Il y a différentes façons de faire. Le plus important dans ça, toute la partie transactionnelle, on sait gérer, on a des templates, on va vous fournir ces templates-là, on va voir à l'effet manuel comment on va vous accompagner. Nous, on fait aussi des checks pour s'assurer qu'avant l'amélioration, que tout rentre, on va sortir notre bilan, notre compte de résultats, dans le petit Microsoft et puis on va comparer avec ce que vous avez vous. Et puis ça m'a tué bien et qu'on est dans les normes, surtout par rapport à tout ce qui n'est pas encore payé, le solde ouvert.
+
+Youssef HAFSI
+18:48
+Principalement client, fournisseur, on va essayer de clôturer ce qu'on peut, ça c'est sûr. Et puis c'est une opportunité aussi de nettoyer. Après, il y aura quoi ? La partie transactionnelle, ça, on ne s'inquiète pas. Il y a vraiment toute la partie référentielle où il faut vraiment s'assurer qu'est-ce qu'on va prendre. Et l'historique aussi, on reprend quoi ? Par rapport à s'il y a des rapports, c'est ce qu'on va voir.
+
+Youssef HAFSI
+19:19
+S'il y a des rapports où vous avez besoin de comparer l'historique et. Si on le compare, on le compare comment ? On a des outils aussi pour ne pas allonger la migration et puis partir sur une base fin 2025 avec le premier trimestre de 2026. Et puis après faire des rapports qui vont à la fois toucher notre base de données, la nouvelle base de données, avec l'ancienne base de données. Et puis vos rapports sortent correctement à travers Power BI, je ne sais pas si vous connaissez, C'est vraiment avec des fichiers Excel, c'est nativement, un outil nativement en Microsoft. On peut bien, la force avec la Business Intelligence, c'est quoi ? On peut toucher deux données différentes et que ça dialogue ensemble, en fait, techniquement parlant.
+
+Youssef HAFSI
+20:14
+Après, ça sort des tableaux comparatifs avec l'ancien système. Ça, c'est l'idée globale. Bien sûr, il y a dans tout ça, il y a une décision qui va être un go ou non go à la fin de la formation, pour dire oui, on est prêt, on bascule. Non, on préfère encore ajuster cette partie-là, mais il faut que tout le monde, on a fait une séance de kick-off ensemble, c'est-à-dire on a lancé le projet, on va refaire la même séance pour dire OK, là on est confortable, s'il y a de la résistance. De la part d'un des key users ou un département qui ne se sent pas à l'aise pour vraiment basculer tout, parce que l'idée ce n'est pas de continuer à travailler sur deux systèmes et puis se retrouver à avoir encore. Je ne sais pas, on travaille sur papier, les données sont un peu partout. Vraiment, le jour où on se met d'accord sur le plan de bascule, que tout le monde soit prêt.
+
+Unknown speaker
+21:16
+Juste pour remettre un petit peu aussi le contexte, quand on discutait avec Emmanuel, il y avait une volonté que toute la partie projet, gestion de stock, gestion de la production, etc., soit vraiment harmonisée Donc forcément, on va découler la comptabilité, puisqu'autant qu'elle est là, autant faire. Donc il y a vraiment plusieurs parties prenantes sur différents modules qui vont potentiellement discuter des process, peut-être revoir des process, parce que c'est quelque chose qui, chez vous aussi, il y a des points qui sont ouverts à discussion. On a vu sur les achats, on a vu sur les réceptions. Donc c'est l'occasion à ce que chacun dans son périmètre ait le process qui soit clair, mais tout le monde travaille sur la même solution. On n'a pas beaucoup parlé de la partie finance, parce que généralement c'est assez classique, la comptabilité. On n'a pas parlé de la partie RH, donc c'est ce qu'on va aussi discuter maintenant. Par contre, on sait qu'il y a un besoin aussi de reporting, de contrôle de gestion de façon générale, et il y a peut-être des sujets qui vont ressortir par CLA entre vous et...
+
+Unknown speaker
+22:35
+Oui. Voilà, M. Koda, puisque vous partagez, je pense, un petit peu cette partie-là de la finance. Déjà, dans l'idéal, parce que si je comprends bien, vous n'êtes pas interne à Almatech, vous êtes externe. Donc peut-être que la première chose, c'est que vous nous expliquez un petit peu votre périmètre pour qu'on sache qu'est-ce qu'on va discuter ensemble, qu'est-ce qui va être discuté avec d'autres départements. Qu'est-ce que vous faites exactement dans le périmètre pour pas aussi qu'on parle de sujets qui, peut-être, aujourd'hui, vous ne les traitez pas ou que... Voilà.
+
+Unknown speaker
+23:09
+Donc ça, c'est, je pense, c'est le premier point pour qu'on soit tous clairs aussi sur... Parce que nous, quand on discute, on sait qui s'occupe de quoi. Restait juste la partie entre vous et M. Cotard, là, on ne savait pas exactement qui faisait quoi. Donc, on commence par ça, d'avoir le périmètre que vous traitez aujourd'hui. Et ensuite, on va rentrer dans les différents, je pense, éléments d'analyse et les différentes questions qu'on va avoir. C'était cool.
+
+Unknown speaker
+23:39
+Peut-être juste aussi un préambule, en tout cas de mon côté.
+
+Unknown speaker
+23:45
+C'est Daniel qui a piloté ça, qui est chef des projets. C'est lui qui vous a approché, enfin qui a regardé un petit peu vos solutions etc. Moi je n'ai aucune idée et il ne m'a rien demandé et je ne sais pas ce qu'il vous a fourni en termes de besoins au niveau finance. Donc c'est absurde, je suis totalement en vague, je ne sais pas. Ce qui vous a fourni comme information, alors effectivement il y avait un kick-off, c'était la semaine passée je crois, il l'a fixé alors qu'il ne nous a pas consulté, enfin moi je ne pouvais pas être présent, mais il m'a dit que ce n'était pas grave si je ne participais pas au premier kick-off. Et puis maintenant, la solution retenue, Lui ne sait pas effectivement, parce qu'il n'est pas là depuis très longtemps, ne sait pas ce que je fais, ce que M.
+
+Unknown speaker
+24:38
+Cotard fait, sur quoi je travaille, avec quels outils et quels sont les besoins. Je ne sais pas, je vais vous imaginer votre solution, on répondra à tout. Mais moi ma première grande question c'était de savoir, alors vous allez mettre en place un système, Et je ne savais pas parce que dans d'autres sociétés, j'avais mon système pour la comptabilité générale et comptabilité éthique et puis on avait des passerelles pour basculer sur une solution de logo. D'accord, alors là, l'ERP, donc c'est Microsoft Dynamics Business Central, lui va contenir tous les modules, donc achat, vente, production, gestion d'entrepôt, qualité, etc. Et il y a la comptabilité qui est vraiment le socle. Dans tous les cas, il faudra qu'on mette à minima la comptabilité pour que le système fonctionne parce qu'il va contrôler qu'il y a des comptes. Le choix de faire une passerelle ou pas, Quelque part...
+
+Unknown speaker
+25:42
+Expliquez-moi, ça a été évoqué ou pas ? Ça a été évoqué, mais comme on sait que le module, généralement, on n'a jamais eu de blocage, il couvre à chaque fois les besoins comptables et analytiques, et il donne une visibilité de 360, parce que dès qu'on est dans le système, on a toutes les infos qui se déversent dans la comptabilité et dans la comptabilité analytique. Ça a du sens. Et puis, il est là, le module. Il est déjà présent avec les licences. ça aurait quelque part été dommage de faire une passerelle et de perdre une partie de la visibilité. Ce n'est pas exclu, si à la fin on voit qu'il ne répond pas aux besoins, mais on s'est dit l'approche, c'est de dire, il est inclus, il doit répondre à tous les besoins, donc on va vérifier, et si après, pour x raisons, on voit qu'il y a quelque chose qui bloque, le sujet de la passerelle peut se rouvrir.
+
+Unknown speaker
+26:31
+Mais ce n'est pas le choix premier, on va dire.
+
+Youssef HAFSI
+26:38
+C'est bien en fait. Que vous n'étiez pas invité depuis le début dans le choix de la solution. Moi, ce que je vous propose comme ça, c'est savoir vous parler. Je vais vous poser quelques questions afin de vous faire une petite démo. Comme ça, on sait de quoi on parle. Il y a une approche très, très intéressante pour les comptables dans le sens où toute la partie comptabilité auxiliaire et on ne parle pas de contagion. Là, je parle vraiment du genre de contagion.
+
+Youssef HAFSI
+27:17
+On ne parle pas de débit crédit, on ne parle pas de comptabilité générale comme on a l'habitude de voir. C'est un système d'information assez puissant où on parle de documents. Un document vente et un document achat. Derrière les documents, nous on va paramétrer en amont, c'est le but de notre présence là, c'est de paramétrer vos référentiels pour que X personnes qui vont faire une X personnes sont dans la casquette comptabilité. qui va faire une facture achat, par exemple. Une demande d'achat, elle va venir de juillet, c'est bien ça. Juillet.
+
+Youssef HAFSI
+27:54
+Elle va faire la demande d'achat, il y aura une commande d'achat, il y aura une réception. Déjà, on commence à avoir des éléments. Dès qu'on valide la réception, on commence à avoir des éléments dans la comptabilité générale. Parce qu'on parle des documents, on parle d'un flux physique. ils génèrent un flux monétaire qui est financier, qui est comptable derrière. Donc ça, c'est la logique de Microsoft. Ça veut dire quoi ?
+
+Youssef HAFSI
+28:26
+Ça veut dire que, bien sûr, il y aura toujours la validation de la comptabilité à travers des flux d'approbation où vous allez avoir, on va mettre en place par exemple pour valider les écritures, que tout rentre dans les normes. mais toute la partie purement comptabilité, on va la trouver pour la partie RH, ça c'est. On a aussi, on va la retrouver pour toute la partie, tout ce qui est divers en fait, tout ce qui ne passe pas par les achats et tout ce qu'on facture pas aux clients en fait, parce que c'est les chefs de projet qui facturent normalement leurs clients, qui savent quoi facturer, c'est un pourcentage de l'avancement du projet, est-ce que c'est une convention selon leurs contraintes ? D'ailleurs on n'avait pas parlé de la partie facturation. On a parlé avec Emmanuel pendant l'avant-vente, c'est pour ça qu'on n'est pas rentré dans le détail après. Donc c'est l'occasion de parler de la facturation. Et quand on parle de facturation, on parle d'un document.
+
+Youssef HAFSI
+29:26
+C'est tel client, il s'appelle X. X, il est en Suisse, il est hors Suisse. Pour nous, c'est pour déclencher le calcul de TVA. Et ce déclenchement de calcul de TVA, il est automatiquement fourni par le système. Ça veut dire que derrière, ça va vous générer automatiquement l'écriture comptable. Ça peut faire peur à des comptables parce que ça génère automatiquement l'écriture de vente dans le PP et dans le bilan. Vraiment, c'est automatique.
+
+Youssef HAFSI
+30:00
+Même en termes de stock, ça génère aussi automatiquement le stock avec une méthode d'évaluation qu'on va voir ensemble. S'il y a aussi des écritures bancaires, Ça, par exemple, par contre, vous allez la faire vous-même, c'est prendre votre cadre depuis la banque, le charger dans le système, faire votre rapprochement. On a un module de rapprochement qui est aussi fourni par le système, un rapprochement bancaire, où vous allez voir. Que ce qu'on a dans le système. Convient avec. Ce que vous avez dans votre banque. Il y a toute.
+
+Youssef HAFSI
+30:40
+Une validation aussi par rapport à on paye ou on ne paye pas ce fournisseur, qui a. Effectué la demande d'achat, est-ce qu'on a. Le budget pour ou pas. Donc tout est centralisé dans l'outil. L'histoire de. Passerelle, je ne pense pas. Qu'On a.
+
+Youssef HAFSI
+30:58
+Ce besoin vu le contexte de ce projet. Qui est assez basique. sur le plan comptabilité. Je veux dire, et que Microsoft arrive à couvrir. Largement. Vos besoins. Restera toute la partie, bien sûr, diverse.
+
+Youssef HAFSI
+31:15
+Et la comptabilité, la comptabilisation de la TVA aussi. Il y a un contrôle, en fait. Le système, il est moins dans la comptabilité à l'ancien, plus à une comptabilité de contrôle, de responsabilisation des personnes qui vont saisir leurs documents, leurs que ce soit achat ou vente ou le module projet. Et puis derrière, vous, vous allez plutôt contrôler, vérifier, approuver et puis faire, s'assurer que la boucle est terminée, est faite chaque mois, on verra. Nous, on vous accompagne aussi par rapport. On a différents rapports qui existent dans le système, qui sont fournis, on peut vous montrer ça. que ce soit pour les achats, pour les ventes, le rapprochement, comment on fait le rapprochement de la TVA.
+
+Youssef HAFSI
+32:09
+Le système, il vous permet aussi de sortir votre déclaration TVA parce qu'on a cette localisation à Suisse. Donc le système, il vous sort sa proposition par rapport à la TVA. Vous pouvez faire votre réconciliation avec ce qu'on a acheté, ce qu'on a rendu, et puis on va valider la TVA. Dans notre boîte aussi, bien que nous, on est utilisateurs de ce système, et puis notre par rapport au retour des comptables de la comptable Conda, et bien la déclaration TVA ne lui prend pas deux, trois heures, je me rappelle, de fréquentation.
+
+Unknown speaker
+32:49
+Généralement, le client est... On a rarement eu des sociétés qui font des passerelles. Les seuls cas, c'est quand c'est des groupes qui ont SAP, c'est le SAP du groupe et là, il faut faire la passerelle. Voilà, c'est pour cette raison que, généralement, on ne fait pas de passerelle parce que ça répond à tous les besoins. Et puis, petite question, en fait, c'est pas que vous qui n'avez pas été consulté, il y a eu juste un focus sur la partie production planning, Mais tout le reste, on avait estimé que c'était assez standard et qu'on couvrait, donc on est parti comme ça. Par contre, on a, dans l'approche, on a mis du temps d'analyse pour toute la partie achat, vente, comptabilité et finance, finance-contrôle de gestion, parce que je ne sais pas, la finance-contrôle de gestion et la comptabilité, qui peuvent être deux choses à part entière. Et c'est pour ça que je pense que ce serait bien qu'on...
+
+Unknown speaker
+33:52
+Pour les connaissances sur le périmètre pour lequel vous intervenez. Après on peut faire une petite présentation de l'outil, si vous l'avez pas vu. Une petite présentation de l'outil et après on rentre dans les questions, dans les processus, ce que vous faites à la clôture, comment vous clôturez, combien d'entités juridiques. Il y a un tas de questions qu'on va poser pour savoir un peu comment on fait l'approche du paramétrage. Oui, quand je parlais de passerelles, c'était juste une, peut-être une idée, ou une autre, mais c'est pour l'évoquer. Il faudrait qu'elles soient là, mais c'est peut-être une différente possibilité. Par contre, je suis totalement dans le flou quand je nous entends de savoir qui va faire quoi par rapport à...
+
+Unknown speaker
+34:39
+au chef de projet, à Julie pour les commandes, etc. Pour l'instant, parce que vous me parliez après que tout va en fait être centralisé dans Quantas, il faudra m'expliquer ou ce sera peut-être une présentation, je ne sais pas. Parce que là, je ne vois absolument pas... Ce n'est pas une question de faire peur, je n'ai pas peur du tout. Le seul problème c'est d'avoir un contrôle d'une validation, je pense que c'est surtout ça qui est très important parce qu'on a un système de validation qui est en place, un peu archaïque, mais il n'y a rien qui part, surtout par rapport aux fournisseurs, sinon la validation. Ça nous permet de systématiser ça et de s'assurer qu'on est traçable et que tout est sous contrôle. Tout est fait à la main.
+
+Unknown speaker
+35:36
+C'est vrai qu'il va falloir se réorganiser. Qui fait quoi ? C'est vrai que nous, à mon arrivée, on a vu une grosse partie des chefs de projet, et il va falloir évidemment que je sois avec vous pour trouver une bonne solution.
+
+Youssef HAFSI
+35:51
+On voit que le RP va pouvoir aussi améliorer notre efficacité et centraliser, c'est très important, la traçabilité en termes de vie. Par exemple, qui a pris la décision en fonction de quoi, quelle information, on a tout au fait. Le système, il va par exemple, je prends le cas du flux d'approbation qu'on a presque validé la dernière fois, on a dit on va créer des groupes pour plus de 10 000, une personne qui peut valider jusqu'à 500. Différents scénarios en fonction des compétences, en fonction des rôles. Ça veut dire quoi ? C'est une opportunité et c'est d'où le but de ces ateliers d'analyse, c'est que nous on va vous proposer, par exemple vous allez dire aujourd'hui on fait de cette façon-là. Vous, vous n'êtes pas ici dans les ateliers de vente ou achat.
+
+Youssef HAFSI
+36:44
+Ce n'est pas le but que vous voyez là partout. Par contre, nous, on va vous proposer de faire ce lien. On va vous dire attention, il y a la vente. Ils vont toucher ça, ça, ça. Et bien, ça va vous générer une écriture comptable. Et puis, on va vous donner cette proposition des nouveaux rôles et responsabilités. Quand est-ce que vous êtes responsable de quoi ?
+
+Youssef HAFSI
+37:05
+On appelle ça les RACI. c'est que vous êtes responsable, vous êtes informé, vous êtes la personne qui valide ou la personne qui est au courant tout simplement, ou délégué ça à qui. Tout ça, c'est à nous de vous proposer en fonction de notre connaissance du système et on va le designer ensemble. Et cette architecture fonctionnelle, elle est très importante à vous mettre vraiment fin de cette phase d'analyse, au **** d'un mois à peu près, où on va faire toute la boucle de tous les ateliers. Le focus, effectivement, c'était la partie opérationnelle parce qu'on ne s'inquiète pas en général sur la partie comptabilité et finances. Par contre, pour vous en tant qu'utilisateur. Je le sens, ça va changer votre façon de faire parce que vous avez l'habitude de fonctionner autrement.
+
+Youssef HAFSI
+38:03
+Ce n'est pas pour vous faire peur, au contraire, on a toujours de bons retours parce que ça automatise. Au fait, vous allez plus faire de l'analyse et du contrôle de gestion à peu près, même si c'est light, le contrôle de gestion c'est dans son sens large. Vraiment, il y aura toute la partie télé, toute la partie bancaire. Et puis toute la partie facturation, c'est consolide. Et puis on va aller beaucoup plus avec les dimensions, avec des axes analytiques, avec des rapprochements, avec le budget, avec ce qu'on a budgétisé, ce qu'on a réalisé, pourquoi on a un gap ici. On a respecté ou pas le budget. Analyser le stock, on a trop de stock.
+
+Youssef HAFSI
+38:44
+Vraiment, il y a toute une partie analyse financière très, très importante. Et puis très intéressant, intellectuellement parlant, on va dire, que la partie classique, début crédit et tout ça, nous, bien sûr...
+
+Unknown speaker
+38:58
+Vous utilisez quoi comme système actuellement ? Cresus. Cresus pour la comptabilité ? Et pour les salaires aussi. Et pour les salaires, d'accord. Juste peut-être aussi une petite information, je dis à Emmanuel, je crois qu'il va nous rejoindre. Je ne sais pas, en fonction de sa réunion.
+
+Unknown speaker
+39:20
+Si jamais vous avez des questions à me poser, ou s'il y a une partie aujourd'hui importante que vous voulez voir... Mais de toute façon, on refera des séances.
+
+Youssef HAFSI
+39:34
+Des éléments par rapport à comment vous fonctionnez aujourd'hui, les journaux, le plan comptable forcément, un peu d'historique, et puis nous on va essayer de vous faire un retour sur la base des éléments-là sans que l'on évoque durant cette séance. Ce qui est important pour moi par rapport à les entités juridiques, on a une seule entité juridique ou plusieurs ?
+
+Unknown speaker
+40:03
+Actuellement. Il y en a peut-être deux par la suite.
+
+Youssef HAFSI
+40:09
+Toujours en Suisse ? Et c'est une entité juridique à part ? Ce n'est pas une filiale ? Ce n'est pas une business unit ? Normalement.
+
+Unknown speaker
+40:26
+Ça doit être une entité à part.
+
+Youssef HAFSI
+40:27
+Une entité à part.
+
+Unknown speaker
+40:29
+Pour l'instant c'est une somme, on va discuter d'une seule.
+
+Youssef HAFSI
+40:32
+On va discuter d'une seule. Ok, et puis par rapport à la devise, c'est le CHL ? Voilà.
+
+Unknown speaker
+40:39
+Maintenant on travaille effectivement, puisqu'on se foulit, et nos clients sont aussi à l'étranger. Euro, US Dollar, Renpul, et puis Linksterning. Et puis les yens, oui on a. Commencé les yens, une ou deux transactions.
+
+Youssef HAFSI
+41:00
+D'accord. Et puis par rapport à votre banque, vous avez plusieurs banques ?
+
+Unknown speaker
+41:08
+Non, on a une seule banque, par contre on a plusieurs comptes, un compte de trésorerie principale en France Suisse, un. Compte de trésorerie en euros, et puis après on a encore deux autres comptes. Après il y a plusieurs comptes, il. Y a des prêts par rapport à l'investissement des marchés, et aussi par rapport aux prêts Covid. On a 5 ou 6 comptes ouverts, mais toujours auprès de la même banque. et on travaille principalement avec la trésorération suisse.
+
+Youssef HAFSI
+41:50
+Et puis par rapport à la structure de ces banques, de ces comptes bancaires, c'est par rapport, il y a un compte pour payer, il y a un compte pour recevoir l'argent ? Non, c'est par rapport aux monnaies. Par rapport à, vous tenez, à quelle fréquence vous tenez votre comptabilité bancaire en fait ? Tous les mois, vous sortez, vous faites un rapprochement bancaire ?
+
+Unknown speaker
+42:23
+Alors je ne fais pas de rapprochement bancaire, je le fais en fait, moi en fait, sur mon administration, c'est un système qui est aussi à part, je ne sais pas, parce que j'ai ce logiciel Cresus. Et puis, par contre, on a mis en place, mais pour l'instant, on n'a pas tenu les billets de savoir, voilà, tous les semestres ou tous les trimestres, on fait une réconciliation comptable financière. Ce qui se fait, c'est au niveau du chef de projet, par rapport à la comptabilité analytique, par rapport à l'annoncement du projet.
+
+Youssef HAFSI
+43:00
+D'accord.
+
+Unknown speaker
+43:02
+Et ça, alors, il faudrait que M. ****** Fréquences, je crois que Manuel a commencé à les faire, mais je ne sais pas à quelle fréquence il a fait, parce qu'on a une personne aussi externe qui fait les données analytiques pour les revues et en fait normalement c'est très facile. Les chefs de projet reçoivent par trimestre un retour sur ce qui a été dépensé, badges communs, comme num' heure chacun, les ventilations qui ont été faites par les différentes personnes.
+
+Youssef HAFSI
+43:36
+Et ça, c'est donné tous les trimestres à chaque chef de projet. Est-ce que... Ça, c'est fait à l'heure du premier trimestre. Donc vous faites toute la partie bancaire, le moment comptabilité financière, il y a une partie analytique qui est gérée par un tiers, qui est externe, une fois par trimestre, en fonction, il attribue au projet, c'est ça ?
+
+Julie Ehrhart
+44:05
+Oui, c'est typiquement le comptabilité analytique par projet.
+
+Unknown speaker
+44:15
+L'établissement des factures vente et la saisie des factures achats, c'est chez vous ? Alors oui, c'est chez moi, c'est manuellement. Celui des factures clients d'émetteurs, c'est M. Cotard qui l'a fait. C'est vraiment un système le plus basique parce qu'on le fait avec Worms. Pas plus d'une centaine de factures par année. Donc lui, il le fait par board et vous, vous comptabilisez dans Trezos.
+
+Unknown speaker
+44:50
+Il transmet le document qu'il m'envoie maintenant. Et moi, je comptabilise.
+
+Youssef HAFSI
+44:57
+Qu'est-ce qui déclenche la facturation d'un client ?
+
+Unknown speaker
+45:03
+C'est le chef de projet, enfin c'est M. Cotard qui demande au chef de projet quand il peut facturer en fonction de l'avancement du projet. Je résume, je schématise. Mais ça il faudra que M. Cotard... C'est lui qui a le planning en fait de facturation même plus réannuelle en fonction des projets avec les milestones et puis en général c'est notre chef de projet M. Cotard.
+
+Unknown speaker
+45:28
+Et pour la partie achat ? Pour la partie achat, c'est moi qui, c'est l'inscriteur qui réceptionne les factures, on reçoit des factures, on reçoit encore des factures papier, vous voyez, on reçoit des factures électroniques, on a un système de gestion des factures de fournisseurs, de paiement de ces factures, une solution qui nous a été Et puis après, je déclenche, quand on fait des situations financières avec M. Pétard, on fait les mêmes situations financières, et puis on décide, on sélectionne une facture, on le paye, après je déclenche la norme de paiement Tout ça, c'est fait dans une application à côté. C'est une application qui s'appelle CIX Netbanking de la BCB. C'est une. Solution que vous avez été. Suggérée et qu'on avait adoptée.
+
+Unknown speaker
+46:41
+Avec. La mission. Après. Ces factures-là. Doivent. Être validées par les chefs de projet et puis après. Par.
+
+Unknown speaker
+46:57
+M. Cotard, et les. Pays sélectionnés pour les ordres de paiement. Et puis après, c'est aussi ces manuels. Dans l'entretien du PGNIC. Donc les titres, les. Factures, etc.
+
+Youssef HAFSI
+47:12
+Alors. Vous parlez de situation financière toutes les semaines, qu'est-ce que vous entendez par ça ? C'est le nombre de factures reçues ?
+
+Unknown speaker
+47:20
+On paye quoi ? Voilà, exactement. La situation financière. C'Est nos liquidités, on les préserve en cours, en fonction des factures clients qu'on va recevoir. Et puis des. Factures à payer. C'est simplement entre.
+
+Unknown speaker
+47:37
+M. Debray. Et moi-même. Je fais cette situation-là, et il y a une fois par semaine, on reçoit ce qu'on a payé.
+
+Youssef HAFSI
+47:47
+Est-ce que par rapport à ça, vous fonctionnez par budget ou par enveloppe ? Est-ce que quand on parle de l'exemple...
+
+Unknown speaker
+47:58
+Oui, oui. Alors moi, je fais que ce type de situation financière parce que les budgets, jusqu'à maintenant, mon outil nous permet de faire beaucoup de choses, mais jusqu'à maintenant, j'ai jamais eu de budget financier, donc des budgets comptables. Par contre, M. Cotard fait... Bon, oui. Est-ce qu'il a, je ne sais plus quand il l'a fait, mais il y a un budget analytique. Il y avait, en tout cas, on avait en fait un directeur adjoint qui était là et qui disait chaque année le budget analytique, donc le budget par projet et centre.
+
+Unknown speaker
+48:47
+Ça va être là au niveau du budget. Il n'y a pas de budget financier au niveau de la comptabilité générale, mais il y avait un budget au niveau de la comptabilité analytique. Alors après, il faudra voir avec M. Peter... C'est le conseiller du projet. C'est parce qu'aujourd'hui, ils ont un panel du projet. Oui, ça c'est le plan analytique.
+
+Unknown speaker
+49:14
+C'est justement par rapport à ça effectivement. Chaque chef de projet a bien entendu en fonction de l'offre et son propre budget. Et puis là, on a les sommes de coûts, les sommes de charges, etc. Et puis là, il y avait un budget qui se faisait, mais vu que je ne rentre pas dans ma comptabilité générale, il faudra voir avec M. Patel. Il y a une musique qui va s'inverser un petit peu. C'est qu'aujourd'hui, tout ce qui s'existe comme timesheet, c'est déjà affecté à des projets.
+
+Unknown speaker
+49:47
+C'est déjà affecté à des projets. Donc, la partie, quelque part, analytique est déjà saisie. Et puis, au niveau des achats, ce qu'on a vu l'autre jour, on peut rattacher directement au projet et à la tâche. Et donc, la saisie de la facture est directement rattachée à un projet. Donc, le dispatch de l'analytique, par la suite, n'est plus nécessaire. Par contre, alors rapidement avec Anuel, on a échangé comme ça sur deux mots, c'est tout ce qui est frais généraux, des choses comme ça, qu'il faudra ensuite répartir sur les projets. Mais ça c'est un autre sujet, ça c'est vraiment la comptabilité analytique.
+
+Unknown speaker
+50:21
+Mais tout ce qui est directement affecté à des projets, ça il y aura l'analytique dessus. Et il y a aussi la partie budget dans le projet. Donc ils savent suivre le budget par projet avec qu'est-ce qui était budgété, qu'est-ce qui était réalisé, et puis l'écart derrière. Donc c'est vraiment la partie sur laquelle on se focus là-dessus. Après, par contre, il y aura de la comptabilité analytique avec des centres de répartition. Ça, c'est quelque chose qu'il faudra voir parce que voilà comment c'est fait aujourd'hui, comment c'est réparti, comment c'est analysé.
+
+Youssef HAFSI
+50:59
+Là, je compte les départements, les appartements. Les centres de coûts, je vois des départements de direction, donc du coup, ça, ça ne concerne pas les projets directement, ça concerne les frais généraux. Et puis, pour tout ce qui concerne la répartition analytique qui concerne les projets, c'est pas ici ?
+
+Unknown speaker
+51:26
+Oui, alors c'est sur cette base-là, en fait, mais c'est l'externe qui est après, qui développe ça et qui donne les informations sur les projets.
+
+Youssef HAFSI
+51:34
+On va faire le point, juste pour le dire, on se retrouve parfois à retravailler le plan comptable. Pourquoi ? Ce n'est pas une obligation, c'est le plan comptable que vous utilisez. Si on trouve par exemple qu'il y a beaucoup de... c'est plutôt entre les comptes de charges et les comptes de produits. Pour le chiffre d'affaires par exemple, vous répartissez et puis il y a un aspect purement analytique de dons qui n'a pas d'objectif comme en comptable. Par exemple, pour un compte de chiffre d'affaires, au lieu d'utiliser un seul compte de chiffre d'affaires dans Suisse, vous répartissez en fonction de certaines catégories de clients ou de projets.
+
+Youssef HAFSI
+52:31
+On peut aller sur une dimension analytique. Ça veut dire que comptablement, il n'y a pas d'obligation de répartir comme ça, mais sur un point analytique, oui. Pour les charges par département. Pareil, s'il n'y a pas d'exemple, dans le fond, je n'en parle plus. Vous avez une histoire, parce que je suis genre très occupé. Est-ce que vous avez besoin de moi de penser ? Est-ce que ça se passe bien ?
+
+Youssef HAFSI
+52:51
+Est-ce que je peux repasser peut-être dans une heure ? Je suis en.
+
+Unknown speaker
+52:55
+Train de prendre des notes. Ah cool. S'il n'y a rien des points qui ressortent... Sinon. Tu pourrais nous écouter parce que l'enregistrement. S'Est terminé. Ah, c'est parti.
+
+Unknown speaker
+53:05
+Par contre, moi, je dois terminer à 16h. Je dois encore voir quelque chose avec Fabrice. Cigale, tu veux passer juste avant ? Non, elle est 15h. Merci beaucoup.
+
+Youssef HAFSI
+53:24
+Donc voilà, par exemple, s'il y a des charges par département, si vous, au lieu de mettre des charges, par exemple, matériel, vous allez mettre matériel marketing, matériel admin, matériel direction, par exemple. C'est quelque chose, exactement, à revoir. Je vais vous envoyer une liste des documents.
+
+Unknown speaker
+53:47
+Moi, ce que je vous propose, c'est que je vous envoie le plan comptable que j'utilise. Et. Qu'Après, Bon, moi j'ai toujours dit à M. Cotard, en fonction de ce qu'il aimerait avoir comme information, voilà, je lui disais, tout est possible. En fait, on peut effectivement faire ce qu'il dit. On y met des informations analytiques dans la compabilité financière à l'entrepreneur. Mais jusqu'à maintenant, il n'a jamais eu le souhait.
+
+Unknown speaker
+54:13
+Mais il faudra en discuter quand il sera présent pour voir quels sont ses besoins, en plus de ce qu'il se fait maintenant.
+
+Youssef HAFSI
+54:21
+Je vois ça avec d'autres dimensions. Plus ou moins projets. Il y a différents besoins. Pour la comptabilité. Pure, on reste sur. Quelque chose de très basique et puis on complète avec tout ce qui est analytique. Et l'analytique financière, elle ne concerne pas que les projets.
+
+Youssef HAFSI
+54:41
+Au fait, elle peut concerner aussi toute cette partie-là de coûts même divers. On va voir aussi si vous avez des immobilisations. Je pense que oui, forcément, vous avez du matériel et tout. Ça aussi, on peut voir quelles sont les catégories. aller par catégorie, regrouper comment, et voilà. On va analyser tout ça. Mais c'est très intéressant de récupérer le plan comptable existant.
+
+Unknown speaker
+55:05
+C'est la première chose peut-être. J'ai une question. Vous verrez le stock aujourd'hui dans la comptabilité ? On n'a pas en resteur. Si vous avez un stock. Oui, on en a resté. Aujourd'Hui.
+
+Unknown speaker
+55:16
+Il n'y a pas de valorisation de. Stock dans la comptabilité. Vous pensez à quel stock ? C'est-à-dire la valeur de stock et de la listerie et des autres pièces. Ah, mais ça ne revient pas du tout dans la comptabilité. Alors, à l'atelier, je sais peut-être qu'il y a... Mais c'est pas assez en charge d'autant de dollars.
+
+Unknown speaker
+55:36
+Mais ce n'est pas activé. Il n'y a pas de stock activé au niveau matériel. OK.
+
+Youssef HAFSI
+55:42
+Alors, du coup...
+
+Unknown speaker
+55:45
+Est-ce que c'est une. Volonté ou pas ? Parce qu'ils peuvent ne pas vouloir alimenter la comptabilité en stock, mais par contre ça sera géré en stock physiquement, ça c'est sûr.
+
+Youssef HAFSI
+55:56
+Ça veut dire la quantité, la disponibilité, le calcul des besoins. mais ça ne génère pas d'écriture tentable de valorisation de stock.
+
+Unknown speaker
+56:04
+Ce sera un choix à décider si. Vous voulez avoir la parole. Juste un petit point qu'actuellement on ne verrait pas mais qui est mentionné dans le contrat de l'ESA notamment. Si on a plus de 5000 francs de valeur, on est censé... Oui, mais c'est surtout pour les outillages.
+
+Youssef HAFSI
+56:26
+Si ça a été payé par un projet qui a eu 7000 francs d'outillage, théoriquement, c'est un asset qui fait partie de l'ESA et qu'on devrait inventorier au moins dans notre système.
+
+Unknown speaker
+56:38
+Et l'ESA a le droit de venir faire un audit et vérifier, ok, je vous ai payé tel équipement, est-ce qu'il est bien inventorié, est-ce qu'il est bien marqué que c'est marqué ça ?
+
+Youssef HAFSI
+56:47
+J'espère que tout a été mis en place.
+
+Unknown speaker
+56:50
+Un outillage que je peux réutiliser, c'est une IMO. Donc ça rentre comme unimo, c'est une asset qui a une valeur qui peut être dépréciée. Oui, à partir d'une certaine valeur. À partir d'une certaine valeur, oui.
+
+Youssef HAFSI
+57:05
+C'est la valeur et c'est la durée aussi, selon la norme suisse, c'est en fonction aussi de la durée de détention. De. Ce bien.
+
+Unknown speaker
+57:15
+Et d'utilisation.
+
+Youssef HAFSI
+57:16
+Sur.
+
+Unknown speaker
+57:18
+Un projet, là par contre, ce n'est pas unimo. Mais mis à part ça, vous avez des pièces, qui ont de la valeur plus de 5000 et à un certain moment, si on s'arrête aujourd'hui et qu'on regarde la valeur, il y a quand même une certaine valeur de stock. Oui, dans ce sens-là, effectivement, les pièces qui sont façonnées ou assemblées pour les clients, ça. A une valeur. Mais jusqu'à maintenant, on ne l'a pas aussi valorisé. Maintenant que je dis que vous parlez de ces aspects par rapport à l'ESA, c'est dans des anciens contrats ou bien c'est des derniers contrats ? Des plus anciens.
+
+Unknown speaker
+58:06
+Je ne veux pas en débutant ça. Mais il y a au moins un. Actuel là-dessus. Après, c'est là qu'actuellement... Parce que l'ESA est déjà venu le faire à plusieurs reprises. D'ailleurs, le dernier, ce n'était pas plus tard que l'année passée. Mais c'est clair qu'ils se focalisent en fait sur des tarifs.
+
+Unknown speaker
+58:24
+Pour. L'Instant, la dernière fois qu'on m'a. Dit, Emmanuel, ce n'est. Pas **** Oui, oui. J'ai marqué ton contrat, donc. Il le verra un jour.
+
+Unknown speaker
+58:35
+Mais c'est vrai que là, pour l'instant. C'Est une boîte noire que j'ai ouverte, parce que je n'ai aucune idée de. Combien on a de ce genre de choses. Donc, ça. Ça a juste laissé. La. Possibilité pour le futur.
+
+Unknown speaker
+58:46
+Je pense qu'on. Va vivre avec. Voilà. Mais dans le futur. Il faudra éventuellement garder. Ça en tête. Moi je sais, comme j'habite mes commissaires, c'est le genre de choses que je vérifie.
+
+Unknown speaker
+58:57
+Si j'ai payé un outillage, j'ai envie d'être encore. Là.
+
+Youssef HAFSI
+59:01
+Et puis légalement aussi, si jamais ils voulaient me tirer du marché ou quoi que ce soit, ils ont le droit de repartir avec leur outillage. Exactement ça, c'est exactement ça. C'est un asset qui appartient, c'est un actif auquel appartient l'entreprise. qui a une valeur. Et du coup, dans le même contexte, vous ne faites pas d'amortissement, du coup, sur... Ah oui. Amortissement sur les rémunérations.
+
+Youssef HAFSI
+59:26
+Et puis. Par rapport à toute la partie stock, du coup, tout le matériel qui sert pour la création. De projets. Comment il est comptabilisé ? L'achat est comptabilisé en charge universe ?
+
+Unknown speaker
+59:52
+En général, c'est les chefs de projet qui disent si c'est effectivement un achat qui doit être lié directement à l'entreprise. ou si c'est en fait des achats qui passent pour l'atelier par exemple et qui peuvent servir à plusieurs projets. Typiquement, je sais qu'on a une balance. Est-ce que j'ai l'actif ? Je ne sais plus. Mais en règle générale, les achats sont en tout cas l'atelier. Donc.
+
+Unknown speaker
+1:00:29
+Du coup, c'est aussi bien pour mesurer nos achats et nos produits. C'est ça qu'on a à savoir, les ressources aussi, c'est le coût. Il faudrait, je me souviens, mais je crois qu'une fois on avait défini un seuil, par exemple, j'ai en tête, mais je ne sais pas si c'est pour Almatech, on avait dit, en dessous de 1 000 comptes, c'est directement de la console, d'un démarrage, et puis ce qui était en-dessus, on activait ça en fait. Je crois que maintenant, on a encore, c'est bon, informatique, mobilier, et certaines machines et outils à l'intérieur, mais ça donne chaque pièce. On a un compte où on a tout amorti, on est à zéro, et. Puis ça. A lâché du petit matériel, il y a 200 ou 300 francs, on va pas l'activer sinon on.
+
+Unknown speaker
+1:01:33
+S'En sort plus. Par contre, on va vérifier ce qu'il reste. Mais on avait fait un inventaire une fois, mais il date déjà de plusieurs années. Vraiment, on a utilisé une organisation, que ce soit informatique, mobilier et outillage, mais il n'a plus été refait. Quand.
+
+Youssef HAFSI
+1:01:56
+Vous parlez d'inventaire, ça concerne immobilisation et stocks liés au projet.
+
+Unknown speaker
+1:02:03
+Non, pas les stocks liés au projet. Vraiment que les immobilisations de Belmantec.
+
+Youssef HAFSI
+1:02:11
+Et puis, toute cette partie-là de stocks, proprement, les matériels utilisés dans le projet, il est dans les ateliers. Il n'est pas physiquement parlant dans... Je ne sais pas c'était quel endroit...
+
+Unknown speaker
+1:02:37
+Il est certainement. Présent dans d'autres post-docs, mais il n'est même pas suivi. Ceux. Qui le reçoivent, parfois ils disent que ça a disparu, qu'ils ne le trouvent plus, ou qu'ils laissent le sachet dans la boîte. Il n'est pas du tout suivi. qui est notre partenaire, on leur a livré des batteries et eux, ils ont fait le coulage, les fossiles et le système pour le donner. Et on expédie parfois aussi de la batterie.
+
+Unknown speaker
+1:03:09
+Mais ça reste notre propriété, enfin tout ça pour l'instant, on n'est pas obligé.
+
+Youssef HAFSI
+1:03:13
+Merci. Ça c'est super intéressant du coup, la clôture. Votre bilan, il n'y a pas de compte de stock, tout simplement.
+
+Unknown speaker
+1:03:29
+Oui, on a deux postes d'immobilisation, mais c'est incorporel. Et puis après on a les immobilisations de la congénie. et les principales, en termes de valeur, d'outillage de l'atelier. Et les encours ? Vous comptabilisez les encours ? Vous les comptabilisez, comment elles passent ? Alors ça c'est, je ferai que M.
+
+Unknown speaker
+1:04:01
+Cocteau m'explique, parce qu'il fait tout un calcul en fonction de l'avancement des projets, des heures qui ont été passées, de ce qu'il a facturé, etc. Enfin c'est lui qui fait tout ce calcul là. Je vous laisse regarder avec lui. On valorise vraiment en termes prudentiels, c'est vraiment, on valorise bien plus bas en fait, par rapport aux erreurs qui ont déjà été effectuées.
+
+Julie Ehrhart
+1:04:36
+Et ça je vous laisse regarder avec lui. Du coup, en forme. De les axes. Analytiques.
+
+Youssef HAFSI
+1:04:48
+Pour. La partie. Financière. Vous avez combien d'axes. ? Axes. C'Est des dimensions, c'est une notion analytique par exemple, on va dire, on va répartir...
+
+Unknown speaker
+1:05:04
+C'est que deux, c'est ça. Ça c'est.
+
+Youssef HAFSI
+1:05:16
+Des malheurs nés.
+
+Unknown speaker
+1:05:18
+Oui. Actuellement on en a 7. Mais d'ailleurs ils en ont recréé des... D'autres sont les pilotes, mais le tableau n'est encore pas à jour, et même dans la comptabilité... C'est pas à jour. C'est pas à jour. Enfin, c'est pas à jour.
+
+Unknown speaker
+1:05:35
+Moi, je travaille sur la base de ce tableau-là. D'accord. Et puis, je sais qu'ils ont créé des nouveaux centres. Donc.
+
+Youssef HAFSI
+1:05:46
+C'Est des centres de coûts. Après, la valeur. C'Est 7, à peu. Près, ou peut-être. Plus.
+
+Unknown speaker
+1:05:52
+7 pour l'instant. Mais bon, pour l'instant, moi, en fait, je saisis ces données-là dans ma comptabilité pour ressortir, de temps en temps, en fait, je ressors même sur le plan financier, les situations de coûts et de produits sur les projets. Par contre, ici, ben voilà, ils sont pas servis, en fait, parce que Il faudrait rajouter en fait la dimension des heures prestées. Et puis ça, c'est en Excel qui consacre au niveau de la comptabilité, alors que la possibilité existe. Mais ils ne m'ont jamais donné de répartition par rapport à ça. Donc en fait, la base y est, les infos sont là, mais en fait elles ne sont pas traitées. Ils sont traités d'une manière externe.
+
+Unknown speaker
+1:06:58
+C'est. Quelqu'Un qui est au Brésil, qui peut s'accueillir 3 mois avec l'échec de polaire en attendant. Ils essayent de prendre leurs notes manuellement pour s'en sortir. Je pense que la. Comptabilité, ça va être beaucoup plus riche et intéressant parce que tout va redescendre de ce qu'ils ont saisi et cette partie-là d'analytique, elle va être vraiment bien alimentée. On.
+
+Youssef HAFSI
+1:07:37
+A des engagements qui sont liés au système, on sait quand est-ce que ça doit être payé. Après on est conscient que si on veut retarder un paiement, des problèmes on a.
+
+Unknown speaker
+1:07:48
+On. A un peu un panel d'outils parce que tout est dans le BM, enfin je pense que les chefs de projet se basent là-dessus en fait pour savoir par rapport à notre engagement, notre ordre d'achat et puis après les factures qu'on reçoit des fournisseurs, mais c'est vrai que tout est un peu disparu. C'est. Comme tout à l'heure l'application pour le paiement des fournisseurs de factures, elle est déjà dans l'ERP, c'est-à-dire vous saisissez vos factures, il y a une dette d'échéance, ils vous proposent des factures à payer, vous les validez, ça génère un fichier de paiement, vous le chargez dans la banque et puis c'est payé, et c'est automatiquement lettré aussi puisque c'est payé. Donc il y a quand même un gain de temps qui est significatif. Et puis il va y avoir une partie, alors on n'a pas discuté de la partie salaire, une gestion de salarié mais la partie paye. Nous on travaille avec Swiss Salary, ce qu'ils en donnent directement dans l'ERP.
+
+Unknown speaker
+1:08:52
+C'est compatible Swiss DEC. Il y a toute une partie, tout est automatiquement télé-déclaré.
+
+Pierre-Henri Meystre
+1:08:58
+C'est certifié Swiss DEC.
+
+Unknown speaker
+1:09:02
+Et je pense que l'idéal ici, c'est peut-être que vous ayez un échange avec Swiss Salary sur la partie où on l'organise, sur la partie, voilà, les questions RH, etc. Normalement, ça va couvrir tous les besoins. Les salariés, ils ont un portail dans lequel ils reçoivent leurs bulletins de salaire, etc. Et après on pourra organiser cette partie suis-salariée parce que peut-être qu'on pourra la faire démarrer au 1er janvier. Même si on n'a pas démarré le projet, ça facilite derrière ne pas avoir de certificat. Alors ça c'est plus qu'un souhait, c'est que ça démarre effectivement. Alors que ça démarre en premier, parce qu'avec les assurances, quand il faut commencer à faire les décondamnations, où il faut tout ressaisir, ce qui a été fait au départ.
+
+Unknown speaker
+1:09:47
+Non, on a l'habitude de faire ça. Donc on peut démarrer, une fois qu'on est en comptabilité, que c'est validé, on démarre sur le salarié le 1er janvier, et après la comptabilité arrive tranquillement, le débarrage arrive tranquillement sans problème. Donc ça on va regarder pour... Alors il faudrait envoyer peut-être les références que je voyais en fait. Et on devrait bien leur faire une séance. Pour poser les questions, voir un petit peu les éléments, parce qu'il y a quand même des questions qu'il faut qu'on sache. Les types de contrats que vous avez, est-ce qu'il y a beaucoup de temps parcelle ou pas, etc.
+
+Unknown speaker
+1:10:22
+Et après comme ça, qu'on estime pour le paramètre.
+
+Youssef HAFSI
+1:10:25
+Tu poursuis, ça nous dit, à nous avoir la partie erreur sur le fait que c'est dans le même. Dans le même environnement que vous allez avoir, vous allez prendre la casquette RH, donc vous allez avoir un accès RH où vous allez gérer les congés, les documents, les fiches de paye et tout, après toute la partie comptabilisation, un bouton et c'est validé. C'est le cas. Par contre, si on ne part pas sur le salarié, Donc vous continuez à travailler sur votre outil et puis on importe juste l'écriture comptable, le temps de mois. Mais comme il y a toute la partie suivie, ressources, des heures, Ça peut être intéressant.
+
+Unknown speaker
+1:11:13
+Oui. Il y a le fait d'avoir le taux horaire par salarié, donc ça peut être plus facile d'être sur Swiss Salary. On n'a rien validé, on l'a déconféré avec vous, justement, sur cette partie-là, mais je pense que c'est bien de voir Swiss Salary.
+
+Youssef HAFSI
+1:11:29
+Ils peuvent faire des mots, et puis on peut regarder. De toute façon, quel que soit votre choix, nous, toute la partie comptable et le reste, on va le suivre sur un plan peu moins analytique, si vous arrivez à nous donner une répartition analytique par employé, par exemple, afin de compléter le module projet.
+
+Unknown speaker
+1:11:54
+L'autre question que j'avais, est-ce que vous avez des badges aujourd'hui ou pas ?
+
+Julie Ehrhart
+1:12:14
+Donc c'est sur un fichier Excel qu'il y a le projet.
+
+Youssef HAFSI
+1:12:17
+Et. Dans le fichier Excel, on doit choisir tous les projets, savoir combien de temps on a fait. Donc, si on travaille sur deux projets différents ?
+
+Unknown speaker
+1:12:26
+Le timesheet, il va se faire dans le ERP. Mais ça, c'est le timesheet au projet. Ce n'est pas le timebrash. Si vous voulez le timebrash, il y a la solution timebrash même aussi avec Swiss Salary. Mais il faut séparer le timebrash du timesheet projet. Parce que le timbrage, je suis là à 8h, je suis parti à 17h. C'est le timbrage.
+
+Unknown speaker
+1:12:47
+C'est pour une partie à HP, etc. Par contre, j'attribue 3h sur un projet, 2h sur un projet. Beaucoup s'en sert aussi pour vérifier que le temps timbré et que le temps affecté correspondent bien, mais c'est un autre sujet. Mais par contre, je sépare timbrage et le timesheet, c'est pour les projets. Avec Emmanuel. Dans SwissAlert, si vous voulez, il y a la partie TimeShield sur une application, sur un portail, mais c'est différent de timbrage. Par contre, ce qu'ils pourront timbrer, mis à part les projets, ils pourront timbrer leurs demandes d'absence.
+
+Unknown speaker
+1:13:33
+Ça, c'est possible. Ça redescend les demandes de congés, de maladies, etc. C'est pour ça que je me demandais si vous aviez une table dans vos poches.
+
+Youssef HAFSI
+1:13:42
+Par rapport à la comptabilisation des clients, c'est M. Cotat qui effectue la facturation, et quand est-il des relances ? Est-ce que vous effectuez des relances ?
+
+Unknown speaker
+1:13:56
+Alors en général, c'est lui qui les fait, ou alors il demande au chef de projet, à M. Lachi, quelqu'un de comptable, qui va être le propriétaire du fonds. On se partage un peu les problèmes, mais aucun partage en fait. Moi j'établis, j'ai un tableau Excel, des factures, mais non factures limitaires. Les factures limitaires, il faut qu'il y ait un pseudo-parfait. Et puis après, c'est lui qui regarde. Il faut renoncer à quel moment, si c'est nécessaire.
+
+Youssef HAFSI
+1:14:25
+Votre tableau Excel, c'est une sorte de balançager, en gros. Avec le montant, la date des chiffres. La facture. Pourquoi. T'As réveillé moi ? OK, bon. Tout ça, c'est.
+
+Youssef HAFSI
+1:14:42
+La même chose. C'est le truc basé. Par rapport aux fournisseurs, est-ce qu'il y. A un fait paiement des factures avant. D'Adresser ? Ça arrive. Ça peut arriver.
+
+Unknown speaker
+1:14:57
+Notamment les nouveaux fournisseurs. Si j'en ai un nouveau, je dois l'acheter. Et vu que c'est un nouveau fournisseur en Turquie, il ne va pas expédier, c'est tant qu'on n'a pas payé. Vous recevez une facture d'un compte. Par. Contre, c'est vrai que moi, je ne sais pas si justement toutes les recherches que je contrôle, justement, que j'envoie payer un fournisseur dans le vide, ça, est-ce qu'on a moyen de sauvegarder les informations des chèques que j'ai fait ? C'est-à-dire un fournisseur dans le vide ?
+
+Unknown speaker
+1:15:38
+Là, le fournisseur, je me suis renseignée depuis combien de temps il existait, il a des boulons Airbus, etc. dans ses clients.
+
+Youssef HAFSI
+1:15:49
+Ce chèque-là, s'assurer qu'on ne va pas payer un fournisseur pour rien avoir en retour, est-ce que c'est quelque chose qu'on peut pérenniser dans le système ?
+
+Unknown speaker
+1:16:00
+Aussi pour rassurer aussi des valideurs, de s'assurer qu'on ne paye pas un fournisseur pour rien.
+
+Youssef HAFSI
+1:16:06
+Quand vous dites payer, c'est évaluer un fournisseur ? Pour moi.
+
+Unknown speaker
+1:16:19
+Ça se met dans la jette, alors ça peut être lié au fournisseur. C'est des éléments qui se mettent dans la jette. Alors après le fournisseur peut être bloqué jusqu'à ce que vous le débloquiez parce que c'est bon, il est validé. Comme ça, il n'est pas utilisé à tort. Maintenant, entre nous, un fournisseur peut être bon au début, il livre la première fois, la deuxième fois, la troisième fois, c'est bien. Surtout quand ils sont étrangers, c'est pas garanti. On peut évaluer la qualité de livraison, s'il fait pas mal de non-conformité ou pas, ce genre de choses, oui.
+
+Unknown speaker
+1:16:51
+Maintenant, le fait qu'on a contrôlé la première fois, qu'il est bon, ça ne veut pas dire que la deuxième fois, il sera bon. Oui, d'accord. Après, voilà, on est dans le système... Dans le système un peu avancé, donc généralement, c'est... Il n'y a pas d'outils, donc... J'en suppose. Pas d'avoir intérêt à se fâcher avec d'autres.
+
+Unknown speaker
+1:17:09
+Oui, c'est un peu tout ce qui est les bancs de recherche, les preuves de recherche, entre guillemets, peuvent être mis dans la GED après et puis rattachés aux fournisseurs. Dans le processus de validation, on peut mettre un commentaire, justement, pour les vendants ? Oui, sur le fond de somme, on peut mettre une note, un commentaire, dire voilà, il a été vérifié. Attention à ne pas payer plus de X montant, et puis comme ça, on le voit. Maintenant, il y a des pratiques qui vont se mettre en place, puisqu'il n'y avait pas de réel département d'achat. Il y a des pratiques qui vont se mettre en place. Et si toutes les commandes arrivent chez vous, ça va être plus simple, quelque part, de savoir quoi faire.
+
+Unknown speaker
+1:17:48
+Et. Moi, le gestion des factures commissaires, ce que je voyais généralement, c'était, il y a de la marchandise qui a été réceptionnée. Qui était conforme à la commande, donc on est d'accord de la payer. Et ensuite, si la facture ne correspondait pas à la commande, que ce soit sur le contenu ou sur le montant, là, ça venait chez moi. Mais sinon, ça a été payé directement par la Chine. C'était comme. Ça qu'on le verrait ?
+
+Unknown speaker
+1:18:15
+Quand la comptabilité, ce qu'on a dit tout à l'heure, c'est que vous recevez les factures, donc quand vous allez saisir, vous allez appeler la commande. Vous n'allez pas la saisir ? Non. Alors, est-ce que tous les achats passent par une commande ou pas ? Ça, c'est une deuxième question. Dans le futur, oui. Mais normalement, on vous appelle la commande.
+
+Unknown speaker
+1:18:33
+Si la commande, elle a le statut qui est bon, on va la payer. Si elle n'a pas le statut qui est bon, ils ne pourront pas la... Ils vont saisir peut-être la facture, mais elle sera saisie, pas validée. On attend de savoir s'il va y avoir un crédit de mémo, enfin un avoir, est-ce qu'il y a une. Modification ?
+
+Youssef HAFSI
+1:18:58
+réceptionner encore un autre produit, ou en avoir financé parce que le bidon était trop, par exemple, et pas la même quantité que vous avez reçu, par exemple, en livraison partielle. Or, de la facture, voilà, elle englobe la totalité et puis vous, il vous manque encore une deuxième livraison. Donc, tout ça, par rapport aux flux achats, depuis la création de la demande d'achat. Donc jusqu'à la facturation, il y a différents scénarios. On vous propose la meilleure façon en fonction des responsables. Effectivement, qui fait quoi ? Comme là, on va mettre en place ensemble ce nouveau rôle que vous prenez, il y a différentes façons.
+
+Youssef HAFSI
+1:19:46
+Vous pouvez faire la demande, être l'approbatrice, et puis après toute la partie financière, il y a un contrôle, c'est la même main. Ça a été approuvé, c'est le même montant, et puis voilà, ça vient tout seul. ou on peut faire que ça revienne chez vous.
+
+Unknown speaker
+1:20:06
+Mais je pense qu'en tous les cas, il va y avoir un certain nombre de facteurs qui vont venir chez moi pour l'instant, tant qu'on n'est pas propre à toutes les notions de transport, etc.
+
+Youssef HAFSI
+1:20:19
+Où c'est parfois rajouté en suce, où on met une estimation, c'est pas difficile d'avoir une vraie estimation, donc c'est pour ça. Et ça, actuellement, j'ai pas forcément à visiter.
+
+Unknown speaker
+1:20:30
+Les imputants qui sont utilisés, tout ça c'est fait à la main, pas forcément dans l'expertise du chef de projet non plus, donc pas forcément juste. Donc ça va être les prochaines briques que je vais assembler d'ici qu'on ait l'RP pour... Dans tous les cas, il y a une saisie du document. et ensuite il y a des validations du document, jusqu'à la validation finale. Donc après par contre là c'est un process que vous devez définir pour qu'on le voit et on le mette en place. Il y a aussi la partie qualité, il y a pas mal de petits process qui doivent se mettre en place, ce qu'on a discuté de façon générale. Donc il y a déjà des discussions un petit peu internes en amont de, l'ERP il va répondre Dans tous les cas, même par exemple des factures qui n'ont pas de commandes, le procès doit juste être défini et après on en discute comment on le met dans l'URP.
+
+Youssef HAFSI
+1:21:22
+Là, par rapport au transport, c'est imputé aussi ce coût-là au projet ou pas? Ça dépend. Il.
+
+Unknown speaker
+1:21:39
+Y a une volonté de tout imputer. Je le vois au final, j'ai des factures de transporteur. Des fois, le chef de projet a bien fait son travail, il a créé son ordre d'achat, puis c'est lui qui valide ça. Puis des fois, je reçois des factures qu'on ne sait pas à quoi rattacher.
+
+Youssef HAFSI
+1:22:03
+Ça, ça arrive aussi. Et le fait d'être de tout centraliser dans l'ERP, normalement, ça n'arrive pas parce qu'on peut activer l'option d'attribuer un pot du projet à toutes les factures de transport. Et c'est à vous d'être garde-pauvre.
+
+Unknown speaker
+1:22:26
+Moi j'aime bien avoir une commande d'achat pour tout. Mais c'est vrai que là il y a des choses qu'on actuellement gère, les petites commandes, tous les consommats, ce genre de choses. On se posait la question, quelle est la manière la plus technique. Et il y avait une chose, comment on gère en business central les notes de frais.
+
+Youssef HAFSI
+1:22:43
+Auparavant, on faisait une commande, au moins dans certains cas pour les notes de frais. Je ne sais pas si c'était pour des coûts. Les notes de frais, c'est des notes liées au projet.
+
+Unknown speaker
+1:22:57
+Oui, ça peut être par exemple en voyage, vous n'oubliez pas d'aller à la systématique. Principalement, c'est lié à des projets, mais il y a aussi plein d'autres. On le voit aussi dans les centres de cours pour le marketing. et les représentations de salons, etc. Donc il y a les deux cas de figure. Il y a beaucoup plus lié à l'école, j'avais une feuille à moitié pour des frais généraux. Comment c'est géré ?
+
+Unknown speaker
+1:23:26
+Il y a une demande de frais d'abord ? Je n'ai jamais vu une seule ordre d'achat pour des notes de frais. En général, les chefs de projet. Les chefs de projet partent en voyage pour un projet, alors on garde tous leurs justificatifs, ils reviennent ici, ils donnent leurs justificatifs à la structure qui établit le reflet sur de nouveaux macros. Excellent quoi. Et puis on la paye sur cette base-là, puis on l'établit. Alors après, la répartition de nouveau, c'est comme les factures fournisseurs.
+
+Unknown speaker
+1:23:58
+Les chefs de projet disent, ça va sur ce projet-là, ou ça va dans le marketing, ou ça va pour l'atelier, de l'outillage.
+
+Youssef HAFSI
+1:24:06
+Et puis vous, vous avez à la maille la plus fine, par exemple, ça c'est hôtel, ça c'est logement. Oui, alors, ça dépend. C'est global.
+
+Unknown speaker
+1:24:16
+Non, j'essaye, j'essaye de dispatcher un petit peu, mais des fois il y a des bénéfices avec 50 justificatifs, y compris les deux cafés, les trois croissants. Enfin, j'exagère un peu, mais c'est un peu ça. les dépenses qui sont faites en Suisse à l'étranger. J'essaie de faire la manière la plus efficiente possible. Quand il y a 20 petits taxis, etc., je mets tout dans le système Voyage, par exemple. S'il y a un hôtel et un billet d'avion, c'est déjà plus important, je dispatche entre les frais d'hôtel, d'hébergement et les frais de route. Une question, si demain on dit qu'ils ont un Excel, un peu comme on a un Excel, ils rentrent leurs frais, le détail, il y a les projets, donc ils mettent les codes projets auxquels c'est rattaché, ils vont être justificatifs, ça, ça facilite quand même le travail derrière.
+
+Unknown speaker
+1:25:26
+? Ah oui, parce que moi je suis incapable de dire combien il y a parti, je ne sais plus combien on en a, mais je suis incapable de savoir, je ne sais même pas quand ils partent, où ils vont et pour quels projets.
+
+Youssef HAFSI
+1:25:37
+Déjà, en temps, en nombre de volume de notes de frais par mois, vous avez combien à peu près ?
+
+Unknown speaker
+1:25:51
+Oui, je ne sais pas, par mois. Il y a des mois où il n'y en a que 2 ou 3, et des mois où il y en a 10-15. C'est énorme. C'est très variable en fait. C'est pas un volume énorme. Mais il n'y en a jamais plus que 20 par mois, ça c'est sûr. Plus important c'est qu'on s'attache au projet.
+
+Unknown speaker
+1:26:15
+Parce que les chefs de projet vont grouper généralement, ils vont faire qu'une ou l'autre de frais par mois ? Non pas forcément. Alors ça c'est très agréable. Des fois ils nous font une meuble de frais pour 35 francs, on ne sait pas l'acheter. Et puis un autre chef de projet, il y a deux pages, il y a un compte justificatif et puis il y en a pour plus de mixte. Moi j'avais essayé de dire, avec M. Cotta on avait dit, faites pas une note de frais par ticket de petits consommables, de petits cafés ou je sais rien.
+
+Unknown speaker
+1:26:53
+Mais de nouveau c'est aussi personnel parce que les notes de frais, Ça prend rien du tout. C'est celui qui voyage qui paye de sa poche. Donc il y en a qui veulent se faire rembourser tout de suite. Il y en a qui ont besoin de se faire rembourser tout de suite. Il y en a d'autres, ils ont 500 balles de frais. Mais tu vois, si c'est le cas, je vais vous faire ça. C'est très personnel.
+
+Youssef HAFSI
+1:27:15
+Et du coup, quand vous parlez de 500 balles, vous attribuez une avance, c'est ça ?
+
+Unknown speaker
+1:27:21
+Non, jamais.
+
+Youssef HAFSI
+1:27:22
+Non, c'est pas une avance.
+
+Unknown speaker
+1:27:25
+Non, alors après ? J'avais proposé la solution, j'avais suggéré aussi la solution de faire des fonds frais, de mettre ça dans le contrat de travail, mais il faut un règlement qui soit validé par la CEI. Il n'y a personne qui n'a pas jugé nécessaire de faire ça. Parce qu'il y en a un qui fait. Quand même, sur l'année, ça fait quand même... C'est. Compliqué de faire un règlement.
+
+Unknown speaker
+1:27:57
+Je vois bien qu'au pays, il y a un autre. En Suisse, ce n'est pas du tout le même prix d'une nuit d'hôtel qu'en. France. Puis quand on est en urgence, si on n'a pas de choix, on n'a pas le choix. C'est compliqué. Les règlements. Compliqué.
+
+Unknown speaker
+1:28:13
+C'est sûr que quand il y a des interventions, il y aura des frais. De repas, pas sur le reste, parce que généralement ça peut être assez élevé. Mais ce n'est pas un gros volume, pour moi ce n'est pas un gros volume, donc on peut trouver un moyen de le gérer aussi peut-être plus facilement. Mais dans l'URP, ça va rester aussi pareil. Soit c'est une facture, soit c'est une saisie d'un journal comptable, ce qui est fait en fait typiquement aujourd'hui. Par contre, il y a l'avantage, même si c'est un journal comptable, de le rattacher au projet. Et c'est ça qui va être important en fait.
+
+Unknown speaker
+1:28:48
+C'est de voir aussi sur un projet tous les frais qui sont passés, frais de déplacement, etc., et de voir derrière la marge où est-ce qu'on est.
+
+Youssef HAFSI
+1:28:57
+Parce qu'il y a une marge directe et une marge indirecte. Par rapport à la partie purement analytique, c'est de dire OK, par rapport à l'outillage, le matériel, ce qu'on a consommé et tout ce qui est divers autour de ça. Par exemple, si il y a des licences achetées pour ce projet ou des frais de déplacement, la marge peut baisser parce qu'au début, quand vous avez effectué votre de vie, de vente. Il y a certaines dépenses qui n'ont pas été incluses. Donc, on va se dépendre de la marge directe. Et puis l'indirect par rapport à des frais de transport, ça peut monter rapidement ou aussi toutes les mains de frais liées au projet. Moi, je peux vous proposer aussi, j'ai développé, je peux vous montrer ça, une fois qu'on est en formation, un outil module d'aide à la saisie par type de dépense et puis la TVA vient automatiquement et puis je peux m'affibrer le code analytique directement, peu importe le projet.
+
+Youssef HAFSI
+1:30:23
+Avant c'était. À la production en fait, c'était vraiment par produit. Ça aussi, ça peut être intéressant afin de centraliser. Il n'y a plus qu'à comptabilité aussi, la dernière qui est gérée par exemple, on va dire hôtel, on sait que ça va automatiquement sur ce comptable-là et puis il y a la TVA qui est calculée automatiquement. Et puis, on a aussi la gestion des documents entrants dans les sans fonds, où vous pouvez charger les documents vis-à-vis de la JET. Ça, c'est autre chose. Par exemple, les notes de frais, les chefs de projet veulent les charger directement, les rattacher à l'ordre d'un fichier Excel directement dans le système Clio pour le but d'une traçabilité de part tout ce qui concerne les achats et les frais sur un projet.
+
+Unknown speaker
+1:31:18
+C'est clair que ce geste sur les nombres de frais, c'est d'accord aussi. Le principe c'était aussi un petit peu de décharger les chefs de projet et puis pas qu'ils soient obligés d'aller saisir tout l'argent. C'est significatif, on a le pavillon, mais c'est pour ça que c'est l'inspecteur qui fait ça, l'inspecteur est pas tout le temps là. Donc c'est vrai qu'après les chefs de projet ils veulent se faire rembourser. Il y en a qui le font eux-mêmes, il y en a qui m'amènent les tickets. Je dis bon, fais-moi la décision et puis je te paye ça, puis après on vérifiera derrière. Il faudra peut-être la ventilation exacte.
+
+Unknown speaker
+1:31:56
+On a un petit peu de tout. Ce sera intéressant de proposer des solutions, à voir après si c'est les chefs de projet eux-mêmes qui vont saisir leurs propres faits. Est-ce qu'on est chez Almatech dans une prise où les chefs de projet c'est les superstars, il faut surtout leur dégager le maximum du temps parce qu'ils sont très pris, c'est eux qui portent vraiment les projets qui font avancer ou est-ce qu'on est plutôt dans. C'est les chefs de projet, mais ils doivent quand même faire le travail parce que quand on va leur dire vous avez plus de charges, ils peuvent dire non, finalement, ça nous... Je pense qu'ils auront plus de valeur ajoutée à juste valider et pas préparer. Parce que c'est vrai qu'il y a une faible préparation. Moi, je vois le temps de préparer une commande, ça prend sa faute.
+
+Unknown speaker
+1:32:38
+Et c'est vrai qu'ils ont plus de valeur ajoutée sur des projets que sur la ministre scientifique. Je pense que c'est plus cette volonté-là. Parce. Que c'est quand même leur budget, c'est eux qui sont responsables. Mais par contre, il faudrait que d'avoir juste à contrôler plutôt que de tout faire.
+
+Youssef HAFSI
+1:32:56
+Mais il y a une chose qui n'est pas claire. Est-ce que ça vous arrive parfois de refacturer ? On nous demande d'aller à Toulouse pour assister à un test et il faut refacturer ce client. Ou la facturation, de toute façon je n'avance pas avec M. Codard.
+
+Unknown speaker
+1:33:12
+En tout cas, à ma connaissance, je n'ai jamais vu une refacturation. Ce n'est pas M. Codard qui fait les facturations, c'est Emmanuel. C'est Emmanuel qui fait les facturations ou. C'Est M. Codard ? Non, c'est M.
+
+Unknown speaker
+1:33:22
+Codard. M. Codard ou les chefs de projet. Mais c'est ce que j'ai cru comprendre. C'est vrai que M. Codard et Emmanuel. Jusqu'à peu, quand je dis peu, c'est jusqu'à...
+
+Unknown speaker
+1:33:36
+Il y a l'alcool d'année, c'est tout une psychothérapie. Maintenant, il y a des chefs de. Projet qui en font de temps en temps. Mais ça a à voir avec les. Psychothérapies que j'ai, et la relation aussi. La facture, elle sera sur un presse-bouton, vu que c'est des projets. Ce qu'ils vont faire, c'est juste par rapport aux échelonnements, peut-être décaler l'échelonnement si jamais le jardin n'est pas atteint, mais ça c'était une volonté aussi que toutes les factures sortent directement depuis le projet.
+
+Youssef HAFSI
+1:34:19
+Le paiement des factures en QR code pour la Suisse et puis pour toutes les parties, le paiement des facture à l'étranger, c'est vraiment un transfert bancaire et puis vous avez les accès, vous effectuez ça une fois validé avec les chefs quotas. Par rapport à la fréquence des paiements des fonds municipaux... Alors, en règle générale, dans le champ d'accès. Maintenant, à l'unité de réception, à la commune, il y a de plus en plus effectivement de fournisseurs qui font des paiements à la commune ou des accords.
+
+Unknown speaker
+1:35:09
+C'est ça la limite. Alors, je vous dis comme ça, on a environ 2000 fournisseurs par année. Il y en a peut-être 50 ou 50 ou même pas 50 qui nous demandent, peut-être que ça va augmenter, je ne sais pas, mais il n'y en a pas plus que 100 en tout cas qui nous demandent des paiements.
+
+Julie Ehrhart
+1:35:32
+Et les demandes d'accounts. Oui, c'est plutôt à M.
+
+Unknown speaker
+1:35:42
+Guetta, en fonction de l'annoncement du projet, où c'est lui qui me dit, là tu verses à côté de la facture. Donc voilà, pour situer un petit peu la proportion.
+
+Julie Ehrhart
+1:36:05
+La TVA, il n'y a rien ?
+
+Youssef HAFSI
+1:36:08
+Pour consommer, c'est la TPA suisse classique. A. 8 ans, vous facturez. À 8. Ans.
+
+Unknown speaker
+1:36:18
+Alors, on facture pour les prestations conformes en Suisse. Oui, pour la Suisse. Bon, on a eu un contrôle TVA au début de l'année, il n'est encore pas terminé, donc ça va s'en suspendre en fait. Ils sont en train de regarder un petit peu nos événements de prestations. Voilà, mais ça c'est en aparté, en TVA, en société. Non mais la TVA, c'est du standard en fait. Mais une grande partie du chiffre d'affaires il est hors Suisse ?
+
+Unknown speaker
+1:36:51
+Ou il est en Suisse ? Il y a les deux. Et puis une déduction à peu près à l'arrivée des comptes, mais ça... Là, vous m'avez parlé de... Là, en 10 minutes, c'est fait.
+
+Youssef HAFSI
+1:37:08
+Moi, j'ai dit en 10 minutes.
+
+Unknown speaker
+1:37:10
+Non, moi je l'ai fait maintenant. Oui, la déclaration. Maintenant, tu donnes le calcul et lui... Oui, oui, mais je pense que voilà, c'est du standard. C'est du standard, effectivement. Pas de gestion de subvention, ce genre de... Oui, on a, oui, ça par contre, ça c'est aussi avec une...
+
+Unknown speaker
+1:37:38
+Mais on a effectivement les subventions, oui on touche les subventions. Et comment vous les suivez, vous les suivez à part, à côté ? Oui alors moi je les vois de toute façon, c'est un collègue, enfin un chef de projet qui, enfin une personne chez Almatech qui rassemble et c'est lui qui fait toutes les demandes, c'est lui qui les fait, qui a toutes les demandes, on connaît qu'autant mieux. Il est dans une conscience centralisée chez lui. Lui, il tient en fait un tableau excellent de nouveaux en fonction des demandes qu'il a faites, des décisions de l'Etat, du type de subvention. Moi, je me base là-dessus après. Alors c'est peut-être, voilà, c'est séparé dans la responsabilité.
+
+Unknown speaker
+1:38:23
+On parlait du chiffre d'affaires, c'est la seule chose qui est finalement séparée. Il y a des produits extraordinaires, on en a un ou deux par année, peut-être trois. Et puis les subventions, c'est tout le reste chez nous.
+
+Youssef HAFSI
+1:38:36
+Et puis par rapport aux subventions, Justifiquent-il à donner par rapport aux.
+
+Unknown speaker
+1:38:43
+Dépenses? Oui, moi je garde le traité justificatif, effectivement. Oui, en général, c'est la personne qui a fait la demande auprès du popon qui demande le justificatif. Mais effectivement, oui. C'est qui? C'est M. Garcia.
+
+Unknown speaker
+1:39:00
+Je pense qu'il n'y a pas une petite séance. Je vais suivre des subventions. s'ils doivent être suivis par les projets ou sur les projets ou pas. J'essaie de me souvenir, mais en tout cas, de mémoire, je n'ai pas le souvenir qu'il y ait eu des demandes d'assurances sur les projets. Peut-être qu'il y en a eu, mais souvent, en tout cas, les dernières, c'est par rapport à études de marché ou salons à l'étranger, ce genre de choses-là. En tout cas, c'est les dernières assurances. Il y en a très certainement eu sur les projets, mais ça, il faut d'abord avec lui.
+
+Youssef HAFSI
+1:39:45
+Non, je ne vais pas aborder les gros compta, parce qu'il reste un petit quart d'heure. On peut planifier une autre séance, mais rapidement, votre chiffre d'affaires, il est réparti par zone géographique ? Non, pas du tout. C'est vraiment un seul compte de chiffre d'affaires.
+
+Unknown speaker
+1:40:11
+Ce n'est pas par type de projet ? Non, pas par type de projet. Ça, de nouveau, c'est les chefs de projet qui gèrent ça avec leurs outils. Mais c'est par projet, par chef de projet. Ils n'ont pas une vue d'ensemble. La vue d'ensemble, c'est M. Gotthard et moi-même, en fait.
+
+Unknown speaker
+1:40:29
+Et puis après, forcément, c'est l'administration. Alors on a un chiffre d'affaires, ouais, un chiffre d'affaires forcément en euros et en France, oui. Mais pas par projet, non.
+
+Julie Ehrhart
+1:40:48
+En tout cas dans la comptabilité financière, non.
+
+Unknown speaker
+1:40:54
+Au niveau des produits, c'est Pschitt Daffer, France Suisse, Europe. Un produit extérieur.
+
+Julie Ehrhart
+1:41:01
+C'est vraiment le détail le plus important.
+
+Youssef HAFSI
+1:41:15
+Ça c'est pour le compte à marché, combien de produits on le voit avec l'autorisation du fabricant ?
+
+Unknown speaker
+1:41:23
+Les produits ça va être, il faudra qu'on regarde pendant la séance de stock et je pense qu'on va avoir accessoires, machines, outils et puis les produits finis en fait. Chaque produit est spécifique. Il faudra peut-être que tu ailles une liste d'éléments dont tu as besoin. Après, on met ça au propre, le process. On doit refaire une séance avec M. Cotard. Parce qu'il va certainement avoir aussi sa vue, ses besoins, ses demandes pour compléter ce qui va nous manquer.
+
+Unknown speaker
+1:42:02
+Peut-être que lui, il veut voir le chiffre de fer par typologie de projet. Aujourd'hui, c'est une notion qui n'existe pas et qui doit exister. Il y a des besoins, il y a des demandes qui vont ressortir de toute façon. Parce que voilà, chacun a fait des demandes, il faut qu'on les note.
+
+Youssef HAFSI
+1:42:16
+Est-ce que j'arrive pas à me connecter ? Est-ce que Tarif va te connecter sur ma base ? Comme ça, en fait, vous montrez, finalement, à la fin de la séance, parce que moi, pour moi, c'est tout bon par rapport à ce premier échange. Je souhaite vous montrer, ou si Tarif va m'envoyer les accès, s'il te plaît. Audrey, allons-nous montrer le Teams ensemble ? Je suis plus sur Teams. Ah, vous êtes plus sur Teams ?
+
+Youssef HAFSI
+1:42:45
+Ah, d'accord.
+
+Julie Ehrhart
+1:42:48
+Je vais partager mon émission.
+
+Unknown speaker
+1:43:09
+Donc, en fait, quand on arrive sur l'interface, donc chacun a son tableau de bord. C'est par utilisateur, par son profil. Donc, on peut avoir un profil responsable d'achat, un profil comptable, un profil chef de projet. Vraiment, ça va changer un petit peu les raccourcis et les informations qu'on voit. Quand on arrive, les informations qu'on voit, c'est des informations qu'on navigue. On navigue partout. On voit ici la liste des commandes d'achat.
+
+Unknown speaker
+1:43:51
+On va voir, par exemple, les factures ventes. Ce n'est pas encore enregistré. Factures fournisseurs en attente. Des paiements d'entrétés. On a toute l'information, le chiffre d'affaires, etc. Ensuite, on voit les différentes actions qu'on peut faire. On peut faire un paiement, on peut faire un rapprochement bancaire, on peut sortir des états sur Excel, sur Power BI, un palmarès de client, une balance comptable.
+
+Unknown speaker
+1:44:18
+Alors, la base de la base du système, on commence par le plan comptable. Donc ça c'est le plan comptable, en fait on met votre plan comptable finalement, on va voir l'ensemble des informations, il est en allemand mais il sera en français, en anglais sans problème. On voit le solde de chaque compte en temps réel, d'accord ? Et puis, comment ces comptes sont alimentés ? Donc, soit ils sont alimentés directement par ce qu'on appelle un journal comptable, donc une feuille. Soit ils sont alimentés par. Tout ce qui va être fait autour.
+
+Unknown speaker
+1:44:55
+Par exemple. Des ventes. Quand je. Crée une facture vente et. Que je la valide. Cette facture vente, elle a des informations. Un paramétrage comptable qui est déjà défini en amont.
+
+Unknown speaker
+1:45:07
+Et donc, quand je vais la. Valider. Elle va directement. Me générer les. Bonnes écritures. Par exemple. Je peux faire un aperçu pour voir déjà les écritures sans forcément valider.
+
+Unknown speaker
+1:45:18
+Par exemple, elle va m'alimenter la comptabilité auxiliaire. Si c'est en devise, comme ça j'ai la devise, l'euro, le franc suisse, etc. Ce qu'on appelle les écritures comptables clients. Ici, je sais que c'est une facture. Pour le montant initial, s'il est en devise, avec une date d'échéance, etc. Ça va créer les écritures de TVA. Alors même s'il n'y a pas de TVA, ça crée quand même une écriture pour dire que voilà, c'est parce qu'on déclare le chiffre d'affaires et ensuite on déclare le chiffre d'affaires à l'étranger.
+
+Unknown speaker
+1:45:48
+Donc voilà, le pays, la région, est-ce que c'est une TVA normale, la base, le montant, le type. On va avoir des écritures liées aux articles pour savoir la valeur, ce qui nous permet après de les comptabiliser dans la comptabilité si on le souhaite. Et puis on a les écritures comptables de façon classique, écritures comptables qui se génèrent avec le compte de vente, compte d'achat, etc. Donc ça c'est les écritures qui se génèrent automatiquement. Une fois qu'on a mis la structure et le paramétrage, les écritures forcément ils ne peuvent pas les changer, ils ne peuvent pas les toucher, c'est forcément juste. Ils tombent justement. Ce qui va être intéressant par la suite, c'est qu'on va pouvoir mettre des axes analytiques Alors les axes analytiques, on peut les mettre vraiment partout.
+
+Unknown speaker
+1:46:36
+À la facture, unitairement, on peut les mettre sur un client, on peut les mettre sur un article, sur un compte même. Quand on utilise un compte, on peut mettre un axe analytique. Par exemple, là, je suis sur une fiche client. Donc, j'ai des éléments par rapport à la facturation. Est-ce que c'est de l'export ? Est-ce que c'est de l'UE ? Est-ce que c'est du local suisse ?
+
+Unknown speaker
+1:46:58
+J'ai, pareil, quel est son groupe compte à marché TVA ? Est-ce que le client, il est soumis ou pas soumis ? Et puis, le groupe compte à client qui va permettre de déterminer le compte collectif, en fait, tout simplement. On. A la possibilité aussi de splitter une facture d'un fournisseur en plusieurs projets. Ça c'est idéal et puis c'est finalement le paramétrage de base, on a un fournisseur, mais nous on a souvent des fournisseurs qui travaillent pour plusieurs projets différents, donc ça va donner des clans différents si on est d'accord. C'est possible, il faut l'imaginer.
+
+Unknown speaker
+1:47:42
+Oui. Tout est possible. On va le voir tout de suite. Par exemple, j'ai des paiements, j'ai des demandes.
+
+Youssef HAFSI
+1:47:50
+Moi, c'est client.
+
+Unknown speaker
+1:47:51
+C'est.
+
+Youssef HAFSI
+1:47:54
+Pas la facture.
+
+Unknown speaker
+1:47:55
+Fournisseur.
+
+Youssef HAFSI
+1:47:56
+C'est le même principe. Par contre, ce qu'on recommande, c'est de mettre un fournisseur suisse, un fournisseur en Suisse, européen, par exemple, au niveau de la comptabilité générale. Par contre, toute la partie attribution, la même facture à différents projets, c'est analytique. Et comme ça, on alourdit pas le système avec des comptes. de passer par là, et puis ça reste...
+
+Pierre-Henri Meystre
+1:48:23
+La possibilité est là. Il. Faut alléger au maximum, mais la possibilité existe.
+
+Unknown speaker
+1:48:31
+On ne va pas créer un compte par projet, par contre on va faire quelque chose d'assez simple, qui va être là. Donc, on a le numéro de projet et la tâche projet. Et ça, ça permet directement d'affecter de façon assez... et de simplifier, finalement. Donc, je peux avoir plusieurs lignes. Chaque ligne, elle est affectée à un projet. et une tâche spécifique.
+
+Unknown speaker
+1:49:07
+Alors, on dit tâche spécifique parce que dans un projet, on peut mettre frais de déplacement, achat de matériel, achat de prestations, donc on définit. Bon, ça, c'est le chef de projet qui vous donne cette information-là. Et en mettant ces deux informations, par la suite, vous allez valider et ça va se comptabiliser. Par contre, dans le projet, ils vont voir qu'ils ont consommé de la prestation, de l'article, etc. Et ça leur permet de comparer d'un point de vue opérationnel, ce qu'ils ont budgété sur un projet par tâche, avec ce qui est réel, ce qui est réellement consommé. C'est-à-dire que pour vous, vous gardez la partie comptabilité classique simple, sans devoir mettre du détail, et eux, ils ont l'affectation par projet.
+
+Youssef HAFSI
+1:49:54
+Votre. Besoin pour la comptabilisation, c'est le calcul de ses valeurs indépendantes. C'est la partie financière.
+
+Unknown speaker
+1:50:09
+Et on.
+
+Pierre-Henri Meystre
+1:50:13
+Peut même aller.
+
+Unknown speaker
+1:50:13
+Plus loin, c'est-à-dire qu'ils mettent leurs besoins dans le. Projet, ils. Créent leurs commandes, Julie la valide, et puis vous quand vous recevez la facture, vous la rapprochez de la commande, mais elle est déjà bien affectée au projet. C'est pas. Simplifié. Ça va être top. Parce que le plus difficile c'est de dire à quel projet c'est rattaché, et ça avec les chefs de projet qui connaissent.
+
+Youssef HAFSI
+1:50:36
+C'est super intéressant de voir là ce qu'on était en train de dire par rapport aux chefs de projet pour savoir la partie financière, qu'est-ce qui a été consommé, qu'est-ce qui n'a pas été consommé, ils sont dans le budget, pas dans le budget et à temps réel en fait. Depuis là, qu'est-ce qui a Par contre, on parle d'engagement, pas de règlement. été consommé, qu'est-ce qui n'a C'est-à-dire que vous, pour le pas été consommé, moment, ils sont vous dans le parlez budget, pas dans le budget et de trésor. à temps réel en fait. Là, on parle de j'ai engagé les frais, donc je n'ai qu'à payer. Mais une fois que vous, vous validez. Donc voilà.
+
+Youssef HAFSI
+1:51:13
+Donc c'est tout le processus achat proprement, comme il le faut. Comme ça, avec votre présence aujourd'hui, c'est comme ça qu'il faut le faire. C'est pas de dire, voilà, on a engagé et Delphée.
+
+Unknown speaker
+1:51:33
+Après, vous allez pouvoir faire des demandes d'approbation dans le système. Donc c'est-à-dire dire, voilà, cette facture-là, je n'ai pas, je ne trouve pas, elle est liée à tel chef de projet, je peux l'indiquer et lui envoyer une demande d'approbation pour que lui, éventuellement, renseigne le projet, renseigne l'analytique, s'il y a des éléments qui sont renseignés, et il vous dit, c'est bon, elle est prête. Donc, ou si c'est une facture d'achat qui dépasse ce qu'on avait dit 10 000, je ne sais plus, il faut qu'elle aille chez peut-être Emmanuel, ensuite chez Hervé, qu'elle soit validée derrière. Donc ça, c'est vos process que vous allez définir, mais le système va pouvoir les supporter. Pareil, on aura le scan de la facture qui est rattaché jusqu'à même l'écriture comptable pour qu'on puisse toujours trouver la facture, voir le vrai PDF.
+
+Youssef HAFSI
+1:52:22
+parce que. Depuis la création des contrats, on va avoir un devis négocié. C'est ce qu'on s'est dit la dernière fois. On sait que le fournisseur s'est engagé par rapport à ce montant-là et puis a rattaché ces devis-là de fournisseur. Discuter en abondance à la facture achat et voir s'il y a… La fabrication de vie hors d'achat et la facturation.
+
+Unknown speaker
+1:52:50
+Tout à fait. Et le paiement.
+
+Youssef HAFSI
+1:52:51
+Et le paiement. Il y a une matrice de prix, on verra, si vous voulez suivre ça, une évolution, des prix dégressifs en fonction des quantités et c'est là votre force de négociation. de comparaison de fournisseurs, ça c'est vraiment, c'est toute la partie achat, mais toujours vous allez avoir cette traçabilité dans un même outil. Il y a la partie numéro de campagne, pour la partie marketing, vous avez parlé de marketing, s'il y a des factures marketing, s'il y a des campagnes publicitaires, vous lancez pour X raisons, on va attacher directement ça à la partie tournement marketing parce que ça, c'est pas des frais, voilà. Bonne chance. Rapprocher aux projets directement.
+
+Unknown speaker
+1:53:40
+Est-ce que vous pouvez nous suggérer les abonnements ou par exemple les abonnements de téléphone ou faire une commande annuelle ? Alors ça, c'est un petit peu les frais Un petit peu particulier, téléphone, etc. Vous avez deux possibilités. Soit vous allez créer ce qu'on appelle des renaults d'abonnement, donc avec les mêmes mentons qui reviennent. D'accord ? Soit vous saisissez directement sur facture, pas besoin de bande commande. Parce que c'est particulier, tout ce qui est électricité, téléphone, etc.
+
+Unknown speaker
+1:54:13
+Généralement, c'est directement saisie dès qu'ils sont reçus. Surtout que les mentons changent un petit peu. Il y a, par contre. Par exemple le loyer, si vous le payez à l'année, vous pouvez le saisir en janvier puis le splitter sur 12 mois. Il y a ce qu'on appelle l'échlaudement qui peut se faire.
+
+Youssef HAFSI
+1:54:32
+Autrement... C'est vraiment tout ce qui est récurrent, on peut le thématiser. On sait que tous les mois, on va avoir tel montant pour l'abonnement téléphonique, par exemple. Dans tous les mois, il y a un journal que vous allez regarder, pas besoin de faire...
+
+Unknown speaker
+1:54:51
+Pour l'instant, on reçoit encore des factures pour pratiquement tout. Je crois que tous les abonnements qu'on a, que ce soit les téléphones, les lunettes, les cellules... C'est la. Manière correcte d'opérer. Je. Ne sais. Pas s'il n'y a pas mal.
+
+Unknown speaker
+1:55:09
+Au téléphone, il peut y avoir des. Frais annexes. Un ticket par exemple, pour l'approvisionnement, ce genre de choses. Vous. Mettez une limite qui demande d'approbation derrière. D'un autre côté, c'est aussi bien de voir s'il y a des fluctuations qui sont plus ou moins violentes. Ça.
+
+Unknown speaker
+1:55:26
+Vous allez voir. Parce que vous prenez une facture téléphone, fournisseur téléphone, facture téléphone, vous allez voir tous les prix mois par mois. Même s'il n'y a pas de commande, vous allez voir tous les prix. Ça, c'est suivi, c'est tracé. Donc là-dessus, quelque part, on est tranquille. Mais est-ce que dans le procédé. Si ce n'est pas dur de faire une commande, c'est pas...
+
+Unknown speaker
+1:55:48
+Je vais devoir vous quitter. Juste encore une question. Donc là, en fait, si on reçoit une facture électronique, on peut la rattacher ici. Oui, on peut démarrer jusqu'à nous la facturer. Et puis sinon, les factures papiers, on en reçoit encore pas mal. Ça. Serait bien de les scanner, enfin...
+
+Pierre-Henri Meystre
+1:56:09
+On les scanne et puis on les rattache. Ça.
+
+Unknown speaker
+1:56:11
+Serait bien de les scanner et de les rattacher.
+
+Pierre-Henri Meystre
+1:56:13
+Et des factures.
+
+Unknown speaker
+1:56:14
+Pour l'application électronique. Il. Y a une différence avec la commande, mais sinon, à partir du moment où on confirme la commande, il n'y a pas besoin de refaire valider. Nous, on interne, on utilise ce système-là. Toutes les factures sont scannées et rattachées. Alors, pas les notes de frais parce que ça fait un peu... mais toutes les grandes factures.
+
+Unknown speaker
+1:56:32
+Et quand l'infiduciaire demande des choses, c'est tout de suite, voilà, le document. Il n'y a pas besoin d'aller chercher dans un classeur. C'est un gain de temps énorme. Et à la limite, ils n'ont même plus besoin d'avoir les justificatifs parce qu'ils savent qu'ils sont là. C'est surtout une question pratique parce qu'en général, quand l'infiduciaire, notre organe de révision des justificatifs, je trouve, s'en face de moi, je trouve assez facilement, je gagne après quelques années. Mais après c'est clair que si je suis à mon bureau, il y a un nom, et puis que la financière m'appelle pour avoir un document, c'est embêtant. Donc ça.
+
+Unknown speaker
+1:57:03
+C'Est sûr.
+
+Youssef HAFSI
+1:57:05
+Super, on vous remercie pour cette question.
+
+Unknown speaker
+1:57:07
+Merci à vous. C'est toi qui envoies la liste des documents ? Oui, on m'envoyait. Votre email. Moi. J'Analyse de mon côté et je reviens avec une proposition par rapport à d'autres éléments que je vais récupérer purement analytique, parce que ça, je le répète, c'est normal.
+
+
+0:00:00

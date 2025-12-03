@@ -1,0 +1,5 @@
+Le client (Almatech) souhaite implémenter Business Central (BC) pour gérer l'intégralité du processus de Production.
+Le système actuel (outil de tracking) est très manuel et chronophage. Il n'y a pas de lien entre la création des parts et les demandes d'achat.
+Règle critique : Une fiche article n'est achetable qu'après validation de tous les vérificateurs (PE, CP), ce qui allonge le workflow.
+Volume estimé : 5000 fiches articles, avec un pic de 1000 transactions (commandes) par mois.
+Écart : Pas d'interface directe avec le logiciel CATIA pour les nomenclatures. L'export se fait via un fichier Excel de la liste des pièces (BOM).

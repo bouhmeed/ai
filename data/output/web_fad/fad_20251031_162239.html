@@ -1,0 +1,205 @@
+
+    <!DOCTYPE html>
+    <html lang='fr'>
+    <head>
+        <meta charset='UTF-8'>
+        <title>FAD Preview</title>
+        <link href='https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css' rel='stylesheet'>
+    </head>
+    <body class='bg-gray-100 text-gray-800'>
+        <div class='max-w-4xl mx-auto my-10 bg-white shadow-xl rounded-2xl p-10'>
+            <h1 class='text-3xl font-bold text-center text-blue-700 mb-8'>Fiche d'Aide à la Décision</h1>
+    <p class='text-base leading-relaxed mb-3'>FAD</p><p class='text-base leading-relaxed mb-3'>-</p><p class='text-base leading-relaxed mb-3'>DOCUMENT D’ANALYSE FONCTIONNEL</p><p class='text-base leading-relaxed mb-3'>-</p><p class='text-base leading-relaxed mb-3'>FUNCTIONAL ANALYSIS DOCUMENT</p><p class='text-base leading-relaxed mb-3'>ANAL</p><p class='text-base leading-relaxed mb-3'>Sommaire</p><p class='text-base leading-relaxed mb-3'>1.	Introduction	3</p><p class='text-base leading-relaxed mb-3'>2.	Vue d‘ensemble	4</p><p class='text-base leading-relaxed mb-3'>3.	Planification	5</p><p class='text-base leading-relaxed mb-3'>4.	Traitement d‘une livraison directe	6</p><p class='text-base leading-relaxed mb-3'>5.	Saisie d’une demande de prix	7</p><p class='text-base leading-relaxed mb-3'>6.	Saisie d’une commande cadre	8</p><p class='text-base leading-relaxed mb-3'>7.	Saisie d’une commande d‘achat	10</p><p class='text-base leading-relaxed mb-3'>8.	Saisie d’un retour d’une commande achat	12</p><p class='text-base leading-relaxed mb-3'>9.	Rapports achat	13</p><p class='text-base leading-relaxed mb-3'>10.	Historique achat	14</p><p class='text-base leading-relaxed mb-3'>11.	Annexe 1 : Liste d‘écarts	16</p><p class='text-base leading-relaxed mb-3'>Introduction</p><h2 class='text-xl font-semibold text-blue-600 mt-6 mb-3'>Ce document liste l’analyse fonctionnel sur les processus métier du client concernant le domaine des achats. Les principaux objectifs de l’analyse fonctionnel sont :</h2><p class='text-base leading-relaxed mb-3'>Visiter les sites clients comme les usines, entrepôts et/ou bureaux</p><p class='text-base leading-relaxed mb-3'>Conduire des ateliers orientés processus.</p><p class='text-base leading-relaxed mb-3'>Ne pas rentrer en profondeur sur les fonctionnalités de l’ERP ni faire de démonstrations</p><p class='text-base leading-relaxed mb-3'>Comprendre la façon de travailler actuelle, les points faibles et les attentes globales et futures</p><p class='text-base leading-relaxed mb-3'>Identifier les écarts critiques et les interfaces qui peuvent avoir un impact sur le projet</p><p class='text-base leading-relaxed mb-3'>Identifier les volumes des référentiels et données transactionnelles</p><p class='text-base leading-relaxed mb-3'>Confirmer le périmètre fonctionnel, technique, géographique et organisationnel du projet</p><p class='text-base leading-relaxed mb-3'>Identifier un jeu de donnée nécessaire pour l’ERP pour mieux préparer les ateliers de démonstration.</p><h2 class='text-xl font-semibold text-blue-600 mt-6 mb-3'>Ce document a été préparé sur la base d‘atelier(s) réalisés avec les membres de l'équipe de projet suivants :</h2><p class='text-base leading-relaxed mb-3'>Versions du document</p><p class='text-base leading-relaxed mb-3'>Liste de diffusion</p><p class='text-base leading-relaxed mb-3'>Vue d‘ensemble</p><p class='text-base leading-relaxed mb-3'>Schéma d’ensemble des processus achat</p><h2 class='text-xl font-semibold text-blue-600 mt-6 mb-3'>Les processus standards ERP qui font partie des ateliers d’analyse sur les achats sont :</h2><p class='text-base leading-relaxed mb-3'>3 Planification</p><p class='text-base leading-relaxed mb-3'>3.1. Contexte et Hypothèses</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées.</p><p class='text-base leading-relaxed mb-3'>3.2. Schéma des processus ERP : Planification 1.0</p><p class='text-base leading-relaxed mb-3'>3.3. Principales règles de gestion</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>3.4. Documents et statistiques</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>3.5. Volume des données</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>3.6. Écarts critiques et interfaces</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.</p><p class='text-base leading-relaxed mb-3'>4  Traitement d‘une livraison directe</p><p class='text-base leading-relaxed mb-3'>4.1. Contexte et Hypothèses</p><p class='text-base leading-relaxed mb-3'>**Contexte et hypothèses du processus de traitement d'une livraison directe**
+
+**Situation actuelle :**
+
+Le processus de traitement d'une livraison directe est actuellement manuel et nécessite plusieurs étapes, notamment la réception des pièces, le contrôle et la validation de la livraison, ainsi que la gestion des certificats de qualité. Les informations sont souvent manquantes ou incomplètes, ce qui peut entraîner des problèmes de paiement en avance et des retards dans la livraison des pièces.
+
+**Points critiques :**
+
+1. La difficulté de savoir où se trouve le colis et le processus de réception à revoir.
+2. La nécessité de contrôler et de valider la livraison, y compris la prise de photos et la vérification des pièces.
+3. La gestion des certificats de qualité et la possibilité de bloquer les livraisons en cas de non-conformité.
+4. La manque de document d'entrée en stock, ce qui rend difficile pour le chef de projet de se rendre compte si les pièces sont reçues ou non.
+
+**Attentes client :**
+
+Les clients attendent une livraison rapide et fiable, avec une gestion efficace des pièces et des certificats de qualité. Ils attendent également une transparence totale sur l'état de la livraison et la possibilité de suivre les pièces en temps réel.
+
+**Hypothèses :**
+
+1. La nécessité de mettre en place un système de gestion de stock et de livraison pour suivre les pièces en temps réel.
+2. La possibilité de mettre en place un système de contrôle qualité pour valider les pièces avant leur livraison.
+3. La nécessité de mettre en place un système de gestion des certificats de qualité pour garantir la conformité des pièces.
+4. La possibilité de mettre en place un système de suivi des pièces pour permettre aux clients de suivre leur livraison en temps réel.
+
+**Conclusion :**
+
+Le processus de traitement d'une livraison directe nécessite une révision complète pour améliorer la rapidité, la fiabilité et la transparence de la livraison. Les hypothèses énoncées ci-dessus doivent être prises en compte pour mettre en place un système de gestion de stock et de livraison efficace et fiable.</p><p class='text-base leading-relaxed mb-3'>Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées.</p><p class='text-base leading-relaxed mb-3'>4.2. Schéma des processus ERP : Traitement d’une livraison directe 2.0</p><p class='text-base leading-relaxed mb-3'>4.3. Principales règles de gestion</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>4.4. Documents et statistiques</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>4.5. Volume des données</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>4.6. Écarts critiques et interfaces</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.</p><p class='text-base leading-relaxed mb-3'>Saisie d’une demande de prix</p><p class='text-base leading-relaxed mb-3'>5.1. Contexte et Hypothèses</p><p class='text-base leading-relaxed mb-3'>**Processus de saisie des demandes de prix**
+
+**Contexte et hypothèses**
+
+Le processus de saisie des demandes de prix est un élément clé de la gestion des achats au sein de l'entreprise Almatech. Actuellement, le processus est décrit comme suit :
+
+1. **Recherche de fournisseurs** : Les utilisateurs recherchent des fournisseurs pour répondre à leurs besoins en pièces et services.
+2. **Création de demandes de prix** : Les utilisateurs créent des demandes de prix pour les fournisseurs sélectionnés, en précisant les quantités et les dates de livraison attendues.
+3. **Réception des offres** : Les fournisseurs répondent aux demandes de prix en soumettant leurs offres, qui sont ensuite analysées et comparées par les utilisateurs.
+4. **Sélection du fournisseur** : Les utilisateurs sélectionnent le fournisseur qui offre la meilleure offre en fonction de critères tels que le prix, la qualité et la disponibilité.
+5. **Création de la commande** : La commande est créée en fonction de la sélection du fournisseur et des quantités et dates de livraison précisées.
+6. **Réception et inspection des pièces** : Les pièces sont reçues et inspectées par les utilisateurs pour vérifier leur conformité aux spécifications et à la qualité attendue.
+7. **Traitement des non-conformités** : Les non-conformités sont traitées avec les fournisseurs et les factures concernées sont bloquées jusqu'à ce que les problèmes soient résolus.
+
+**Difficultés rencontrées**
+
+Les utilisateurs rencontrent plusieurs difficultés dans le processus de saisie des demandes de prix, notamment :
+
+* La recherche de fournisseurs et la comparaison de leurs offres peut être longue et complexe.
+* La gestion des pièces et des services peut être difficile, en particulier pour les pièces de vol ou les services spécifiques.
+* La réception et l'inspection des pièces peuvent être difficiles, en particulier si les pièces sont complexes ou si les utilisateurs n'ont pas les compétences nécessaires.
+* La gestion des non-conformités et des retours peut être complexe et prendre du temps.
+
+**Attentes du client**
+
+Le client attend que le processus de saisie des demandes de prix soit simplifié et automatisé pour réduire les erreurs et les retards. Il attend également que les utilisateurs aient accès à des outils de gestion des achats efficaces et faciles à utiliser.
+
+**Hypothèses**
+
+Les hypothèses qui peuvent avoir un impact sur le projet sont :
+
+* La disponibilité des ressources humaines et financières pour mettre en place le nouveau processus.
+* La capacité des utilisateurs à adopter les nouveaux outils et processus.
+* La qualité et la disponibilité des fournisseurs pour répondre aux besoins de l'entreprise.
+* La capacité de l'entreprise à gérer les non-conformités et les retours de manière efficace.</p><p class='text-base leading-relaxed mb-3'>Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées.</p><p class='text-base leading-relaxed mb-3'>Schéma des processus ERP : Demande de prix 3.0</p><p class='text-base leading-relaxed mb-3'>5.3. Principales règles de gestion</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>5.4. Documents et statistiques</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>5.5. Volume des données</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>5.6. Écarts critiques et interfaces</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.</p><p class='text-base leading-relaxed mb-3'>6 Saisie d’une commande cadre</p><p class='text-base leading-relaxed mb-3'>6.1. Contexte et Hypothèses</p><p class='text-base leading-relaxed mb-3'>**Contexte et Hypothèses**
+
+Le processus de saisie d'une commande cadre dans l'atelier Achats de l'entreprise Almatech est complexe et nécessite une compréhension approfondie des différents types d'achats, des options de gestion des achats et des attentes des clients.
+
+**Situation actuelle**
+
+L'entreprise Almatech utilise actuellement trois types d'achats : les offres (devis), les projets (demande d'achat) et les achats génériques société (licences, ordinateurs...). Les achats mutualisés multi-projet sont également pris en compte. Les options de gestion des achats sont les suivantes :
+
+* "Industrielle" : besoin de stock mini > proposition de commande > livraison > ponction projet
+* "Spécifique" : besoins projets (anticipés ou constatés) > achat au niveau de chaque projet
+* "Spécifique optimisée" : conception détaillée poussant à l'usage de pièces standard + consommation des pièces standard du stock complété par achat des pièces nécessaires au-delà du stock
+
+La réception des pièces est un processus à revoir, notamment en ce qui concerne la difficulté de savoir où se trouve le colis et le processus de "incoming" qui nécessite des photos du colis non ouvert, puis colis ouvert avec les pièces.
+
+**Points critiques**
+
+Les points critiques du processus sont les suivants :
+
+* La gestion des certificats par la Qualité Contrôle
+* La gestion des petites commandes avec une chaîne d'approbation qui dépend du seuil (dépendant de la personne qui passe la commande ou du risque sur la commande)
+* La gestion du multi-sourcing, y compris la référence fournisseur
+* La gestion des informations de planning, telles que le lead-time, le stock de sécurité, le Minimum Order Quantity, y compris les vacances des fournisseurs et des transporteurs
+* La catégorisation possible des fournisseurs
+
+**Attentes client**
+
+Les attentes client sont les suivantes :
+
+* Un tableau de bord adapté au profil pour l'utilisateur avec les informations pertinentes
+* Un export facile dans Excel
+* Une gestion du multi-sourcing, y compris la référence fournisseur
+* Des informations de planning, telles que le lead-time, le stock de sécurité, le Minimum Order Quantity, y compris les vacances des fournisseurs et des transporteurs
+* Une catégorisation possible des fournisseurs
+
+**Hypothèses**
+
+Les hypothèses qui peuvent avoir un impact sur le projet sont les suivantes :
+
+* La nécessité de revoir le processus de réception des pièces
+* La difficulté de savoir où se trouve le colis et le processus de "incoming"
+* La nécessité de gérer les certificats par la Qualité Contrôle
+* La nécessité de gérer les petites commandes avec une chaîne d'approbation qui dépend du seuil
+* La nécessité de gérer le multi-sourcing, y compris la référence fournisseur
+* La nécessité de gérer les informations de planning, telles que le lead-time, le stock de sécurité, le Minimum Order Quantity, y compris les vacances des fournisseurs et des transporteurs
+* La nécessité de catégoriser les fournisseurs</p><p class='text-base leading-relaxed mb-3'>Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées.</p><p class='text-base leading-relaxed mb-3'>6,2, Schéma des processus ERP : Saisie d’une commande cadre 4.0</p><p class='text-base leading-relaxed mb-3'>6.3. Schéma des processus ERP : Saisie d’une commande d’achat</p><p class='text-base leading-relaxed mb-3'>6.4. Principales règles de gestion</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>6.5. Documents et statistiques</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>6.6. Volume des données</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>6.7. Écarts critiques et interfaces</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse (après la phase d'Analyse fonctionnel).</p><p class='text-base leading-relaxed mb-3'>7 Saisie d’une commande d‘achat</p><p class='text-base leading-relaxed mb-3'>7.1. Contexte et Hypothèses</p><p class='text-base leading-relaxed mb-3'>**Contexte du processus de saisie des commandes d'achat**
+
+Le processus de saisie des commandes d'achat est un processus clé dans l'atelier Achats d'Almatech. Il s'agit de gérer les commandes d'achat pour les différents types de projets, y compris les achats génériques de la société. Le processus est influencé par les deux options disponibles : "industrielle", "spécifique" et "spécifique optimisée".
+
+**Points critiques**
+
+Les points critiques du processus sont les suivants :
+
+* La réception des pièces est un processus à revoir, notamment pour savoir où se trouve le colis et pour effectuer le contrôle et la réception de la livraison.
+* La gestion des certificats par la Qualité Contrôle est importante, mais cela dépend du projet et de la nécessité de disposer de ces certificats.
+* Les petites commandes nécessitent une chaîne d'approbation, qui peut varier en fonction du seuil défini ou de l'approbation par un groupe d'approbateurs.
+* La gestion du multi-sourcing, y compris la référence fournisseur, est importante pour optimiser les achats.
+* La catégorisation des fournisseurs est possible, mais il faudra voir si cela peut être réalisé via Catya.
+
+**Attentes du client**
+
+Les attentes du client sont les suivantes :
+
+* Un tableau de bord adapté au profil de l'utilisateur avec les informations pertinentes.
+* Un export facile dans Excel.
+* La gestion des trois types d'articles : en stock, non inventory et service.
+* La gestion du multi-sourcing, y compris la référence fournisseur.
+* Les informations de planning, telles que le lead-time, le stock de sécurité, le Minimum Order Quantity, ainsi que les vacances des fournisseurs et transporteurs.
+* La possibilité de catégoriser les fournisseurs.
+
+**Hypothèses**
+
+Les hypothèses qui peuvent influencer le projet ou l'analyse sont les suivantes :
+
+* La nécessité de disposer de certificats pour certaines pièces.
+* La possibilité de catégoriser les fournisseurs via Catya.
+* La nécessité de gérer les petites commandes avec une chaîne d'approbation.
+* La nécessité de gérer le multi-sourcing et la référence fournisseur.</p><p class='text-base leading-relaxed mb-3'>Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées.</p><p class='text-base leading-relaxed mb-3'>7.2 Schéma des processus ERP : Saisie d’une commande d’achat</p><p class='text-base leading-relaxed mb-3'>7.3. Principales règles de gestion</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>7.4. Documents et statistiques</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>7.5. Volume des données</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>7.6. Écarts critiques et interfaces</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse (après la phase d'Analyse fonctionnel).</p><p class='text-base leading-relaxed mb-3'>8 Saisie d’un retour d’une commande achat</p><p class='text-base leading-relaxed mb-3'>8.1. Contexte et Hypothèses</p><p class='text-base leading-relaxed mb-3'>**Gestion des retours fournisseurs dans Dynamics 365 Business Central**
+
+**Contexte et hypothèses**
+
+La gestion des retours fournisseurs est un processus complexe qui nécessite une attention particulière pour éviter les erreurs et les pertes de temps. Dans le contexte actuel, nous identifions les difficultés suivantes :
+
+* La réception des pièces est un processus à revoir, car il est difficile de savoir où se trouve le colis.
+* Le processus de "incoming" nécessite une contrôle et une réception de la livraison, avec photos du colis non ouvert et puis colis ouvert avec les pièces.
+* Les instructions d'"incoming" sont données par le chef de projet, ce qui peut entraîner des problèmes si le paiement est en avance.
+* La gestion des certificats est effectuée par la Qualité Contrôle, mais il n'y a pas nécessairement besoin d'avoir les certificats pour toutes les pièces.
+* Les petites commandes nécessitent une chaîne d'approbation, avec un seuil dépendant de la personne qui passe la commande ou du risque sur la commande.
+* Il n'y a pas de document d'entrée en stock, ce qui peut rendre difficile pour le chef de projet de se rendre compte si les pièces sont reçues ou si pas encore contrôlées.
+
+**Fonctionnement actuel**
+
+Actuellement, le processus de gestion des retours fournisseurs est le suivant :
+
+1. Réception des pièces : le processus de réception est à revoir, car il est difficile de savoir où se trouve le colis.
+2. Processus de "incoming" : contrôle et réception de la livraison, avec photos du colis non ouvert et puis colis ouvert avec les pièces.
+3. Instructions d'"incoming" : données par le chef de projet.
+4. Gestion des certificats : effectuée par la Qualité Contrôle.
+5. Petites commandes : chaîne d'approbation avec un seuil dépendant de la personne qui passe la commande ou du risque sur la commande.
+6. Document d'entrée en stock : pas de document, ce qui peut rendre difficile pour le chef de projet de se rendre compte si les pièces sont reçues ou si pas encore contrôlées.
+
+**Difficultés rencontrées**
+
+Les difficultés rencontrées dans le processus de gestion des retours fournisseurs sont les suivantes :
+
+* Difficulté de savoir où se trouve le colis.
+* Problèmes de paiement en avance.
+* Gestion des certificats.
+* Chaîne d'approbation pour les petites commandes.
+* Pas de document d'entrée en stock.
+
+**Attentes et hypothèses**
+
+Les attentes et hypothèses pour le projet de gestion des retours fournisseurs sont les suivantes :
+
+* Améliorer le processus de réception des pièces.
+* Simplifier le processus de "incoming".
+* Améliorer la gestion des certificats.
+* Mettre en place une chaîne d'approbation pour les petites commandes.
+* Créer un document d'entrée en stock pour faciliter la gestion des pièces reçues.
+
+**Conclusion**
+
+La gestion des retours fournisseurs est un processus complexe qui nécessite une attention particulière pour éviter les erreurs et les pertes de temps. Les difficultés rencontrées dans le processus actuel sont les suivantes : difficulté de savoir où se trouve le colis, problèmes de paiement en avance, gestion des certificats, chaîne d'approbation pour les petites commandes et pas de document d'entrée en stock. Les attentes et hypothèses pour le projet de gestion des retours fournisseurs sont les suivantes : améliorer le processus de réception des pièces, simplifier le processus de "incoming", améliorer la gestion des certificats, mettre en place une chaîne d'approbation pour les petites commandes et créer un document d'entrée en stock pour faciliter la gestion des pièces reçues.</p><p class='text-base leading-relaxed mb-3'>Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées.</p><p class='text-base leading-relaxed mb-3'>8.2. Schéma des processus ERP : Saisie d’un retour d’une commande achat 6.0</p><p class='text-base leading-relaxed mb-3'>8.3. Principales règles de gestion</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>8.4. Documents et statistiques</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>8.5. Volume des données</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>8.6. Écarts critiques et interfaces</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.</p><p class='text-base leading-relaxed mb-3'>9 Rapports achat</p><p class='text-base leading-relaxed mb-3'>9.1. Contexte et Hypothèses</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées.</p><p class='text-base leading-relaxed mb-3'>9.2 Schéma des processus ERP : Rapport achat 8.0</p><p class='text-base leading-relaxed mb-3'>9.3. Principales règles de gestion</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>9.4. Documents et statistiques</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>9.5. Volume des données</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>9.6. Ecarts critiques et interfaces</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.</p><p class='text-base leading-relaxed mb-3'>10 Historique achat</p><p class='text-base leading-relaxed mb-3'>10.1. Contexte et Hypothèses</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>Les hypothèses qui peuvent avoir un impact sur le projet doivent être indiquées.</p><p class='text-base leading-relaxed mb-3'>10.2 Schéma des processus ERP : Historique achat 9.0</p><p class='text-base leading-relaxed mb-3'>10.3. Principales règles de gestion</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>10.4. Documents et statistiques</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>10.5. Volume des données</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>10.6. Écarts critiques et interfaces</p><p class='text-base leading-relaxed mb-3'>[INFORMATION MANQUANTE]</p><p class='text-base leading-relaxed mb-3'>Ces écarts et interfaces doivent être initialisés dans la liste des écarts délivrée qui doit être finie à la fin de la phase d’Analyse.</p><p class='text-base leading-relaxed mb-3'>11 Annexe 1 : Liste d‘écarts</p><p class='text-base leading-relaxed mb-3'>11.1. Liste d’écarts</p><p class='text-base leading-relaxed mb-3'>En fonction des informations fournies, la liste d'écarts sera stockée dans SharePoint.
+
+Cette décision est basée sur le fait que les documents sources mentionnent la gestion des certificats par la Qualité Contrôle, qui est une fonctionnalité qui peut être intégrée à SharePoint. De plus, la possibilité de renseigner des documents, tels que des spécifications, qui devraient être gérées dans SharePoint, suggère que SharePoint est déjà utilisé pour la gestion de documents.
+
+Il est important de noter que cette décision nécessite une vérification supplémentaire pour s'assurer que SharePoint est bien configuré pour répondre aux besoins de la liste d'écarts.</p><p class='text-base leading-relaxed mb-3'>Indiquer l’URL où la liste des écarts sera stockée (SharePoint / Teams / DevOps / Autre).</p>
+        </div>
+        <footer class='text-center text-gray-500 text-sm my-6'>
+            Généré automatiquement par le système FAD d'Almatech · © 2025
+        </footer>
+    </body>
+    </html>
+    
